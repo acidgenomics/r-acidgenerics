@@ -9,8 +9,32 @@ selectSamples(object, ...)
 \arguments{
 \item{object}{Object.}
 
-\item{...}{Additional arguments.}
+\item{...}{Selection arguments that map to the column names of
+\code{sampleData()}. \code{atomic} values are supported. Avoid using \code{logical} or
+\code{numeric} indices (e.g. \code{which()} calls) here, for improved code
+readability.}
+}
+\value{
+Modified object.
+Subset (extraction) containing the desired samples.
 }
 \description{
-Select samples
+Utility function that enables quick an easy sample selection in Bioconductor
+contains that don't correspond to samples in the columns
+(e.g. \code{SingleCellExperiment}).
+}
+\details{
+Internally, pattern matching against sample and file names is applied using
+logical grep matching.
+}
+\note{
+Bracket based subsetting with \code{[} also works on \code{SingleCellExperiment}
+objects but it's not intuitive. In this case, provide cellular barcode
+identifiers for columns and gene identifiers for rows.
+}
+\seealso{
+\itemize{
+\item \code{sampleData()}.
+\item \code{S4Vectors::split()}.
+}
 }

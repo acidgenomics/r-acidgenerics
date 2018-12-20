@@ -11,6 +11,13 @@ meltCounts(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{grouped_df}.
+Grouped by \code{colname} (e.g. sample ID) and \code{rowname} (e.g. gene ID).
+}
 \description{
 Melt count matrix into long format
+}
+\seealso{
+\code{reshape2::melt()}.
 }

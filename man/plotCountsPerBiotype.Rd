@@ -11,6 +11,9 @@ plotCountsPerBiotype(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{ggplot}.
+}
 \description{
 Plot counts per biotype
 }

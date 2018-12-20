@@ -1,6 +1,9 @@
 #' Interesting groups
+#' 
 #' @inheritParams params
 #' @export
+#' 
+#' @return `character`.
 setGeneric(
     name = "interestingGroups",
     def = function(object, ...) {

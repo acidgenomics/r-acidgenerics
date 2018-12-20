@@ -11,6 +11,12 @@ sanitizeNA(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object.
+Sanitized to contain proper \code{NA} values.
+}
 \description{
-Sanitize \code{NA} values
+Standardize empty strings (\code{""}), character NAs (\code{"NA"}), and \code{NULL} values
+inside a character vector to \code{NA_character_}. Other \code{atomic} data types are
+returned unmodified.
 }

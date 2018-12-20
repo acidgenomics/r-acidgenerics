@@ -11,6 +11,12 @@ uniteInterestingGroups(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object.
+Now contains an \code{interestingGroups} column.
+}
 \description{
-Unite interesting groups into a single column
+Create a single interesting groups column (\code{interestingGroups}) used for
+coloring in plots. When multiple interesting groups are present, unite into a
+single column, delimited by a colon.
 }

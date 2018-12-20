@@ -11,6 +11,9 @@ mapGenesToRownames(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{character}.
+}
 \description{
 Map genes to row names
 }

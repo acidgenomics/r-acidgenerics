@@ -11,6 +11,9 @@ plotTotalCounts(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{ggplot}.
+}
 \description{
 Plot total read counts
 }

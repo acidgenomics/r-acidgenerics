@@ -11,6 +11,9 @@ zerosVsDepth(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{matrix}.
+}
 \description{
-Percentage of zeros vs. library depth
+Calculate and visualize the dropout rate.
 }

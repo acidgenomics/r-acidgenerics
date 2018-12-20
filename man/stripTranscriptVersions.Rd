@@ -11,6 +11,10 @@ stripTranscriptVersions(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object.
+Contains transcript identifiers without version numbers.
+}
 \description{
 Strip transcript versions
 }

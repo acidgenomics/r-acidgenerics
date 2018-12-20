@@ -11,6 +11,9 @@ markdown(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Markdown output.
+}
 \description{
 Markdown
 }

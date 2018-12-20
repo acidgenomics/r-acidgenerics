@@ -11,6 +11,16 @@ headtail(x, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Invisible \code{NULL}.
+}
 \description{
-Return the first and last parts of an object
+Inspired by the \code{print} method for \code{DataFrame} class objects. Applies to both
+rows and columns, enabling quick inspection during interactive use.
+}
+\seealso{
+\itemize{
+\item \code{utils::head()}, \code{utils::tail()}, \code{cat()}.
+\item \code{getMethod("show", "DataTable")}.
+}
 }
