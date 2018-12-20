@@ -11,10 +11,15 @@ humanize(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object.
+Contains human-friendly rownames (e.g. gene symbols instead of stable gene
+IDs) and colnames (e.g. sample names instead of sample IDs).
+}
 \description{
 Humanize an R object
 }
-\note{
-This can make dimnames invalid (see \code{make.names}) and should only be
-called prior to writing files to disk.
+\details{
+This can make dimnames invalid (see \code{make.names()}) and should only be called
+prior to writing files to disk.
 }
