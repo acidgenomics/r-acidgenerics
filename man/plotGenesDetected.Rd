@@ -11,6 +11,9 @@ plotGenesDetected(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{ggplot}.
+}
 \description{
 Plot genes detected
 }

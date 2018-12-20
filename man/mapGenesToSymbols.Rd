@@ -11,6 +11,9 @@ mapGenesToSymbols(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{character}.
+}
 \description{
 Map genes (gene identifiers) to gene names (symbols)
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/export.R
 \name{export}
 \alias{export}
-\title{Encode column data using run-length encoding}
+\title{Export data out of R and write to disk.}
 \usage{
 export(x, ...)
 }
@@ -12,5 +12,6 @@ export(x, ...)
 \item{...}{Additional arguments.}
 }
 \description{
-Encode column data using run-length encoding
+This is a wrapper for \code{\link[rio:export]{rio::export()}} that adds support for additional S4
+classes in Bioconductor.
 }

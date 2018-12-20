@@ -16,6 +16,9 @@ interestingGroups(object, ...) <- value
 
 \item{value}{Value.}
 }
+\value{
+\code{character}.
+}
 \description{
 Interesting groups
 }

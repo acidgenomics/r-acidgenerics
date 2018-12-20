@@ -2,7 +2,7 @@
 % Please edit documentation in R/plotZerosVsDepth.R
 \name{plotZerosVsDepth}
 \alias{plotZerosVsDepth}
-\title{Plot zeros vs. depth}
+\title{Plot percentage of zeros vs. library depth}
 \usage{
 plotZerosVsDepth(object, ...)
 }
@@ -11,6 +11,9 @@ plotZerosVsDepth(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{ggplot}.
+}
 \description{
-Plot zeros vs. depth
+Plot percentage of zeros vs. library depth
 }

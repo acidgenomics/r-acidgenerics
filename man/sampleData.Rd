@@ -16,6 +16,15 @@ sampleData(object, ...) <- value
 
 \item{value}{Value.}
 }
+\value{
+\code{DataFrame}.
+}
 \description{
-Sample data
+Metadata that describes the samples.
+}
+\details{
+This is a complement to the standard \code{colData()} function, but improves
+support for accessing sample metadata for datasets where multiple items in
+the columns map to a single sample (e.g. cells for a single-cell RNA-seq
+experiment).
 }

@@ -11,6 +11,9 @@ plotQC(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{ggplot}.
+}
 \description{
 Quality control
 }

@@ -1,6 +1,14 @@
 #' Unite interesting groups into a single column
+#'
+#' Create a single interesting groups column (`interestingGroups`) used for
+#' coloring in plots. When multiple interesting groups are present, unite into a
+#' single column, delimited by a colon.
+#' 
 #' @inheritParams params
 #' @export
+#' 
+#' @return Modified object.
+#' Now contains an `interestingGroups` column.
 setGeneric(
     name = "uniteInterestingGroups",
     def = function(object, ...) {

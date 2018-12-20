@@ -11,6 +11,9 @@ mapGenesToIDs(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{character}.
+}
 \description{
 Map genes (gene names) to gene identifiers
 }

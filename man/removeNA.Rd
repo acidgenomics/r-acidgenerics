@@ -11,6 +11,9 @@ removeNA(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Sanitized object.
+}
 \description{
 Remove rows and columns containing only \code{NA} values
 }

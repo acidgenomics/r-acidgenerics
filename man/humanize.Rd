@@ -14,3 +14,7 @@ humanize(object, ...)
 \description{
 Humanize an R object
 }
+\note{
+This can make dimnames invalid (see \code{make.names}) and should only be
+called prior to writing files to disk.
+}
