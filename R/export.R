@@ -1,3 +1,5 @@
+#' Export
+#' 
 #' Export data out of R and write to disk.
 #'
 #' This is a wrapper for [rio::export()] that adds support for additional S4

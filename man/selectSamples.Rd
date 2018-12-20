@@ -26,8 +26,7 @@ contains that don't correspond to samples in the columns
 \details{
 Internally, pattern matching against sample and file names is applied using
 logical grep matching.
-}
-\note{
+
 Bracket based subsetting with \code{[} also works on \code{SingleCellExperiment}
 objects but it's not intuitive. In this case, provide cellular barcode
 identifiers for columns and gene identifiers for rows.

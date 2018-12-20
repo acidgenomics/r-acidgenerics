@@ -6,6 +6,10 @@
 #'
 #' Internally, pattern matching against sample and file names is applied using
 #' logical grep matching.
+#' 
+#' Bracket based subsetting with `[` also works on `SingleCellExperiment`
+#' objects but it's not intuitive. In this case, provide cellular barcode
+#' identifiers for columns and gene identifiers for rows.
 #'   
 #' @inheritParams params
 #' @export
@@ -14,10 +18,6 @@
 #'   `sampleData()`. `atomic` values are supported. Avoid using `logical` or
 #'   `numeric` indices (e.g. `which()` calls) here, for improved code
 #'   readability.
-#'   
-#' @note Bracket based subsetting with `[` also works on `SingleCellExperiment`
-#'   objects but it's not intuitive. In this case, provide cellular barcode
-#'   identifiers for columns and gene identifiers for rows.
 #'
 #' @return Modified object.
 #' Subset (extraction) containing the desired samples.
