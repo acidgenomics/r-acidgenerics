@@ -11,6 +11,10 @@ contrastSamples(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{character}.
+Sample identifiers.
+}
 \description{
 Samples corresponding to a differential expression contrast
 }
