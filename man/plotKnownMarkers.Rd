@@ -9,6 +9,8 @@ plotKnownMarkers(object, markers, ...)
 \arguments{
 \item{object}{Object.}
 
+\item{markers}{Object containing gene markers.}
+
 \item{...}{Additional arguments.}
 }
 \value{
