@@ -3,6 +3,8 @@
 #' @export
 #' @inheritParams params
 #' 
+#' @param markers Object containing gene markers.
+#' 
 #' @return Show graphical output. Invisibly return `ggplot` `list`.
 setGeneric(
     name = "plotKnownMarkers",
