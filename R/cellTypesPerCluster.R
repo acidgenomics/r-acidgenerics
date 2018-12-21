@@ -1,6 +1,6 @@
 #' Cell types per cluster
 #' @export
-#' @inheritParams
+#' @inheritParams params
 setGeneric(
     name = "cellTypesPerCluster",
     def = function(object, ...) {
