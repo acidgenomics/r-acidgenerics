@@ -12,7 +12,7 @@ plotDEGPCA(object, ...)
 \item{...}{Additional arguments.}
 }
 \description{
-This function is an extension of [plotPCA()\link[BiocGenerics:plotPCA]{BiocGenerics::plotPCA} that is
+This function is an extension of \code{\link[BiocGenerics:plotPCA]{plotPCA()}} that is
 optimized for automatic handling of differentially expressed genes, rather
 than requiring manual input of a gene vector or subset object.
 }
