@@ -14,7 +14,6 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 3.5)
 Imports: methods
-Remotes: steinbaugh/bioverbs
 biocViews: Infrastructure
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
