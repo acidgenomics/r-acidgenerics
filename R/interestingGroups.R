@@ -1,7 +1,7 @@
 #' Interesting groups
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return `character`.
 setGeneric(

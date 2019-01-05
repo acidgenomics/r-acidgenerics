@@ -1,6 +1,6 @@
 #' Plot gene expression
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "plotGene",
     def = function(object, ...) {

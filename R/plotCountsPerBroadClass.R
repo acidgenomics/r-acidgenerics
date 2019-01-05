@@ -1,6 +1,6 @@
 #' Plot counts per broad class definition
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "plotCountsPerBroadClass",
     def = function(object, ...) {

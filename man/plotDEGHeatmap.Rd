@@ -19,6 +19,6 @@ manual input of a gene vector. All of the optional parameters for
 }
 \details{
 To adjust the annotation columns, modify the
-\link[SummarizedExperiment:colData]{colData} of the \code{counts} argument, which must
-contain a \code{SummarizedExperiment}.
+\code{\link[SummarizedExperiment:colData]{colData()}} of the \code{counts} argument, which
+must contain a \code{SummarizedExperiment}.
 }

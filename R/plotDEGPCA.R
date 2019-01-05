@@ -5,7 +5,7 @@
 #' than requiring manual input of a gene vector or subset object.
 #'
 #' To adjust the annotation columns, modify the
-#' [colData()][SummarizedExperiment::colData] of the `counts` argument, which
+#' [`colData()`][SummarizedExperiment::colData] of the `counts` argument, which
 #' must contain/extend a `SummarizedExperiment`.
 #'
 #' @export

@@ -1,6 +1,6 @@
 #' Heatmap
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "plotHeatmap",
     def = function(object, ...) {

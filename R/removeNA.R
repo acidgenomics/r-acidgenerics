@@ -1,7 +1,7 @@
 #' Remove rows and columns containing only `NA` values
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return Sanitized object.
 setGeneric(

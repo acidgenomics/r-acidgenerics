@@ -6,8 +6,8 @@
 #' [plotHeatmap()] are also supported by this function.
 #'
 #' To adjust the annotation columns, modify the
-#' [colData][SummarizedExperiment::colData] of the `counts` argument, which must
-#' contain a `SummarizedExperiment`.
+#' [`colData()`][SummarizedExperiment::colData] of the `counts` argument, which
+#' must contain a `SummarizedExperiment`.
 #'
 #' @export
 #' @inheritParams params
