@@ -1,6 +1,6 @@
 #' Quality control metrics per sample
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "metricsPerSample",
     def = function(object, ...) {

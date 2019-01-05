@@ -1,6 +1,6 @@
 #' Collapse to string
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "collapseToString",
     def = function(object, ...) {

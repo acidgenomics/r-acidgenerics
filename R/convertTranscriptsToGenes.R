@@ -1,6 +1,6 @@
 #' Convert transcripts to genes
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "convertTranscriptsToGenes",
     def = function(object, ...) {

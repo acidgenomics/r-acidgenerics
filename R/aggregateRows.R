@@ -1,6 +1,6 @@
 #' Aggregate rows
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "aggregateRows",
     def = function(object, ...) {

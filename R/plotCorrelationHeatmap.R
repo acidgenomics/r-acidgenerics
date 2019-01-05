@@ -1,6 +1,6 @@
 #' Correlation heatmap
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "plotCorrelationHeatmap",
     def = function(object, ...) {

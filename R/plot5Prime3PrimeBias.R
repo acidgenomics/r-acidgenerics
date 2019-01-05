@@ -11,7 +11,8 @@
 #' 5' (3') bias is generally calculated as the median of the following ratio:
 #'
 #' ```
-#' [mean expression of 5' (3')] / [mean expression of whole transcript]
+#' [mean expression of 5' (3')] /
+#'     [mean expression of whole transcript]
 #' ```
 #'
 #' For example:

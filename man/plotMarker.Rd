@@ -12,7 +12,7 @@ plotMarker(object, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-Show graphical output. Invisibly return \code{ggplot} \code{list}.
+Show graphical output. Invisibly return a \code{ggplot} \code{list}.
 }
 \description{
 Visualize gene markers on a reduced dimension plot (e.g. t-SNE, UMAP).

@@ -1,11 +1,11 @@
 #' Humanize an R object
 #' 
 #' @details
-#' This can make dimnames invalid (see `make.names()`) and should only be called
-#' prior to writing files to disk.
+#' This can make dimnames invalid (see [`make.names()`][base::make.names]) and
+#' should only be called prior to writing files to disk.
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return Modified object.
 #' Contains human-friendly rownames (e.g. gene symbols instead of stable gene

@@ -5,7 +5,7 @@
 #' 
 #' @param markers Object containing gene markers.
 #' 
-#' @return Show graphical output. Invisibly return `ggplot` `list`.
+#' @return Show graphical output. Invisibly return a `ggplot` `list`.
 setGeneric(
     name = "plotKnownMarkers",
     def = function(object, markers, ...) {

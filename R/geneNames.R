@@ -1,10 +1,10 @@
 #' Gene names
 #' 
-#' Convenience function for quickly returning unique gene symbols
-#' that map to the stable gene IDs.
+#' Convenience function for quickly returning unique gene symbols that map to
+#' the stable gene IDs.
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return `character`.
 setGeneric(
