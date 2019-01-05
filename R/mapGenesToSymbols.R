@@ -1,7 +1,7 @@
 #' Map genes (gene identifiers) to gene names (symbols)
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return `character`.
 setGeneric(

@@ -1,7 +1,7 @@
 #' Markdown
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return Markdown output.
 setGeneric(

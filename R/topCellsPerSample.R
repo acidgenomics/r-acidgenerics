@@ -2,8 +2,8 @@
 #' 
 #' Obtain the top cellular barcodes, based on counts.
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return `list`.
 #' Top barcodes as `character`, split by `sampleID`.

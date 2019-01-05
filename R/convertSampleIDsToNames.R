@@ -1,6 +1,6 @@
 #' Convert sample identifiers to names
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "convertSampleIDsToNames",
     def = function(object, ...) {

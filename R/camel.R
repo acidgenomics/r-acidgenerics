@@ -1,6 +1,6 @@
 #' Camel case
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "camel",
     def = function(object, ...) {

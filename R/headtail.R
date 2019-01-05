@@ -1,15 +1,19 @@
 #' Return the first and last parts of an object
+#' 
+#' Applies to both rows and columns, enabling quick inspection during
+#' interactive use.
 #'
-#' Inspired by the `print` method for `DataFrame` class objects. Applies to both
-#' rows and columns, enabling quick inspection during interactive use.
+#' Inspired by the [`print()`][base::print] method for `DataFrame` class
+#' objects.
 #'   
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return Invisible `NULL`.
 #' 
 #' @seealso
-#' - `utils::head()`, `utils::tail()`, `cat()`.
+#' - `utils::head()`, `utils::tail()`.
+#' - `cat()`.
 #' - `getMethod("show", "DataTable")`.
 setGeneric(
     name = "headtail",

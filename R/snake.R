@@ -1,6 +1,6 @@
 #' Snake case
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "snake",
     def = function(object, ...) {

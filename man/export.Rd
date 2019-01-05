@@ -14,7 +14,3 @@ export(x, ...)
 \description{
 Export data out of R and write to disk.
 }
-\details{
-This is a wrapper for \code{\link[rio:export]{rio::export()}} that adds support for additional S4
-classes in Bioconductor.
-}

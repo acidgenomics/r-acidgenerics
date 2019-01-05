@@ -1,6 +1,6 @@
 #' Log ratio to fold change
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "logRatioToFoldChange",
     def = function(object, ...) {

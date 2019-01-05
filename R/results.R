@@ -1,6 +1,6 @@
 #' Results
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "results",
     def = function(object, ...) {

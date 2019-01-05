@@ -1,7 +1,7 @@
 #' Plot counts per biotype
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return `ggplot`.
 setGeneric(

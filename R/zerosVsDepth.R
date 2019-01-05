@@ -2,8 +2,8 @@
 #'
 #' Calculate and visualize the dropout rate.
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return `matrix`.
 setGeneric(

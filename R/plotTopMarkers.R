@@ -3,7 +3,7 @@
 #' @export
 #' @inheritParams params
 #' 
-#' @return Show graphical output. Invisibly return `ggplot` `list`.
+#' @return Show graphical output. Invisibly return a `ggplot` `list`.
 setGeneric(
     name = "plotTopMarkers",
     def = function(object, ...) {

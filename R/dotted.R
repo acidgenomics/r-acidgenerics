@@ -1,6 +1,6 @@
 #' Dotted case
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "dotted",
     def = function(object, ...) {

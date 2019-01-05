@@ -1,7 +1,7 @@
 #' Plot genes detected
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return `ggplot`.
 setGeneric(

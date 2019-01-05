@@ -1,6 +1,6 @@
 #' Aggregate columns
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "aggregateCols",
     def = function(object, ...) {

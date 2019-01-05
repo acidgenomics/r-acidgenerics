@@ -1,7 +1,7 @@
 #' Plot percentage of zeros vs. library depth
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return `ggplot`.
 setGeneric(
