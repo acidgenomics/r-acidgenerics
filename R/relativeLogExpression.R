@@ -5,7 +5,7 @@
 #'
 #' @references Anders and Huber (2010).
 #'
-#' @seealso `edgeR::calcNormFactors`.
+#' @seealso `edgeR::calcNormFactors()`.
 #'
 #' @return `matrix`.
 setGeneric(

@@ -11,8 +11,8 @@
 #' @references Robinson and Oshlack (2010).
 #'
 #' @seealso
-#' - `edgeR::calcNormFactors`.
-#' - `edgeR::cpm`.
+#' - `edgeR::calcNormFactors()`.
+#' - `edgeR::cpm()`.
 #'
 #' @return `matrix`.
 setGeneric(

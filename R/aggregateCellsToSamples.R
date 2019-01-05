@@ -5,11 +5,11 @@
 #'
 #' @note This function is intended primarily for quality control analysis.
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
-#' @return `SummarizedExperiment`. Object with cell-level counts aggregated
-#'   to sample-level.
+#' @return `SummarizedExperiment`.
+#' Object with cell-level counts aggregated to sample-level.
 setGeneric(
     name = "aggregateCellsToSamples",
     def = function(object, ...) {

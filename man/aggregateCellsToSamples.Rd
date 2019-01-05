@@ -12,8 +12,8 @@ aggregateCellsToSamples(object, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-\code{SummarizedExperiment}. Object with cell-level counts aggregated
-to sample-level.
+\code{SummarizedExperiment}.
+Object with cell-level counts aggregated to sample-level.
 }
 \description{
 Utilty function that factilites cell-to-sample aggregation. By default, this

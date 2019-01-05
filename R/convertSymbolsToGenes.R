@@ -1,6 +1,6 @@
 #' Convert symbols to genes
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "convertSymbolsToGenes",
     def = function(object, ...) {

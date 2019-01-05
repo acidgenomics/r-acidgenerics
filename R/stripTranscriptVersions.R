@@ -1,7 +1,7 @@
 #' Strip transcript versions
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return Modified object.
 #' Contains transcript identifiers without version numbers.

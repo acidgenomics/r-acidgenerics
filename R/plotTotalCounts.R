@@ -1,7 +1,7 @@
 #' Plot total read counts
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return `ggplot`.
 setGeneric(

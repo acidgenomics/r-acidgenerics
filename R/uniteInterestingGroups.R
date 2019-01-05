@@ -4,8 +4,8 @@
 #' coloring in plots. When multiple interesting groups are present, unite into a
 #' single column, delimited by a colon.
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return Modified object.
 #' Now contains an `interestingGroups` column.

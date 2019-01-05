@@ -1,6 +1,6 @@
 #' Subset per sample
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "subsetPerSample",
     def = function(object, ...) {

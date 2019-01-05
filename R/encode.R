@@ -1,6 +1,6 @@
 #' Encode using run-length encoding
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "encode",
     def = function(x, ...) {

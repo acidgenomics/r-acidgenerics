@@ -1,6 +1,6 @@
 #' Autopad zeros
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 setGeneric(
     name = "autopadZeros",
     def = function(object, ...) {

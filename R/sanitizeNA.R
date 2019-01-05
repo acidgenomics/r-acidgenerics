@@ -4,8 +4,8 @@
 #' inside a character vector to `NA_character_`. Other `atomic` data types are
 #' returned unmodified.
 #' 
-#' @inheritParams params
 #' @export
+#' @inheritParams params
 #' 
 #' @return Modified object.
 #' Sanitized to contain proper `NA` values.
