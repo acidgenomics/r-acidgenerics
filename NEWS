@@ -6,11 +6,17 @@ Documentation improvements.
 ## bioverbs 0.1.1 (2019-01-04)
 
 - Documentation fixes.
-- Added Travis CI and AppVeyor CI code coverage support.
+- Added [Travis CI][] and [AppVeyor CI][] code coverage support.
 
 
 ## bioverbs 0.1.0 (2018-12-22)
 
-Initial release. Migrated S4 generics from basejump and other bioinformatics-
-oriented packages here to define a simple, stable package similar to
-BiocGenerics.
+Initial release. Migrated S4 generics from [basejump][] and other
+bioinformatics-oriented packages here to define a simple, stable package similar
+to [BiocGenerics][].
+
+
+[AppVeyor CI]: https://www.appveyor.com/
+[basejump]: https://steinbaugh.com/basejump/
+[BiocGenerics]: https://bioconductor.org/packages/BiocGenerics/
+[Travis CI]: https://travis-ci.com/
