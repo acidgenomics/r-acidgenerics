@@ -1,9 +1,20 @@
-## bioverbs 0.1.2 (2018-01-05)
+## bioverbs 0.1.3 (2019-01-23)
 
-Documentation improvements.
+### Minor changes
+
+- Added [pkgdown][] website.
+
+
+## bioverbs 0.1.2 (2019-01-05)
+
+### Minor changes
+
+- Documentation improvements.
 
 
 ## bioverbs 0.1.1 (2019-01-04)
+
+### Minor changes
 
 - Documentation fixes.
 - Added [Travis CI][] and [AppVeyor CI][] code coverage support.
@@ -19,4 +30,5 @@ to [BiocGenerics][].
 [AppVeyor CI]: https://www.appveyor.com/
 [basejump]: https://steinbaugh.com/basejump/
 [BiocGenerics]: https://bioconductor.org/packages/BiocGenerics/
+[pkgdown]: https://pkgdown.r-lib.org/
 [Travis CI]: https://travis-ci.com/
