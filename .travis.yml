@@ -6,21 +6,21 @@ cache: packages
 
 matrix:
   include:
-  - os: linux
-    r: release
-  - os: osx
-    r: release
+    - os: linux
+      r: release
+    - os: osx
+      r: release
 
 branches:
   only:
-  - master
+    - master
 
 env:
   global:
     - LINTR_COMMENT_BOT=true
 
 github_packages:
-  - mjsteinbaugh/lintr
+  - steinbaugh/lintr
 
 after_success:
   - Rscript -e 'lintr::lint_package()'
@@ -30,4 +30,4 @@ notifications:
     recipients:
       - mike@steinbaugh.com
     on_success: change
-    on_failure: always
+    on_failure: change
