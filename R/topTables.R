@@ -1,4 +1,6 @@
-#' Top tables of differentially expressed genes
+#' Top tables
+#'
+#' Top tables of differentially expressed genes.
 #'
 #' @export
 #' @inheritParams params
