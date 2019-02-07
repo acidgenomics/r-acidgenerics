@@ -2,7 +2,7 @@
 % Please edit documentation in R/topTables.R
 \name{topTables}
 \alias{topTables}
-\title{Top tables of differentially expressed genes}
+\title{Top tables}
 \usage{
 topTables(object, ...)
 }
@@ -16,5 +16,5 @@ topTables(object, ...)
 Markdown tables.
 }
 \description{
-Top tables of differentially expressed genes
+Top tables of differentially expressed genes.
 }
