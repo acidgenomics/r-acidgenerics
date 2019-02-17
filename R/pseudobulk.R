@@ -1,9 +1,9 @@
-#' Plot gene expression
+#' Pseudobulk
 #' @export
 #' @inheritParams params
 setGeneric(
-    name = "plotGene",
+    name = "pseudobulk",
     def = function(object, ...) {
-        standardGeneric("plotGene")
+        standardGeneric("pseudobulk")
     }
 )

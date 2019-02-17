@@ -1,11 +1,34 @@
+## bioverbs 0.1.7 (2019-02-17)
+
+### New generics
+
+- `pseudobulk()`.
+
+### Minor changes
+
+- `plotGenderMarkers()`: Improved documentation to no longer point to
+  `plotGene`.
+
+
+
+## bioverbs 0.1.6 (2019-02-11)
+
+### New generics
+
+- `plotCounts()`.
+
+### Deprecations
+
+- `plotGene()` is now deprecated in favor of `plotCounts()`.
+
+
+
 ## bioverbs 0.1.5 (2019-02-01)
 
 ### New generics
 
 - `rankedList()`.
 
-
-## bioverbs 0.1.4 (2019-01-23)
 
 
 ## bioverbs 0.1.4 (2019-01-12)
@@ -15,11 +38,13 @@
 - Added [pkgdown][] website.
 
 
+
 ## bioverbs 0.1.2 (2019-01-05)
 
 ### Minor changes
 
 - Documentation improvements.
+
 
 
 ## bioverbs 0.1.1 (2019-01-04)
@@ -30,11 +55,13 @@
 - Added [Travis CI][] and [AppVeyor CI][] code coverage support.
 
 
+
 ## bioverbs 0.1.0 (2018-12-22)
 
 Initial release. Migrated S4 generics from [basejump][] and other
 bioinformatics-oriented packages here to define a simple, stable package similar
 to [BiocGenerics][].
+
 
 
 [AppVeyor CI]: https://www.appveyor.com/
