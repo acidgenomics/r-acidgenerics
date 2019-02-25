@@ -12,5 +12,9 @@ snake(object, ...)
 \item{...}{Additional arguments.}
 }
 \description{
-Snake case
+Format character strings to use snake-style formatting, where word boundaries
+are defined by underscores (e.g. \code{this_is_snake_case}).
+}
+\details{
+Snake case is recommended by the tidyverse for variable and function names.
 }
