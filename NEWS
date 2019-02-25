@@ -1,13 +1,22 @@
+## bioverbs 0.1.8
+
+### New generics
+
+- `fpkm`.
+- `kebab`
+- `plotIntergenicMappingRate`.
+
+
+
 ## bioverbs 0.1.7 (2019-02-17)
 
 ### New generics
 
-- `pseudobulk()`.
+- `pseudobulk`.
 
 ### Minor changes
 
-- `plotGenderMarkers()`: Improved documentation to no longer point to
-  `plotGene`.
+- `plotGenderMarkers`: Improved documentation to no longer point to `plotGene`.
 
 
 
@@ -15,11 +24,11 @@
 
 ### New generics
 
-- `plotCounts()`.
+- `plotCounts`.
 
 ### Deprecations
 
-- `plotGene()` is now deprecated in favor of `plotCounts()`.
+- `plotGene` is now deprecated in favor of `plotCounts`.
 
 
 
@@ -27,7 +36,7 @@
 
 ### New generics
 
-- `rankedList()`.
+- `rankedList`.
 
 
 
