@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Relative log expression — relativeLogExpression • bioverbs</title>
+<title><strong>F</strong>ragments <strong>p</strong>er <strong>k</strong>ilobase per <strong>m</strong>illion mapped fragments — fpkm • bioverbs</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -32,9 +32,10 @@
 
   <link href="../extra.css" rel="stylesheet">
   
-<meta property="og:title" content="Relative log expression — relativeLogExpression" />
+<meta property="og:title" content="<strong>F</strong>ragments <strong>p</strong>er <strong>k</strong>ilobase per <strong>m</strong>illion mapped fragments — fpkm" />
 
-<meta property="og:description" content="Relative log expression" />
+<meta property="og:description" content="Return fragment counts normalized per kilobase of feature length per million
+mapped fragments." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -104,18 +105,19 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Relative log expression</h1>
-    <small class="dont-index">Source: <a href='https://github.com/steinbaugh/bioverbs/blob/master/R/relativeLogExpression.R'><code>R/relativeLogExpression.R</code></a></small>
-    <div class="hidden name"><code>relativeLogExpression.Rd</code></div>
+    <h1><strong>F</strong>ragments <strong>p</strong>er <strong>k</strong>ilobase per <strong>m</strong>illion mapped fragments</h1>
+    <small class="dont-index">Source: <a href='https://github.com/steinbaugh/bioverbs/blob/master/R/fpkm.R'><code>R/fpkm.R</code></a></small>
+    <div class="hidden name"><code>fpkm.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>Relative log expression</p>
+    <p>Return fragment counts normalized per kilobase of feature length per million
+mapped fragments.</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>relativeLogExpression</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>fpkm</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -134,13 +136,15 @@
 
     <p><code>matrix</code>.</p>
     
-    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+    <h2 class="hasAnchor" id="note"><a class="anchor" href="#note"></a>Note</h2>
 
-    <p>Anders and Huber (2010).</p>
+    <p>Only recommended for gene-level counts.</p>
     
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p><code><a href='https://www.rdocumentation.org/packages/edgeR/topics/calcNormFactors'>edgeR::calcNormFactors()</a></code>.</p></div>
+    <div class='dont-index'><ul>
+<li><p><code><a href='https://www.rdocumentation.org/packages/DESeq2/topics/fpkm'>DESeq2::fpkm()</a></code>.</p></li>
+</ul></div>
     
 
   </div>
@@ -151,7 +155,7 @@
       
       <li><a href="#value">Value</a></li>
 
-      <li><a href="#references">References</a></li>
+      <li><a href="#note">Note</a></li>
 
       <li><a href="#see-also">See also</a></li>
           </ul>
