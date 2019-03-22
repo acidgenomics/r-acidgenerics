@@ -11,8 +11,9 @@ S4 generic functions for bioinformatics.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/steinbaugh/bioverbs/}
-  \item Report bugs at \url{https://github.com/steinbaugh/bioverbs/issues/}
+  \item \url{https://bioverbs.acidgenomics.com/}
+  \item \url{https://github.com/acidgenomics/bioverbs/}
+  \item Report bugs at \url{https://github.com/acidgenomics/bioverbs/issues/}
 }
 
 }

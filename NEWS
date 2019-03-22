@@ -1,4 +1,12 @@
-## bioverbs 0.1.8
+## bioverbs 0.1.9 (2019-03-22)
+
+### Minor changes
+
+- Switched domain to [Acid Genomics][].
+
+
+
+## bioverbs 0.1.8 (2019-02-25)
 
 ### New generics
 
@@ -73,6 +81,7 @@ to [BiocGenerics][].
 
 
 
+[Acid Genomics]: https://acidgenomics.com/
 [AppVeyor CI]: https://www.appveyor.com/
 [basejump]: https://steinbaugh.com/basejump/
 [BiocGenerics]: https://bioconductor.org/packages/BiocGenerics/
