@@ -11,4 +11,4 @@ S4 generic functions for bioinformatics.
 
 This package is part of the [basejump][] toolkit. Refer to its website for installation instructions.
 
-[basejump]: https://steinbaugh.com/basejump/
+[basejump]: https://basejump.acidgenomics.com/
