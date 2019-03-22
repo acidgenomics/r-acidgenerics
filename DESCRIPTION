@@ -1,15 +1,23 @@
 Package: bioverbs
 Title: S4 generic functions for bioinformatics
 Description: S4 generic functions for bioinformatics.
-Version: 0.1.8
-Date: 2019-02-18
-Authors@R: person(
-    "Michael", "Steinbaugh",
-    email = "mike@steinbaugh.com",
-    role = c("aut", "cre"),
-    comment = c(ORCID = "0000-0002-2403-2221"))
-URL: https://github.com/steinbaugh/bioverbs/
-BugReports: https://github.com/steinbaugh/bioverbs/issues/
+Version: 0.1.9
+Date: 2019-03-22
+Authors@R: c(
+    person(
+        "Michael", "Steinbaugh",
+        email = "mike@steinbaugh.com",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0002-2403-2221")
+    ),
+    person(
+        given = "Acid Genomics",
+        role = c("cph", "fnd")
+    ))
+URL:
+    https://bioverbs.acidgenomics.com/,
+    https://github.com/acidgenomics/bioverbs/
+BugReports: https://github.com/acidgenomics/bioverbs/issues/
 License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 3.4)
