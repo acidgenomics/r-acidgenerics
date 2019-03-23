@@ -2,7 +2,7 @@
 % Please edit documentation in R/fpkm.R
 \name{fpkm}
 \alias{fpkm}
-\title{\strong{F}ragments \strong{p}er \strong{k}ilobase per \strong{m}illion mapped fragments}
+\title{Fragments per kilobase per million mapped fragments}
 \usage{
 fpkm(object, ...)
 }

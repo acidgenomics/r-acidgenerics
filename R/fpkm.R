@@ -1,4 +1,4 @@
-#' **F**ragments **p**er **k**ilobase per **m**illion mapped fragments
+#' Fragments per kilobase per million mapped fragments
 #'
 #' Return fragment counts normalized per kilobase of feature length per million
 #' mapped fragments.
