@@ -2,7 +2,7 @@
 % Please edit documentation in R/sanitizeNA.R
 \name{sanitizeNA}
 \alias{sanitizeNA}
-\title{Sanitize \code{NA} values}
+\title{Sanitize NA values}
 \usage{
 sanitizeNA(object, ...)
 }
