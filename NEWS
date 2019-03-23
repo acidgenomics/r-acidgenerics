@@ -64,6 +64,15 @@
 
 
 
+## bioverbs 0.1.3 (2019-01-12)
+
+### New generics
+
+- `atomize`.
+- `factorize`.
+
+
+
 ## bioverbs 0.1.2 (2019-01-05)
 
 ### Minor changes
