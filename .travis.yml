@@ -12,6 +12,7 @@ matrix:
   allow_failures:
     - os: osx
     - r: bioc-devel
+  fast_finish: true
 
 branches:
   only:
@@ -22,7 +23,7 @@ env:
     - LINTR_COMMENT_BOT=true
 
 github_packages:
-  - steinbaugh/lintr
+  - acidgenomics/lintr
 
 after_success:
   - test $TRAVIS_OS_NAME = 'linux' && $TRAVIS_R_VERSION_STRING = 'release' && Rscript -e 'lintr::lint_package()'
