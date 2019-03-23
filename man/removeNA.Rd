@@ -2,7 +2,7 @@
 % Please edit documentation in R/removeNA.R
 \name{removeNA}
 \alias{removeNA}
-\title{Remove rows and columns containing only \code{NA} values}
+\title{Remove rows and columns containing only NA values}
 \usage{
 removeNA(object, ...)
 }
@@ -15,5 +15,5 @@ removeNA(object, ...)
 Sanitized object.
 }
 \description{
-Remove rows and columns containing only \code{NA} values
+Remove rows and columns containing only NA values
 }
