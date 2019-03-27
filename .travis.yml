@@ -3,15 +3,12 @@ cache: packages
 
 matrix:
   include:
-    - os: linux
-      r: bioc-release
-    - os: linux
-      r: bioc-devel
-    - os: osx
-      r: bioc-release
+    - r: release
+    - r: oldrel
+    - r: devel
   allow_failures:
-    - os: osx
-    - r: bioc-devel
+    - r: oldrel
+    - r: devel
   fast_finish: true
 
 branches:
