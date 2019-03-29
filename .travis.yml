@@ -19,13 +19,10 @@ env:
   global:
     - LINTR_COMMENT_BOT=true
 
-bioc_packages:
-  - BiocCheck
 github_packages:
   - acidgenomics/lintr
 
 after_success:
-  - R CMD BiocCheck .
   - Rscript -e 'lintr::lint_package()'
 
 notifications:
