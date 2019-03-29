@@ -19,7 +19,7 @@ env:
   global:
     - LINTR_COMMENT_BOT=true
 
-github_packages:
+r_github_packages:
   - acidgenomics/lintr
 
 after_success:
