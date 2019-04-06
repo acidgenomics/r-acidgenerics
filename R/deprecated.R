@@ -28,5 +28,6 @@ setGeneric(
         standardGeneric("plotGene")
     }
 )
+
 # nolint end
 # nocov end
