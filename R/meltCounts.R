@@ -1,8 +1,8 @@
 #' Melt count matrix into long format
-#' 
+#'
 #' @export
 #' @inheritParams params
-#' 
+#'
 #' @seealso `reshape2::melt()`.
 #'
 #' @return `grouped_df`.

@@ -1,8 +1,8 @@
 #' Markdown
-#' 
+#'
 #' @export
 #' @inheritParams params
-#' 
+#'
 #' @return Markdown output.
 setGeneric(
     name = "markdown",

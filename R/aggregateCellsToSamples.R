@@ -4,10 +4,10 @@
 #' function will sum the counts across cells to sample level.
 #'
 #' @note This function is intended primarily for quality control analysis.
-#' 
+#'
 #' @export
 #' @inheritParams params
-#' 
+#'
 #' @return `SummarizedExperiment`.
 #' Object with cell-level counts aggregated to sample-level.
 setGeneric(

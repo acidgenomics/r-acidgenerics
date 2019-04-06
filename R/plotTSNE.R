@@ -1,8 +1,8 @@
 #' t-SNE plot
-#' 
+#'
 #' @export
 #' @inheritParams params
-#' 
+#'
 #' @return `ggplot`.
 setGeneric(
     name = "plotTSNE",
