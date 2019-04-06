@@ -1,8 +1,8 @@
 #' Interesting groups
-#' 
+#'
 #' @export
 #' @inheritParams params
-#' 
+#'
 #' @return `character`.
 setGeneric(
     name = "interestingGroups",
@@ -10,8 +10,6 @@ setGeneric(
         standardGeneric("interestingGroups")
     }
 )
-
-
 
 #' @rdname interestingGroups
 #' @export

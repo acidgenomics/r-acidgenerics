@@ -1,8 +1,8 @@
 #' Plot genes detected
-#' 
+#'
 #' @export
 #' @inheritParams params
-#' 
+#'
 #' @return `ggplot`.
 setGeneric(
     name = "plotGenesDetected",
