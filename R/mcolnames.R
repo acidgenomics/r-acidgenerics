@@ -10,9 +10,6 @@ setGeneric(
         standardGeneric("mcolnames")
     }
 )
-
-
-
 #' @rdname mcolnames
 #' @export
 setGeneric(

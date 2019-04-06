@@ -3,10 +3,10 @@
 #' Create a single interesting groups column (`interestingGroups`) used for
 #' coloring in plots. When multiple interesting groups are present, unite into a
 #' single column, delimited by a colon.
-#' 
+#'
 #' @export
 #' @inheritParams params
-#' 
+#'
 #' @return Modified object.
 #' Now contains an `interestingGroups` column.
 setGeneric(

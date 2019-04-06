@@ -7,10 +7,10 @@
 #' for accessing sample metadata for datasets where multiple items in the
 #' columns map to a single sample (e.g. cells for a single-cell RNA-seq
 #' experiment).
-#' 
+#'
 #' @export
 #' @inheritParams params
-#' 
+#'
 #' @return `DataFrame`.
 setGeneric(
     name = "sampleData",
@@ -18,9 +18,6 @@ setGeneric(
         standardGeneric("sampleData")
     }
 )
-
-
-
 #' @rdname sampleData
 #' @export
 setGeneric(
