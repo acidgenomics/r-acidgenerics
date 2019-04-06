@@ -18,6 +18,7 @@ setGeneric(
         standardGeneric("sampleData")
     }
 )
+
 #' @rdname sampleData
 #' @export
 setGeneric(

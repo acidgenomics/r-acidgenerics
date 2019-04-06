@@ -10,6 +10,7 @@ setGeneric(
         standardGeneric("interestingGroups")
     }
 )
+
 #' @rdname interestingGroups
 #' @export
 setGeneric(
