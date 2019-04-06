@@ -1,3 +1,11 @@
+## bioverbs 0.1.11 (2019-04-06)
+
+### New functions
+
+- `mcolnames`: Quickly access the column names of `mcols` slot.
+
+
+
 ## bioverbs 0.1.10 (2019-03-23)
 
 ### Minor changes
