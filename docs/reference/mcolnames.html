@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Quantile heatmap — plotQuantileHeatmap • bioverbs</title>
+<title>Metadata column names — mcolnames • bioverbs</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -32,9 +32,9 @@
 
   <link href="../extra.css" rel="stylesheet">
   
-<meta property="og:title" content="Quantile heatmap — plotQuantileHeatmap" />
+<meta property="og:title" content="Metadata column names — mcolnames" />
 
-<meta property="og:description" content="Quantile heatmap" />
+<meta property="og:description" content="Metadata column names" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -104,31 +104,41 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Quantile heatmap</h1>
-    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/plotQuantileHeatmap.R'><code>R/plotQuantileHeatmap.R</code></a></small>
-    <div class="hidden name"><code>plotQuantileHeatmap.Rd</code></div>
+    <h1>Metadata column names</h1>
+    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/mcolnames.R'><code>R/mcolnames.R</code></a></small>
+    <div class="hidden name"><code>mcolnames.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>Quantile heatmap</p>
+    <p>Metadata column names</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>plotQuantileHeatmap</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>mcolnames</span>(<span class='no'>x</span>, <span class='no'>...</span>)
+
+<span class='fu'>mcolnames</span>(<span class='no'>x</span>, <span class='no'>...</span>) <span class='kw'>&lt;-</span> <span class='no'>value</span></pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>object</th>
+      <th>x</th>
       <td><p>Object.</p></td>
     </tr>
     <tr>
       <th>...</th>
       <td><p>Additional arguments.</p></td>
     </tr>
+    <tr>
+      <th>value</th>
+      <td><p>Value.</p></td>
+    </tr>
     </table>
+    
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+
+    <div class='dont-index'><p><code><a href='https://www.rdocumentation.org/packages/S4Vectors/topics/Vector-class'>S4Vectors::mcols()</a></code>.</p></div>
     
 
   </div>
@@ -136,7 +146,9 @@
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
       <li><a href="#arguments">Arguments</a></li>
-                </ul>
+      
+      <li><a href="#see-also">See also</a></li>
+          </ul>
 
   </div>
 </div>

@@ -3,10 +3,10 @@
 #' Standardize empty strings (`""`), character NAs (`"NA"`), and `NULL` values
 #' inside a character vector to `NA_character_`. Other `atomic` data types are
 #' returned unmodified.
-#' 
+#'
 #' @export
 #' @inheritParams params
-#' 
+#'
 #' @return Modified object.
 #' Sanitized to contain proper `NA` values.
 setGeneric(
