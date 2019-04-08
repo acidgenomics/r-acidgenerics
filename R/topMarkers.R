@@ -1,8 +1,8 @@
 #' Top markers
-#' 
+#'
 #' @export
 #' @inheritParams params
-#' 
+#'
 #' @return `grouped_df`.
 setGeneric(
     name = "topMarkers",
