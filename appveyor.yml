@@ -49,6 +49,3 @@ notifications:
     to:
       - mike@steinbaugh.com
     on_build_status_changed: true
-
-cache:
-  - C:\RLibrary -> appveyor.yml
