@@ -1,5 +1,8 @@
 # nocov start
 # nolint start
+
+
+
 #' Deprecated functions
 #'
 #' @name deprecated
@@ -9,6 +12,9 @@
 #'
 #' @return `.Deprecated`.
 NULL
+
+
+
 #' Defunct functions
 #'
 #' @name defunct
@@ -18,6 +24,9 @@ NULL
 #'
 #' @return `.Defunct`.
 NULL
+
+
+
 # v0.1.7 =======================================================================
 #' @rdname deprecated
 #' @export
@@ -28,6 +37,21 @@ setGeneric(
         standardGeneric("plotGene")
     }
 )
+
+
+
+# v0.1.12 ======================================================================
+#' @rdname deprecated
+#' @export
+setGeneric(
+    name = "plotCountsPerGene",
+    def = function(object, ...) {
+        .Deprecated("plotCountsPerFeature")
+        standardGeneric("plotCountsPerGene")
+    }
+)
+
+
 
 # nolint end
 # nocov end
