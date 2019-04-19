@@ -1,8 +1,13 @@
-## bioverbs 0.1.12 (2019-04-16)
+## bioverbs 0.1.12 (2019-04-19)
 
 ### New functions
 
 - `plotCellCountsPerCluster`. Used by pointillism.
+
+### Deprecations
+
+- Deprecated `plotCountsPerGene` in favor of `plotCountsPerFeature`. This
+  allows for use in packages at transcript or enhancer (locus) level.
 
 
 

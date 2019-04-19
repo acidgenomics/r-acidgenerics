@@ -1,4 +1,4 @@
-#' Plot counts per gene
+#' Plot counts per feature
 #'
 #' Generally, we expect similar count spreads for all genes between samples
 #' unless the library sizes or total RNA expression are different.
@@ -8,8 +8,8 @@
 #'
 #' @return `ggplot`.
 setGeneric(
-    name = "plotCountsPerGene",
+    name = "plotCountsPerFeature",
     def = function(object, ...) {
-        standardGeneric("plotCountsPerGene")
+        standardGeneric("plotCountsPerFeature")
     }
 )
