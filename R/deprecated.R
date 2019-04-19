@@ -49,6 +49,15 @@ setGeneric(
     }
 )
 
+#' @rdname defunct
+#' @export
+setGeneric(
+    name = "plotGenesDetected",
+    def = function(object, ...) {
+        .Defunct("plotFeaturesDetected")
+    }
+)
+
 
 
 # nolint end
