@@ -2,19 +2,7 @@
 % Please edit documentation in R/deprecated.R
 \name{deprecated}
 \alias{deprecated}
-\alias{plotGene}
-\alias{plotCountsPerGene}
 \title{Deprecated functions}
-\usage{
-plotGene(object, ...)
-
-plotCountsPerGene(object, ...)
-}
-\arguments{
-\item{object}{Object.}
-
-\item{...}{Additional arguments.}
-}
 \value{
 \code{.Deprecated}.
 }
