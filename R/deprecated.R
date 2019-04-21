@@ -28,26 +28,33 @@ NULL
 
 
 # v0.1.7 =======================================================================
-#' @rdname deprecated
+#' @rdname defunct
 #' @export
 setGeneric(
     name = "plotGene",
     def = function(object, ...) {
-        .Deprecated("plotCounts")
-        standardGeneric("plotGene")
+        .Defunct("plotCounts")
     }
 )
 
 
 
 # v0.1.12 ======================================================================
-#' @rdname deprecated
+#' @rdname defunct
 #' @export
 setGeneric(
     name = "plotCountsPerGene",
     def = function(object, ...) {
-        .Deprecated("plotCountsPerFeature")
-        standardGeneric("plotCountsPerGene")
+        .Defunct("plotCountsPerFeature")
+    }
+)
+
+#' @rdname defunct
+#' @export
+setGeneric(
+    name = "plotGenesDetected",
+    def = function(object, ...) {
+        .Defunct("plotFeaturesDetected")
     }
 )
 
