@@ -1,3 +1,21 @@
+## bioverbs 0.1.14 (2019-04-23)
+
+### New functions
+
+- `resultsMatrix`. Currently in use in the DESeqAnalysis package.
+
+
+
+## bioverbs 0.1.13 (2019-04-19)
+
+### Deprecations
+
+- Made `plotGene` defunct in favor of `plotCounts`.
+- Made `plotCountsPerGene` defunct in favor of `plotCountsPerFeature`, and
+  `plotGenesDetected` defunct in favor of `plotFeaturesDetected`.
+
+
+
 ## bioverbs 0.1.12 (2019-04-19)
 
 ### New functions
