@@ -13,16 +13,19 @@ branches:
   only:
     - master
 
+# https://cloud.r-project.org/bin/windows/base/old/
 environment:
   global:
     GCC_PATH: mingw_64
     R_ARCH: x64
     USE_RTOOLS: true
   matrix:
-    - configuration: release
-      R_VERSION: release
+    - configuration: 3.4
+      R_VERSION: 3.4.4
     - configuration: oldrel
       R_VERSION: oldrel
+    - configuration: release
+      R_VERSION: release
     - configuration: devel
       R_VERSION: devel
 
