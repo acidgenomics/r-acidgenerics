@@ -2,8 +2,9 @@
 
 ### New functions
 
-- `alpha`, `lfcThreshold`: Convenience generics for use in pfgsea package. These
-  generics may also be useful for DESeqAnalysis package in a future update.
+- `alphaThreshold`, `lfcThreshold`: Convenience generics for use in pfgsea
+  package. These generics may also be useful for DESeqAnalysis package in a
+  future update.
 - `collectionNames`, `contrastNames`: Generics previously defined in the pfgsea
   package. These may be generally useful in other contexts.
 - `enrichedGeneSets`, `plotEnrichedUpset`, `plotEnrichedGeneSets`,
