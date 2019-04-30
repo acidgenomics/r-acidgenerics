@@ -1,20 +1,24 @@
-#' Alpha level
+# Don't export `alpha()`. This conflicts with scales package.
+
+
+
+#' Alpha threshold
 #' @export
 #' @inheritParams params
 setGeneric(
-    name = "alpha",
+    name = "alphaThreshold",
     def = function(object, ...) {
-        standardGeneric("alpha")
+        standardGeneric("alphaThreshold")
     }
 )
 
 
 
-#' @rdname alpha
+#' @rdname alphaThreshold
 #' @export
 setGeneric(
-    name = "alpha<-",
+    name = "alphaThreshold<-",
     def = function(object, ..., value) {
-        standardGeneric("alpha<-")
+        standardGeneric("alphaThreshold<-")
     }
 )
