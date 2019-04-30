@@ -1,3 +1,12 @@
+## bioverbs 0.1.16 (2019-04-30)
+
+### New functions
+
+- `alpha`, `lfcThreshold`: Convenience generics for use in pfgsea package. These
+  generics may also be useful for DESeqAnalysis package in a future update.
+
+
+
 ## bioverbs 0.1.15 (2019-04-26)
 
 ### New functions
