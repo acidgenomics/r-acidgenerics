@@ -7,12 +7,18 @@ branches:
   only:
     - master
 
-before_install:
-  - docker pull acidgenomics/bioc-release
-  - docker images
+before_script:
+  - chmod +x travis-docker.sh
 
-script:
-  - docker run -ti --user="bioc" --volume="$PWD:/bioverbs" --workdir="/bioverbs" acidgenomics/bioc-release Rscript -e 'source("travis-docker.R")'
+jobs:
+  include:
+    - stage: test
+      name: "docker"
+      script: ./travis-docker.sh
+
+after_failure:
+  - env | sort
+  - df -h
 
 notifications:
   email:
