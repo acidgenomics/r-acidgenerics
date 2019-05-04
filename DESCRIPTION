@@ -2,7 +2,7 @@ Package: bioverbs
 Title: S4 generic functions for bioinformatics
 Description: S4 generic functions for bioinformatics.
 Version: 0.1.16
-Date: 2019-04-30
+Date: 2019-05-04
 Authors@R: c(
     person(
         "Michael", "Steinbaugh",
