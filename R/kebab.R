@@ -11,6 +11,11 @@
 #' @inheritParams params
 #'
 #' @seealso [`make.names()`][base::make.names].
+#'
+#' @return Modified object, with names formatted in kebab case.
+#'
+#' @examples
+#' class(kebab)
 setGeneric(
     name = "kebab",
     def = function(object, ...) {

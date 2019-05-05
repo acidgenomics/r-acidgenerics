@@ -4,6 +4,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotGenesPerCell)
 setGeneric(
     name = "plotGenesPerCell",
     def = function(object, ...) {

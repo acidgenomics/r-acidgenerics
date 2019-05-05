@@ -11,6 +11,12 @@ encode(x, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object, with data encoded into \code{Rle} class.
+}
 \description{
 Encode using run-length encoding
+}
+\examples{
+class(encode)
 }

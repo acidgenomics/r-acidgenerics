@@ -11,6 +11,12 @@ plotCellTypesPerCluster(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Plot.
+}
 \description{
 Plot cell types per cluster
+}
+\examples{
+class(plotCellTypesPerCluster)
 }

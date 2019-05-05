@@ -17,3 +17,6 @@ alphaSummary(object, ...)
 \description{
 Quickly generate a summary table of various alpha level cutoffs.
 }
+\examples{
+class(alphaSummary)
+}

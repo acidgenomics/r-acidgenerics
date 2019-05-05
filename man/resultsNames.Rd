@@ -17,6 +17,9 @@ resultsNames(object, ...)
 \description{
 Results names
 }
+\examples{
+class(resultsNames)
+}
 \seealso{
 \itemize{
 \item \code{DESeq2::resultsNames()}.

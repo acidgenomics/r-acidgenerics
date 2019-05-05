@@ -17,3 +17,6 @@ plotUMIsPerCell(object, ...)
 \description{
 Plot the universal molecular identifiers (UMIs) per cell.
 }
+\examples{
+class(plotUMIsPerCell)
+}

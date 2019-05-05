@@ -17,3 +17,6 @@ plotFeature(object, ...)
 \description{
 Plot feature
 }
+\examples{
+class(plotFeature)
+}

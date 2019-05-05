@@ -1,7 +1,12 @@
 #' UpSet plot of directional enriched pathway intersections across contrasts
-#' @inheritParams params
+#'
 #' @export
-#' @return Graphical output.
+#' @inheritParams params
+#'
+#' @return Plot.
+#'
+#' @examples
+#' class(plotEnrichedUpset)
 setGeneric(
     name = "plotEnrichedUpset",
     def = function(object, ...) {

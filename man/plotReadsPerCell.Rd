@@ -17,3 +17,6 @@ plotReadsPerCell(object, ...)
 \description{
 Plot the distribution of read counts for all unfiltered cellular barcodes.
 }
+\examples{
+class(plotReadsPerCell)
+}

@@ -17,3 +17,6 @@ plotGenesPerCell(object, ...)
 \description{
 Plot genes per cell
 }
+\examples{
+class(plotGenesPerCell)
+}

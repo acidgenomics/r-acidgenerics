@@ -6,6 +6,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotFeaturesDetected)
 setGeneric(
     name = "plotFeaturesDetected",
     def = function(object, ...) {

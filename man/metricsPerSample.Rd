@@ -11,6 +11,12 @@ metricsPerSample(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{data.frame}.
+}
 \description{
 Quality control metrics per sample
+}
+\examples{
+class(metricsPerSample)
 }

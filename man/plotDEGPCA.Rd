@@ -11,6 +11,9 @@ plotDEGPCA(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Plot.
+}
 \description{
 This function is an extension of \code{\link[BiocGenerics:plotPCA]{plotPCA()}} that is
 optimized for automatic handling of differentially expressed genes, rather
@@ -20,4 +23,7 @@ than requiring manual input of a gene vector or subset object.
 To adjust the annotation columns, modify the
 \code{\link[SummarizedExperiment:colData]{colData()}} of the \code{counts} argument, which
 must contain/extend a \code{SummarizedExperiment}.
+}
+\examples{
+class(plotDEGPCA)
 }

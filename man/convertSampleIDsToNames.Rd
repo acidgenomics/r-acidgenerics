@@ -11,6 +11,13 @@ convertSampleIDsToNames(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object of same class, with valid sample IDs remapped to
+human-readable sample names.
+}
 \description{
 Convert sample identifiers to names
+}
+\examples{
+class(convertSampleIDsToNames)
 }

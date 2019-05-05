@@ -17,3 +17,6 @@ plotPCElbow(object, ...)
 \description{
 Calculate the principal component (PC) cutoff using a heuristic approach.
 }
+\examples{
+class(plotPCElbow)
+}

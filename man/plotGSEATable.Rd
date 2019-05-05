@@ -11,6 +11,12 @@ plotGSEATable(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Plot.
+}
 \description{
 Plot GSEA enrichment table
+}
+\examples{
+class(plotGSEATable)
 }

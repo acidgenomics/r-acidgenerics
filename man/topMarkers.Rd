@@ -17,3 +17,6 @@ topMarkers(object, ...)
 \description{
 Top markers
 }
+\examples{
+class(topMarkers)
+}

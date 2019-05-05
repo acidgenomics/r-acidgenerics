@@ -14,6 +14,9 @@
 #' @return Modified object.
 #' All percentage strings containing `"%"` (e.g. `"50%"`) are converted to
 #' numeric proportions (e.g. `0.5`).
+#'
+#' @examples
+#' class(sanitizePercent)
 setGeneric(
     name = "sanitizePercent",
     def = function(object, ...) {

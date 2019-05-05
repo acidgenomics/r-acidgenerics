@@ -11,6 +11,12 @@ diffExpPerCluster(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Varies, depending on the method.
+}
 \description{
 Differential expression per cluster
+}
+\examples{
+class(diffExpPerCluster)
 }

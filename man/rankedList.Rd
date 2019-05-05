@@ -11,6 +11,12 @@ rankedList(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{RankedList}.
+}
 \description{
 Ranked list
+}
+\examples{
+class(rankedList)
 }

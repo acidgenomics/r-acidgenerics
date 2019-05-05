@@ -17,3 +17,6 @@ plotUMAP(object, ...)
 \description{
 UMAP plot
 }
+\examples{
+class(plotUMAP)
+}

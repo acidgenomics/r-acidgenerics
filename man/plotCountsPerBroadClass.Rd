@@ -11,6 +11,12 @@ plotCountsPerBroadClass(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Plot.
+}
 \description{
 Plot counts per broad class definition
+}
+\examples{
+class(plotCountsPerBroadClass)
 }

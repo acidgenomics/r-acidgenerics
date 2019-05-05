@@ -4,6 +4,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotCountsPerBiotype)
 setGeneric(
     name = "plotCountsPerBiotype",
     def = function(object, ...) {

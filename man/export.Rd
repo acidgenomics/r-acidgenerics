@@ -11,6 +11,12 @@ export(x, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Invisibily return file paths, either as \code{list} or \code{character}.
+}
 \description{
 Export data out of R and write to disk.
+}
+\examples{
+class(export)
 }

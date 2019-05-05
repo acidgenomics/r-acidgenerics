@@ -20,8 +20,10 @@ URL:
 BugReports: https://github.com/acidgenomics/bioverbs/issues/
 License: MIT + file LICENSE
 Encoding: UTF-8
-Depends: R (>= 3.4)
+Depends: R (>= 3.5)
 Imports: methods
-biocViews: Infrastructure
+biocViews:
+    Infrastructure,
+    QualityControl
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1

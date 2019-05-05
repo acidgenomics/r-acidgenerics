@@ -11,6 +11,13 @@ collapseToString(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object, with character vectors collapsed to \code{character(1)},
+a character string.
+}
 \description{
 Collapse to string
+}
+\examples{
+class(collapseToString)
 }

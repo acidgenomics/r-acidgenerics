@@ -4,6 +4,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotZerosVsDepth)
 setGeneric(
     name = "plotZerosVsDepth",
     def = function(object, ...) {

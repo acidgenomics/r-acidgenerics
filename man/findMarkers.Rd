@@ -11,6 +11,12 @@ findMarkers(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{data.frame}.
+}
 \description{
 Find cluster-specific marker genes
+}
+\examples{
+class(findMarkers)
 }

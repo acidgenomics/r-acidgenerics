@@ -10,6 +10,9 @@
 #' @return Modified object.
 #' Contains human-friendly rownames (e.g. gene symbols instead of stable gene
 #' IDs) and colnames (e.g. sample names instead of sample IDs).
+#'
+#' @examples
+#' class(humanize)
 setGeneric(
     name = "humanize",
     def = function(object, ...) {

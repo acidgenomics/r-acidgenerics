@@ -18,6 +18,9 @@ Grouped by \code{colname} (e.g. sample ID) and \code{rowname} (e.g. gene ID).
 \description{
 Melt count matrix into long format
 }
+\examples{
+class(meltCounts)
+}
 \seealso{
 \code{reshape2::melt()}.
 }

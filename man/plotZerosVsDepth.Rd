@@ -17,3 +17,6 @@ plotZerosVsDepth(object, ...)
 \description{
 Plot percentage of zeros vs. library depth
 }
+\examples{
+class(plotZerosVsDepth)
+}
