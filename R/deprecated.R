@@ -11,6 +11,8 @@
 #' @inheritParams params
 #'
 #' @return `.Deprecated`.
+#'
+#' @seealso [Deprecated][base::Deprecated].
 NULL
 
 
@@ -23,6 +25,8 @@ NULL
 #' @inheritParams params
 #'
 #' @return `.Defunct`.
+#'
+#' @seealso [Defunct][base::Defunct].
 NULL
 
 
