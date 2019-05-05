@@ -1,6 +1,12 @@
 #' Gene set collection names
+#'
 #' @inheritParams params
 #' @export
+#'
+#' @return `character`.
+#'
+#' @examples
+#' class(collectionNames)
 setGeneric(
     name = "collectionNames",
     def = function(object, ...) {

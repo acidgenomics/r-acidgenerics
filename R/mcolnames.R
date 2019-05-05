@@ -4,6 +4,11 @@
 #' @inheritParams params
 #'
 #' @seealso `S4Vectors::mcols()`.
+#'
+#' @return `character`.
+#'
+#' @examples
+#' class(mcolnames)
 setGeneric(
     name = "mcolnames",
     def = function(x, ...) {

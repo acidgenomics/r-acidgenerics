@@ -1,3 +1,16 @@
+## bioverbs 0.1.17 (2019-05-05)
+
+### Major changes
+
+- Now pinned against R >= 3.5.
+
+### Minor changes
+
+- Miscellaneous documentation improvements, to pass `BiocCheck`.
+- Improved Travis and AppVeyor CI configuration.
+
+
+
 ## bioverbs 0.1.16 (2019-04-30)
 
 ### New functions

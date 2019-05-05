@@ -9,4 +9,7 @@
 \description{
 Deprecated functions
 }
+\seealso{
+\link[base:Deprecated]{Deprecated}.
+}
 \keyword{internal}

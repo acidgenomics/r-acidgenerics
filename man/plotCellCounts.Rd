@@ -17,3 +17,6 @@ plotCellCounts(object, ...)
 \description{
 Plot cell counts
 }
+\examples{
+class(plotCellCounts)
+}

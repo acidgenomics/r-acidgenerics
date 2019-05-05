@@ -11,6 +11,12 @@ cell2sample(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{factor}.
+}
 \description{
 Cell-to-sample mappings
+}
+\examples{
+class(cell2sample)
 }

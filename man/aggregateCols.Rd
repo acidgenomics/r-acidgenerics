@@ -11,6 +11,12 @@ aggregateCols(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object of same class, with columns aggregated.
+}
 \description{
 Aggregate columns
+}
+\examples{
+class(aggregateCols)
 }

@@ -15,6 +15,9 @@
 #' - `edgeR::cpm()`.
 #'
 #' @return `matrix`.
+#'
+#' @examples
+#' class(tmm)
 setGeneric(
     name = "tmm",
     def = function(object, ...) {

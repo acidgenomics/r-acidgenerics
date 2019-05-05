@@ -17,3 +17,6 @@ plotDot(object, ...)
 \description{
 Dot plot
 }
+\examples{
+class(plotDot)
+}

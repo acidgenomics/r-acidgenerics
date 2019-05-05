@@ -11,6 +11,12 @@ plotDEGUpset(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Plot.
+}
 \description{
 UpSet plot of directional DEG intersections across contrasts
+}
+\examples{
+class(plotDEGUpset)
 }

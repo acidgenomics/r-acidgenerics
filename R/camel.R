@@ -7,6 +7,11 @@
 #'
 #' @export
 #' @inheritParams params
+#'
+#' @return Modified object, with names converted to camel case.
+#'
+#' @examples
+#' class(camel)
 setGeneric(
     name = "camel",
     def = function(object, ...) {

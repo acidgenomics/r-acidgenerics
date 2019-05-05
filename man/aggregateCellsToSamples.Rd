@@ -22,3 +22,6 @@ function will sum the counts across cells to sample level.
 \note{
 This function is intended primarily for quality control analysis.
 }
+\examples{
+class(aggregateCellsToSamples)
+}

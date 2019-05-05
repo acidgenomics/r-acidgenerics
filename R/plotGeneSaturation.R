@@ -8,6 +8,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotGeneSaturation)
 setGeneric(
     name = "plotGeneSaturation",
     def = function(object, ...) {

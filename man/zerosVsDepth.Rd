@@ -17,3 +17,6 @@ zerosVsDepth(object, ...)
 \description{
 Calculate and visualize the dropout rate.
 }
+\examples{
+class(zerosVsDepth)
+}

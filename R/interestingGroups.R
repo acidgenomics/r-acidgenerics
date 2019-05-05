@@ -4,6 +4,9 @@
 #' @inheritParams params
 #'
 #' @return `character`.
+#'
+#' @examples
+#' class(interestingGroups)
 setGeneric(
     name = "interestingGroups",
     def = function(object, ...) {

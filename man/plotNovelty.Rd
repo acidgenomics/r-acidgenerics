@@ -17,3 +17,6 @@ plotNovelty(object, ...)
 \description{
 "Novelty" refers to log10 genes detected per count.
 }
+\examples{
+class(plotNovelty)
+}

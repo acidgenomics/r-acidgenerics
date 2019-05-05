@@ -4,6 +4,9 @@
 #' @inheritParams params
 #'
 #' @return `character`.
+#'
+#' @examples
+#' class(mapGenesToRownames)
 setGeneric(
     name = "mapGenesToRownames",
     def = function(object, ...) {

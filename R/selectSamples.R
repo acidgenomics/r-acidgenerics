@@ -34,6 +34,9 @@
 #' @seealso
 #' - `sampleData()`.
 #' - `S4Vectors::split()`.
+#'
+#' @examples
+#' class(selectSamples)
 setGeneric(
     name = "selectSamples",
     def = function(object, ...) {

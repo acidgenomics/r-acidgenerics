@@ -22,6 +22,9 @@ interactive use.
 Inspired by the \code{\link[base:print]{print()}} method for \code{DataFrame} class
 objects.
 }
+\examples{
+class(headtail)
+}
 \seealso{
 \itemize{
 \item \code{utils::head()}, \code{utils::tail()}.

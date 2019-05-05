@@ -11,6 +11,12 @@ autopadZeros(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object, with padded zeros.
+}
 \description{
 Autopad zeros
+}
+\examples{
+class(autopadZeros)
 }

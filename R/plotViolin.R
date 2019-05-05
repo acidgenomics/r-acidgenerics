@@ -4,6 +4,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotViolin)
 setGeneric(
     name = "plotViolin",
     def = function(object, ...) {

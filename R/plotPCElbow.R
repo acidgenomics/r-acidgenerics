@@ -6,6 +6,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotPCElbow)
 setGeneric(
     name = "plotPCElbow",
     def = function(object, ...) {

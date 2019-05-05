@@ -11,6 +11,12 @@ logRatioToFoldChange(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object, with log ratios converted to fold changes.
+}
 \description{
 Log ratio to fold change
+}
+\examples{
+class(logRatioToFoldChange)
 }

@@ -24,4 +24,7 @@ plotGenesDetected(object, ...)
 \description{
 Defunct functions
 }
+\seealso{
+\link[base:Defunct]{Defunct}.
+}
 \keyword{internal}

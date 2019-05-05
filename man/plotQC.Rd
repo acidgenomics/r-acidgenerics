@@ -17,3 +17,6 @@ plotQC(object, ...)
 \description{
 Quality control
 }
+\examples{
+class(plotQC)
+}

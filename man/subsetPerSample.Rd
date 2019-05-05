@@ -11,6 +11,12 @@ subsetPerSample(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{list}.
+}
 \description{
 Subset per sample
+}
+\examples{
+class(subsetPerSample)
 }

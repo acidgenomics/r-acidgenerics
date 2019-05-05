@@ -17,3 +17,6 @@ plotTSNE(object, ...)
 \description{
 t-SNE plot
 }
+\examples{
+class(plotTSNE)
+}

@@ -6,6 +6,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotVolcano)
 setGeneric(
     name = "plotVolcano",
     def = function(object, ...) {

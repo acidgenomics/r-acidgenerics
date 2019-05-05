@@ -11,6 +11,12 @@ plotCellCountsPerCluster(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Plot.
+}
 \description{
 Plot cell counts per cluster
+}
+\examples{
+class(plotCellCountsPerCluster)
 }

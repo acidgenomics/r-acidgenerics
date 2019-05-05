@@ -17,3 +17,6 @@ mapGenesToIDs(object, ...)
 \description{
 Map genes (gene names) to gene identifiers
 }
+\examples{
+class(mapGenesToIDs)
+}

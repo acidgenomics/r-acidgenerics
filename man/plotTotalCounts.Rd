@@ -17,3 +17,6 @@ plotTotalCounts(object, ...)
 \description{
 Plot total read counts
 }
+\examples{
+class(plotTotalCounts)
+}

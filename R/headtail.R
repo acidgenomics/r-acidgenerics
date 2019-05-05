@@ -15,6 +15,9 @@
 #' - `utils::head()`, `utils::tail()`.
 #' - `cat()`.
 #' - `getMethod("show", "DataTable")`.
+#'
+#' @examples
+#' class(headtail)
 setGeneric(
     name = "headtail",
     def = function(x, ...) {

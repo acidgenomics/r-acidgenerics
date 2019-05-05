@@ -6,6 +6,9 @@
 #' @inheritParams params
 #'
 #' @return `matrix`.
+#'
+#' @examples
+#' class(zerosVsDepth)
 setGeneric(
     name = "zerosVsDepth",
     def = function(object, ...) {

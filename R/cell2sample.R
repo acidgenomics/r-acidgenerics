@@ -1,6 +1,12 @@
 #' Cell-to-sample mappings
+#'
 #' @export
 #' @inheritParams params
+#'
+#' @return `factor`.
+#'
+#' @examples
+#' class(cell2sample)
 setGeneric(
     name = "cell2sample",
     def = function(object, ...) {

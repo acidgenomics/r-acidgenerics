@@ -9,6 +9,9 @@
 #'
 #' @return Modified object.
 #' All columns will be coerced to `factor`.
+#'
+#' @examples
+#' class(factorize)
 setGeneric(
     name = "factorize",
     def = function(object, ...) {

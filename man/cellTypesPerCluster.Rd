@@ -11,6 +11,12 @@ cellTypesPerCluster(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{data.frame}.
+}
 \description{
 Cell types per cluster
+}
+\examples{
+class(cellTypesPerCluster)
 }

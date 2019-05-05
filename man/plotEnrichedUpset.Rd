@@ -12,8 +12,11 @@ plotEnrichedUpset(object, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-Graphical output.
+Plot.
 }
 \description{
 UpSet plot of directional enriched pathway intersections across contrasts
+}
+\examples{
+class(plotEnrichedUpset)
 }

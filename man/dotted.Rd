@@ -11,6 +11,12 @@ dotted(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object, with names formatted in dotted case.
+}
 \description{
 Dotted case
+}
+\examples{
+class(dotted)
 }

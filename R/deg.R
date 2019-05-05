@@ -5,6 +5,9 @@
 #'
 #' @return `character`.
 #' Gene identifiers.
+#'
+#' @examples
+#' class(deg)
 setGeneric(
     name = "deg",
     def = function(object, ...) {
