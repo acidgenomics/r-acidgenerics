@@ -17,3 +17,6 @@ Sanitized object.
 \description{
 Remove rows and columns containing only NA values
 }
+\examples{
+class(removeNA)
+}
