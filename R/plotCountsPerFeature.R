@@ -7,6 +7,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotCountsPerFeature)
 setGeneric(
     name = "plotCountsPerFeature",
     def = function(object, ...) {

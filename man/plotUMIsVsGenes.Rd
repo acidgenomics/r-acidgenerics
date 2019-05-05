@@ -17,3 +17,6 @@ plotUMIsVsGenes(object, ...)
 \description{
 Plot UMI and gene correlation
 }
+\examples{
+class(plotUMIsVsGenes)
+}

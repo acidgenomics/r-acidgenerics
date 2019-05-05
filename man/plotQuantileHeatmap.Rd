@@ -11,6 +11,12 @@ plotQuantileHeatmap(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Plot.
+}
 \description{
 Quantile heatmap
+}
+\examples{
+class(plotQuantileHeatmap)
 }

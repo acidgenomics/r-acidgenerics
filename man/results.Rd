@@ -11,6 +11,12 @@ results(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Varies, depending on the method.
+}
 \description{
 Results
+}
+\examples{
+class(results)
 }

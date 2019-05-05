@@ -22,3 +22,6 @@ interestingGroups(object, ...) <- value
 \description{
 Interesting groups
 }
+\examples{
+class(interestingGroups)
+}

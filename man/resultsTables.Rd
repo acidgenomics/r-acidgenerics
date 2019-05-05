@@ -11,6 +11,12 @@ resultsTables(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{list}.
+}
 \description{
 Results tables
+}
+\examples{
+class(resultsTables)
 }

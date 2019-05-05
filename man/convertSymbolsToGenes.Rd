@@ -11,6 +11,13 @@ convertSymbolsToGenes(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object of same class, with human-readable gene symbols
+remapped back to stable gene identifiers.
+}
 \description{
 Convert symbols to genes
+}
+\examples{
+class(convertSymbolsToGenes)
 }

@@ -17,3 +17,6 @@ Markdown output.
 \description{
 Markdown
 }
+\examples{
+class(markdown)
+}

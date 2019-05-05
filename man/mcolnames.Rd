@@ -16,8 +16,14 @@ mcolnames(x, ...) <- value
 
 \item{value}{Value.}
 }
+\value{
+\code{character}.
+}
 \description{
 Metadata column names
+}
+\examples{
+class(mcolnames)
 }
 \seealso{
 \code{S4Vectors::mcols()}.

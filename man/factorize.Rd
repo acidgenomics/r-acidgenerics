@@ -18,6 +18,9 @@ All columns will be coerced to \code{factor}.
 \description{
 Coerce all columns in the object to \code{factor} (i.e. \code{stringsAsFactors}).
 }
+\examples{
+class(factorize)
+}
 \seealso{
 \code{\link[=encode]{encode()}} for run-length encoding (Rle) approach.
 }

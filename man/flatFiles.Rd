@@ -11,6 +11,12 @@ flatFiles(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{list}.
+}
 \description{
 Coerce any S4 object to a list
+}
+\examples{
+class(flatFiles)
 }

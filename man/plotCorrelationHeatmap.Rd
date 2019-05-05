@@ -11,6 +11,12 @@ plotCorrelationHeatmap(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Plot.
+}
 \description{
 Correlation heatmap
+}
+\examples{
+class(plotCorrelationHeatmap)
 }

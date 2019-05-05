@@ -17,3 +17,6 @@ plotMappedReads(object, ...)
 \description{
 The number of mapped reads should correspond to the number of total reads.
 }
+\examples{
+class(plotMappedReads)
+}

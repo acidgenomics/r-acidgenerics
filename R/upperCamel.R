@@ -10,6 +10,11 @@
 #'
 #' @export
 #' @inheritParams params
+#'
+#' @return Modified object, with names formatted in upper camel case.
+#'
+#' @examples
+#' class(upperCamel)
 setGeneric(
     name = "upperCamel",
     def = function(object, ...) {

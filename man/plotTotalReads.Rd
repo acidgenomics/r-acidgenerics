@@ -18,3 +18,6 @@ plotTotalReads(object, ...)
 High quality RNA-seq samples ideally should have at least 10 million reads
 per sample.
 }
+\examples{
+class(plotTotalReads)
+}

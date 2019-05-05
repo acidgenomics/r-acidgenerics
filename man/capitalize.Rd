@@ -11,6 +11,12 @@ capitalize(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object, with names capitalized.
+}
 \description{
 Capitalize
+}
+\examples{
+class(capitalize)
 }

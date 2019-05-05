@@ -9,6 +9,9 @@
 #' @return `ggplot`.
 #'
 #' @seealso `plotCounts()`.
+#'
+#' @examples
+#' class(plotGenderMarkers)
 setGeneric(
     name = "plotGenderMarkers",
     def = function(object, ...) {

@@ -17,3 +17,6 @@ mapGenesToSymbols(object, ...)
 \description{
 Map genes (gene identifiers) to gene names (symbols)
 }
+\examples{
+class(mapGenesToSymbols)
+}

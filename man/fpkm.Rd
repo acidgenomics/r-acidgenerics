@@ -12,7 +12,7 @@ fpkm(object, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-\code{matrix}.
+\code{matrix}
 }
 \description{
 Return fragment counts normalized per kilobase of feature length per million
@@ -21,8 +21,9 @@ mapped fragments.
 \note{
 Only recommended for gene-level counts.
 }
-\seealso{
-\itemize{
-\item \code{DESeq2::fpkm()}.
+\examples{
+class(fpkm)
 }
+\seealso{
+\code{DESeq2::fpkm()}.
 }

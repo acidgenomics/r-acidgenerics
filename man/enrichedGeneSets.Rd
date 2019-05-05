@@ -11,6 +11,13 @@ enrichedGeneSets(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{list}.
+List of \code{character} gene sets.
+}
 \description{
 Enriched gene sets
+}
+\examples{
+class(enrichedGeneSets)
 }

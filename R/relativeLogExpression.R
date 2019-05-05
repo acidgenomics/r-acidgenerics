@@ -8,6 +8,9 @@
 #' @seealso `edgeR::calcNormFactors()`.
 #'
 #' @return `matrix`.
+#'
+#' @examples
+#' class(relativeLogExpression)
 setGeneric(
     name = "relativeLogExpression",
     def = function(object, ...) {

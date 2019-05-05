@@ -6,6 +6,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotIntronicMappingRate)
 setGeneric(
     name = "plotIntronicMappingRate",
     def = function(object, ...) {

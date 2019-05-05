@@ -9,6 +9,9 @@
 #'
 #' @return Modified object.
 #' Sanitized to contain proper `NA` values.
+#'
+#' @examples
+#' class(sanitizeNA)
 setGeneric(
     name = "sanitizeNA",
     def = function(object, ...) {

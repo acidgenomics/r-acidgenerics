@@ -17,3 +17,6 @@ plotCountsPerBiotype(object, ...)
 \description{
 Plot counts per biotype
 }
+\examples{
+class(plotCountsPerBiotype)
+}

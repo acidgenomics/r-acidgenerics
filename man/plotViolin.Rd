@@ -17,3 +17,6 @@ plotViolin(object, ...)
 \description{
 Violin plot
 }
+\examples{
+class(plotViolin)
+}

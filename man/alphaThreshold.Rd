@@ -16,6 +16,13 @@ alphaThreshold(object, ...) <- value
 
 \item{value}{Value.}
 }
+\value{
+\code{numeric(1)}.
+Alpha cutoff level.
+}
 \description{
 Alpha threshold
+}
+\examples{
+class(alphaThreshold)
 }

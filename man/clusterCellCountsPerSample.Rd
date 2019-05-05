@@ -18,3 +18,6 @@ Grouped by \code{sampleName} column, arranged by abundance.
 \description{
 Cluster cell counts per sample
 }
+\examples{
+class(clusterCellCountsPerSample)
+}

@@ -17,3 +17,6 @@ mapGenesToRownames(object, ...)
 \description{
 Map genes to row names
 }
+\examples{
+class(mapGenesToRownames)
+}

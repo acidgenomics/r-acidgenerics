@@ -4,6 +4,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotPCACovariates)
 setGeneric(
     name = "plotPCACovariates",
     def = function(object, ...) {

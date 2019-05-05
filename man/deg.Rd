@@ -18,3 +18,6 @@ Gene identifiers.
 \description{
 Differentially expressed genes
 }
+\examples{
+class(deg)
+}

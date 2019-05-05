@@ -11,6 +11,16 @@ pseudobulk(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object, with cells aggregated to samples, like a bulk
+RNA-seq dataset.
+}
 \description{
 Pseudobulk
+}
+\note{
+Applies to single-cell RNA-seq objects, usually \code{SingleCellExperiment}.
+}
+\examples{
+class(pseudobulk)
 }

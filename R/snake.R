@@ -7,6 +7,11 @@
 #'
 #' @export
 #' @inheritParams params
+#'
+#' @return Modified object, with names formatted in snake case.
+#'
+#' @examples
+#' class(snake)
 setGeneric(
     name = "snake",
     def = function(object, ...) {

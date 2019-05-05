@@ -4,6 +4,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotQC)
 setGeneric(
     name = "plotQC",
     def = function(object, ...) {

@@ -3,8 +3,15 @@
 
 
 #' Alpha threshold
+#'
 #' @export
 #' @inheritParams params
+#'
+#' @return `numeric(1)`.
+#' Alpha cutoff level.
+#'
+#' @examples
+#' class(alphaThreshold)
 setGeneric(
     name = "alphaThreshold",
     def = function(object, ...) {
