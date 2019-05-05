@@ -9,6 +9,9 @@
 #'
 #' @return Modified object.
 #' Now contains an `interestingGroups` column.
+#'
+#' @examples
+#' class(uniteInterestingGroups)
 setGeneric(
     name = "uniteInterestingGroups",
     def = function(object, ...) {

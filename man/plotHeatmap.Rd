@@ -11,6 +11,12 @@ plotHeatmap(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Plot.
+}
 \description{
 Heatmap
+}
+\examples{
+class(plotHeatmap)
 }

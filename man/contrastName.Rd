@@ -18,3 +18,6 @@ Contrast name.
 \description{
 Contrast name
 }
+\examples{
+class(contrastName)
+}

@@ -17,3 +17,6 @@ Show graphical output. Invisibly return a \code{ggplot} \code{list}.
 \description{
 Plot top markers
 }
+\examples{
+class(plotTopMarkers)
+}

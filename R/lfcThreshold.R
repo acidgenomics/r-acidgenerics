@@ -1,6 +1,12 @@
 #' Log2 fold change threshold
+#'
 #' @export
 #' @inheritParams params
+#'
+#' @return `numeric(1)`.
+#'
+#' @examples
+#' class(lfcThreshold)
 setGeneric(
     name = "lfcThreshold",
     def = function(object, ...) {

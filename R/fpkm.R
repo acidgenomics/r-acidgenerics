@@ -8,10 +8,12 @@
 #' @export
 #' @inheritParams params
 #'
-#' @seealso
-#' - `DESeq2::fpkm()`.
+#' @seealso `DESeq2::fpkm()`.
 #'
-#' @return `matrix`.
+#' @return `matrix`
+#'
+#' @examples
+#' class(fpkm)
 setGeneric(
     name = "fpkm",
     def = function(object, ...) {

@@ -7,6 +7,9 @@
 #' @inheritParams params
 #'
 #' @return `character`.
+#'
+#' @examples
+#' class(geneNames)
 setGeneric(
     name = "geneNames",
     def = function(object, ...) {

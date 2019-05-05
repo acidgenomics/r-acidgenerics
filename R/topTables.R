@@ -7,6 +7,9 @@
 #'
 #' @return `kable`.
 #' Markdown tables.
+#'
+#' @examples
+#' class(topTables)
 setGeneric(
     name = "topTables",
     def = function(object, ...) {

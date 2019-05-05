@@ -17,3 +17,6 @@ plotMitoRatio(object, ...)
 \description{
 Plot mitochondrial transcript abundance
 }
+\examples{
+class(plotMitoRatio)
+}

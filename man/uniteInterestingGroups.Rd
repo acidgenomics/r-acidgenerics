@@ -20,3 +20,6 @@ Create a single interesting groups column (\code{interestingGroups}) used for
 coloring in plots. When multiple interesting groups are present, unite into a
 single column, delimited by a colon.
 }
+\examples{
+class(uniteInterestingGroups)
+}

@@ -5,7 +5,11 @@
 #' @export
 #' @inheritParams params
 #'
-#' @return Show graphical output. Invisibly return a `ggplot` `list`.
+#' @return Show graphical output.
+#' Invisibly return a `ggplot` `list`.
+#'
+#' @examples
+#' class(plotMarker)
 setGeneric(
     name = "plotMarker",
     def = function(object, ...) {

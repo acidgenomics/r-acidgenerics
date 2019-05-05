@@ -17,3 +17,6 @@ plotBarcodeRanks(object, ...)
 \description{
 Plot barcode ranks
 }
+\examples{
+class(plotBarcodeRanks)
+}

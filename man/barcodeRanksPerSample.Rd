@@ -17,3 +17,6 @@ barcodeRanksPerSample(object, ...)
 \description{
 Barcode ranks per sample
 }
+\examples{
+class(barcodeRanksPerSample)
+}

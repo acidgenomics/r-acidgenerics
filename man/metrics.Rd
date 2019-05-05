@@ -11,6 +11,12 @@ metrics(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{data.frame}
+}
 \description{
 Quality control metrics
+}
+\examples{
+class(metrics)
 }

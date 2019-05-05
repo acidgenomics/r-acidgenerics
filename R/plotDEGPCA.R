@@ -10,6 +10,11 @@
 #'
 #' @export
 #' @inheritParams params
+#'
+#' @return Plot.
+#'
+#' @examples
+#' class(plotDEGPCA)
 setGeneric(
     name = "plotDEGPCA",
     def = function(object, ...) {

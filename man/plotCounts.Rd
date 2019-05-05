@@ -17,8 +17,9 @@ plotCounts(object, ...)
 \description{
 Plot counts
 }
-\seealso{
-\itemize{
-\item \code{DESeq2::plotCounts()}.
+\examples{
+class(plotCounts)
 }
+\seealso{
+\code{DESeq2::plotCounts()}.
 }

@@ -17,3 +17,6 @@ clusterID(object, ...)
 \description{
 Cluster identifier
 }
+\examples{
+class(clusterID)
+}

@@ -11,6 +11,12 @@ diffExp(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Varies, depending on the method.
+}
 \description{
 Differential expression
+}
+\examples{
+class(diffExp)
 }

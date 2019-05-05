@@ -17,3 +17,6 @@ plotReducedDim(object, ...)
 \description{
 Plot reduced dimensions
 }
+\examples{
+class(plotReducedDim)
+}

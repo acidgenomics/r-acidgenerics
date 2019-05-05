@@ -27,3 +27,6 @@ This function is designed primarily to sanitize data imported from Microsoft
 Excel.
 }
 
+\examples{
+class(sanitizePercent)
+}

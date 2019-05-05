@@ -17,3 +17,6 @@ plotMitoVsCoding(object, ...)
 \description{
 Plot mitochondrial vs. coding counts
 }
+\examples{
+class(plotMitoVsCoding)
+}

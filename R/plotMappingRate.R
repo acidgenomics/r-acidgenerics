@@ -8,6 +8,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotMappingRate)
 setGeneric(
     name = "plotMappingRate",
     def = function(object, ...) {

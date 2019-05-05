@@ -11,6 +11,11 @@
 #'
 #' @export
 #' @inheritParams params
+#'
+#' @return Plot.
+#'
+#' @examples
+#' class(plotDEGHeatmap)
 setGeneric(
     name = "plotDEGHeatmap",
     def = function(object, ...) {

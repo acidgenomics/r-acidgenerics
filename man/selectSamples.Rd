@@ -45,6 +45,9 @@ objects but it's not intuitive. In this case, provide cellular barcode
 identifiers for columns and gene identifiers for rows.
 }
 
+\examples{
+class(selectSamples)
+}
 \seealso{
 \itemize{
 \item \code{sampleData()}.

@@ -11,6 +11,12 @@ convertTranscriptsToGenes(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object of same class, with transcripts remapped to genes.
+}
 \description{
 Convert transcripts to genes
+}
+\examples{
+class(convertTranscriptsToGenes)
 }

@@ -16,6 +16,12 @@ collectionNames(object, ...) <- value
 
 \item{value}{Value.}
 }
+\value{
+\code{character}.
+}
 \description{
 Gene set collection names
+}
+\examples{
+class(collectionNames)
 }

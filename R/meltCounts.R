@@ -7,6 +7,9 @@
 #'
 #' @return `grouped_df`.
 #' Grouped by `colname` (e.g. sample ID) and `rowname` (e.g. gene ID).
+#'
+#' @examples
+#' class(meltCounts)
 setGeneric(
     name = "meltCounts",
     def = function(object, ...) {

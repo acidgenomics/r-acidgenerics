@@ -17,3 +17,6 @@ filterCells(object, ...)
 \description{
 Filter cells
 }
+\examples{
+class(filterCells)
+}

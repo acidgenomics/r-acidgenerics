@@ -18,3 +18,6 @@ Contains transcript identifiers without version numbers.
 \description{
 Strip transcript versions
 }
+\examples{
+class(stripTranscriptVersions)
+}

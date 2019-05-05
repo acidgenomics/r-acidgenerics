@@ -6,6 +6,11 @@
 #'
 #' @export
 #' @inheritParams params
+#'
+#' @return `numeric`.
+#'
+#' @examples
+#' class(geometricMean)
 setGeneric(
     name = "geometricMean",
     def = function(object, ...) {

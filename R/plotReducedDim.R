@@ -4,6 +4,9 @@
 #' @inheritParams params
 #'
 #' @return `ggplot`.
+#'
+#' @examples
+#' class(plotReducedDim)
 setGeneric(
     name = "plotReducedDim",
     def = function(object, ...) {

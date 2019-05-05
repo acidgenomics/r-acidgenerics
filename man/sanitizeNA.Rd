@@ -20,3 +20,6 @@ Standardize empty strings (\code{""}), character NAs (\code{"NA"}), and \code{NU
 inside a character vector to \code{NA_character_}. Other \code{atomic} data types are
 returned unmodified.
 }
+\examples{
+class(sanitizeNA)
+}

@@ -16,6 +16,12 @@ lfcThreshold(object, ...) <- value
 
 \item{value}{Value.}
 }
+\value{
+\code{numeric(1)}.
+}
 \description{
 Log2 fold change threshold
+}
+\examples{
+class(lfcThreshold)
 }

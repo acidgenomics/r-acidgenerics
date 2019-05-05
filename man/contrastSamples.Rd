@@ -18,3 +18,6 @@ Sample identifiers.
 \description{
 Samples corresponding to a differential expression contrast
 }
+\examples{
+class(contrastSamples)
+}

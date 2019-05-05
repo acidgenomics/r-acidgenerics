@@ -11,6 +11,12 @@ cellCountsPerCluster(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{data.frame}.
+}
 \description{
 Cell counts per cluster
+}
+\examples{
+class(cellCountsPerCluster)
 }

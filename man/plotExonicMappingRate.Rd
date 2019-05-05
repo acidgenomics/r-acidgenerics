@@ -17,3 +17,6 @@ plotExonicMappingRate(object, ...)
 \description{
 Plot exonic mapping rate
 }
+\examples{
+class(plotExonicMappingRate)
+}

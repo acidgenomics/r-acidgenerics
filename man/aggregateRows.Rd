@@ -11,6 +11,12 @@ aggregateRows(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object of same class, with rows aggregated.
+}
 \description{
 Aggregate rows
+}
+\examples{
+class(aggregateRows)
 }

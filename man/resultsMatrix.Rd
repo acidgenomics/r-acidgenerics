@@ -17,3 +17,6 @@ resultsMatrix(object, ...)
 \description{
 Results matrix
 }
+\examples{
+class(resultsMatrix)
+}

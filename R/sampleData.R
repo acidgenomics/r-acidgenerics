@@ -12,6 +12,9 @@
 #' @inheritParams params
 #'
 #' @return `DataFrame`.
+#'
+#' @examples
+#' class(sampleData)
 setGeneric(
     name = "sampleData",
     def = function(object, ...) {

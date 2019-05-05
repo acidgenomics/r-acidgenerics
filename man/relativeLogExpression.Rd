@@ -17,6 +17,9 @@ relativeLogExpression(object, ...)
 \description{
 Relative log expression
 }
+\examples{
+class(relativeLogExpression)
+}
 \references{
 Anders and Huber (2010).
 }

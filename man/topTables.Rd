@@ -18,3 +18,6 @@ Markdown tables.
 \description{
 Top tables of differentially expressed genes.
 }
+\examples{
+class(topTables)
+}

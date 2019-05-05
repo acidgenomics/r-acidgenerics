@@ -23,3 +23,6 @@ Humanize an R object
 This can make dimnames invalid (see \code{\link[base:make.names]{make.names()}}) and
 should only be called prior to writing files to disk.
 }
+\examples{
+class(humanize)
+}

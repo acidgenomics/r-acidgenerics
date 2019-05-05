@@ -16,6 +16,12 @@ contrastNames(object, ...) <- value
 
 \item{value}{Value.}
 }
+\value{
+\code{character}.
+}
 \description{
 Contrast names
+}
+\examples{
+class(contrastNames)
 }
