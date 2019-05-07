@@ -14,10 +14,10 @@ jobs:
   include:
     - stage: test
       name: "docker"
-      script: ./travis-docker.sh
+      script: ./docker.sh
 
 after_failure:
-  - ./travis-failure.sh
+  - ./docker-failure.sh
 
 notifications:
   email:
