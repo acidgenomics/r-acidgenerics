@@ -13,8 +13,17 @@ before_script:
 jobs:
   include:
     - stage: test
-      name: "docker"
-      script: ./docker.sh
+      name: "Docker: Bioconductor 3.9"
+      script: tag="bioc-3.9" ./docker.sh
+    - stage: test
+      name: "Docker: Bioconductor 3.8"
+      script: tag="bioc-3.8" ./docker.sh
+    - stage: test
+      name: "Docker: Bioconductor 3.7"
+      script: tag="bioc-3.7" ./docker.sh
+
+matrix:
+  fast_finish: true
 
 after_failure:
   - ./docker-failure.sh
