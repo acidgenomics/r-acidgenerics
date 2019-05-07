@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 Sys.setenv(TZ = "America/New_York")
 options(
     deparse.max.lines = 3L,
@@ -29,8 +31,15 @@ rcmdcheck::rcmdcheck(
 )
 
 if (packageVersion("base") >= "3.6") {
+    # Run `BiocCheck::usage()` to get supported flags.
     BiocCheck::BiocCheck(
         package = ".",
+        `new-package` = TRUE,
+        `no-check-R-ver` = TRUE,
+        `no-check-bioc-help` = TRUE,
+        `no-check-remotes` = TRUE,
+        `no-check-version-num` = TRUE,
+        `no-check-vignettes` = TRUE,
         `quit-with-status` = TRUE
     )
     lintr::lint_package()

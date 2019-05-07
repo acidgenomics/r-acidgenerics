@@ -4,10 +4,10 @@
 \alias{export}
 \title{Export}
 \usage{
-export(x, ...)
+export(object, ...)
 }
 \arguments{
-\item{x}{Object.}
+\item{object}{Object.}
 
 \item{...}{Additional arguments.}
 }

@@ -11,7 +11,7 @@
 #' class(export)
 setGeneric(
     name = "export",
-    def = function(x, ...) {
+    def = function(object, ...) {
         standardGeneric("export")
     }
 )
