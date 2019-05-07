@@ -1,3 +1,13 @@
+## bioverbs 0.1.18 (2019-05-06)
+
+### Major changes
+
+- `export` generic now uses `object` instead of `x`, following the style defined
+  in rtracklayer, rather than rio. This change will primarily affect the brio
+  package, but also currently has method support in DESeqAnalysis and pfgsea.
+
+
+
 ## bioverbs 0.1.17 (2019-05-05)
 
 ### Major changes
