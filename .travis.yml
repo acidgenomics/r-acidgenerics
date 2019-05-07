@@ -13,11 +13,11 @@ before_script:
 jobs:
   include:
     - stage: test
-      name: "Docker"
-      script: ./travis-docker.sh
+      name: "docker"
+      script: ./docker.sh
 
 after_failure:
-  - ./travis-failure.sh
+  - ./docker-failure.sh
 
 notifications:
   email:
