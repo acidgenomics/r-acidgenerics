@@ -43,26 +43,5 @@ setGeneric(
 
 
 
-# v0.1.12 ======================================================================
-#' @rdname defunct
-#' @export
-setGeneric(
-    name = "plotCountsPerGene",
-    def = function(object, ...) {
-        .Defunct("plotCountsPerFeature")
-    }
-)
-
-#' @rdname defunct
-#' @export
-setGeneric(
-    name = "plotGenesDetected",
-    def = function(object, ...) {
-        .Defunct("plotFeaturesDetected")
-    }
-)
-
-
-
 # nolint end
 # nocov end
