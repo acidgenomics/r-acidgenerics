@@ -3,15 +3,9 @@
 \name{defunct}
 \alias{defunct}
 \alias{plotGene}
-\alias{plotCountsPerGene}
-\alias{plotGenesDetected}
 \title{Defunct functions}
 \usage{
 plotGene(object, ...)
-
-plotCountsPerGene(object, ...)
-
-plotGenesDetected(object, ...)
 }
 \arguments{
 \item{object}{Object.}
