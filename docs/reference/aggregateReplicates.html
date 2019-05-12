@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Snake case — snake • bioverbs</title>
+<title>Aggregate technical replicates — aggregateReplicates • bioverbs</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -33,10 +33,9 @@
 
   <link href="../extra.css" rel="stylesheet">
   
-<meta property="og:title" content="Snake case — snake" />
+<meta property="og:title" content="Aggregate technical replicates — aggregateReplicates" />
 
-<meta property="og:description" content="Format character strings to use snake-style formatting, where word boundaries
-are defined by underscores (e.g. this_is_snake_case)." />
+<meta property="og:description" content="Aggregate technical replicates" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -106,19 +105,18 @@ are defined by underscores (e.g. this_is_snake_case)." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Snake case</h1>
-    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/snake.R'><code>R/snake.R</code></a></small>
-    <div class="hidden name"><code>snake.Rd</code></div>
+    <h1>Aggregate technical replicates</h1>
+    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/aggregateReplicates.R'><code>R/aggregateReplicates.R</code></a></small>
+    <div class="hidden name"><code>aggregateReplicates.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>Format character strings to use snake-style formatting, where word boundaries
-are defined by underscores (e.g. <code>this_is_snake_case</code>).</p>
+    <p>Aggregate technical replicates</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>snake</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>aggregateReplicates</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -135,15 +133,11 @@ are defined by underscores (e.g. <code>this_is_snake_case</code>).</p>
     
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>Modified object, with names formatted in snake case.</p>
-    
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
-
-    <p>Snake case is recommended by the tidyverse for variable and function names.</p>
+    <p>Modified object of same class, with columns aggregated.</p>
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>snake</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>aggregateReplicates</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
 #&gt; attr(,"package")
 #&gt; [1] "methods"</div></pre>
   </div>
@@ -153,8 +147,6 @@ are defined by underscores (e.g. <code>this_is_snake_case</code>).</p>
       <li><a href="#arguments">Arguments</a></li>
       
       <li><a href="#value">Value</a></li>
-
-      <li><a href="#details">Details</a></li>
       
       <li><a href="#examples">Examples</a></li>
     </ul>
