@@ -4,6 +4,7 @@
 
 - `aggregateReplicates`: Generic intended for technical replicate
   (e.g. `L001-L004`) sample aggregation. Currently used in bcbioRNASeq.
+- `plotCountDensity`: Generic currently used by bcbioRNASeq v0.2 release series.
 
 
 
