@@ -1,3 +1,12 @@
+## bioverbs 0.1.19 (2019-05-12)
+
+### New functions
+
+- `aggregateReplicates`: Generic intended for technical replicate
+  (e.g. `L001-L004`) sample aggregation. Currently used in bcbioRNASeq.
+
+
+
 ## bioverbs 0.1.18 (2019-05-06)
 
 ### Major changes
