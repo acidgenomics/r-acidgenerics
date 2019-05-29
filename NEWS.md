@@ -1,4 +1,4 @@
-## bioverbs 0.1.19 (2019-05-12)
+## bioverbs 0.1.19 (2019-05-29)
 
 ### New functions
 
