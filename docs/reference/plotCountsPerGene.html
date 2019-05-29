@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Plot novelty score — plotNovelty • bioverbs</title>
+<title>Plot counts per gene — plotCountsPerGene • bioverbs</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -34,9 +34,10 @@
 
   <link href="../extra.css" rel="stylesheet">
   
-<meta property="og:title" content="Plot novelty score — plotNovelty" />
+<meta property="og:title" content="Plot counts per gene — plotCountsPerGene" />
 
-<meta property="og:description" content="&quot;Novelty&quot; refers to log10 genes detected per count." />
+<meta property="og:description" content="Generally, we expect similar count spreads for all genes between samples
+unless the library sizes or total RNA expression are different." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -106,18 +107,19 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Plot novelty score</h1>
-    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/plotNovelty.R'><code>R/plotNovelty.R</code></a></small>
-    <div class="hidden name"><code>plotNovelty.Rd</code></div>
+    <h1>Plot counts per gene</h1>
+    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/plotCountsPerGene.R'><code>R/plotCountsPerGene.R</code></a></small>
+    <div class="hidden name"><code>plotCountsPerGene.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>"Novelty" refers to log10 genes detected per count.</p>
+    <p>Generally, we expect similar count spreads for all genes between samples
+unless the library sizes or total RNA expression are different.</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>plotNovelty</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>plotCountsPerGene</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -138,7 +140,7 @@
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>plotNovelty</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>plotCountsPerGene</span>)</div><div class='output co'>#&gt; [1] "standardGeneric"
 #&gt; attr(,"package")
 #&gt; [1] "methods"</div></pre>
   </div>
