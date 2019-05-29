@@ -1,3 +1,18 @@
+## bioverbs 0.1.19 (2019-05-29)
+
+### New functions
+
+- `aggregateReplicates`: Generic intended for technical replicate
+  (e.g. `L001-L004`) sample aggregation. Currently used in bcbioRNASeq.
+- `plotCountDensity`: Generic currently used by bcbioRNASeq v0.2 release series.
+
+### Minor changes
+
+- Keeping `plotCountsPerGene` and `plotGenesDetected` generics exported, to
+  provide backward compatibility support for bcbioRNASeq v0.2 release series.
+
+
+
 ## bioverbs 0.1.18 (2019-05-06)
 
 ### Major changes
