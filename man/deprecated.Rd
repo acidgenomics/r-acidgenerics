@@ -9,6 +9,23 @@
 \description{
 Deprecated functions
 }
+\examples{
+a <- function(...) {
+    .Deprecated("b")
+    b(...)
+}
+
+b <- function(x) {
+    x + 1L
+}
+
+tryCatch(
+    expr = a(1L),
+    warning = function(w) {
+        message(w)
+    }
+)
+}
 \seealso{
 \link[base:Deprecated]{Deprecated}.
 }

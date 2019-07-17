@@ -18,6 +18,18 @@ plotGene(object, ...)
 \description{
 Defunct functions
 }
+\examples{
+a <- function(...) {
+    .Defunct("b")
+}
+
+tryCatch(
+    expr = a(1L),
+    error = function(e) {
+        message(e)
+    }
+)
+}
 \seealso{
 \link[base:Defunct]{Defunct}.
 }
