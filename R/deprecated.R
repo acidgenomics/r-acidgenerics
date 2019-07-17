@@ -13,6 +13,23 @@
 #' @return `.Deprecated`.
 #'
 #' @seealso [Deprecated][base::Deprecated].
+#'
+#' @examples
+#' a <- function(...) {
+#'     .Deprecated("b")
+#'     b(...)
+#' }
+#'
+#' b <- function(x) {
+#'     x + 1L
+#' }
+#'
+#' tryCatch(
+#'     expr = a(1L),
+#'     warning = function(w) {
+#'         message(w)
+#'     }
+#' )
 NULL
 
 
@@ -27,6 +44,18 @@ NULL
 #' @return `.Defunct`.
 #'
 #' @seealso [Defunct][base::Defunct].
+#'
+#' @examples
+#' a <- function(...) {
+#'     .Defunct("b")
+#' }
+#'
+#' tryCatch(
+#'     expr = a(1L),
+#'     error = function(e) {
+#'         message(e)
+#'     }
+#' )
 NULL
 
 
