@@ -12,8 +12,6 @@
 #'
 #' @return `.Deprecated`.
 #'
-#' @seealso [Deprecated][base::Deprecated].
-#'
 #' @examples
 #' a <- function(...) {
 #'     .Deprecated("b")
@@ -43,8 +41,6 @@ NULL
 #' @inheritParams params
 #'
 #' @return `.Defunct`.
-#'
-#' @seealso [Defunct][base::Defunct].
 #'
 #' @examples
 #' a <- function(...) {

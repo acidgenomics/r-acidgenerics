@@ -27,7 +27,4 @@ withCallingHandlers(
     }
 )
 }
-\seealso{
-\link[base:Deprecated]{Deprecated}.
-}
 \keyword{internal}
