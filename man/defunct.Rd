@@ -23,10 +23,17 @@ a <- function(...) {
     .Defunct("b")
 }
 
-tryCatch(
-    expr = a(1L),
-    error = function(e) {
-        message(e)
+withCallingHandlers(
+    expr = tryCatch(
+        expr = a(1L),
+        error = function(e) {
+            print(e)
+            invisible()
+        }
+    ),
+    warning = function(w) {
+        print(w)
+        invokeRestart("muffleWarning")
     }
 )
 }
