@@ -30,11 +30,7 @@ withCallingHandlers(
             print(e)
             invisible()
         }
-    ),
-    warning = function(w) {
-        print(w)
-        invokeRestart("muffleWarning")
-    }
+    )
 )
 }
 \seealso{

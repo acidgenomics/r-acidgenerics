@@ -20,13 +20,7 @@ b <- function(x) {
 }
 
 withCallingHandlers(
-    expr = tryCatch(
-        expr = a(1L),
-        error = function(e) {
-            print(e)
-            invisible()
-        }
-    ),
+    expr = a(1L),
     warning = function(w) {
         print(w)
         invokeRestart("muffleWarning")
