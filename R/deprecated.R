@@ -7,9 +7,8 @@
 #'
 #' @name deprecated
 #' @keywords internal
-#'
 #' @inheritParams params
-#'
+#' @seealso [Deprecated][base::Deprecated].
 #' @return `.Deprecated`.
 #'
 #' @examples
@@ -37,9 +36,8 @@ NULL
 #'
 #' @name defunct
 #' @keywords internal
-#'
 #' @inheritParams params
-#'
+#' @seealso [Defunct][base::Defunct].
 #' @return `.Defunct`.
 #'
 #' @examples
