@@ -33,4 +33,7 @@ withCallingHandlers(
     )
 )
 }
+\seealso{
+\link[base:Defunct]{Defunct}.
+}
 \keyword{internal}
