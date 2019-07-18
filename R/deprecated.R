@@ -25,13 +25,7 @@
 #' }
 #'
 #' withCallingHandlers(
-#'     expr = tryCatch(
-#'         expr = a(1L),
-#'         error = function(e) {
-#'             print(e)
-#'             invisible()
-#'         }
-#'     ),
+#'     expr = a(1L),
 #'     warning = function(w) {
 #'         print(w)
 #'         invokeRestart("muffleWarning")
@@ -64,11 +58,7 @@ NULL
 #'             print(e)
 #'             invisible()
 #'         }
-#'     ),
-#'     warning = function(w) {
-#'         print(w)
-#'         invokeRestart("muffleWarning")
-#'     }
+#'     )
 #' )
 NULL
 
