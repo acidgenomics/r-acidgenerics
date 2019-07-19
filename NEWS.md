@@ -1,3 +1,12 @@
+## bioverbs 0.1.21 (2019-07-19)
+
+### Major changes
+
+- Renamed syntactic name functions, including "*Case" where appropriate.
+  `camel` to `camelCase`; `kebab` to `kebabCase`; `snake` to `snakeCase`;
+  `upperCamel` to `upperCamelCase`. The shorthand variants will remain exported
+  in the syntactic package.
+
 ## bioverbs 0.1.20 (2019-07-17)
 
 ### Minor changes

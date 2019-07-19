@@ -11,10 +11,10 @@
 #' @return Modified object, with names converted to camel case.
 #'
 #' @examples
-#' class(camel)
+#' class(camelCase)
 setGeneric(
-    name = "camel",
+    name = "camelCase",
     def = function(object, ...) {
-        standardGeneric("camel")
+        standardGeneric("camelCase")
     }
 )

@@ -11,10 +11,10 @@
 #' @return Modified object, with names formatted in snake case.
 #'
 #' @examples
-#' class(snake)
+#' class(snakeCase)
 setGeneric(
-    name = "snake",
+    name = "snakeCase",
     def = function(object, ...) {
-        standardGeneric("snake")
+        standardGeneric("snakeCase")
     }
 )
