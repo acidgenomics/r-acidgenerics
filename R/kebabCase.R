@@ -17,8 +17,8 @@
 #' @examples
 #' class(kebab)
 setGeneric(
-    name = "kebab",
+    name = "kebabCase",
     def = function(object, ...) {
-        standardGeneric("kebab")
+        standardGeneric("kebabCase")
     }
 )
