@@ -15,7 +15,7 @@
 #' @return Modified object, with names formatted in kebab case.
 #'
 #' @examples
-#' class(kebab)
+#' class(kebabCase)
 setGeneric(
     name = "kebabCase",
     def = function(object, ...) {

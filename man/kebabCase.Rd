@@ -24,7 +24,7 @@ not be used for names in R, since dashes are not valid, and should be
 substituted with underscores or periods instead.
 }
 \examples{
-class(kebab)
+class(kebabCase)
 }
 \seealso{
 \code{\link[base:make.names]{make.names()}}.
