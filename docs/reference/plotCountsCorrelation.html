@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Map genes to row names — mapGenesToRownames • bioverbs</title>
+<title>Plot counts correlation — plotCountsCorrelation • bioverbs</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -34,9 +34,9 @@
 
   <link href="../extra.css" rel="stylesheet">
   
-<meta property="og:title" content="Map genes to row names — mapGenesToRownames" />
+<meta property="og:title" content="Plot counts correlation — plotCountsCorrelation" />
 
-<meta property="og:description" content="Map genes to row names" />
+<meta property="og:description" content="Compare gene expression correlation across multiple data sets." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -108,25 +108,29 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Map genes to row names</h1>
-    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/mapGenesToRownames.R'><code>R/mapGenesToRownames.R</code></a></small>
-    <div class="hidden name"><code>mapGenesToRownames.Rd</code></div>
+    <h1>Plot counts correlation</h1>
+    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/plotCountsCorrelation.R'><code>R/plotCountsCorrelation.R</code></a></small>
+    <div class="hidden name"><code>plotCountsCorrelation.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>Map genes to row names</p>
+    <p>Compare gene expression correlation across multiple data sets.</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>mapGenesToRownames</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>plotCountsCorrelation</span>(<span class='no'>x</span>, <span class='no'>y</span>, <span class='no'>...</span>)</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>object</th>
+      <th>x</th>
       <td><p>Object.</p></td>
+    </tr>
+    <tr>
+      <th>y</th>
+      <td><p>Secondary object.</p></td>
     </tr>
     <tr>
       <th>...</th>
@@ -136,13 +140,11 @@
     
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p><code>character</code>.</p>
+    <p>Graphical output.</p>
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>mapGenesToRownames</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
-#&gt; attr(,"package")
-#&gt; [1] "methods"</div></pre>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>plotCountsCorrelation</span>)</div><div class='output co'>#&gt; <span class='error'>Error in eval(expr, envir, enclos): object 'plotCountsCorrelation' not found</span></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
