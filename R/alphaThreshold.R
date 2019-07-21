@@ -1,4 +1,4 @@
-# Don't export `alpha()`. This conflicts with scales package.
+## Don't export `alpha()`. This conflicts with scales package.
 
 
 

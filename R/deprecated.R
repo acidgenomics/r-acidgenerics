@@ -1,5 +1,5 @@
-# nocov start
-# nolint start
+## nocov start
+## nolint start
 
 
 
@@ -58,7 +58,7 @@ NULL
 
 
 
-# v0.1.7 =======================================================================
+## v0.1.7 =======================================================================
 #' @rdname defunct
 #' @export
 setGeneric(
@@ -70,5 +70,5 @@ setGeneric(
 
 
 
-# nolint end
-# nocov end
+## nolint end
+## nocov end
