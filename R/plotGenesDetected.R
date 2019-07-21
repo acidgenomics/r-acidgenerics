@@ -1,5 +1,5 @@
-# Deprecate this in favor of `plotCountsPerFeature()` in a future release.
-# Still currently in use by bcbioRNASeq v0.2 release series.
+## Deprecate this in favor of `plotCountsPerFeature()` in a future release.
+## Still currently in use by bcbioRNASeq v0.2 release series.
 
 
 
