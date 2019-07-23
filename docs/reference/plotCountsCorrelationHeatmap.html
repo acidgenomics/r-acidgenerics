@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Version 0.2 • bioverbs</title>
+<title>Plot counts correlation heatmap — plotCountsCorrelationHeatmap • bioverbs</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -34,7 +34,10 @@
 
   <link href="../extra.css" rel="stylesheet">
   
-<meta property="og:title" content="Version 0.2" />
+<meta property="og:title" content="Plot counts correlation heatmap — plotCountsCorrelationHeatmap" />
+
+<meta property="og:description" content="Compare feature expression correlation across two data sets." />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -52,7 +55,7 @@
   </head>
 
   <body>
-    <div class="container template-news">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -105,41 +108,57 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Changelog <small>0.2</small></h1>
-      
+    <h1>Plot counts correlation heatmap</h1>
+    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/plotCountsCorrelationHeatmap.R'><code>R/plotCountsCorrelationHeatmap.R</code></a></small>
+    <div class="hidden name"><code>plotCountsCorrelationHeatmap.Rd</code></div>
     </div>
 
-    <div id="bioverbs-0-2-0-2019-07-20" class="section level2">
-<h2 class="hasAnchor">
-<a href="#bioverbs-0-2-0-2019-07-20" class="anchor"></a>bioverbs 0.2.0 (2019-07-20)</h2>
-<p>Bumped version to v0.2 release series to match update conventions defined in other basejump packages, in preparation of a new release candidate that may be suitable for Bioconductor submission.</p>
-<div id="new-functions" class="section level3">
-<h3 class="hasAnchor">
-<a href="#new-functions" class="anchor"></a>New functions</h3>
-<ul>
-<li>
-<code>plotCountsCorrelation</code> and <code>plotCountsCorrelationHeatmap</code>: New utility generics for comparing count correlation across multiple datasets.</li>
-</ul>
-</div>
-<div id="major-changes" class="section level3">
-<h3 class="hasAnchor">
-<a href="#major-changes" class="anchor"></a>Major changes</h3>
-<ul>
-<li>Renamed syntactic name functions, including "*Case" where appropriate. <code>camel</code> to <code>camelCase</code>; <code>kebab</code> to <code>kebabCase</code>; <code>snake</code> to <code>snakeCase</code>; <code>upperCamel</code> to <code>upperCamelCase</code>. The shorthand variants will remain exported in the syntactic package.</li>
-</ul>
-</div>
-</div>
-  </div>
+    <div class="ref-description">
+    
+    <p>Compare feature expression correlation across two data sets.</p>
+    
+    </div>
 
+    <pre class="usage"><span class='fu'>plotCountsCorrelationHeatmap</span>(<span class='no'>x</span>, <span class='no'>y</span>, <span class='no'>...</span>)</pre>
+    
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>x</th>
+      <td><p>Object.</p></td>
+    </tr>
+    <tr>
+      <th>y</th>
+      <td><p>Secondary object.</p></td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td><p>Additional arguments.</p></td>
+    </tr>
+    </table>
+    
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
+
+    <p>Graphical output.</p>
+    
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>plotCountsCorrelationHeatmap</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
+#&gt; attr(,"package")
+#&gt; [1] "methods"</div></pre>
+  </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
-    <div id="tocnav">
-      <h2>Contents</h2>
-      <ul class="nav nav-pills nav-stacked">
-        <li><a href="#bioverbs-0-2-0-2019-07-20">0.2.0</a></li>
-      </ul>
-    </div>
-  </div>
+    <h2>Contents</h2>
+    <ul class="nav nav-pills nav-stacked">
+      <li><a href="#arguments">Arguments</a></li>
+      
+      <li><a href="#value">Value</a></li>
+      
+      <li><a href="#examples">Examples</a></li>
+    </ul>
 
+  </div>
 </div>
 
 
