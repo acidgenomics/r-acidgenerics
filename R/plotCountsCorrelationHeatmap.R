@@ -1,4 +1,4 @@
-#' Plot counts correlation
+#' Plot counts correlation heatmap
 #'
 #' Compare feature expression correlation across two data sets.
 #'
@@ -8,10 +8,10 @@
 #' @return Graphical output.
 #'
 #' @examples
-#' class(plotCountsCorrelation)
+#' class(plotCountsCorrelationHeatmap)
 setGeneric(
-    name = "plotCountsCorrelation",
+    name = "plotCountsCorrelationHeatmap",
     def = function(x, y, ...) {
-        standardGeneric("plotCountsCorrelation")
+        standardGeneric("plotCountsCorrelationHeatmap")
     }
 )

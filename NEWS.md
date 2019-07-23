@@ -1,4 +1,4 @@
-## bioverbs 0.2.0 (2019-07-20)
+## bioverbs 0.2.0 (2019-07-23)
 
 Bumped version to v0.2 release series to match update conventions defined in
 other basejump packages, in preparation of a new release candidate that may
@@ -6,8 +6,8 @@ be suitable for Bioconductor submission.
 
 ### New functions
 
-- `plotCountsCorrelation`: New utility generic for comparing count correlation
-  across multiple datasets.
+- `plotCountsCorrelation` and `plotCountsCorrelationHeatmap`: New utility
+  generics for comparing count correlation across multiple datasets.
 
 ### Major changes
 
