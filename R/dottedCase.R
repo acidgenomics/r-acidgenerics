@@ -6,10 +6,10 @@
 #' @return Modified object, with names formatted in dotted case.
 #'
 #' @examples
-#' class(dotted)
+#' class(dottedCase)
 setGeneric(
-    name = "dotted",
+    name = "dottedCase",
     def = function(object, ...) {
-        standardGeneric("dotted")
+        standardGeneric("dottedCase")
     }
 )

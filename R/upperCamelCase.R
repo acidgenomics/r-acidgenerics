@@ -14,10 +14,10 @@
 #' @return Modified object, with names formatted in upper camel case.
 #'
 #' @examples
-#' class(upperCamel)
+#' class(upperCamelCase)
 setGeneric(
-    name = "upperCamel",
+    name = "upperCamelCase",
     def = function(object, ...) {
-        standardGeneric("upperCamel")
+        standardGeneric("upperCamelCase")
     }
 )

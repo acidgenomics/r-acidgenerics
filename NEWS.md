@@ -1,3 +1,21 @@
+## bioverbs 0.2.0 (2019-07-23)
+
+Bumped version to v0.2 release series to match update conventions defined in
+other basejump packages, in preparation of a new release candidate that may
+be suitable for Bioconductor submission.
+
+### New functions
+
+- `plotCountsCorrelation` and `plotCountsCorrelationHeatmap`: New utility
+  generics for comparing count correlation across multiple datasets.
+
+### Major changes
+
+- Renamed syntactic name functions, including "*Case" where appropriate.
+  `camel` to `camelCase`; `kebab` to `kebabCase`; `snake` to `snakeCase`;
+  `upperCamel` to `upperCamelCase`. The shorthand variants will remain exported
+  in the syntactic package.
+
 ## bioverbs 0.1.20 (2019-07-17)
 
 ### Minor changes
