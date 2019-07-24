@@ -10,6 +10,8 @@
 
 \item{x}{Object.}
 
+\item{y}{Secondary object.}
+
 \item{...}{Additional arguments.}
 }
 \description{

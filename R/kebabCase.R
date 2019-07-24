@@ -15,10 +15,10 @@
 #' @return Modified object, with names formatted in kebab case.
 #'
 #' @examples
-#' class(kebab)
+#' class(kebabCase)
 setGeneric(
-    name = "kebab",
+    name = "kebabCase",
     def = function(object, ...) {
-        standardGeneric("kebab")
+        standardGeneric("kebabCase")
     }
 )
