@@ -7,9 +7,8 @@ branches:
   only:
     - master
 
-install:
-  - rm -rf .Rcheck
-  - git clone https://github.com/acidgenomics/Rcheck.git .Rcheck
+before_script:
+  - rm -rf .Rcheck; git clone https://github.com/acidgenomics/Rcheck.git .Rcheck; pwd; ls
 
 jobs:
   include:
