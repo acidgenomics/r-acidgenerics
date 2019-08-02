@@ -1,4 +1,4 @@
-#' Cluster identifier
+#' Cluster identifiers
 #'
 #' @export
 #' @inheritParams params
@@ -6,10 +6,10 @@
 #' @return `factor`.
 #'
 #' @examples
-#' class(clusterID)
+#' class(clusters)
 setGeneric(
-    name = "clusterID",
+    name = "clusters",
     def = function(object, ...) {
-        standardGeneric("clusterID")
+        standardGeneric("clusters")
     }
 )

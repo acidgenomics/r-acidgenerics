@@ -1,3 +1,13 @@
+## bioverbs 0.2.1 (2019-08-02)
+
+### New functions
+
+- Added `plotCells` generic.
+
+### Major changes
+
+- Deprecating `clusterID` generic in favor of `clusters`.
+
 ## bioverbs 0.2.0 (2019-07-23)
 
 Bumped version to v0.2 release series to match update conventions defined in

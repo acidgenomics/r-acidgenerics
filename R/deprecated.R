@@ -70,5 +70,18 @@ setGeneric(
 
 
 
+## v0.2.1 ======================================================================
+#' @rdname deprecated
+#' @export
+setGeneric(
+    name = "clusterID",
+    def = function(object, ...) {
+        .Deprecated("clusters")
+        standardGeneric("clusterID")
+    }
+)
+
+
+
 ## nolint end
 ## nocov end
