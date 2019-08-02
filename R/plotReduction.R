@@ -1,4 +1,4 @@
-#' Plot reduced dimensions
+#' Plot dimensionality reduction
 #'
 #' @export
 #' @inheritParams params
@@ -6,10 +6,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotReducedDim)
+#' class(plotReduction)
 setGeneric(
-    name = "plotReducedDim",
+    name = "plotReduction",
     def = function(object, ...) {
-        standardGeneric("plotReducedDim")
+        standardGeneric("plotReduction")
     }
 )

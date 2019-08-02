@@ -6,7 +6,8 @@
 
 ### Major changes
 
-- Deprecating `clusterID` generic in favor of `clusters`.
+- Deprecated `clusterID` generic in favor of `clusters`.
+- Deprecated `plotReducedDim` in favor of `plotReduction`.
 
 ## bioverbs 0.2.0 (2019-07-23)
 
