@@ -9,6 +9,10 @@
 - Deprecated `clusterID` generic in favor of `clusters`.
 - Deprecated `plotReducedDim` in favor of `plotReduction`.
 
+## Minor changes
+
+- `plotTopMarkers` now includes `markers` argument in the generic.
+
 ## bioverbs 0.2.0 (2019-07-23)
 
 Bumped version to v0.2 release series to match update conventions defined in
