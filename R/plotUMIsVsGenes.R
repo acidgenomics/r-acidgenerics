@@ -1,7 +1,7 @@
 #' Plot UMI and gene correlation
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

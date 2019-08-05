@@ -1,7 +1,7 @@
 #' Quality control metrics
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `data.frame`
 #'

@@ -1,7 +1,7 @@
 #' Relative log expression
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @references Anders and Huber (2010).
 #'

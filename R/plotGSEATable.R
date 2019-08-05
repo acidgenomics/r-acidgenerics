@@ -1,6 +1,6 @@
 #' Plot GSEA enrichment table
 #'
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #' @export
 #'
 #' @return Plot.

@@ -1,7 +1,7 @@
 #' Results tables
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `list`.
 #'

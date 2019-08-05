@@ -4,10 +4,12 @@
 \alias{plotTopMarkers}
 \title{Plot top markers}
 \usage{
-plotTopMarkers(object, ...)
+plotTopMarkers(object, markers, ...)
 }
 \arguments{
 \item{object}{Object.}
+
+\item{markers}{Object containing cell marker expression data.}
 
 \item{...}{Additional arguments.}
 }

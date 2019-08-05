@@ -1,7 +1,7 @@
 #' Differentially expressed genes
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `character`.
 #' Gene identifiers.

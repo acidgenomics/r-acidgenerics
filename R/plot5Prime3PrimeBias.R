@@ -24,7 +24,7 @@
 #' - Median is calculated for the representative set of 1000 transcripts.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

@@ -1,7 +1,7 @@
 #' Results names
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @seealso
 #' - `DESeq2::resultsNames()`.

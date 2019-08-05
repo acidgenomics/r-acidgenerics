@@ -1,7 +1,7 @@
 #' Find correlation between principal components (PCs) and covariates
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

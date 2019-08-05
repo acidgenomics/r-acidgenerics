@@ -9,7 +9,7 @@
 #' Excel.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Modified object.
 #' All percentage strings containing `"%"` (e.g. `"50%"`) are converted to

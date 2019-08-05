@@ -1,6 +1,6 @@
 #' Gene set collection names
 #'
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #' @export
 #'
 #' @return `character`.

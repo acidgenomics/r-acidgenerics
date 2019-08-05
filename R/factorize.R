@@ -3,7 +3,7 @@
 #' Coerce all columns in the object to `factor` (i.e. `stringsAsFactors`).
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @seealso [encode()] for run-length encoding (Rle) approach.
 #'

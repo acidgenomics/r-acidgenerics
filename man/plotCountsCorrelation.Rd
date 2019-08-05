@@ -9,7 +9,7 @@ plotCountsCorrelation(x, y, ...)
 \arguments{
 \item{x}{Object.}
 
-\item{y}{Secondary object.}
+\item{y}{Object.}
 
 \item{...}{Additional arguments.}
 }

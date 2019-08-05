@@ -8,7 +8,7 @@
 #' Visualize the number of genes detected.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

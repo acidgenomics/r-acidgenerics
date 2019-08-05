@@ -1,8 +1,8 @@
 Package: bioverbs
 Title: S4 Generic Functions for Bioinformatics
 Description: S4 generic functions for bioinformatics.
-Version: 0.2.0
-Date: 2019-07-23
+Version: 0.2.1
+Date: 2019-08-05
 Authors@R: c(
     person(
         "Michael", "Steinbaugh",
@@ -22,6 +22,10 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 3.5)
 Imports: methods
+Suggests:
+    acidroxygen (>= 0.0.1)
+Remotes:
+    acidgenomics/acidroxygen
 biocViews: Infrastructure
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1

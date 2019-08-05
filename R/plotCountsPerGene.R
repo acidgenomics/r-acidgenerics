@@ -9,7 +9,7 @@
 #' unless the library sizes or total RNA expression are different.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

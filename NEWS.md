@@ -1,3 +1,18 @@
+## bioverbs 0.2.1 (2019-08-05)
+
+### New functions
+
+- Added `plotCells` generic.
+- Added `cpm` and `tpm` generics, which are defined in SingleCellExperiment.
+
+### Major changes
+
+- Deprecated `clusterID` generic in favor of `clusters`.
+
+## Minor changes
+
+- `plotTopMarkers` now includes `markers` argument in the generic.
+
 ## bioverbs 0.2.0 (2019-07-23)
 
 Bumped version to v0.2 release series to match update conventions defined in
