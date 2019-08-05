@@ -81,16 +81,6 @@ setGeneric(
     }
 )
 
-#' @rdname deprecated
-#' @export
-setGeneric(
-    name = "plotReducedDim",
-    def = function(object, ...) {
-        .Deprecated("plotReduction")
-        standardGeneric("plotReducedDim")
-    }
-)
-
 
 
 ## nolint end
