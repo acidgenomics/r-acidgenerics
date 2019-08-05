@@ -3,7 +3,7 @@
 #' Plot the universal molecular identifiers (UMIs) per cell.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

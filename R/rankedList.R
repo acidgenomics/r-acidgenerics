@@ -1,7 +1,7 @@
 #' Ranked list
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `RankedList`.
 #'

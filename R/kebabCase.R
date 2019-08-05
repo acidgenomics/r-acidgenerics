@@ -8,7 +8,7 @@
 #' substituted with underscores or periods instead.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @seealso [`make.names()`][base::make.names].
 #'

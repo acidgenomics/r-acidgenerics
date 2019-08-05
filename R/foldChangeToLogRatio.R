@@ -1,7 +1,7 @@
 #' Fold change to log ratio
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Modified object, with fold changes converted to log ratios.
 #'

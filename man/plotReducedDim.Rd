@@ -15,7 +15,7 @@ plotReducedDim(object, ...)
 \code{ggplot}.
 }
 \description{
-Plot reduced dimensions
+Plot cell-level dimensionality reduction.
 }
 \examples{
 class(plotReducedDim)

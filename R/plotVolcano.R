@@ -3,7 +3,7 @@
 #' @note Don't apply post hoc alpha level or LFC threshold cutoffs.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

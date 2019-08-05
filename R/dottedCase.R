@@ -1,7 +1,7 @@
 #' Dotted case
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Modified object, with names formatted in dotted case.
 #'

@@ -1,7 +1,8 @@
 #' Plot top markers
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
+#' @param markers Object containing cell marker expression data.
 #'
 #' @return Show graphical output. Invisibly return a `ggplot` `list`.
 #'
@@ -9,7 +10,7 @@
 #' class(plotTopMarkers)
 setGeneric(
     name = "plotTopMarkers",
-    def = function(object, ...) {
+    def = function(object, markers, ...) {
         standardGeneric("plotTopMarkers")
     }
 )

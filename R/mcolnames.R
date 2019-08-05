@@ -1,7 +1,7 @@
 #' Metadata column names
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @seealso `S4Vectors::mcols()`.
 #'

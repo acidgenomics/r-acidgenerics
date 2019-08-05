@@ -9,7 +9,7 @@
 #' experiment).
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `DataFrame`.
 #'

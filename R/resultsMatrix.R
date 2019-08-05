@@ -1,7 +1,7 @@
 #' Results matrix
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `matrix`.
 #'

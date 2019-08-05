@@ -3,7 +3,7 @@
 #' Top tables of differentially expressed genes.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `kable`.
 #' Markdown tables.

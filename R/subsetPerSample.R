@@ -1,7 +1,7 @@
 #' Subset per sample
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `list`.
 #'

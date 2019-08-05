@@ -5,7 +5,7 @@
 #' Useful for describing non-normal (i.e. geometric) distributions.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `numeric`.
 #'

@@ -3,7 +3,7 @@
 #' Calculate and visualize the dropout rate.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `matrix`.
 #'

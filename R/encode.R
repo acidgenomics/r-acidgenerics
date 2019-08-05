@@ -1,7 +1,7 @@
 #' Encode using run-length encoding
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Modified object, with data encoded into `Rle` class.
 #'

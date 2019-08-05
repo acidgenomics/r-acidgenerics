@@ -2,7 +2,16 @@
 % Please edit documentation in R/deprecated.R
 \name{deprecated}
 \alias{deprecated}
+\alias{clusterID}
 \title{Deprecated functions}
+\usage{
+clusterID(object, ...)
+}
+\arguments{
+\item{object}{Object.}
+
+\item{...}{Additional arguments.}
+}
 \value{
 \code{.Deprecated}.
 }
