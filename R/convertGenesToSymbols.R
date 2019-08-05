@@ -1,7 +1,7 @@
 #' Convert genes to symbols
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Modified object of same class, with stable gene identifiers converted
 #'   to human-readable gene symbols.

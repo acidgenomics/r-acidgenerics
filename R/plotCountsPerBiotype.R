@@ -1,7 +1,7 @@
 #' Plot counts per biotype
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

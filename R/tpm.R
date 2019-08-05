@@ -1,7 +1,7 @@
 #' Transcripts per million
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `matrix`
 #'

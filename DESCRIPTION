@@ -22,6 +22,10 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 3.5)
 Imports: methods
+Suggests:
+    acidroxygen (>= 0.0.1)
+Remotes:
+    acidgenomics/acidroxygen
 biocViews: Infrastructure
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1

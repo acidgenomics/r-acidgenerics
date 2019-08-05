@@ -1,7 +1,7 @@
 #' Map genes to row names
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `character`.
 #'

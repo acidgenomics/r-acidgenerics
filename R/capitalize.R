@@ -1,7 +1,7 @@
 #' Capitalize
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Modified object, with names capitalized.
 #'

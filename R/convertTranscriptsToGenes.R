@@ -1,7 +1,7 @@
 #' Convert transcripts to genes
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Modified object of same class, with transcripts remapped to genes.
 #'

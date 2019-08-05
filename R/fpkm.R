@@ -6,7 +6,7 @@
 #' @note Only recommended for gene-level counts.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @seealso `DESeq2::fpkm()`.
 #'

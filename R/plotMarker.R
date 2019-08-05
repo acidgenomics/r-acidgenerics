@@ -3,7 +3,7 @@
 #' Visualize gene markers on a reduced dimension plot (e.g. t-SNE, UMAP).
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Show graphical output.
 #' Invisibly return a `ggplot` `list`.

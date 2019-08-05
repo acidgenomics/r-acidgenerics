@@ -6,7 +6,7 @@
 #' @note Only recommended for gene-level counts.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @references Robinson and Oshlack (2010).
 #'

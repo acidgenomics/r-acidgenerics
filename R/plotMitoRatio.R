@@ -1,7 +1,7 @@
 #' Plot mitochondrial transcript abundance
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

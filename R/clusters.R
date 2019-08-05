@@ -1,7 +1,7 @@
 #' Cluster identifiers
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `factor`.
 #'

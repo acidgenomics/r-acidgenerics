@@ -1,7 +1,7 @@
 #' Aggregate columns
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Modified object of same class, with columns aggregated.
 #'

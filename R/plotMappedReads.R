@@ -3,7 +3,7 @@
 #' The number of mapped reads should correspond to the number of total reads.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

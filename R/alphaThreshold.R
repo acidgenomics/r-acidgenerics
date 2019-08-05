@@ -5,7 +5,7 @@
 #' Alpha threshold
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `numeric(1)`.
 #' Alpha cutoff level.

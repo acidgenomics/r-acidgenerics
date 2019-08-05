@@ -4,7 +4,7 @@
 #' unless the total expressed RNA per sample is different.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

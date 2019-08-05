@@ -1,7 +1,7 @@
 #' Differential expression per cluster
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Varies, depending on the method.
 #'
