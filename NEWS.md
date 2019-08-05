@@ -3,6 +3,7 @@
 ### New functions
 
 - Added `plotCells` generic.
+- Added `cpm` and `tpm` generics, which are defined in SingleCellExperiment.
 
 ### Major changes
 
