@@ -1,7 +1,7 @@
 #' Plot genes per cell
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

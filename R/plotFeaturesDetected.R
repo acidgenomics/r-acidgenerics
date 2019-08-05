@@ -3,7 +3,7 @@
 #' Visualize the number of features (i.e. genes) detected.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

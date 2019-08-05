@@ -5,7 +5,7 @@
 #' returned unmodified.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Modified object.
 #' Sanitized to contain proper `NA` values.

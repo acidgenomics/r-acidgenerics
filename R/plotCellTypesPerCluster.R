@@ -1,7 +1,7 @@
 #' Plot cell types per cluster
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return Plot.
 #'

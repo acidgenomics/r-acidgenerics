@@ -1,7 +1,7 @@
 #' Melt count matrix into long format
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @seealso `reshape2::melt()`.
 #'

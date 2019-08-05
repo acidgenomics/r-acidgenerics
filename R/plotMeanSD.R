@@ -1,7 +1,7 @@
 #' Plot row standard deviations vs. row means
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

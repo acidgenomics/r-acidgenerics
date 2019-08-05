@@ -3,7 +3,7 @@
 #' Obtain the top cellular barcodes, based on counts.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `list`.
 #' Top barcodes as `character`, split by `sampleID`.

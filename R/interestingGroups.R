@@ -1,7 +1,7 @@
 #' Interesting groups
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `character`.
 #'

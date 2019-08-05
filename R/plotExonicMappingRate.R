@@ -1,7 +1,7 @@
 #' Plot exonic mapping rate
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

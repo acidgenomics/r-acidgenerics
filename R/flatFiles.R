@@ -1,7 +1,7 @@
 #' Coerce any S4 object to a list
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `list`.
 #'

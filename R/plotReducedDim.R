@@ -3,7 +3,7 @@
 #' Plot cell-level dimensionality reduction.
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'

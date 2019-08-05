@@ -1,7 +1,7 @@
 #' Cell counts per cluster
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `data.frame`.
 #'

@@ -14,7 +14,7 @@ lfcThreshold(object, ...) <- value
 
 \item{...}{Additional arguments.}
 
-\item{value}{Value.}
+\item{value}{Value to assign.}
 }
 \value{
 \code{numeric(1)}.

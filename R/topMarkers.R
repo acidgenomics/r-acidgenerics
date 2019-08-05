@@ -1,7 +1,7 @@
 #' Top markers
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `grouped_df`.
 #'

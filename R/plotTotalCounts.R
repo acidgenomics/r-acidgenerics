@@ -1,7 +1,7 @@
 #' Plot total read counts
 #'
 #' @export
-#' @inheritParams params
+#' @inheritParams acidroxygen::params
 #'
 #' @return `ggplot`.
 #'
