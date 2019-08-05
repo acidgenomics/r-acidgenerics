@@ -1,4 +1,4 @@
-## bioverbs 0.2.1 (2019-08-02)
+## bioverbs 0.2.1 (2019-08-05)
 
 ### New functions
 
@@ -7,7 +7,6 @@
 ### Major changes
 
 - Deprecated `clusterID` generic in favor of `clusters`.
-- Deprecated `plotReducedDim` in favor of `plotReduction`.
 
 ## Minor changes
 
