@@ -3,12 +3,9 @@
 \name{deprecated}
 \alias{deprecated}
 \alias{clusterID}
-\alias{plotReducedDim}
 \title{Deprecated functions}
 \usage{
 clusterID(object, ...)
-
-plotReducedDim(object, ...)
 }
 \arguments{
 \item{object}{Object.}
