@@ -2,6 +2,7 @@
 #'
 #' @export
 #' @inheritParams acidroxygen::params
+#' @param markers Object containing gene markers.
 #'
 #' @return Plot.
 #'
@@ -9,7 +10,7 @@
 #' class(plotCellTypesPerCluster)
 setGeneric(
     name = "plotCellTypesPerCluster",
-    def = function(object, ...) {
+    def = function(object, markers, ...) {
         standardGeneric("plotCellTypesPerCluster")
     }
 )
