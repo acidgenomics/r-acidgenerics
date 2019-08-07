@@ -1,3 +1,9 @@
+## bioverbs 0.2.2 (2019-08-07)
+
+### Minor changes
+
+- `plotCellTypesPerCluster`: Added `markers` to signature.
+
 ## bioverbs 0.2.1 (2019-08-05)
 
 ### New functions
