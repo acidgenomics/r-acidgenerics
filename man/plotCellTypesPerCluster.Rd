@@ -4,10 +4,12 @@
 \alias{plotCellTypesPerCluster}
 \title{Plot cell types per cluster}
 \usage{
-plotCellTypesPerCluster(object, ...)
+plotCellTypesPerCluster(object, markers, ...)
 }
 \arguments{
 \item{object}{Object.}
+
+\item{markers}{Object containing gene markers.}
 
 \item{...}{Additional arguments.}
 }
