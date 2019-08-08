@@ -44,5 +44,28 @@ setGeneric(
 
 
 
+# v0.2.4 =======================================================================
+#' @rdname deprecated
+#' @export
+setGeneric(
+    name = "plotGenesPerCell",
+    def = function(object, ...) {
+        .Deprecated("plotFeaturesPerCell")
+        standardGeneric("plotGenesPerCell")
+    }
+)
+
+#' @rdname deprecated
+#' @export
+setGeneric(
+    name = "plotGenesDetected",
+    def = function(object, ...) {
+        .Deprecated("plotFeaturesDetected")
+        standardGeneric("plotGenesDetected")
+    }
+)
+
+
+
 ## nolint end
 ## nocov end
