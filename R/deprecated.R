@@ -65,6 +65,26 @@ setGeneric(
     }
 )
 
+#' @rdname deprecated
+#' @export
+setGeneric(
+    name = "plotUMIsPerCell",
+    def = function(object, ...) {
+        .Deprecated("plotCountsPerCell")
+        standardGeneric("plotUMIsPerCell")
+    }
+)
+
+#' @rdname deprecated
+#' @export
+setGeneric(
+    name = "plotUMIsVsGenes",
+    def = function(object, ...) {
+        .Deprecated("plotCountsVsFeatures")
+        standardGeneric("plotUMIsVsGenes")
+    }
+)
+
 
 
 ## nolint end
