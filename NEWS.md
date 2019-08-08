@@ -1,3 +1,11 @@
+## bioverbs 0.2.3 (2019-08-08)
+
+### New functions
+
+- Added `calculateMetrics` generic, which was previously defined as a standard
+  function in bcbioSingleCell package. This verb is also applicable to the
+  Chromium package, so we have migrated it here.
+
 ## bioverbs 0.2.2 (2019-08-07)
 
 ### Minor changes
