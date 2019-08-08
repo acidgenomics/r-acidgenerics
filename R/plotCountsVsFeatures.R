@@ -14,10 +14,10 @@
 #' @seealso [plotCountsPerCell()].
 #'
 #' @examples
-#' class(plotUMIsVsGenes)
+#' class(plotCountsVsFeatures)
 setGeneric(
-    name = "plotUMIsVsGenes",
+    name = "plotCountsVsFeatures",
     def = function(object, ...) {
-        standardGeneric("plotUMIsVsGenes")
+        standardGeneric("plotCountsVsFeatures")
     }
 )
