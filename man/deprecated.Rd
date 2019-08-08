@@ -3,9 +3,15 @@
 \name{deprecated}
 \alias{deprecated}
 \alias{clusterID}
+\alias{plotGenesPerCell}
+\alias{plotGenesDetected}
 \title{Deprecated functions}
 \usage{
 clusterID(object, ...)
+
+plotGenesPerCell(object, ...)
+
+plotGenesDetected(object, ...)
 }
 \arguments{
 \item{object}{Object.}

@@ -1,3 +1,8 @@
+## Currently in use by bcbioRNASeq.
+## Don't rename to use "feature" instead of "gene" yet.
+
+
+
 #' Plot gene detection saturation
 #'
 #' We should observe a linear trend in the number of genes detected with the
