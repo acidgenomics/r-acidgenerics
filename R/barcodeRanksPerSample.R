@@ -3,7 +3,7 @@
 #' @export
 #' @inheritParams acidroxygen::params
 #'
-#' @return `list`.
+#' @return `DataFrameList`.
 #'
 #' @examples
 #' class(barcodeRanksPerSample)
