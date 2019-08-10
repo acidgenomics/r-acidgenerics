@@ -1,4 +1,4 @@
-#' Plot genes per cell
+#' Plot features per cell
 #'
 #' @export
 #' @inheritParams acidroxygen::params
@@ -6,10 +6,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotGenesPerCell)
+#' class(plotFeaturesPerCell)
 setGeneric(
-    name = "plotGenesPerCell",
+    name = "plotFeaturesPerCell",
     def = function(object, ...) {
-        standardGeneric("plotGenesPerCell")
+        standardGeneric("plotFeaturesPerCell")
     }
 )

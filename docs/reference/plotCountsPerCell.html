@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Plot genes detected — plotGenesDetected • bioverbs</title>
+<title>Plot counts per cell — plotCountsPerCell • bioverbs</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -34,9 +34,9 @@
 
   <link href="../extra.css" rel="stylesheet">
   
-<meta property="og:title" content="Plot genes detected — plotGenesDetected" />
+<meta property="og:title" content="Plot counts per cell — plotCountsPerCell" />
 
-<meta property="og:description" content="Visualize the number of genes detected." />
+<meta property="og:description" content="Plot the disambiguated counts per cell." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -68,7 +68,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">bioverbs</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.3</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.4</span>
       </span>
     </div>
 
@@ -108,18 +108,18 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Plot genes detected</h1>
-    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/plotGenesDetected.R'><code>R/plotGenesDetected.R</code></a></small>
-    <div class="hidden name"><code>plotGenesDetected.Rd</code></div>
+    <h1>Plot counts per cell</h1>
+    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/plotCountsPerCell.R'><code>R/plotCountsPerCell.R</code></a></small>
+    <div class="hidden name"><code>plotCountsPerCell.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>Visualize the number of genes detected.</p>
+    <p>Plot the disambiguated counts per cell.</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>plotGenesDetected</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>plotCountsPerCell</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -138,9 +138,18 @@
 
     <p><code>ggplot</code>.</p>
     
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+
+    <p>"Counts" refer to universal molecular identifier (UMI) counts for
+droplet-based scRNA-seq data.</p>
+    
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+
+    <div class='dont-index'><p><code><a href='plotCountsVsFeatures.html'>plotCountsVsFeatures()</a></code>.</p></div>
+    
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>plotGenesDetected</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>plotCountsPerCell</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
 #&gt; attr(,"package")
 #&gt; [1] "methods"</div></pre>
   </div>
@@ -150,6 +159,10 @@
       <li><a href="#arguments">Arguments</a></li>
       
       <li><a href="#value">Value</a></li>
+
+      <li><a href="#details">Details</a></li>
+
+      <li><a href="#see-also">See also</a></li>
       
       <li><a href="#examples">Examples</a></li>
     </ul>
