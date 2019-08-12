@@ -1,3 +1,27 @@
+## bioverbs 0.2.5 (2019-08-12)
+
+### New functions
+
+- `plotSums`: Utility generic for plotting row and column sums of a matrix.
+
+## bioverbs 0.2.4 (2019-08-08)
+
+Reworked some verbs to support changes in acidplots and pending bcbioSingleCell
+update.
+
+### New functions
+
+- `plotCountsPerCell`.
+- `plotCountsVsFeatures`.
+- `plotFeaturesPerCell`.
+
+### Deprecated functions
+
+- `plotGenesPerCell` to `plotFeaturesPerCell`.
+- `plotGenesDetected` to `plotFeaturesDetected`.
+- `plotUMIsPerCell` to `plotCountsPerCell`.
+- `plotUMIsVsGenes` to `plotCountsVsFeatures`.
+
 ## bioverbs 0.2.3 (2019-08-08)
 
 ### New functions
