@@ -6,10 +6,10 @@
 #' @return Modified object.
 #'
 #' @examples
-#' class(nonzero)
+#' class(nonzeroRowsAndCols)
 setGeneric(
-    name = "nonzero",
+    name = "nonzeroRowsAndCols",
     def = function(object, ...) {
-        standardGeneric("nonzero")
+        standardGeneric("nonzeroRowsAndCols")
     }
 )
