@@ -2,8 +2,8 @@
 
 ### New functions
 
-- `nonzero`: Generic that allows for easy subsetting of non-zero rows and
-  columns from an object.
+- `nonzeroRowsAndCols`: Generic that allows for easy subsetting of non-zero rows
+  and columns from an object.
 
 ## bioverbs 0.2.5 (2019-08-12)
 
