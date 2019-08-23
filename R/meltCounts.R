@@ -5,8 +5,11 @@
 #'
 #' @seealso `reshape2::melt()`.
 #'
-#' @return `grouped_df`.
-#' Grouped by `colname` (e.g. sample ID) and `rowname` (e.g. gene ID).
+#' @return `DataFrame`.
+#' Melted data frame containing these columns:
+#' - `colname` (e.g. sample ID).
+#' - `rowname` (e.g. gene ID).
+#' - `counts`.
 #'
 #' @examples
 #' class(meltCounts)
