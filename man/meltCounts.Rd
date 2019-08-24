@@ -12,8 +12,13 @@ meltCounts(object, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-\code{grouped_df}.
-Grouped by \code{colname} (e.g. sample ID) and \code{rowname} (e.g. gene ID).
+\code{DataFrame}.
+Melted data frame containing these columns:
+\itemize{
+\item \code{colname} (e.g. sample ID).
+\item \code{rowname} (e.g. gene ID).
+\item \code{counts}.
+}
 }
 \description{
 Melt count matrix into long format
@@ -22,5 +27,8 @@ Melt count matrix into long format
 class(meltCounts)
 }
 \seealso{
-\code{reshape2::melt()}.
+\itemize{
+\item \code{gather()}.
+\item \code{reshape2::melt()}, deprecated in favor of tidyr.
+}
 }
