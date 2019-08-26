@@ -25,8 +25,11 @@ Select multiple columns
 \note{
 Updated 2019-08-26.
 }
+\examples{
+class(selectIf)
+}
 \seealso{
 These functions are inspired by dplyr. However, they are designed to only
-work on \code{DataFrame} class, and use base R code internally.\preformatted{`help(topic = "select_all", package = "dplyr")`
+work on \code{DataFrame} class, and use base R code internally.\preformatted{`help(topic = "select_if", package = "dplyr")`
 }
 }

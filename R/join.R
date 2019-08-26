@@ -6,8 +6,6 @@
 #' @inheritParams acidroxygen::params
 #' @param by `character`.
 #'   Column names to use for join operation.
-#'   Note that this argument is always required, unlike the dplyr join methods
-#'   that work on `tbl_df`.
 #' @param ... Additional arguments.
 #'
 #' @seealso
@@ -16,6 +14,9 @@
 #' - https://support.bioconductor.org/p/120277/
 #'
 #' @return New object containing a merge of `x` and `y` objects.
+#'
+#' @examples
+#' class(leftJoin)
 NULL
 
 

@@ -28,9 +28,7 @@ antiJoin(x, y, by, ...)
 \item{y}{Object.}
 
 \item{by}{\code{character}.
-Column names to use for join operation.
-Note that this argument is always required, unlike the dplyr join methods
-that work on \code{tbl_df}.}
+Column names to use for join operation.}
 
 \item{...}{Additional arguments.}
 }
@@ -42,6 +40,9 @@ Join operations
 }
 \note{
 Updated 2019-08-26.
+}
+\examples{
+class(leftJoin)
 }
 \seealso{
 \itemize{

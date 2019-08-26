@@ -21,8 +21,11 @@
 #' work on `DataFrame` class, and use base R code internally.
 #'
 #' ```r
-#' help(topic = "mutate_all", package = "dplyr")
+#' help(topic = "mutate_if", package = "dplyr")
 #' ```
+#'
+#' @examples
+#' class(mutateIf)
 NULL
 
 

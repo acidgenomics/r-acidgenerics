@@ -5,6 +5,8 @@
 - Deprecated `meltCounts` in favor of simply using `melt`. Note that
   `reshape2::melt` is deprecated in favor of `tidyr::gather`, so we're not
   conflicting with any activate tidyverse verbs here.
+- Migrated join, mutate, and select generics defined in transformer. Tightened
+  up the required signature arguments here.
 
 ## bioverbs 0.2.6 (2019-08-23)
 
