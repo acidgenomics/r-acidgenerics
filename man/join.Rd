@@ -38,9 +38,6 @@ New object containing a merge of \code{x} and \code{y} objects.
 \description{
 Join operations
 }
-\note{
-Updated 2019-08-26.
-}
 \examples{
 class(leftJoin)
 }

@@ -2,12 +2,11 @@
 #'
 #' @name mutate
 #' @note Mutations are only allowed on `atomic` columns.
-#' @note Updated 2019-08-26.
 #'
 #' @inheritParams acidroxygen::params
 #' @param predicate `function` or `logical`.
-#'   A predicate function to be applied to the columns, or a logical vector
-#'   matching the number of columns.
+#'   A predicate function to be applied to the columns.
+#'   For example, `is.atomic()`.
 #' @param fun `function`.
 #'   Mutation function.
 #' @param vars `character`.
