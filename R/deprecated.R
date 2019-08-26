@@ -93,7 +93,7 @@ setGeneric(
 setGeneric(
     name = "meltCounts",
     def = function(object, ...) {
-        .Deprecated("gather")
+        .Deprecated("melt")
         standardGeneric("meltCounts")
     }
 )

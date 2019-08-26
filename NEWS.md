@@ -1,3 +1,11 @@
+## bioverbs 0.2.7 (2019-08-26)
+
+### New functions
+
+- Deprecated `meltCounts` in favor of simply using `melt`. Note that
+  `reshape2::melt` is deprecated in favor of `tidyr::gather`, so we're not
+  conflicting with any activate tidyverse verbs here.
+
 ## bioverbs 0.2.6 (2019-08-23)
 
 ### New functions
