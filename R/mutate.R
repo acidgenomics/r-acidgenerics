@@ -4,7 +4,7 @@
 #' @note Mutations are only allowed on `atomic` columns.
 #'
 #' @inheritParams acidroxygen::params
-#' @param predicate `function` or `logical`.
+#' @param predicate `function`.
 #'   A predicate function to be applied to the columns.
 #'   For example, `is.atomic()`.
 #' @param fun `function`.

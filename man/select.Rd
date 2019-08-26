@@ -10,7 +10,7 @@ selectIf(object, predicate, ...)
 \arguments{
 \item{object}{Object.}
 
-\item{predicate}{\code{function} or \code{logical}.
+\item{predicate}{\code{function}.
 A predicate function to be applied to the columns.
 For example, \code{is.atomic()}.}
 
