@@ -31,8 +31,8 @@ Mutation function.}
 Column names.}
 
 \item{predicate}{\code{function} or \code{logical}.
-A predicate function to be applied to the columns, or a logical vector
-matching the number of columns.}
+A predicate function to be applied to the columns.
+For example, \code{is.atomic()}.}
 }
 \value{
 Modified object.
@@ -42,8 +42,6 @@ Mutate multiple columns
 }
 \note{
 Mutations are only allowed on \code{atomic} columns.
-
-Updated 2019-08-26.
 }
 \examples{
 class(mutateIf)

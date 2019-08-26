@@ -1,7 +1,6 @@
 #' Select multiple columns
 #'
 #' @name select
-#' @note Updated 2019-08-26.
 #'
 #' @inheritParams acidroxygen::params
 #' @inheritParams mutate

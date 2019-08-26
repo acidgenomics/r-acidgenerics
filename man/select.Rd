@@ -11,8 +11,8 @@ selectIf(object, predicate, ...)
 \item{object}{Object.}
 
 \item{predicate}{\code{function} or \code{logical}.
-A predicate function to be applied to the columns, or a logical vector
-matching the number of columns.}
+A predicate function to be applied to the columns.
+For example, \code{is.atomic()}.}
 
 \item{...}{Additional arguments.}
 }
@@ -21,9 +21,6 @@ Modified object.
 }
 \description{
 Select multiple columns
-}
-\note{
-Updated 2019-08-26.
 }
 \examples{
 class(selectIf)

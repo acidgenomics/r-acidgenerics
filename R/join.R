@@ -1,7 +1,6 @@
 #' Join operations
 #'
 #' @name join
-#' @note Updated 2019-08-26.
 #'
 #' @inheritParams acidroxygen::params
 #' @param by `character`.
