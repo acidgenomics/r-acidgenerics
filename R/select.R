@@ -13,8 +13,11 @@
 #' work on `DataFrame` class, and use base R code internally.
 #'
 #' ```r
-#' `help(topic = "select_all", package = "dplyr")`
+#' `help(topic = "select_if", package = "dplyr")`
 #' ```
+#'
+#' @examples
+#' class(selectIf)
 NULL
 
 

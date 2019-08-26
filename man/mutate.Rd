@@ -45,8 +45,11 @@ Mutations are only allowed on \code{atomic} columns.
 
 Updated 2019-08-26.
 }
+\examples{
+class(mutateIf)
+}
 \seealso{
 These functions are inspired by dplyr. However, they are designed to only
-work on \code{DataFrame} class, and use base R code internally.\preformatted{help(topic = "mutate_all", package = "dplyr")
+work on \code{DataFrame} class, and use base R code internally.\preformatted{help(topic = "mutate_if", package = "dplyr")
 }
 }
