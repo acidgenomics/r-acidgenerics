@@ -153,8 +153,8 @@ Column names.</p></td>
     <tr>
       <th>predicate</th>
       <td><p><code>function</code> or <code>logical</code>.
-A predicate function to be applied to the columns, or a logical vector
-matching the number of columns.</p></td>
+A predicate function to be applied to the columns.
+For example, <code><a href='https://rdrr.io/r/base/is.recursive.html'>is.atomic()</a></code>.</p></td>
     </tr>
     </table>
     
@@ -165,7 +165,6 @@ matching the number of columns.</p></td>
     <h2 class="hasAnchor" id="note"><a class="anchor" href="#note"></a>Note</h2>
 
     <p>Mutations are only allowed on <code>atomic</code> columns.</p>
-<p>Updated 2019-08-26.</p>
     
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
@@ -176,7 +175,9 @@ work on <code>DataFrame</code> class, and use base R code internally.</p><pre>he
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>mutateIf</span>)</div><div class='output co'>#&gt; <span class='error'>Error in eval(expr, envir, enclos): object 'mutateIf' not found</span></div></pre>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>mutateIf</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
+#&gt; attr(,"package")
+#&gt; [1] "methods"</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
