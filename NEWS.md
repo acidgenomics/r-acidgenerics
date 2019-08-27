@@ -1,4 +1,8 @@
-## bioverbs 0.2.7 (2019-08-26)
+## bioverbs 0.2.7 (2019-08-27)
+
+### Major changes
+
+- Updated R dependency to 3.6.
 
 ### New functions
 
