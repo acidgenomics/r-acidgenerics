@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Melt count matrix into long format — meltCounts • bioverbs</title>
+<title>Join operations — join • bioverbs</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -34,9 +34,9 @@
 
   <link href="../extra.css" rel="stylesheet">
   
-<meta property="og:title" content="Melt count matrix into long format — meltCounts" />
+<meta property="og:title" content="Join operations — join" />
 
-<meta property="og:description" content="Melt count matrix into long format" />
+<meta property="og:description" content="Join operations" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -68,7 +68,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">bioverbs</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.6</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.7</span>
       </span>
     </div>
 
@@ -108,25 +108,44 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Melt count matrix into long format</h1>
-    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/meltCounts.R'><code>R/meltCounts.R</code></a></small>
-    <div class="hidden name"><code>meltCounts.Rd</code></div>
+    <h1>Join operations</h1>
+    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/join.R'><code>R/join.R</code></a></small>
+    <div class="hidden name"><code>join.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>Melt count matrix into long format</p>
+    <p>Join operations</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>meltCounts</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>innerJoin</span>(<span class='no'>x</span>, <span class='no'>y</span>, <span class='no'>by</span>, <span class='no'>...</span>)
+
+<span class='fu'>leftJoin</span>(<span class='no'>x</span>, <span class='no'>y</span>, <span class='no'>by</span>, <span class='no'>...</span>)
+
+<span class='fu'>rightJoin</span>(<span class='no'>x</span>, <span class='no'>y</span>, <span class='no'>by</span>, <span class='no'>...</span>)
+
+<span class='fu'>fullJoin</span>(<span class='no'>x</span>, <span class='no'>y</span>, <span class='no'>by</span>, <span class='no'>...</span>)
+
+<span class='fu'>semiJoin</span>(<span class='no'>x</span>, <span class='no'>y</span>, <span class='no'>by</span>, <span class='no'>...</span>)
+
+<span class='fu'>antiJoin</span>(<span class='no'>x</span>, <span class='no'>y</span>, <span class='no'>by</span>, <span class='no'>...</span>)</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>object</th>
+      <th>x</th>
       <td><p>Object.</p></td>
+    </tr>
+    <tr>
+      <th>y</th>
+      <td><p>Object.</p></td>
+    </tr>
+    <tr>
+      <th>by</th>
+      <td><p><code>character</code>.
+Column names to use for join operation.</p></td>
     </tr>
     <tr>
       <th>...</th>
@@ -136,21 +155,21 @@
     
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p><code>DataFrame</code>.
-Melted data frame containing these columns:</p><ul>
-<li><p><code>colname</code> (e.g. sample ID).</p></li>
-<li><p><code>rowname</code> (e.g. gene ID).</p></li>
-<li><p><code>counts</code>.</p></li>
-</ul>
-
+    <p>New object containing a merge of <code>x</code> and <code>y</code> objects.</p>
     
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p><code><a href='https://rdrr.io/pkg/reshape2/man/melt.html'>reshape2::melt()</a></code>.</p></div>
+    <div class='dont-index'>
+<ul>
+<li><p><code><a href='https://rdrr.io/r/utils/help.html'>help(topic = "join", package = "dplyr")</a></code>.</p></li>
+<li><p><code><a href='https://rdrr.io/r/utils/help.html'>help(topic = "merge", package = "S4Vectors")</a></code>.</p></li>
+<li><p>https://support.bioconductor.org/p/120277/</p></li>
+</ul>
+</div>
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>meltCounts</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>leftJoin</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
 #&gt; attr(,"package")
 #&gt; [1] "methods"</div></pre>
   </div>
