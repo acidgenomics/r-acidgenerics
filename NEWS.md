@@ -8,11 +8,6 @@
 - Migrated join, mutate, and select generics defined in transformer. Tightened
   up the required signature arguments here.
 
-### Minor changes
-
-- Renamed `nonzeroRowsAndCols` to `nonZeroRowsAndCols`. This matches the naming
-  convention in goalie `hasNonZeroRowsAndCols`.
-
 ## bioverbs 0.2.6 (2019-08-23)
 
 ### New functions
