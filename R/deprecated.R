@@ -87,5 +87,18 @@ setGeneric(
 
 
 
+# v0.2.7 =======================================================================
+#' @rdname deprecated
+#' @export
+setGeneric(
+    name = "meltCounts",
+    def = function(object, ...) {
+        .Deprecated("melt")
+        standardGeneric("meltCounts")
+    }
+)
+
+
+
 ## nolint end
 ## nocov end

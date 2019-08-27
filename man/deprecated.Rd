@@ -7,6 +7,7 @@
 \alias{plotGenesDetected}
 \alias{plotUMIsPerCell}
 \alias{plotUMIsVsGenes}
+\alias{meltCounts}
 \title{Deprecated functions}
 \usage{
 clusterID(object, ...)
@@ -18,6 +19,8 @@ plotGenesDetected(object, ...)
 plotUMIsPerCell(object, ...)
 
 plotUMIsVsGenes(object, ...)
+
+meltCounts(object, ...)
 }
 \arguments{
 \item{object}{Object.}
