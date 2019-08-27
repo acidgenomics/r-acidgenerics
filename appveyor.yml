@@ -20,6 +20,12 @@ environment:
     GCC_PATH: mingw_64
     R_ARCH: x64
     USE_RTOOLS: true
+  matrix:
+    - configuration: 3.6
+      R_VERSION: 3.6.1
+
+matrix:
+  fast_finish: true
 
 build_script:
   - travis-tool.sh install_deps
