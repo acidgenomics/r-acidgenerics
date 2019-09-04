@@ -12,7 +12,7 @@ topMarkers(object, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-\code{grouped_df}.
+\code{DataFrame}.
 }
 \description{
 Top markers

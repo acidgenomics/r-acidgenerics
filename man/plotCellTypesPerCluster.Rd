@@ -14,7 +14,7 @@ plotCellTypesPerCluster(object, markers, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-Plot.
+Show graphical output. Invisibly return \code{list}.
 }
 \description{
 Plot cell types per cluster

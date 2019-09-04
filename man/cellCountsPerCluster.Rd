@@ -12,7 +12,7 @@ cellCountsPerCluster(object, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-\code{data.frame}.
+\code{DataFrame}.
 }
 \description{
 Cell counts per cluster
