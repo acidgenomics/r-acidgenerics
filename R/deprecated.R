@@ -44,7 +44,7 @@ setGeneric(
 
 
 
-# v0.2.4 =======================================================================
+## v0.2.4 ======================================================================
 #' @rdname deprecated
 #' @export
 setGeneric(
@@ -87,7 +87,7 @@ setGeneric(
 
 
 
-# v0.2.7 =======================================================================
+## v0.2.7 ======================================================================
 #' @rdname deprecated
 #' @export
 setGeneric(
@@ -95,6 +95,18 @@ setGeneric(
     def = function(object, ...) {
         .Deprecated("melt")
         standardGeneric("meltCounts")
+    }
+)
+
+
+
+## v0.2.8 ======================================================================
+#' @rdname defunct
+#' @export
+setGeneric(
+    name = "clusterCellCountsPerSample",
+    def = function(object, ...) {
+        .Defunct("cellCountsPerCluster")
     }
 )
 

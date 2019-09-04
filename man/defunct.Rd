@@ -3,9 +3,12 @@
 \name{defunct}
 \alias{defunct}
 \alias{plotGene}
+\alias{clusterCellCountsPerSample}
 \title{Defunct functions}
 \usage{
 plotGene(object, ...)
+
+clusterCellCountsPerSample(object, ...)
 }
 \arguments{
 \item{object}{Object.}
