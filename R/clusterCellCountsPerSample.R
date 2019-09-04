@@ -3,8 +3,7 @@
 #' @export
 #' @inheritParams acidroxygen::params
 #'
-#' @return `grouped_df`.
-#'   Grouped by `sampleName` column, arranged by abundance.
+#' @return `DataFrame`.
 #'
 #' @examples
 #' class(clusterCellCountsPerSample)

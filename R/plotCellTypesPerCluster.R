@@ -4,7 +4,7 @@
 #' @inheritParams acidroxygen::params
 #' @param markers Object containing gene markers.
 #'
-#' @return Plot.
+#' @return Show graphical output. Invisibly return `list`.
 #'
 #' @examples
 #' class(plotCellTypesPerCluster)
