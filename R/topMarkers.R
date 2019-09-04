@@ -3,7 +3,7 @@
 #' @export
 #' @inheritParams acidroxygen::params
 #'
-#' @return `grouped_df`.
+#' @return `DataFrame`.
 #'
 #' @examples
 #' class(topMarkers)

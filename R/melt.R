@@ -6,8 +6,8 @@
 #' @inheritParams acidroxygen::params
 #'
 #' @seealso
-#' - `tidyr::gather()`: Recommended for use with `tbl_df`.
-#' - `reshape2::melt()` (deprecated).
+#' - `tidyr::gather()`: Recommended instead for use with `tbl_df`.
+#' - `reshape2::melt()`: Inspiration for name, but now deprecated..
 #' - Python `pandas.melt`.
 #'
 #' @return `DataFrame`.

@@ -12,8 +12,7 @@ clusterCellCountsPerSample(object, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-\code{grouped_df}.
-Grouped by \code{sampleName} column, arranged by abundance.
+\code{DataFrame}.
 }
 \description{
 Cluster cell counts per sample

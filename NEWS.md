@@ -1,3 +1,9 @@
+## bioverbs 0.2.8 (2019-09-03)
+
+### Minor changes
+
+- Improve `DataFrame` return consistency in documentation.
+
 ## bioverbs 0.2.7 (2019-08-27)
 
 ### Major changes
