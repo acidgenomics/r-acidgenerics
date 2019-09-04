@@ -22,8 +22,8 @@ class(melt)
 }
 \seealso{
 \itemize{
-\item \code{tidyr::gather()}: Recommended for use with \code{tbl_df}.
-\item \code{reshape2::melt()} (deprecated).
+\item \code{tidyr::gather()}: Recommended instead for use with \code{tbl_df}.
+\item \code{reshape2::melt()}: Inspiration for name, but now deprecated..
 \item Python \code{pandas.melt}.
 }
 }

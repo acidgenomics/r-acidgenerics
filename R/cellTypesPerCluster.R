@@ -3,7 +3,7 @@
 #' @export
 #' @inheritParams acidroxygen::params
 #'
-#' @return `data.frame`.
+#' @return `DataFrame`.
 #'
 #' @examples
 #' class(cellTypesPerCluster)
