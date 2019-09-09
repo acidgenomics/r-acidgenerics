@@ -112,5 +112,17 @@ setGeneric(
 
 
 
+## v0.2.9 ======================================================================
+#' @rdname defunct
+#' @export
+setGeneric(
+    name = "flatFiles",
+    def = function(object, ...) {
+        .Defunct("coerceS4ToList")
+    }
+)
+
+
+
 ## nolint end
 ## nocov end
