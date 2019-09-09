@@ -1,3 +1,12 @@
+## bioverbs 0.2.9 (2019-09-09)
+
+### Major changes
+
+- Migrated syntactic generics to the syntactic package. This includes:
+  `camelCase`, `capitalize`, `dottedCase`, `kebabCase`, `snakeCase`,
+  `upperCamelCase`.
+- Made `flatFiles` defunct in favor of `coerceS4ToList` usage.
+
 ## bioverbs 0.2.8 (2019-09-03)
 
 ### Minor changes
