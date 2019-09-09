@@ -107,6 +107,7 @@ setGeneric(
     name = "clusterCellCountsPerSample",
     def = function(object, ...) {
         .Defunct("cellCountsPerCluster")
+        standardGeneric("clusterCellCountsPerSample")
     }
 )
 
@@ -119,6 +120,7 @@ setGeneric(
     name = "flatFiles",
     def = function(object, ...) {
         .Defunct("coerceS4ToList")
+        standardGeneric("flatFiles")
     }
 )
 
