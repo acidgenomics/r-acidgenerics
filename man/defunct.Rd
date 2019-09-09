@@ -4,11 +4,14 @@
 \alias{defunct}
 \alias{plotGene}
 \alias{clusterCellCountsPerSample}
+\alias{flatFiles}
 \title{Defunct functions}
 \usage{
 plotGene(object, ...)
 
 clusterCellCountsPerSample(object, ...)
+
+flatFiles(object, ...)
 }
 \arguments{
 \item{object}{Object.}
