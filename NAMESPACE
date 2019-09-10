@@ -2,6 +2,7 @@
 
 export("alphaThreshold<-")
 export("collectionNames<-")
+export("contrastName<-")
 export("contrastNames<-")
 export("interestingGroups<-")
 export("lfcThreshold<-")
