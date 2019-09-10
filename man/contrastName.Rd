@@ -2,14 +2,19 @@
 % Please edit documentation in R/contrastName.R
 \name{contrastName}
 \alias{contrastName}
+\alias{contrastName<-}
 \title{Contrast name}
 \usage{
 contrastName(object, ...)
+
+contrastName(object, ...) <- value
 }
 \arguments{
 \item{object}{Object.}
 
 \item{...}{Additional arguments.}
+
+\item{value}{Value to assign.}
 }
 \value{
 \code{character(1)}.
