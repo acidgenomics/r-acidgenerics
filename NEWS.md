@@ -3,6 +3,7 @@
 ### New functions
 
 - Added `contrastName<-` assignment method generic.
+- Added `resultsNames<-` assignment method generic.
 
 ## bioverbs 0.2.9 (2019-09-09)
 
