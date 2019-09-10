@@ -1,3 +1,9 @@
+## bioverbs 0.2.10 (2019-09-10)
+
+### New functions
+
+- Added `contrastName<-` assignment method generic.
+
 ## bioverbs 0.2.9 (2019-09-09)
 
 ### Major changes
