@@ -14,3 +14,14 @@ setGeneric(
         standardGeneric("contrastName")
     }
 )
+
+
+
+#' @rdname contrastName
+#' @export
+setGeneric(
+    name = "contrastName<-",
+    def = function(object, ..., value) {
+        standardGeneric("contrastName<-")
+    }
+)

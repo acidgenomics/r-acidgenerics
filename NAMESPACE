@@ -2,10 +2,12 @@
 
 export("alphaThreshold<-")
 export("collectionNames<-")
+export("contrastName<-")
 export("contrastNames<-")
 export("interestingGroups<-")
 export("lfcThreshold<-")
 export("mcolnames<-")
+export("resultsNames<-")
 export("sampleData<-")
 export(aggregateCellsToSamples)
 export(aggregateCols)
