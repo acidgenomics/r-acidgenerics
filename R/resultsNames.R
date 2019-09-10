@@ -16,3 +16,14 @@ setGeneric(
         standardGeneric("resultsNames")
     }
 )
+
+
+
+#' @rdname resultsNames
+#' @export
+setGeneric(
+    name = "resultsNames<-",
+    def = function(object, ..., value) {
+        standardGeneric("resultsNames<-")
+    }
+)
