@@ -9,9 +9,17 @@ S4 generic functions for bioinformatics.
 
 ## Installation
 
-This package is part of the [basejump][] toolkit. Refer to its website for installation instructions.
+This is an [R][] package.
 
-[R]: https://www.r-project.org/
-[basejump]: https://basejump.acidgenomics.com/
+```r
+if (!requireNamespace("remotes", quietly = TRUE)) {
+    install.packages("remotes")
+}
+Sys.setenv(R_REMOTES_UPGRADE = "always")
+## Set `GITHUB_PAT` in `~/.Renviron` if you get a rate limit error.
+remotes::install_github("acidgenomics/bioverbs")
+```
+
 [bioconda]: https://bioconda.github.io/
 [conda]: https://conda.io/
+[r]: https://www.r-project.org/
