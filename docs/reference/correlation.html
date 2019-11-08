@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Plot known markers — plotKnownMarkers • bioverbs</title>
+<title>Correlation — correlation • bioverbs</title>
 
 
 <!-- jquery -->
@@ -37,8 +37,8 @@
   <link href="../extra.css" rel="stylesheet">
   
 
-<meta property="og:title" content="Plot known markers — plotKnownMarkers" />
-<meta property="og:description" content="Plot known markers" />
+<meta property="og:title" content="Correlation — correlation" />
+<meta property="og:description" content="Correlation" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -110,27 +110,27 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Plot known markers</h1>
-    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/plotKnownMarkers.R'><code>R/plotKnownMarkers.R</code></a></small>
-    <div class="hidden name"><code>plotKnownMarkers.Rd</code></div>
+    <h1>Correlation</h1>
+    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/correlation.R'><code>R/correlation.R</code></a></small>
+    <div class="hidden name"><code>correlation.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Plot known markers</p>
+    <p>Correlation</p>
     </div>
 
-    <pre class="usage"><span class='fu'>plotKnownMarkers</span>(<span class='no'>object</span>, <span class='no'>markers</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>correlation</span>(<span class='no'>x</span>, <span class='no'>y</span>, <span class='no'>...</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>object</th>
+      <th>x</th>
       <td><p>Object.</p></td>
     </tr>
     <tr>
-      <th>markers</th>
-      <td><p>Object containing gene markers.</p></td>
+      <th>y</th>
+      <td><p>Object.</p></td>
     </tr>
     <tr>
       <th>...</th>
@@ -140,11 +140,21 @@
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>Show graphical output.
-Invisibly return a <code>ggplot</code> <code>list</code>.</p>
+    <p><code><a href='https://rdrr.io/r/base/numeric.html'>numeric(1)</a></code> or <code>matrix</code>.</p>
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+
+    <div class='dont-index'>
+<ul>
+<li><p><code><a href='https://rdrr.io/r/stats/cor.html'>stats::cor()</a></code>.</p></li>
+<li><p><code><a href='https://rdrr.io/r/stats/cor.test.html'>stats::cor.test()</a></code>.</p></li>
+<li><p><code><a href='https://rdrr.io/r/stats/sd.html'>stats::sd()</a></code>.</p></li>
+<li><p><code>S4Vectors::cor()</code>.</p></li>
+<li><p>https://stats.stackexchange.com/questions/24980</p></li>
+</ul>
+</div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>plotKnownMarkers</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>correlation</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
 #&gt; attr(,"package")
 #&gt; [1] "methods"</div></pre>
   </div>
@@ -153,6 +163,7 @@ Invisibly return a <code>ggplot</code> <code>list</code>.</p>
     <ul class="nav nav-pills nav-stacked">
       <li><a href="#arguments">Arguments</a></li>
       <li><a href="#value">Value</a></li>
+      <li><a href="#see-also">See also</a></li>
       <li><a href="#examples">Examples</a></li>
     </ul>
 
