@@ -1,3 +1,10 @@
+## bioverbs 0.2.11 (2019-11-08)
+
+### New functions
+
+- Added `correlation` generic, which is more flexible than default `cor` generic
+  defined in stats and/or S4Vectors.
+
 ## bioverbs 0.2.10 (2019-09-10)
 
 ### New functions
