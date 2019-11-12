@@ -22,7 +22,7 @@ transmuteIf(object, predicate, fun, ...)
 \arguments{
 \item{object}{Object.}
 
-\item{fun}{\code{function}.
+\item{fun}{\verb{function}.
 Mutation function.}
 
 \item{...}{Passthrough arguments to function declared in \code{fun} argument.}
@@ -30,7 +30,7 @@ Mutation function.}
 \item{vars}{\code{character}.
 Column names.}
 
-\item{predicate}{\code{function}.
+\item{predicate}{\verb{function}.
 A predicate function to be applied to the columns.
 For example, \code{is.atomic()}.}
 }
@@ -48,6 +48,6 @@ class(mutateIf)
 }
 \seealso{
 These functions are inspired by dplyr. However, they are designed to only
-work on \code{DataFrame} class, and use base R code internally.\preformatted{help(topic = "mutate_if", package = "dplyr")
-}
+work on \code{DataFrame} class, and use base R code internally.\if{html}{\out{<div class="r">}}\preformatted{help(topic = "mutate_if", package = "dplyr")
+}\if{html}{\out{</div>}}
 }

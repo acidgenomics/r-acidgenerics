@@ -10,7 +10,7 @@ selectIf(object, predicate, ...)
 \arguments{
 \item{object}{Object.}
 
-\item{predicate}{\code{function}.
+\item{predicate}{\verb{function}.
 A predicate function to be applied to the columns.
 For example, \code{is.atomic()}.}
 
@@ -27,6 +27,6 @@ class(selectIf)
 }
 \seealso{
 These functions are inspired by dplyr. However, they are designed to only
-work on \code{DataFrame} class, and use base R code internally.\preformatted{`help(topic = "select_if", package = "dplyr")`
-}
+work on \code{DataFrame} class, and use base R code internally.\if{html}{\out{<div class="r">}}\preformatted{`help(topic = "select_if", package = "dplyr")`
+}\if{html}{\out{</div>}}
 }
