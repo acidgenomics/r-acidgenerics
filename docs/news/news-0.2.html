@@ -69,7 +69,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">bioverbs</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.11</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.12</span>
       </span>
     </div>
 
@@ -124,9 +124,9 @@
 <code>plotCountsCorrelation</code> and <code>plotCountsCorrelationHeatmap</code>: New utility generics for comparing count correlation across multiple datasets.</li>
 </ul>
 </div>
-<div id="major-changes-3" class="section level3">
+<div id="major-changes-4" class="section level3">
 <h3 class="hasAnchor">
-<a href="#major-changes-3" class="anchor"></a>Major changes</h3>
+<a href="#major-changes-4" class="anchor"></a>Major changes</h3>
 <ul>
 <li>Renamed syntactic name functions, including "*Case" where appropriate. <code>camel</code> to <code>camelCase</code>; <code>kebab</code> to <code>kebabCase</code>; <code>snake</code> to <code>snakeCase</code>; <code>upperCamel</code> to <code>upperCamelCase</code>. The shorthand variants will remain exported in the syntactic package.</li>
 </ul>
@@ -143,9 +143,9 @@
 <li>Added <code>cpm</code> and <code>tpm</code> generics, which are defined in SingleCellExperiment.</li>
 </ul>
 </div>
-<div id="major-changes-2" class="section level3">
+<div id="major-changes-3" class="section level3">
 <h3 class="hasAnchor">
-<a href="#major-changes-2" class="anchor"></a>Major changes</h3>
+<a href="#major-changes-3" class="anchor"></a>Major changes</h3>
 <ul>
 <li>Deprecated <code>clusterID</code> generic in favor of <code>clusters</code>.</li>
 </ul>
@@ -154,9 +154,9 @@
     <div id="bioverbs-0-2-2-2019-08-07" class="section level2">
 <h2 class="hasAnchor">
 <a href="#bioverbs-0-2-2-2019-08-07" class="anchor"></a>bioverbs 0.2.2 (2019-08-07)</h2>
-<div id="minor-changes-1" class="section level3">
+<div id="minor-changes-2" class="section level3">
 <h3 class="hasAnchor">
-<a href="#minor-changes-1" class="anchor"></a>Minor changes</h3>
+<a href="#minor-changes-2" class="anchor"></a>Minor changes</h3>
 <ul>
 <li>
 <code>plotCellTypesPerCluster</code>: Added <code>markers</code> to signature.</li>
@@ -232,9 +232,9 @@
     <div id="bioverbs-0-2-7-2019-08-27" class="section level2">
 <h2 class="hasAnchor">
 <a href="#bioverbs-0-2-7-2019-08-27" class="anchor"></a>bioverbs 0.2.7 (2019-08-27)</h2>
-<div id="major-changes-1" class="section level3">
+<div id="major-changes-2" class="section level3">
 <h3 class="hasAnchor">
-<a href="#major-changes-1" class="anchor"></a>Major changes</h3>
+<a href="#major-changes-2" class="anchor"></a>Major changes</h3>
 <ul>
 <li>Updated R dependency to 3.6.</li>
 </ul>
@@ -251,9 +251,9 @@
     <div id="bioverbs-0-2-8-2019-09-03" class="section level2">
 <h2 class="hasAnchor">
 <a href="#bioverbs-0-2-8-2019-09-03" class="anchor"></a>bioverbs 0.2.8 (2019-09-03)</h2>
-<div id="minor-changes" class="section level3">
+<div id="minor-changes-1" class="section level3">
 <h3 class="hasAnchor">
-<a href="#minor-changes" class="anchor"></a>Minor changes</h3>
+<a href="#minor-changes-1" class="anchor"></a>Minor changes</h3>
 <ul>
 <li>Improve <code>DataFrame</code> return consistency in documentation.</li>
 </ul>
@@ -262,9 +262,9 @@
     <div id="bioverbs-0-2-9-2019-09-09" class="section level2">
 <h2 class="hasAnchor">
 <a href="#bioverbs-0-2-9-2019-09-09" class="anchor"></a>bioverbs 0.2.9 (2019-09-09)</h2>
-<div id="major-changes" class="section level3">
+<div id="major-changes-1" class="section level3">
 <h3 class="hasAnchor">
-<a href="#major-changes" class="anchor"></a>Major changes</h3>
+<a href="#major-changes-1" class="anchor"></a>Major changes</h3>
 <ul>
 <li>Migrated syntactic generics to the syntactic package. This includes: <code>camelCase</code>, <code>capitalize</code>, <code>dottedCase</code>, <code>kebabCase</code>, <code>snakeCase</code>, <code>upperCamelCase</code>.</li>
 <li>Made <code>flatFiles</code> defunct in favor of <code>coerceS4ToList</code> usage.</li>
@@ -294,6 +294,25 @@
 </ul>
 </div>
 </div>
+    <div id="bioverbs-0-2-12-2019-11-19" class="section level2">
+<h2 class="hasAnchor">
+<a href="#bioverbs-0-2-12-2019-11-19" class="anchor"></a>bioverbs 0.2.12 (2019-11-19)</h2>
+<div id="major-changes" class="section level3">
+<h3 class="hasAnchor">
+<a href="#major-changes" class="anchor"></a>Major changes</h3>
+<ul>
+<li>Renamed <code>plotDEGUpset</code> to simply <code>plotUpset</code>.</li>
+<li>Deprecated <code>plotDEGHeatmap</code>, <code>plotDEGPCA</code> in favor of simply using <code>plotHeatmap</code> and <code>plotPCA</code>, which can be dispatched on differential expression classes defined in DESeqAnalysis package (e.g. <code>DESeqResults</code>).</li>
+</ul>
+</div>
+<div id="minor-changes" class="section level3">
+<h3 class="hasAnchor">
+<a href="#minor-changes" class="anchor"></a>Minor changes</h3>
+<ul>
+<li>Made <code>plotGSEATable</code> defunct, which doesn’t work that well in pfgsea package and will be removed in next update.</li>
+</ul>
+</div>
+</div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
@@ -312,6 +331,7 @@
         <li><a href="#bioverbs-0-2-9-2019-09-09">0.2.9</a></li>
         <li><a href="#bioverbs-0-2-10-2019-09-10">0.2.10</a></li>
         <li><a href="#bioverbs-0-2-11-2019-11-08">0.2.11</a></li>
+        <li><a href="#bioverbs-0-2-12-2019-11-19">0.2.12</a></li>
       </ul>
     </div>
   </div>
