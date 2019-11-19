@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Deprecated functions — deprecated • bioverbs</title>
+<title>UpSet plot of directional DEG intersections across contrasts — plotDEGUpset • bioverbs</title>
 
 
 <!-- jquery -->
@@ -37,8 +37,8 @@
   <link href="../extra.css" rel="stylesheet">
   
 
-<meta property="og:title" content="Deprecated functions — deprecated" />
-<meta property="og:description" content="Deprecated functions" />
+<meta property="og:title" content="UpSet plot of directional DEG intersections across contrasts — plotDEGUpset" />
+<meta property="og:description" content="UpSet plot of directional DEG intersections across contrasts" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -110,26 +110,16 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Deprecated functions</h1>
-    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/deprecated.R'><code>R/deprecated.R</code></a></small>
-    <div class="hidden name"><code>deprecated.Rd</code></div>
+    <h1>UpSet plot of directional DEG intersections across contrasts</h1>
+    <small class="dont-index">Source: <a href='https://github.com/acidgenomics/bioverbs/blob/master/R/plotDEGUpset.R'><code>R/plotDEGUpset.R</code></a></small>
+    <div class="hidden name"><code>plotDEGUpset.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Deprecated functions</p>
+    <p>UpSet plot of directional DEG intersections across contrasts</p>
     </div>
 
-    <pre class="usage"><span class='fu'>clusterID</span>(<span class='no'>object</span>, <span class='no'>...</span>)
-
-<span class='fu'>plotGenesPerCell</span>(<span class='no'>object</span>, <span class='no'>...</span>)
-
-<span class='fu'>plotGenesDetected</span>(<span class='no'>object</span>, <span class='no'>...</span>)
-
-<span class='fu'>plotUMIsPerCell</span>(<span class='no'>object</span>, <span class='no'>...</span>)
-
-<span class='fu'>plotUMIsVsGenes</span>(<span class='no'>object</span>, <span class='no'>...</span>)
-
-<span class='fu'>meltCounts</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>plotDEGUpset</span>(<span class='no'>object</span>, <span class='no'>...</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -146,37 +136,18 @@
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p><code>.Deprecated</code>.</p>
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
-
-    <div class='dont-index'><p><a href='https://rdrr.io/r/base/Deprecated.html'>Deprecated</a>.</p></div>
+    <p>Plot.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='no'>a</span> <span class='kw'>&lt;-</span> <span class='kw'>function</span>(<span class='no'>...</span>) {
-    <span class='fu'><a href='https://rdrr.io/r/base/Deprecated.html'>.Deprecated</a></span>(<span class='st'>"b"</span>)
-    <span class='fu'>b</span>(<span class='no'>...</span>)
-}
-
-<span class='no'>b</span> <span class='kw'>&lt;-</span> <span class='kw'>function</span>(<span class='no'>x</span>) {
-    <span class='no'>x</span> + <span class='fl'>1L</span>
-}
-
-<span class='fu'><a href='https://rdrr.io/r/base/conditions.html'>withCallingHandlers</a></span>(
-    <span class='kw'>expr</span> <span class='kw'>=</span> <span class='fu'>a</span>(<span class='fl'>1L</span>),
-    <span class='kw'>warning</span> <span class='kw'>=</span> <span class='kw'>function</span>(<span class='no'>w</span>) {
-        <span class='fu'><a href='https://rdrr.io/r/base/print.html'>print</a></span>(<span class='no'>w</span>)
-        <span class='fu'><a href='https://rdrr.io/r/base/conditions.html'>invokeRestart</a></span>(<span class='st'>"muffleWarning"</span>)
-    }
-)</div><div class='output co'>#&gt; &lt;deprecatedWarning: 'a' is deprecated.
-#&gt; Use 'b' instead.
-#&gt; See help("Deprecated")&gt;</div><div class='output co'>#&gt; [1] 2</div></pre>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>plotDEGUpset</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"
+#&gt; attr(,"package")
+#&gt; [1] "methods"</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
       <li><a href="#arguments">Arguments</a></li>
       <li><a href="#value">Value</a></li>
-      <li><a href="#see-also">See also</a></li>
       <li><a href="#examples">Examples</a></li>
     </ul>
 
