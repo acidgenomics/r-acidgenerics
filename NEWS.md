@@ -1,11 +1,9 @@
 ## bioverbs 0.2.12 (2019-11-19)
 
-### Major changes
+### New functions
 
-- Renamed `plotDEGUpset` to simply `plotUpset`.
-- Deprecated `plotDEGHeatmap`, `plotDEGPCA` in favor of simply using
-  `plotHeatmap` and `plotPCA`, which can be dispatched on differential
-  expression classes defined in DESeqAnalysis package (e.g. `DESeqResults`).
+- Added `plotUpset` generic. Corresponding methods for `data.frame` and
+  `DataFrame` will be defined in acidplots update.
 
 ### Minor changes
 

@@ -125,36 +125,6 @@ setGeneric(
 
 
 # v0.2.12 ======================================================================
-#' @rdname deprecated
-#' @export
-setGeneric(
-    name = "plotDEGHeatmap",
-    def = function(object, ...) {
-        .Deprecated("plotHeatmap")
-        standardGeneric("plotDEGHeatmap")
-    }
-)
-
-#' @rdname deprecated
-#' @export
-setGeneric(
-    name = "plotDEGPCA",
-    def = function(object, ...) {
-        .Deprecated("plotPCA")
-        standardGeneric("plotDEGPCA")
-    }
-)
-
-#' @rdname deprecated
-#' @export
-setGeneric(
-    name = "plotDEGUpset",
-    def = function(object, ...) {
-        .Deprecated("plotUpset")
-        standardGeneric("plotDEGUpset")
-    }
-)
-
 #' @rdname defunct
 #' @export
 setGeneric(
