@@ -9,11 +9,7 @@
 #'
 #' @seealso
 #' These functions are inspired by dplyr. However, they are designed to only
-#' work on `DataFrame` class, and use base R code internally.
-#'
-#' ```r
-#' `help(topic = "select_if", package = "dplyr")`
-#' ```
+#' work on Bioconductor S4 class objects, and use base R code internally.
 #'
 #' @examples
 #' class(selectIf)
