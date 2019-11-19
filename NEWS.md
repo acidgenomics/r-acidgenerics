@@ -1,3 +1,17 @@
+## bioverbs 0.2.12 (2019-11-19)
+
+### Major changes
+
+- Renamed `plotDEGUpset` to simply `plotUpset`.
+- Deprecated `plotDEGHeatmap`, `plotDEGPCA` in favor of simply using
+  `plotHeatmap` and `plotPCA`, which can be dispatched on differential
+  expression classes defined in DESeqAnalysis package (e.g. `DESeqResults`).
+
+### Minor changes
+
+- Made `plotGSEATable` defunct, which doesn't work that well in pfgsea package
+  and will be removed in next update.
+
 ## bioverbs 0.2.11 (2019-11-08)
 
 ### New functions

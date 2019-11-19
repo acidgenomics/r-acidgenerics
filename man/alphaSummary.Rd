@@ -12,7 +12,7 @@ alphaSummary(object, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-\code{integer matrix}.
+\verb{integer matrix}.
 }
 \description{
 Quickly generate a summary table of various alpha level cutoffs.
