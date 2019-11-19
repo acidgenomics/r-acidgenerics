@@ -8,9 +8,6 @@
 \alias{plotUMIsPerCell}
 \alias{plotUMIsVsGenes}
 \alias{meltCounts}
-\alias{plotDEGHeatmap}
-\alias{plotDEGPCA}
-\alias{plotDEGUpset}
 \title{Deprecated functions}
 \usage{
 clusterID(object, ...)
@@ -24,12 +21,6 @@ plotUMIsPerCell(object, ...)
 plotUMIsVsGenes(object, ...)
 
 meltCounts(object, ...)
-
-plotDEGHeatmap(object, ...)
-
-plotDEGPCA(object, ...)
-
-plotDEGUpset(object, ...)
 }
 \arguments{
 \item{object}{Object.}
