@@ -27,6 +27,5 @@ class(selectIf)
 }
 \seealso{
 These functions are inspired by dplyr. However, they are designed to only
-work on \code{DataFrame} class, and use base R code internally.\if{html}{\out{<div class="r">}}\preformatted{`help(topic = "select_if", package = "dplyr")`
-}\if{html}{\out{</div>}}
+work on Bioconductor S4 class objects, and use base R code internally.
 }

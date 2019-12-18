@@ -8,6 +8,9 @@
 #' @param ... Additional arguments.
 #'
 #' @seealso
+#' These functions are inspired by dplyr. However, they are designed to only
+#' work on Bioconductor S4 class objects, and use base R code internally.
+#'
 #' - `help(topic = "join", package = "dplyr")`.
 #' - `help(topic = "merge", package = "S4Vectors")`.
 #' - https://support.bioconductor.org/p/120277/

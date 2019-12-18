@@ -1,3 +1,15 @@
+## bioverbs 0.2.12 (2019-11-19)
+
+### New functions
+
+- Added `plotUpset` generic. Corresponding methods for `data.frame` and
+  `DataFrame` will be defined in acidplots update.
+
+### Minor changes
+
+- Made `plotGSEATable` defunct, which doesn't work that well in pfgsea package
+  and will be removed in next update.
+
 ## bioverbs 0.2.11 (2019-11-08)
 
 ### New functions
