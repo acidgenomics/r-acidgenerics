@@ -5,6 +5,7 @@
 \alias{plotGene}
 \alias{clusterCellCountsPerSample}
 \alias{flatFiles}
+\alias{plotGSEATable}
 \title{Defunct functions}
 \usage{
 plotGene(object, ...)
@@ -12,6 +13,8 @@ plotGene(object, ...)
 clusterCellCountsPerSample(object, ...)
 
 flatFiles(object, ...)
+
+plotGSEATable(object, ...)
 }
 \arguments{
 \item{object}{Object.}

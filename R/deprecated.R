@@ -107,7 +107,6 @@ setGeneric(
     name = "clusterCellCountsPerSample",
     def = function(object, ...) {
         .Defunct("cellCountsPerCluster")
-        standardGeneric("clusterCellCountsPerSample")
     }
 )
 
@@ -120,7 +119,18 @@ setGeneric(
     name = "flatFiles",
     def = function(object, ...) {
         .Defunct("coerceS4ToList")
-        standardGeneric("flatFiles")
+    }
+)
+
+
+
+# v0.2.12 ======================================================================
+#' @rdname defunct
+#' @export
+setGeneric(
+    name = "plotGSEATable",
+    def = function(object, ...) {
+        .Defunct()
     }
 )
 
