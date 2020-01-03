@@ -1,3 +1,7 @@
+## Renamed from `plotDot` to `plotDots` to match convention in scater.
+
+
+
 #' Dot plot
 #'
 #' @export
@@ -6,10 +10,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotDot)
+#' class(plotDots)
 setGeneric(
-    name = "plotDot",
+    name = "plotDots",
     def = function(object, ...) {
-        standardGeneric("plotDot")
+        standardGeneric("plotDots")
     }
 )
