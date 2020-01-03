@@ -1,3 +1,10 @@
+## bioverbs 0.2.13 (2020-01-03)
+
+### Deprecated
+
+- `plotDot` deprecated in favor of `plotDots`, to match the naming convention
+  currently used in the scater package.
+
 ## bioverbs 0.2.12 (2019-11-19)
 
 ### New functions

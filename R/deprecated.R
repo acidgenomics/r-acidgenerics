@@ -124,13 +124,26 @@ setGeneric(
 
 
 
-# v0.2.12 ======================================================================
+## v0.2.12 =====================================================================
 #' @rdname defunct
 #' @export
 setGeneric(
     name = "plotGSEATable",
     def = function(object, ...) {
         .Defunct()
+    }
+)
+
+
+
+## v0.2.13 =====================================================================
+#' @rdname deprecated
+#' @export
+setGeneric(
+    name = "plotDot",
+    def = function(object, ...) {
+        .Deprecated("plotDots")
+        standardGeneric("plotDot")
     }
 )
 
