@@ -22,7 +22,7 @@ transmuteIf(object, predicate, fun, ...)
 \arguments{
 \item{object}{Object.}
 
-\item{fun}{\verb{function}.
+\item{fun}{\code{function}.
 Mutation function.}
 
 \item{...}{Passthrough arguments to function declared in \code{fun} argument.}
@@ -30,7 +30,7 @@ Mutation function.}
 \item{vars}{\code{character}.
 Column names.}
 
-\item{predicate}{\verb{function}.
+\item{predicate}{\code{function}.
 A predicate function to be applied to the columns.
 For example, \code{is.atomic()}.}
 }
