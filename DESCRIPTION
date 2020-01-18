@@ -1,8 +1,8 @@
-Package: bioverbs
-Title: S4 Generic Functions for Bioinformatics
-Description: S4 generic functions for bioinformatics.
+Package: acidgenerics
+Title: S4 Generics for Acid Genomics R Packages
+Description: S4 generics for Acid Genomics R packages.
 Version: 0.2.13
-Date: 2020-01-03
+Date: 2020-01-18
 Authors@R: c(
     person(
         "Michael", "Steinbaugh",
@@ -15,9 +15,9 @@ Authors@R: c(
         role = c("cph", "fnd")
     ))
 URL:
-    https://bioverbs.acidgenomics.com/,
-    https://github.com/acidgenomics/bioverbs/
-BugReports: https://github.com/acidgenomics/bioverbs/issues/
+    https://acidgenerics.acidgenomics.com/,
+    https://github.com/acidgenomics/acidgenerics/
+BugReports: https://github.com/acidgenomics/acidgenerics/issues/
 License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 3.6)
