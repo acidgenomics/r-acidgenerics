@@ -1,7 +1,7 @@
 Package: acidgenerics
 Title: S4 Generics for Acid Genomics R Packages
 Description: S4 generics for Acid Genomics R packages.
-Version: 0.2.13
+Version: 0.3.0
 Date: 2020-01-18
 Authors@R: c(
     person(
