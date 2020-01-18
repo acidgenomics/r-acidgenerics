@@ -1,6 +1,6 @@
-#' bioverbs
+#' acidgenerics
 #'
-#' S4 generic functions for bioinformatics.
+#' S4 generics for Acid Genomics R packages.
 #'
 #' @keywords internal
 #'
