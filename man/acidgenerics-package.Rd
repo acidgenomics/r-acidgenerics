@@ -4,9 +4,9 @@
 \name{acidgenerics-package}
 \alias{acidgenerics}
 \alias{acidgenerics-package}
-\title{bioverbs}
+\title{acidgenerics}
 \description{
-S4 generic functions for bioinformatics.
+S4 generics for Acid Genomics R packages.
 }
 \seealso{
 Useful links:
