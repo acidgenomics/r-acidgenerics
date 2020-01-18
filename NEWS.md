@@ -4,6 +4,9 @@
 
 - Renamed package from bioverbs to acidgenerics, in preparation for CRAN
   submission of multiple Acid Genomics R packages.
+- Migrated S4 generics previously defined in now archived transformer package:
+  `as.DataFrame`, `as.SummarizedExperiment`, `coerceToList`,
+  `matchRowNameColumn`, and `metadata2`. 
 
 ## bioverbs 0.2.13 (2020-01-03)
 

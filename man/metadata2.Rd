@@ -12,16 +12,43 @@ metadata2(x, which, ...) <- value
 \arguments{
 \item{x}{Object.}
 
+\item{which}{\code{character(1)}.
+A non-empty character string specifying which attribute is to be accessed.
+Note that positional \code{numeric} arguments are currently not allowed.}
+
 \item{...}{Additional arguments.}
 
-\item{value}{Value to assign.}
+\item{value}{\code{ANY}.
+Metadata values to assign into slot, defined by \code{which}.}
 }
 \value{
-\code{list}.
+\itemize{
+\item \code{metadata2()}: \code{list}. Returns \code{NULL} on \code{which} match failure, similar
+to \code{\link[base:attr]{attr()}} and \code{\link[S4Vectors:metadata]{metadata()}}.
+\item \verb{metadata2<-()}: Modified object.
+}
 }
 \description{
-Metadata
+Dynamically handles metadata assignment and extraction in a similar fashion
+for both S3 and S4 objects.
 }
+\section{S3 class}{
+
+
+Internally slots into \code{\link[base:attributes]{attributes()}}.
+Attribute is also accessible via \code{attr(object, which)}.
+}
+
+\section{S4 class}{
+
+
+Requires that object extends \code{\link[S4Vectors:Annotated-class]{Annotated}} class,
+which supports \code{\link[S4Vectors:metadata]{metadata()}}.
+
+Internally slots into \code{\link[S4Vectors:metadata]{metadata()}}.
+Attribute is also accessible via \code{metadata(object)[[which]]}.
+}
+
 \examples{
 class(metadata2)
 }
