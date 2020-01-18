@@ -26,6 +26,5 @@ Suggests:
     acidroxygen (>= 0.1.5)
 Remotes:
     acidgenomics/acidroxygen
-biocViews: Infrastructure
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.2
