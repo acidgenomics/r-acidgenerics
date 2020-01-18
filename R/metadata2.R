@@ -16,6 +16,7 @@
 #' Internally slots into [`metadata()`][S4Vectors::metadata].
 #' Attribute is also accessible via `metadata(object)[[which]]`.
 #'
+#' @export
 #' @inheritParams acidroxygen::params
 #' @param which `character(1)`.
 #'   A non-empty character string specifying which attribute is to be accessed.
