@@ -1,3 +1,10 @@
+## acidgenerics 0.3.0 (2020-01-18)
+
+### Major changes
+
+- Renamed package from bioverbs to acidgenerics, in preparation for CRAN
+  submission of multiple Acid Genomics R packages.
+
 ## bioverbs 0.2.13 (2020-01-03)
 
 ### Deprecated
