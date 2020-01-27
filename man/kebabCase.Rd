@@ -11,6 +11,12 @@ kebabCase(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object.
+Contains syntatically valid names.
+For objects with \code{\link[base:names]{names()}} defined, the underlying data
+returns unchanged, except for \code{character} or \code{vector} class.
+}
 \description{
 Format character strings to use kebab-style formatting, where word boundaries
 are defined by dashes/hyphens (e.g. \code{this-is-kebab-case}).

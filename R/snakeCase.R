@@ -4,6 +4,7 @@
 #' are defined by underscores (e.g. `this_is_snake_case`).
 #'
 #' @export
+#' @inherit camelCase return
 #' @inheritParams acidroxygen::params
 #'
 #' @examples

@@ -9,6 +9,7 @@
 #' functions.
 #'
 #' @export
+#' @inherit camelCase return
 #' @inheritParams acidroxygen::params
 #'
 #' @examples

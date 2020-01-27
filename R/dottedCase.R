@@ -5,9 +5,8 @@
 #' as that can introduce conflicts with base functions.
 #'
 #' @export
+#' @inherit camelCase return
 #' @inheritParams acidroxygen::params
-#'
-#' @return Modified object, with names formatted in dotted case.
 #'
 #' @examples
 #' class(dottedCase)
