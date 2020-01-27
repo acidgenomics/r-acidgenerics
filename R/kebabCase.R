@@ -14,6 +14,8 @@
 #' @export
 #' @inheritParams acidroxygen::params
 #'
+#' @return Modified object.
+#'
 #' @examples
 #' class(kebabCase)
 setGeneric(

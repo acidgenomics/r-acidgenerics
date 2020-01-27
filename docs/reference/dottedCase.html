@@ -140,7 +140,10 @@ as that can introduce conflicts with base functions.</p>
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>Modified object, with names formatted in dotted case.</p>
+    <p>Modified object.
+Contains syntatically valid names.
+For objects with <code><a href='https://rdrr.io/r/base/names.html'>names()</a></code> defined, the underlying data
+returns unchanged, except for <code>character</code> or <code>vector</code> class.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/class.html'>class</a></span>(<span class='no'>dottedCase</span>)</div><div class='output co'>#&gt; [1] "nonstandardGenericFunction"

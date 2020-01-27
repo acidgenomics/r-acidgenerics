@@ -11,6 +11,12 @@ snakeCase(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object.
+Contains syntatically valid names.
+For objects with \code{\link[base:names]{names()}} defined, the underlying data
+returns unchanged, except for \code{character} or \code{vector} class.
+}
 \description{
 Format character strings to use snake-style formatting, where word boundaries
 are defined by underscores (e.g. \code{this_is_snake_case}).
