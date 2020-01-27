@@ -11,6 +11,9 @@ kebabCase(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object.
+}
 \description{
 Format character strings to use kebab-style formatting, where word boundaries
 are defined by dashes/hyphens (e.g. \code{this-is-kebab-case}).
