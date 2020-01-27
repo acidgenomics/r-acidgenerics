@@ -1,3 +1,12 @@
+## acidgenerics 0.3.1 (2020-01-27)
+
+### New functions
+
+- Migrated S4 generics previously defined in syntactic package: `camelCase`,
+  `capitalize`, `dottedCase`, `kebabCase`, `makeDimnames`, `makeLabel`,
+  `makeNames`, `makeTitle`, `makeWords`, `sentenceCase`, `snakeCase`, and
+  `upperCamelCase`.
+
 ## acidgenerics 0.3.0 (2020-01-18)
 
 ### Major changes
