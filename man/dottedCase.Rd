@@ -12,7 +12,10 @@ dottedCase(object, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-Modified object, with names formatted in dotted case.
+Modified object.
+Contains syntatically valid names.
+For objects with \code{\link[base:names]{names()}} defined, the underlying data
+returns unchanged, except for \code{character} or \code{vector} class.
 }
 \description{
 Support is provided for matching against base R parameters. However, it is
