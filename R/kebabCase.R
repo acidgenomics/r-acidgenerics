@@ -12,8 +12,9 @@
 #' are not syntactically valid for names in R.
 #'
 #' @export
-#' @inherit camelCase return
 #' @inheritParams acidroxygen::params
+#'
+#' @return Modified object.
 #'
 #' @examples
 #' class(kebabCase)
