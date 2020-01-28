@@ -1,3 +1,9 @@
+## acidgenerics 0.3.2 (2020-01-28)
+
+### Minor changes
+
+- Documentation fixes to pass CRAN release checks.
+
 ## acidgenerics 0.3.1 (2020-01-27)
 
 ### New functions

@@ -5,7 +5,7 @@
 [![AppVeyor CI build status](https://ci.appveyor.com/api/projects/status/0m28wwtjnbib03jc/branch/master?svg=true)](https://ci.appveyor.com/project/mjsteinbaugh/acidgenerics/branch/master)
 [![Anaconda version](https://anaconda.org/bioconda/r-acidgenerics/badges/version.svg) ![Anaconda latest release date](https://anaconda.org/bioconda/r-acidgenerics/badges/latest_release_date.svg) ![Anaconda downloads](https://anaconda.org/bioconda/r-acidgenerics/badges/downloads.svg)](https://anaconda.org/bioconda/r-acidgenerics)
 
-S4 generics for Acid Genomics R packages.
+S4 generic functions for Acid Genomics packages.
 
 ## Installation
 
