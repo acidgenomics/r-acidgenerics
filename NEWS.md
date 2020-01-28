@@ -1,3 +1,7 @@
+## acidgenerics 0.3.3 (2020-01-28)
+
+- Switched license from MIT to GPL-3.
+
 ## acidgenerics 0.3.2 (2020-01-28)
 
 ### Minor changes
