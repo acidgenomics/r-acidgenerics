@@ -1,6 +1,6 @@
 #' acidgenerics
 #'
-#' S4 generics for Acid Genomics R packages.
+#' S4 generic functions for Acid Genomics packages.
 #'
 #' @keywords internal
 #'

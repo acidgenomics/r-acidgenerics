@@ -6,7 +6,7 @@
 \alias{acidgenerics-package}
 \title{acidgenerics}
 \description{
-S4 generics for Acid Genomics R packages.
+S4 generic functions for Acid Genomics packages.
 }
 \seealso{
 Useful links:
