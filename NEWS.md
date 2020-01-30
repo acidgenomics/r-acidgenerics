@@ -2,6 +2,8 @@
 
 - `aggregateCols`, `aggregateRows`: Renamed primary argument from "object" to
   "x", better matching the conventions used in `aggregate` generic.
+- `aggregateCellsToSamples`, `aggregateReplicates`: Also switched from "object"
+  to "x" here, matching `aggregate` convention.
 
 ## acidgenerics 0.3.3 (2020-01-28)
 

@@ -4,10 +4,10 @@
 \alias{aggregateReplicates}
 \title{Aggregate technical replicates}
 \usage{
-aggregateReplicates(object, ...)
+aggregateReplicates(x, ...)
 }
 \arguments{
-\item{object}{Object.}
+\item{x}{Object.}
 
 \item{...}{Additional arguments.}
 }
