@@ -4,10 +4,10 @@
 \alias{aggregateCols}
 \title{Aggregate columns}
 \usage{
-aggregateCols(object, ...)
+aggregateCols(x, ...)
 }
 \arguments{
-\item{object}{Object.}
+\item{x}{Object.}
 
 \item{...}{Additional arguments.}
 }
