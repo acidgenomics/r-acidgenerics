@@ -1,3 +1,11 @@
+## acidgenerics 0.3.4 (2020-01-30)
+
+- `aggregateCols`, `aggregateRows`: Renamed primary argument from "object" to
+  "x", better matching the conventions used in `aggregate` generic.
+- `aggregateCellsToSamples`, `aggregateReplicates`: Also switched from "object"
+  to "x" here, matching `aggregate` convention.
+- Removed unused `aggregateReplicates` generic.
+
 ## acidgenerics 0.3.3 (2020-01-28)
 
 - Switched license from MIT to GPL-3.

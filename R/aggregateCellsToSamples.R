@@ -15,7 +15,7 @@
 #' class(aggregateCellsToSamples)
 setGeneric(
     name = "aggregateCellsToSamples",
-    def = function(object, ...) {
+    def = function(x, ...) {
         standardGeneric("aggregateCellsToSamples")
     }
 )

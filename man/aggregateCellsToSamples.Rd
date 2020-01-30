@@ -4,10 +4,10 @@
 \alias{aggregateCellsToSamples}
 \title{Aggregate cells to samples}
 \usage{
-aggregateCellsToSamples(object, ...)
+aggregateCellsToSamples(x, ...)
 }
 \arguments{
-\item{object}{Object.}
+\item{x}{Object.}
 
 \item{...}{Additional arguments.}
 }
