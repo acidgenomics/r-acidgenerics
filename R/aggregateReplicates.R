@@ -9,7 +9,7 @@
 #' class(aggregateReplicates)
 setGeneric(
     name = "aggregateReplicates",
-    def = function(object, ...) {
+    def = function(x, ...) {
         standardGeneric("aggregateReplicates")
     }
 )
