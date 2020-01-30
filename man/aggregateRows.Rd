@@ -4,10 +4,10 @@
 \alias{aggregateRows}
 \title{Aggregate rows}
 \usage{
-aggregateRows(object, ...)
+aggregateRows(x, ...)
 }
 \arguments{
-\item{object}{Object.}
+\item{x}{Object.}
 
 \item{...}{Additional arguments.}
 }
