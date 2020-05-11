@@ -29,6 +29,5 @@ class(headtail)
 \itemize{
 \item \code{utils::head()}, \code{utils::tail()}.
 \item \code{cat()}.
-\item \code{getMethod("show", "DataTable")}.
 }
 }

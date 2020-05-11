@@ -14,7 +14,6 @@
 #' @seealso
 #' - `utils::head()`, `utils::tail()`.
 #' - `cat()`.
-#' - `getMethod("show", "DataTable")`.
 #'
 #' @examples
 #' class(headtail)
