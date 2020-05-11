@@ -15,8 +15,8 @@ plot5Prime3PrimeBias(object, ...)
 \code{ggplot}.
 }
 \description{
-RNA-seq data can have specific biases at either the 5’ or 3’ end of sequenced
-fragments.
+RNA-seq data can have specific biases at either the 5’ or 3’ end of
+sequenced fragments.
 }
 \details{
 It is common to see a small amount of bias, especially if polyA enrichment
