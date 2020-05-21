@@ -2,6 +2,8 @@
 
 - Removed unused `rankedList` generic. Note that acidgenerics package uses
   `RankedList` generic instead.
+- Removed unused `pseudobulk` generic. Using `aggregateCellsToSamples` in
+  basejump package instead.
 
 ## acidgenerics 0.3.4 (2020-01-30)
 
