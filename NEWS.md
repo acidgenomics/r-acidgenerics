@@ -1,3 +1,8 @@
+## acidgenerics 0.3.5 (2020-05-21)
+
+- Removed unused `rankedList` generic. Note that acidgenerics package uses
+  `RankedList` generic instead.
+
 ## acidgenerics 0.3.4 (2020-01-30)
 
 - `aggregateCols`, `aggregateRows`: Renamed primary argument from "object" to
