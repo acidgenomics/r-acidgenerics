@@ -1,4 +1,12 @@
+## acidgenerics 0.3.6 (2020-06-10)
+
+## Minor changes
+
+- Added `plotStackedBarPlot` generic.
+
 ## acidgenerics 0.3.5 (2020-05-21)
+
+## Minor changes
 
 - Removed unused `rankedList` generic. Note that acidgenerics package uses
   `RankedList` generic instead.
@@ -7,6 +15,8 @@
 
 ## acidgenerics 0.3.4 (2020-01-30)
 
+## Minor changes
+
 - `aggregateCols`, `aggregateRows`: Renamed primary argument from "object" to
   "x", better matching the conventions used in `aggregate` generic.
 - `aggregateCellsToSamples`, `aggregateReplicates`: Also switched from "object"
@@ -14,6 +24,8 @@
 - Removed unused `aggregateReplicates` generic.
 
 ## acidgenerics 0.3.3 (2020-01-28)
+
+## Minor changes
 
 - Switched license from MIT to GPL-3.
 
