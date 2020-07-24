@@ -1,3 +1,9 @@
+## acidgenerics 0.3.7 (2020-07-24)
+
+### Minor changes
+
+- Maintenance release, increasing R dependency to 4.0.
+
 ## acidgenerics 0.3.6 (2020-06-25)
 
 ### New functions

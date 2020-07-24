@@ -25,6 +25,6 @@ class(makeTitle)
 \itemize{
 \item \code{\link[=makeWords]{makeWords()}}.
 \item \code{\link[=sentenceCase]{sentenceCase()}}.
-\item \code{\link[stringr:str_to_sentence]{stringr::str_to_sentence()}}.
+\item \code{\link[stringr:case]{stringr::str_to_sentence()}}.
 }
 }

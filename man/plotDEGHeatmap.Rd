@@ -22,7 +22,7 @@ manual input of a gene vector. All of the optional parameters for
 }
 \details{
 To adjust the annotation columns, modify the
-\code{\link[SummarizedExperiment:colData]{colData()}} of the \code{counts} argument, which
+\code{\link[SummarizedExperiment:SummarizedExperiment-class]{colData()}} of the \code{counts} argument, which
 must contain a \code{SummarizedExperiment}.
 }
 \examples{
