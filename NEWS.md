@@ -1,3 +1,11 @@
+## acidgenerics 0.3.8 (2020-08-04)
+
+### New functions
+
+- New generics migrated from DESeqAnalysis: `baseMeanThreshold`, `lfcShrink`,
+  `lfcShrinkType`, `plotBaseMean`, `plotDEGStackedBar`, `resultsDiff`, and
+  `transformType`.
+
 ## acidgenerics 0.3.7 (2020-07-24)
 
 ### Minor changes
