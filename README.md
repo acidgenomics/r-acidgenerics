@@ -12,14 +12,10 @@ S4 generic functions for Acid Genomics packages.
 This is an [R][] package.
 
 ```r
-if (!requireNamespace("remotes", quietly = TRUE)) {
-    install.packages("remotes")
-}
-Sys.setenv(R_REMOTES_UPGRADE = "always")
-## Set `GITHUB_PAT` in `~/.Renviron` if you get a rate limit error.
-remotes::install_github("acidgenomics/acidgenerics")
+install.packages(
+    pkgs = "acidgenerics",
+    repos = c("r.acidgenomics.com", getOption("repos"))
+)
 ```
 
-[bioconda]: https://bioconda.github.io/
-[conda]: https://conda.io/
 [r]: https://www.r-project.org/
