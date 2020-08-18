@@ -1,3 +1,12 @@
+## acidgenerics 0.3.10 (2020-08-18)
+
+### New functions
+
+- `degIntersection`: Return DEGs ranked by number of intersections.
+- `intersectAll`: Look for all intersections in a list.
+- `intersectionMatrix`: Generate an intersection matrix from a list.
+- `degPerContrast`: Migrated from DESeqAnalysis.
+
 ## acidgenerics 0.3.8 (2020-08-04)
 
 ### New functions
