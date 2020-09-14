@@ -1,7 +1,7 @@
 #' Split by factor level
 #'
 #' @export
-#' @note Updated 2020-09-14.
+#' @inheritParams acidroxygen::params
 #'
 #' @param f `character(1)`.
 #'   Factor column name.
