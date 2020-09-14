@@ -7,12 +7,16 @@
 splitByLevel(x, f, ref = FALSE, ...)
 }
 \arguments{
+\item{x}{Object.}
+
 \item{f}{\code{character(1)}.
 Factor column name.}
 
 \item{ref}{\code{logical(1)}.
 Include the reference factor level (i.e. first defined) in each split.
 Useful for pairwise contrasts.}
+
+\item{...}{Additional arguments.}
 }
 \value{
 \code{list}
@@ -20,9 +24,6 @@ List of data frames split by factors.
 }
 \description{
 Split by factor level
-}
-\note{
-Updated 2020-09-14.
 }
 \examples{
 class(splitByLevel)
