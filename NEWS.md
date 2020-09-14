@@ -1,3 +1,9 @@
+## acidgenerics 0.3.11 (2020-09-14)
+
+### New functions
+
+- `splitByLevel`: New generic for easy splitting by factor in a data frame.
+
 ## acidgenerics 0.3.10 (2020-08-18)
 
 ### New functions
