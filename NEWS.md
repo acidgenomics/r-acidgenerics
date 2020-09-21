@@ -1,3 +1,10 @@
+## acidgenerics 0.3.12 (2020-09-21)
+
+### New functions
+
+- Migrated generics from acidgsea: `convertToHuman`, `geneSet`,
+  `geneSetResults`, `leadingEdge`, `nesThreshold`, `plotGeneSet`.
+
 ## acidgenerics 0.3.11 (2020-09-14)
 
 ### New functions
