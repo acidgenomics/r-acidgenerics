@@ -1,4 +1,4 @@
-#' NES threshold
+#' Normalized enrichment score (NES) threshold
 #'
 #' @export
 #' @inheritParams acidroxygen::params
