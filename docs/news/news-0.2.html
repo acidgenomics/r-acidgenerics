@@ -73,7 +73,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">acidgenerics</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.11</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.12</span>
       </span>
     </div>
 
@@ -94,6 +94,12 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
+  <a href="https://acidgenomics.com/">
+    <span class="fas fa fas fa-vial fa-lg"></span>
+     
+  </a>
+</li>
+<li>
   <a href="https://github.com/acidgenomics/acidgenerics/">
     <span class="fab fa fab fa-github fa-lg"></span>
      
@@ -120,9 +126,9 @@
 <h2 class="hasAnchor">
 <a href="#bioverbs-020-2019-07-23" class="anchor"></a>bioverbs 0.2.0 (2019-07-23)</h2>
 <p>Bumped version to v0.2 release series to match update conventions defined in other basejump packages, in preparation of a new release candidate that may be suitable for Bioconductor submission.</p>
-<div id="new-functions-15" class="section level3">
+<div id="new-functions-16" class="section level3">
 <h3 class="hasAnchor">
-<a href="#new-functions-15" class="anchor"></a>New functions</h3>
+<a href="#new-functions-16" class="anchor"></a>New functions</h3>
 <ul>
 <li>
 <code>plotCountsCorrelation</code> and <code>plotCountsCorrelationHeatmap</code>: New utility generics for comparing count correlation across multiple datasets.</li>
@@ -139,9 +145,9 @@
     <div id="bioverbs-021-2019-08-05" class="section level2">
 <h2 class="hasAnchor">
 <a href="#bioverbs-021-2019-08-05" class="anchor"></a>bioverbs 0.2.1 (2019-08-05)</h2>
-<div id="new-functions-14" class="section level3">
+<div id="new-functions-15" class="section level3">
 <h3 class="hasAnchor">
-<a href="#new-functions-14" class="anchor"></a>New functions</h3>
+<a href="#new-functions-15" class="anchor"></a>New functions</h3>
 <ul>
 <li>Added <code>plotCells</code> generic.</li>
 <li>Added <code>cpm</code> and <code>tpm</code> generics, which are defined in SingleCellExperiment.</li>
@@ -170,9 +176,9 @@
     <div id="bioverbs-023-2019-08-08" class="section level2">
 <h2 class="hasAnchor">
 <a href="#bioverbs-023-2019-08-08" class="anchor"></a>bioverbs 0.2.3 (2019-08-08)</h2>
-<div id="new-functions-13" class="section level3">
+<div id="new-functions-14" class="section level3">
 <h3 class="hasAnchor">
-<a href="#new-functions-13" class="anchor"></a>New functions</h3>
+<a href="#new-functions-14" class="anchor"></a>New functions</h3>
 <ul>
 <li>Added <code>calculateMetrics</code> generic, which was previously defined as a standard function in bcbioSingleCell package. This verb is also applicable to the Chromium package, so we have migrated it here.</li>
 </ul>
@@ -182,9 +188,9 @@
 <h2 class="hasAnchor">
 <a href="#bioverbs-024-2019-08-08" class="anchor"></a>bioverbs 0.2.4 (2019-08-08)</h2>
 <p>Reworked some verbs to support changes in acidplots and pending bcbioSingleCell update.</p>
-<div id="new-functions-12" class="section level3">
+<div id="new-functions-13" class="section level3">
 <h3 class="hasAnchor">
-<a href="#new-functions-12" class="anchor"></a>New functions</h3>
+<a href="#new-functions-13" class="anchor"></a>New functions</h3>
 <ul>
 <li>
 <code>plotCountsPerCell</code>.</li>
@@ -212,9 +218,9 @@
     <div id="bioverbs-025-2019-08-12" class="section level2">
 <h2 class="hasAnchor">
 <a href="#bioverbs-025-2019-08-12" class="anchor"></a>bioverbs 0.2.5 (2019-08-12)</h2>
-<div id="new-functions-11" class="section level3">
+<div id="new-functions-12" class="section level3">
 <h3 class="hasAnchor">
-<a href="#new-functions-11" class="anchor"></a>New functions</h3>
+<a href="#new-functions-12" class="anchor"></a>New functions</h3>
 <ul>
 <li>
 <code>plotSums</code>: Utility generic for plotting row and column sums of a matrix.</li>
@@ -224,9 +230,9 @@
     <div id="bioverbs-026-2019-08-23" class="section level2">
 <h2 class="hasAnchor">
 <a href="#bioverbs-026-2019-08-23" class="anchor"></a>bioverbs 0.2.6 (2019-08-23)</h2>
-<div id="new-functions-10" class="section level3">
+<div id="new-functions-11" class="section level3">
 <h3 class="hasAnchor">
-<a href="#new-functions-10" class="anchor"></a>New functions</h3>
+<a href="#new-functions-11" class="anchor"></a>New functions</h3>
 <ul>
 <li>
 <code>nonzeroRowsAndCols</code>: Generic that allows for easy subsetting of non-zero rows and columns from an object.</li>
@@ -243,9 +249,9 @@
 <li>Updated R dependency to 3.6.</li>
 </ul>
 </div>
-<div id="new-functions-9" class="section level3">
+<div id="new-functions-10" class="section level3">
 <h3 class="hasAnchor">
-<a href="#new-functions-9" class="anchor"></a>New functions</h3>
+<a href="#new-functions-10" class="anchor"></a>New functions</h3>
 <ul>
 <li>Deprecated <code>meltCounts</code> in favor of simply using <code>melt</code>. Note that <code><a href="https://rdrr.io/pkg/reshape2/man/melt.html">reshape2::melt</a></code> is deprecated in favor of <code><a href="https://tidyr.tidyverse.org/reference/gather.html">tidyr::gather</a></code>, so we’re not conflicting with any activate tidyverse verbs here.</li>
 <li>Migrated join, mutate, and select generics defined in transformer. Tightened up the required signature arguments here.</li>
@@ -278,9 +284,9 @@
     <div id="bioverbs-0210-2019-09-10" class="section level2">
 <h2 class="hasAnchor">
 <a href="#bioverbs-0210-2019-09-10" class="anchor"></a>bioverbs 0.2.10 (2019-09-10)</h2>
-<div id="new-functions-8" class="section level3">
+<div id="new-functions-9" class="section level3">
 <h3 class="hasAnchor">
-<a href="#new-functions-8" class="anchor"></a>New functions</h3>
+<a href="#new-functions-9" class="anchor"></a>New functions</h3>
 <ul>
 <li>Added <code>contrastName&lt;-</code> assignment method generic.</li>
 <li>Added <code>resultsNames&lt;-</code> assignment method generic.</li>
@@ -290,9 +296,9 @@
     <div id="bioverbs-0211-2019-11-08" class="section level2">
 <h2 class="hasAnchor">
 <a href="#bioverbs-0211-2019-11-08" class="anchor"></a>bioverbs 0.2.11 (2019-11-08)</h2>
-<div id="new-functions-7" class="section level3">
+<div id="new-functions-8" class="section level3">
 <h3 class="hasAnchor">
-<a href="#new-functions-7" class="anchor"></a>New functions</h3>
+<a href="#new-functions-8" class="anchor"></a>New functions</h3>
 <ul>
 <li>Added <code>correlation</code> generic, which is more flexible than default <code>cor</code> generic defined in stats and/or S4Vectors.</li>
 </ul>
@@ -301,9 +307,9 @@
     <div id="bioverbs-0212-2019-11-19" class="section level2">
 <h2 class="hasAnchor">
 <a href="#bioverbs-0212-2019-11-19" class="anchor"></a>bioverbs 0.2.12 (2019-11-19)</h2>
-<div id="new-functions-6" class="section level3">
+<div id="new-functions-7" class="section level3">
 <h3 class="hasAnchor">
-<a href="#new-functions-6" class="anchor"></a>New functions</h3>
+<a href="#new-functions-7" class="anchor"></a>New functions</h3>
 <ul>
 <li>Added <code>plotUpset</code> generic. Corresponding methods for <code>data.frame</code> and <code>DataFrame</code> will be defined in acidplots update.</li>
 </ul>
@@ -345,7 +351,7 @@
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
 </div>
 
       </footer>
