@@ -3,7 +3,7 @@
 \name{nesThreshold}
 \alias{nesThreshold}
 \alias{nesThreshold<-}
-\title{NES threshold}
+\title{Normalized enrichment score (NES) threshold}
 \usage{
 nesThreshold(object, ...)
 
@@ -20,7 +20,7 @@ nesThreshold(object, ...) <- value
 \code{numeric(1)}.
 }
 \description{
-NES threshold
+Normalized enrichment score (NES) threshold
 }
 \examples{
 class(nesThreshold)
