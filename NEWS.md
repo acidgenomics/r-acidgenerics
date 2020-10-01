@@ -1,3 +1,13 @@
+## acidgenerics 0.3.13 (2020-10-01)
+
+### New functions
+
+- Migrated additional generics from acidgsea: `geneSetNames`, `plotLFC`,
+  and `plotNES`.
+- Added new mapping generics: `mapColnames`, `mapRownames`.
+- Added additional mapping generics in use by new cellosaurus and DepMapAnalysis
+  packages: `mapCells` and `mapGenes`.
+
 ## acidgenerics 0.3.12 (2020-09-21)
 
 ### New functions
