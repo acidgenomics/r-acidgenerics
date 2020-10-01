@@ -1,3 +1,10 @@
+## acidgenerics 0.3.14 (2020-10-01)
+
+### New functions
+
+- Created a new generic for `standardizeCells`, which is in use in cellosaurus
+  and DepMapAnalysis packages.
+
 ## acidgenerics 0.3.13 (2020-10-01)
 
 ### New functions
