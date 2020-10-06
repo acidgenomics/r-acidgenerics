@@ -16,8 +16,8 @@ Authors@R: c(
     ))
 URL:
     https://acidgenerics.acidgenomics.com/,
-    https://github.com/acidgenomics/acidgenerics/
-BugReports: https://github.com/acidgenomics/acidgenerics/issues/
+    https://github.com/acidgenomics/AcidGenerics/
+BugReports: https://github.com/acidgenomics/AcidGenerics/issues/
 License: GPL-3
 Encoding: UTF-8
 Depends: R (>= 4.0)
