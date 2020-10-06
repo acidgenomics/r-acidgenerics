@@ -1,4 +1,4 @@
-#' acidgenerics
+#' AcidGenerics
 #'
 #' S4 generic functions for Acid Genomics packages.
 #'
