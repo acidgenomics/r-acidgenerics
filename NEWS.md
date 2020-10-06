@@ -1,3 +1,9 @@
+## AcidGenerics 0.4.0 (2020-10-06)
+
+### Major changes
+
+- Renamed package from acidgenerics to AcidGenerics.
+
 ## acidgenerics 0.3.14 (2020-10-01)
 
 ### New functions
