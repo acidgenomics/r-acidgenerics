@@ -1,7 +1,7 @@
 #' Relative difference of results
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Named `numeric`.
 #'   Names correspond to the features (i.e. genes) analyzed.

@@ -1,7 +1,7 @@
 #' Correlation
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @seealso
 #' - `stats::cor()`.

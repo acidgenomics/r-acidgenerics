@@ -1,7 +1,7 @@
 #' Plot known markers
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #' @param markers Object containing gene markers.
 #'
 #' @return Show graphical output.

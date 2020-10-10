@@ -1,7 +1,7 @@
 #' Base mean threshold
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `numeric(1)`.
 #' Base mean cutoff level.

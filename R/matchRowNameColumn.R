@@ -1,7 +1,7 @@
 #' Match row name column
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character(1)`.
 #'

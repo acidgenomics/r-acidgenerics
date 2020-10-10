@@ -1,7 +1,7 @@
 #' Plot log2 fold change distributions
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

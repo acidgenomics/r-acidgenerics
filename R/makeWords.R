@@ -1,7 +1,7 @@
 #' Convert syntactic names to words separated by spaces
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character`.
 #'   Words separated by spaces.

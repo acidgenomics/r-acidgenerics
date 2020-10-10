@@ -1,7 +1,7 @@
 #' Find cluster-specific marker genes
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `data.frame`.
 #'

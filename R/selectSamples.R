@@ -18,7 +18,7 @@
 #' identifiers for columns and gene identifiers for rows.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @param ... Selection arguments:
 #'

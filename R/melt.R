@@ -3,7 +3,7 @@
 #' Unpivot column data from wide format to long format.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @seealso
 #' - `tidyr::gather()`: Recommended instead for use with `tbl_df`.

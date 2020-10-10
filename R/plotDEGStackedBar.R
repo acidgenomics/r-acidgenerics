@@ -1,7 +1,7 @@
 #' Stacked bar plot of DEGs
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

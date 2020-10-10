@@ -1,7 +1,7 @@
 #' Log2 fold change threshold
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `numeric(1)`.
 #'

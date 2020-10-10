@@ -5,7 +5,7 @@
 #'
 #' @export
 #' @inherit camelCase return
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @examples
 #' class(snakeCase)

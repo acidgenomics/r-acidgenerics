@@ -3,7 +3,7 @@
 #' Quickly generate a summary table of various alpha level cutoffs.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `integer matrix`.
 #'

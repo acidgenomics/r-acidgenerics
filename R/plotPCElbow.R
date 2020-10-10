@@ -3,7 +3,7 @@
 #' Calculate the principal component (PC) cutoff using a heuristic approach.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

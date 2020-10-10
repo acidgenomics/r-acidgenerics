@@ -1,7 +1,7 @@
 #' Contrast name
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character(1)`.
 #' Contrast name.

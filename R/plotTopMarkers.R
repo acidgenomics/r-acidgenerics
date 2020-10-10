@@ -1,7 +1,7 @@
 #' Plot top markers
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #' @param markers Object containing cell marker expression data.
 #'
 #' @return Show graphical output. Invisibly return a `ggplot` `list`.

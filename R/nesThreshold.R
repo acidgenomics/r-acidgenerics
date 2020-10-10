@@ -1,7 +1,7 @@
 #' Normalized enrichment score (NES) threshold
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `numeric(1)`.
 #'

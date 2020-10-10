@@ -1,7 +1,7 @@
 #' Counts per million
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `matrix`
 #'

@@ -1,7 +1,7 @@
 #' Coerce object to S4 DataFrame
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `DataFrame`.
 #'

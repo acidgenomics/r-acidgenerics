@@ -1,7 +1,7 @@
 #' Samples corresponding to a differential expression contrast
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character`.
 #' Sample identifiers.

@@ -4,7 +4,7 @@
 #' unless the library sizes or total RNA expression are different.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

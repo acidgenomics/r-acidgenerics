@@ -1,7 +1,7 @@
 #' UpSet plot of directional enriched pathway intersections across contrasts
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Plot.
 #'

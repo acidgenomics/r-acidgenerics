@@ -8,7 +8,7 @@
 #' [`make.names()`][base::make.names].
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @seealso [`make.names()`][base::make.names].
 #'

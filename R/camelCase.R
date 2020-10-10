@@ -6,7 +6,7 @@
 #' Camel case is recommended by Bioconductor for variable and function names.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object.
 #' Contains syntatically valid names.

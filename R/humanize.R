@@ -5,7 +5,7 @@
 #' should only be called prior to writing files to disk.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object.
 #' Contains human-friendly rownames (e.g. gene symbols instead of stable gene

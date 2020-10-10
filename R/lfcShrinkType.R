@@ -1,7 +1,7 @@
 #' Shrunken log2 fold change (LFC) type
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character(1)` or `NULL`.
 #'   Name of adaptive shrinkage method applied (e.g. "apeglm" or "ashr").

@@ -1,7 +1,7 @@
 #' Leading edge genes
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character`.
 #'   Elements of gene set that correspond to leading edge.

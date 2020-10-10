@@ -1,6 +1,6 @@
 #' Plot enriched gene sets
 #'
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #' @export
 #'
 #' @return Plot.

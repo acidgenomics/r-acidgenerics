@@ -3,7 +3,7 @@
 #' Plot the distribution of read counts for all unfiltered cellular barcodes.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

@@ -1,7 +1,7 @@
 #' Subset object to keep only non-zero rows and columns
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object.
 #'

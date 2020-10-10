@@ -4,7 +4,7 @@
 #' genes, and overall gene experssion for the X and Y chromosomes.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

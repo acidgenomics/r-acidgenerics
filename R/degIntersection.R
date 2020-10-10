@@ -1,7 +1,7 @@
 #' Intersection of differentially expressed genes
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `integer`.
 #'   Integer denoting the number of intersections, sorted from highest to

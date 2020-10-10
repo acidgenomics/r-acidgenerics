@@ -1,7 +1,7 @@
 #' Gene set results
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `DataFrame`.
 #'

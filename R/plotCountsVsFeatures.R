@@ -7,7 +7,7 @@
 #' droplet-based scRNA-seq data.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'
