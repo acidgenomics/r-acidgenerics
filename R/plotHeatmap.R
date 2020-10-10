@@ -1,7 +1,7 @@
 #' Heatmap
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Plot.
 #'

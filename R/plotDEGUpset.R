@@ -1,7 +1,7 @@
 #' UpSet plot of directional DEG intersections across contrasts
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Plot.
 #'

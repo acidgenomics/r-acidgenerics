@@ -12,7 +12,7 @@
 #' are not syntactically valid for names in R.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object.
 #'

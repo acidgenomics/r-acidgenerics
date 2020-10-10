@@ -1,7 +1,7 @@
 #' Map genes (gene names) to gene identifiers
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character`.
 #'

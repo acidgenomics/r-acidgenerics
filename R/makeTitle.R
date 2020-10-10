@@ -3,7 +3,7 @@
 #' Doesn't modify strings already containing a space or multi-letter acronym.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character(1)`.
 #'   British style sentence case.

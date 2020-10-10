@@ -1,7 +1,7 @@
 #' Filter cells
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `SingleCellExperiment`.
 #'

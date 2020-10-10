@@ -5,7 +5,7 @@
 #' poor sequencing quality or other artifacts.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

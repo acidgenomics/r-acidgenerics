@@ -1,7 +1,7 @@
 #' Plot mitochondrial vs. coding counts
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

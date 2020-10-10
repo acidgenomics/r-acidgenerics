@@ -4,7 +4,7 @@
 #' for sequencing depth.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

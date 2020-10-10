@@ -1,7 +1,7 @@
 #' Plot cell counts per cluster
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Plot.
 #'

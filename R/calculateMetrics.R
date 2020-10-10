@@ -1,7 +1,7 @@
 #' Calculate quality control metrics
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `DataFrame`.
 #'

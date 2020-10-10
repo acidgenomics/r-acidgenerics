@@ -3,7 +3,7 @@
 #' The majority of reads should map to exons and not introns.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

@@ -1,7 +1,7 @@
 #' Sentence case
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object.
 #'

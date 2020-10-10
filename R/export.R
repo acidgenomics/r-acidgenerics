@@ -3,7 +3,7 @@
 #' Export data out of R and write to disk.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Invisibily return file paths, either as `list` or `character`.
 #'

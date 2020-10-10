@@ -17,7 +17,7 @@
 #' Attribute is also accessible via `metadata(object)[[which]]`.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #' @param which `character(1)`.
 #'   A non-empty character string specifying which attribute is to be accessed.
 #'   Note that positional `numeric` arguments are currently not allowed.

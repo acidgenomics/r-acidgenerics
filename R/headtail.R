@@ -7,7 +7,7 @@
 #' objects.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Invisible `NULL`.
 #'

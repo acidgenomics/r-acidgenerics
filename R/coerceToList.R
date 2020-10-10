@@ -1,7 +1,7 @@
 #' Coerce to list
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `list`.
 #'

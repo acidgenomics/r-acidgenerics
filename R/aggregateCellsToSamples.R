@@ -6,7 +6,7 @@
 #' @note This function is intended primarily for quality control analysis.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `SummarizedExperiment`.
 #' Object with cell-level counts aggregated to sample-level.

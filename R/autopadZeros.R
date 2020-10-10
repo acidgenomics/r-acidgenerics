@@ -1,7 +1,7 @@
 #' Autopad zeros
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object, with padded zeros.
 #'

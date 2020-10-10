@@ -1,7 +1,7 @@
 #' Plot counts per broad class definition
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Plot.
 #'

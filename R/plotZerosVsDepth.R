@@ -1,7 +1,7 @@
 #' Plot percentage of zeros vs. library depth
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

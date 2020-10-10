@@ -2,7 +2,7 @@
 #'
 #' @name join
 #'
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #' @param by `character`.
 #'   Column names to use for join operation.
 #' @param ... Additional arguments.

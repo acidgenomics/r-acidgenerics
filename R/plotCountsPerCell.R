@@ -6,7 +6,7 @@
 #' droplet-based scRNA-seq data.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @seealso [plotCountsVsFeatures()].
 #'

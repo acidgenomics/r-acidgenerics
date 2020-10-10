@@ -1,7 +1,7 @@
 #' Cell-to-sample mappings
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `factor`.
 #'

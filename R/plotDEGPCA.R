@@ -9,7 +9,7 @@
 #' must contain/extend a `SummarizedExperiment`.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Plot.
 #'

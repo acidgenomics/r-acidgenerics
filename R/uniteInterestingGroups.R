@@ -5,7 +5,7 @@
 #' single column, delimited by a colon.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object.
 #' Now contains an `interestingGroups` column.

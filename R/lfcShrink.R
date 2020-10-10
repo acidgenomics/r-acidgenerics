@@ -1,7 +1,7 @@
 #' Shrink log2 fold changes
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Varies, depending on object class.
 #'

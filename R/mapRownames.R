@@ -1,7 +1,7 @@
 #' Map input to row names
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character`.
 #'

@@ -1,7 +1,7 @@
 #' Plot barcode ranks
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot` grid.
 #'

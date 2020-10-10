@@ -3,7 +3,7 @@
 #' "Novelty" refers to log10 genes detected per count.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

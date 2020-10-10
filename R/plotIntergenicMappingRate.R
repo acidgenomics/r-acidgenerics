@@ -1,7 +1,7 @@
 #' Plot intergenic mapping rate
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `ggplot`.
 #'

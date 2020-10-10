@@ -1,7 +1,7 @@
 #' Make syntactically valid dimnames
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object.
 #' Both row and columns names will be made syntactically valid.

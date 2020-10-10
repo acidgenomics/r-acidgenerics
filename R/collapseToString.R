@@ -1,7 +1,7 @@
 #' Collapse to string
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object, with character vectors collapsed to `character(1)`,
 #'   a character string.

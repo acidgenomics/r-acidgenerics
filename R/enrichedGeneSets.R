@@ -1,6 +1,6 @@
 #' Enriched gene sets
 #'
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #' @export
 #'
 #' @return `list`.

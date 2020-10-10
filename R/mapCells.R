@@ -1,7 +1,7 @@
 #' Map input to cell identifiers
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character`.
 #'

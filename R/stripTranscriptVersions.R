@@ -1,7 +1,7 @@
 #' Strip transcript versions
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object.
 #' Contains transcript identifiers without version numbers.

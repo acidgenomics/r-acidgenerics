@@ -3,7 +3,7 @@
 #' Compare feature expression correlation across two data sets.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Graphical output.
 #'

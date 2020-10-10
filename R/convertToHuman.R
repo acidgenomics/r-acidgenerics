@@ -1,7 +1,7 @@
 #' Convert data set by mapping to human orthologs
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object.
 #'   Features (i.e. rownames) will be remapped to human genes.

@@ -1,7 +1,7 @@
 #' Aggregate rows
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object of same class, with rows aggregated.
 #'

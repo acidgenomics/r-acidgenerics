@@ -2,7 +2,7 @@
 #'
 #' @name select
 #'
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #' @inheritParams mutate
 #'
 #' @return Modified object.

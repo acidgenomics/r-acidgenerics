@@ -1,7 +1,7 @@
 #' Intersection of more than two vectors
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `vector`.
 #'

@@ -1,7 +1,7 @@
 #' Differentially expressed genes per contrast
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `list`.
 #' Gene identifiers per contrast.

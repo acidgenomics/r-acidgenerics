@@ -1,7 +1,7 @@
 #' Variance-stabilizing transformation type
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character(1)`.
 #'   Transformation method name.

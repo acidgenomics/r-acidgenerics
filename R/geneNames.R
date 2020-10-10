@@ -4,7 +4,7 @@
 #' the stable gene IDs.
 #'
 #' @export
-#' @inheritParams acidroxygen::params
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character`.
 #'
