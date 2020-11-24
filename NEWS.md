@@ -1,3 +1,9 @@
+## AcidGenerics 0.4.1 (2020-11-24)
+
+### New functions
+
+- `sem`: New generic for calculating standard error of the mean.
+
 ## AcidGenerics 0.4.0 (2020-10-06)
 
 ### Major changes
