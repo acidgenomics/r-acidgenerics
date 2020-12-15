@@ -1,10 +1,3 @@
-# rowMeans
-# rowSums
-# sizeFactors
-# sizeFactors<-
-
-
-
 #' @importFrom BiocGenerics as.data.frame
 #' @export
 BiocGenerics::as.data.frame
@@ -48,6 +41,22 @@ BiocGenerics::plotMA
 #' @importFrom BiocGenerics plotPCA
 #' @export
 BiocGenerics::plotPCA
+
+#' @importFrom BiocGenerics rowMeans
+#' @export
+BiocGenerics::rowMeans
+
+#' @importFrom BiocGenerics rowSums
+#' @export
+BiocGenerics::rowSums
+
+#' @importFrom BiocGenerics sizeFactors
+#' @export
+BiocGenerics::sizeFactors
+
+#' @importFrom BiocGenerics sizeFactors<-
+#' @export
+BiocGenerics::`sizeFactors<-`
 
 #' @importFrom BiocGenerics table
 #' @export
