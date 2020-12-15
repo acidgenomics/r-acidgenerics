@@ -1,8 +1,8 @@
 Package: AcidGenerics
 Title: Acid Genomics Generics
 Description: S4 generic functions for Acid Genomics packages.
-Version: 0.4.1
-Date: 2020-11-24
+Version: 0.4.2
+Date: 2020-12-15
 Authors@R: c(
     person(
         "Michael", "Steinbaugh",
@@ -21,7 +21,7 @@ BugReports: https://github.com/acidgenomics/AcidGenerics/issues/
 License: GPL-3
 Encoding: UTF-8
 Depends: R (>= 4.0)
-Imports: methods
+Imports: BiocGenerics, S4Vectors, methods
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Additional_repositories: https://r.acidgenomics.com
