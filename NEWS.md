@@ -1,3 +1,10 @@
+## AcidGenerics 0.5.0 (2020-12-15)
+
+### Major changes
+
+- Now reexporting S4 generics defined in BiocGenerics and S4Vectors that are
+  used to define methods inside Acid Genomics R packages.
+
 ## AcidGenerics 0.4.1 (2020-11-24)
 
 ### New functions
