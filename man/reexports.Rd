@@ -3,16 +3,26 @@
 \docType{import}
 \name{reexports}
 \alias{reexports}
+\alias{as.data.frame}
 \alias{combine}
+\alias{counts}
+\alias{counts<-}
+\alias{estimateSizeFactors}
+\alias{normalize}
 \alias{organism}
 \alias{organism<-}
+\alias{plotDispEsts}
 \alias{plotMA}
 \alias{plotPCA}
 \alias{table}
 \alias{unlist}
 \alias{updateObject}
+\alias{aggregate}
 \alias{decode}
+\alias{head}
+\alias{merge}
 \alias{summary}
+\alias{tail}
 \title{Objects exported from other packages}
 \keyword{internal}
 \description{
@@ -20,8 +30,8 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
-  \item{BiocGenerics}{\code{\link[BiocGenerics]{combine}}, \code{\link[BiocGenerics:organism_species]{organism}}, \code{\link[BiocGenerics:organism_species]{organism<-}}, \code{\link[BiocGenerics]{plotMA}}, \code{\link[BiocGenerics]{plotPCA}}, \code{\link[BiocGenerics]{table}}, \code{\link[BiocGenerics]{unlist}}, \code{\link[BiocGenerics]{updateObject}}}
+  \item{BiocGenerics}{\code{\link[BiocGenerics]{as.data.frame}}, \code{\link[BiocGenerics]{combine}}, \code{\link[BiocGenerics:dge]{counts}}, \code{\link[BiocGenerics:dge]{counts<-}}, \code{\link[BiocGenerics:dge]{estimateSizeFactors}}, \code{\link[BiocGenerics]{normalize}}, \code{\link[BiocGenerics:organism_species]{organism}}, \code{\link[BiocGenerics:organism_species]{organism<-}}, \code{\link[BiocGenerics:dge]{plotDispEsts}}, \code{\link[BiocGenerics]{plotMA}}, \code{\link[BiocGenerics]{plotPCA}}, \code{\link[BiocGenerics]{table}}, \code{\link[BiocGenerics]{unlist}}, \code{\link[BiocGenerics]{updateObject}}}
 
-  \item{S4Vectors}{\code{\link[S4Vectors:Rle-class]{decode}}}
+  \item{S4Vectors}{\code{\link[S4Vectors:aggregate-methods]{aggregate}}, \code{\link[S4Vectors:Rle-class]{decode}}, \code{\link[S4Vectors:Vector-class]{head}}, \code{\link[S4Vectors:Vector-merge]{merge}}, \code{\link[S4Vectors:Vector-class]{tail}}}
 }}
 
