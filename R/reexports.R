@@ -80,6 +80,10 @@ S4Vectors::aggregate
 #' @export
 S4Vectors::decode
 
+#' @importFrom S4Vectors droplevels
+#' @export
+S4Vectors::droplevels
+
 #' @importFrom S4Vectors head
 #' @export
 S4Vectors::head

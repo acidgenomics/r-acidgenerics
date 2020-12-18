@@ -23,6 +23,7 @@
 \alias{updateObject}
 \alias{aggregate}
 \alias{decode}
+\alias{droplevels}
 \alias{head}
 \alias{merge}
 \alias{summary}
@@ -36,6 +37,6 @@ below to see their documentation.
 \describe{
   \item{BiocGenerics}{\code{\link[BiocGenerics]{as.data.frame}}, \code{\link[BiocGenerics]{combine}}, \code{\link[BiocGenerics:dge]{counts}}, \code{\link[BiocGenerics:dge]{counts<-}}, \code{\link[BiocGenerics:dge]{estimateSizeFactors}}, \code{\link[BiocGenerics]{normalize}}, \code{\link[BiocGenerics:organism_species]{organism}}, \code{\link[BiocGenerics:organism_species]{organism<-}}, \code{\link[BiocGenerics:dge]{plotDispEsts}}, \code{\link[BiocGenerics]{plotMA}}, \code{\link[BiocGenerics]{plotPCA}}, \code{\link[BiocGenerics:colSums]{rowMeans}}, \code{\link[BiocGenerics:colSums]{rowSums}}, \code{\link[BiocGenerics:dge]{sizeFactors}}, \code{\link[BiocGenerics:dge]{sizeFactors<-}}, \code{\link[BiocGenerics]{table}}, \code{\link[BiocGenerics]{unlist}}, \code{\link[BiocGenerics]{updateObject}}}
 
-  \item{S4Vectors}{\code{\link[S4Vectors:aggregate-methods]{aggregate}}, \code{\link[S4Vectors:Rle-class]{decode}}, \code{\link[S4Vectors:Vector-class]{head}}, \code{\link[S4Vectors:Vector-merge]{merge}}, \code{\link[S4Vectors:Vector-class]{tail}}}
+  \item{S4Vectors}{\code{\link[S4Vectors:aggregate-methods]{aggregate}}, \code{\link[S4Vectors:Rle-class]{decode}}, \code{\link[S4Vectors]{droplevels}}, \code{\link[S4Vectors:Vector-class]{head}}, \code{\link[S4Vectors:Vector-merge]{merge}}, \code{\link[S4Vectors:Vector-class]{tail}}}
 }}
 
