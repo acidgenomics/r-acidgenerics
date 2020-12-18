@@ -72,25 +72,35 @@ BiocGenerics::updateObject
 
 
 
+#' @rdname reexports
+#' @name aggregate
 #' @importFrom S4Vectors aggregate
 #' @export
-S4Vectors::aggregate
+NULL
 
+#' @rdname reexports
+#' @name decode
 #' @importFrom S4Vectors decode
 #' @export
-S4Vectors::decode
+NULL
 
+#' @rdname reexports
+#' @name droplevels
 #' @importFrom S4Vectors droplevels
 #' @export
-S4Vectors::droplevels
+NULL
 
+#' @rdname reexports
+#' @name head
 #' @importFrom S4Vectors head
 #' @export
-S4Vectors::head
+NULL
 
+#' @rdname reexports
+#' @name merge
 #' @importFrom S4Vectors merge
 #' @export
-S4Vectors::merge
+NULL
 
 #' @rdname reexports
 #' @name summary
@@ -98,6 +108,8 @@ S4Vectors::merge
 #' @export
 NULL
 
+#' @rdname reexports
+#' @name tail
 #' @importFrom S4Vectors tail
 #' @export
-S4Vectors::tail
+NULL
