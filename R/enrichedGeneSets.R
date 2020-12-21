@@ -7,7 +7,7 @@
 #' List of `character` gene sets.
 #'
 #' @examples
-#' class(enrichedGeneSets)
+#' showMethods("enrichedGeneSets")
 setGeneric(
     name = "enrichedGeneSets",
     def = function(object, ...) {
