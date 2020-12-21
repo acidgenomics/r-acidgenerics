@@ -25,5 +25,5 @@ boundaries are defined by capitlization only (e.g. \code{thisIsCamelCase}).
 Camel case is recommended by Bioconductor for variable and function names.
 }
 \examples{
-class(camelCase)
+showMethods("camelCase")
 }

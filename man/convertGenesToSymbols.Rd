@@ -19,5 +19,5 @@ to human-readable gene symbols.
 Convert genes to symbols
 }
 \examples{
-class(convertGenesToSymbols)
+showMethods("convertGenesToSymbols")
 }

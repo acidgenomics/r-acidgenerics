@@ -18,5 +18,5 @@ cell2sample(object, ...)
 Cell-to-sample mappings
 }
 \examples{
-class(cell2sample)
+showMethods("cell2sample")
 }

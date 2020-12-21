@@ -11,9 +11,12 @@ as.list(x, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{list}.
+}
 \description{
 Coerce object to a list
 }
-\note{
-Updated 2020-12-12.
+\examples{
+showMethods("as.list")
 }

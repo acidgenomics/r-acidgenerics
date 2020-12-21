@@ -18,5 +18,5 @@ barcodeRanksPerSample(object, ...)
 Barcode ranks per sample
 }
 \examples{
-class(barcodeRanksPerSample)
+showMethods("barcodeRanksPerSample")
 }

@@ -18,5 +18,5 @@ coerceToList(object, ...)
 Coerce to list
 }
 \examples{
-class(coerceToList)
+showMethods("coerceToList")
 }

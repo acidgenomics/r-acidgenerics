@@ -18,5 +18,5 @@ Varies, depending on the method.
 Differential expression per cluster
 }
 \examples{
-class(diffExpPerCluster)
+showMethods("diffExpPerCluster")
 }

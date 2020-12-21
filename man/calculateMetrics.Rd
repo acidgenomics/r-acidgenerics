@@ -18,5 +18,5 @@ calculateMetrics(object, ...)
 Calculate quality control metrics
 }
 \examples{
-class(calculateMetrics)
+showMethods("calculateMetrics")
 }

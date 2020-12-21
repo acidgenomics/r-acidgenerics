@@ -20,5 +20,5 @@ lowest. Gene identifiers are defined as the names.
 Intersection of differentially expressed genes
 }
 \examples{
-class(degIntersection)
+showMethods("degIntersection")
 }

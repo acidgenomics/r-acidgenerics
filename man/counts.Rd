@@ -4,6 +4,11 @@
 \alias{counts}
 \alias{counts<-}
 \title{Counts}
+\usage{
+counts(object, ...)
+
+counts(object) <- value
+}
 \arguments{
 \item{object}{Object.}
 
@@ -11,9 +16,12 @@
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{matrix}.
+}
 \description{
 Counts
 }
-\note{
-Updated 2020-12-21.
+\examples{
+showMethods("counts")
 }

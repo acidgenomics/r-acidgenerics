@@ -9,9 +9,12 @@ do.call(what, args, quote = FALSE, envir = parent.frame())
 \arguments{
 \item{what, args, quote, envir}{See \code{\link[base:do.call]{base::do.call}} for details.}
 }
+\value{
+Varies, depending on function called.
+}
 \description{
 Execute a function call
 }
-\note{
-Updated 2020-12-21.
+\examples{
+showMethods("do.call")
 }

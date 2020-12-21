@@ -11,9 +11,12 @@ estimateSizeFactors(object, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object.
+}
 \description{
 Estimate size factors
 }
-\note{
-Updated 2020-12-21.
+\examples{
+showMethods("estimateSizeFactors")
 }
