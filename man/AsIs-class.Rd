@@ -12,3 +12,6 @@ I(x)
 \description{
 Inhibit interpretation/conversion of objects
 }
+\examples{
+getClass("AsIs")
+}

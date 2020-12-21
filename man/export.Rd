@@ -18,5 +18,5 @@ Invisibily return file paths, either as \code{list} or \code{character}.
 Export data out of R and write to disk.
 }
 \examples{
-class(export)
+showMethods("export")
 }

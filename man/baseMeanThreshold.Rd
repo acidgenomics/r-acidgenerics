@@ -24,5 +24,5 @@ Base mean cutoff level.
 Base mean threshold
 }
 \examples{
-class(baseMeanThreshold)
+showMethods("baseMeanThreshold")
 }

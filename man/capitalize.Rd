@@ -18,5 +18,5 @@ Modified object.
 Capitalize
 }
 \examples{
-class(capitalize)
+showMethods("capitalize")
 }

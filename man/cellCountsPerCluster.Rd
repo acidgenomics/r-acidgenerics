@@ -18,5 +18,5 @@ cellCountsPerCluster(object, ...)
 Cell counts per cluster
 }
 \examples{
-class(cellCountsPerCluster)
+showMethods("cellCountsPerCluster")
 }

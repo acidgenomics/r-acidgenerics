@@ -19,5 +19,5 @@ human-readable sample names.
 Convert sample identifiers to names
 }
 \examples{
-class(convertSampleIDsToNames)
+showMethods("convertSampleIDsToNames")
 }

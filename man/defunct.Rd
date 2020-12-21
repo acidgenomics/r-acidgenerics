@@ -2,13 +2,25 @@
 % Please edit documentation in R/deprecated.R
 \name{defunct}
 \alias{defunct}
-\alias{plotGene}
+\alias{plotGenesPerCell}
+\alias{plotGenesDetected}
+\alias{plotUMIsPerCell}
+\alias{plotUMIsVsGenes}
+\alias{meltCounts}
 \alias{clusterCellCountsPerSample}
 \alias{flatFiles}
 \alias{plotGSEATable}
 \title{Defunct functions}
 \usage{
-plotGene(object, ...)
+plotGenesPerCell(object, ...)
+
+plotGenesDetected(object, ...)
+
+plotUMIsPerCell(object, ...)
+
+plotUMIsVsGenes(object, ...)
+
+meltCounts(object, ...)
 
 clusterCellCountsPerSample(object, ...)
 

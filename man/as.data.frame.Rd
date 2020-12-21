@@ -9,9 +9,12 @@ as.data.frame(x, row.names = NULL, optional = FALSE, ...)
 \arguments{
 \item{x, row.names, optional, ...}{See \code{\link[base:as.data.frame]{base::as.data.frame()}} for details.}
 }
+\value{
+\code{data.frame}.
+}
 \description{
 Coerce object to a data frame
 }
-\note{
-Updated 2020-12-21.
+\examples{
+showMethods("as.data.frame")
 }

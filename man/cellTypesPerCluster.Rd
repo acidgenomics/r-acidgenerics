@@ -18,5 +18,5 @@ cellTypesPerCluster(object, ...)
 Cell types per cluster
 }
 \examples{
-class(cellTypesPerCluster)
+showMethods("cellTypesPerCluster")
 }

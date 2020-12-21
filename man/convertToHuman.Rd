@@ -19,5 +19,5 @@ Features (i.e. rownames) will be remapped to human genes.
 Convert data set by mapping to human orthologs
 }
 \examples{
-class(convertToHuman)
+showMethods("convertToHuman")
 }

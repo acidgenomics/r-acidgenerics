@@ -9,9 +9,12 @@ colSums(x, na.rm = FALSE, dims = 1, ...)
 \arguments{
 \item{x, na.rm, dims, ...}{See \code{\link[base:colSums]{base::colSums}} for details.}
 }
+\value{
+\code{numeric}.
+}
 \description{
 Column sums
 }
-\note{
-Updated 2020-12-21.
+\examples{
+showMethods("colSums")
 }

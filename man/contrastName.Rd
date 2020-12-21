@@ -24,5 +24,5 @@ Contrast name.
 Contrast name
 }
 \examples{
-class(contrastName)
+showMethods("contrastName")
 }

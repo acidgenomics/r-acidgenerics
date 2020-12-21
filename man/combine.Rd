@@ -13,9 +13,12 @@ combine(x, y, ...)
 
 \item{...}{Additional arguments.}
 }
+\value{
+Modified object.
+}
 \description{
 Combine multiple objects
 }
-\note{
-Updated 2020-12-21.
+\examples{
+showMethods("combine")
 }
