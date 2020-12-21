@@ -6,7 +6,7 @@
 #' @return `character`.
 #'
 #' @examples
-#' class(collectionNames)
+#' showMethods("collectionNames")
 setGeneric(
     name = "collectionNames",
     def = function(object, ...) {

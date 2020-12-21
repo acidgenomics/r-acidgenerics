@@ -6,7 +6,7 @@
 #' @return Modified object.
 #'
 #' @examples
-#' class(capitalize)
+#' showMethods("capitalize")
 setGeneric(
     name = "capitalize",
     def = function(object, ...) {

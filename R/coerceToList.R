@@ -6,7 +6,7 @@
 #' @return `list`.
 #'
 #' @examples
-#' class(coerceToList)
+#' showMethods("coerceToList")
 setGeneric(
     name = "coerceToList",
     def = function(object, ...) {

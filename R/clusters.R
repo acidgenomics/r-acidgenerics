@@ -6,7 +6,7 @@
 #' @return `factor`.
 #'
 #' @examples
-#' class(clusters)
+#' showMethods("clusters")
 setGeneric(
     name = "clusters",
     def = function(object, ...) {

@@ -1,11 +1,16 @@
 #' Column sums
 #'
 #' @name colSums
-#' @note Updated 2020-12-21.
+#' @importFrom BiocGenerics colSums
 #' @export
 #'
-#' @importFrom BiocGenerics colSums
 #' @usage colSums(x, na.rm = FALSE, dims = 1, ...)
+#'
 #' @param x,na.rm,dims,...
 #'   See [`base::colSums`][base::colSums] for details.
+#'
+#' @return `numeric`.
+#'
+#' @examples
+#' showMethods("colSums")
 NULL
