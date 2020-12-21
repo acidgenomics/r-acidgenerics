@@ -213,12 +213,6 @@ NULL
 NULL
 
 #' @rdname reexports
-#' @name rep
-#' @importFrom S4Vectors rep
-#' @export
-NULL
-
-#' @rdname reexports
 #' @name split
 #' @importFrom S4Vectors split
 #' @export

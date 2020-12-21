@@ -9,6 +9,9 @@
 - Migrated some generics previously defined in basejump: `integerCounts`,
   `makeSampleData`.
 - Need to reexport `colSums`, `rowSums`, and `unlist` from BiocGenerics.
+- Now importing `AsIs` S4 class defined in BiocGenerics.
+- Importing additional S4 generics defined in S4Vectors that are in use
+  internally inside basejump.
 
 ## AcidGenerics 0.4.1 (2020-11-24)
 
