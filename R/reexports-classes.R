@@ -8,7 +8,7 @@ NULL
 
 
 #' @rdname reexports-classes
-#' @name Asis
+#' @name AsIs-class
 #' @importClassesFrom BiocGenerics AsIs
 #' @exportClass AsIs
 NULL

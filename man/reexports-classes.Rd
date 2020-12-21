@@ -2,7 +2,7 @@
 % Please edit documentation in R/reexports-classes.R
 \name{reexports-classes}
 \alias{reexports-classes}
-\alias{Asis}
+\alias{AsIs-class}
 \title{Reexport S4 classes}
 \description{
 Reexport S4 classes
