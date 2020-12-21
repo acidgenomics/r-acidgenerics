@@ -43,6 +43,10 @@
 \alias{expand.grid}
 \alias{head}
 \alias{merge}
+\alias{mcols}
+\alias{mcols<-}
+\alias{metadata}
+\alias{metadata<-}
 \alias{summary}
 \alias{tail}
 \title{Objects exported from other packages}

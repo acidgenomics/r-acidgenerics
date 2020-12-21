@@ -183,6 +183,30 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name mcols
+#' @importFrom S4Vectors mcols
+#' @export
+NULL
+
+#' @rdname reexports
+#' @name mcols<-
+#' @importFrom S4Vectors mcols<-
+#' @export
+NULL
+
+#' @rdname reexports
+#' @name metadata
+#' @importFrom S4Vectors metadata
+#' @export
+NULL
+
+#' @rdname reexports
+#' @name metadata<-
+#' @importFrom S4Vectors metadata<-
+#' @export
+NULL
+
+#' @rdname reexports
 #' @name summary
 #' @importFrom S4Vectors summary
 #' @export
@@ -196,15 +220,8 @@ NULL
 
 
 
-# head
-# mcols
-# mcols<-
-# merge
-# metadata
-# metadata<-
+
 # na.omit
 # order
 # rep
 # split
-# summary
-# tail
