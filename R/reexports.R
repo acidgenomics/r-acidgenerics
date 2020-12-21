@@ -16,6 +16,10 @@ BiocGenerics::`%in%`
 #' @export
 BiocGenerics::as.data.frame
 
+#' @importFrom BiocGenerics as.list
+#' @export
+BiocGenerics::as.list
+
 #' @importFrom BiocGenerics colSums
 #' @export
 BiocGenerics::colSums
@@ -97,6 +101,18 @@ BiocGenerics::updateObject
 NULL
 
 #' @rdname reexports
+#' @name coerce
+#' @importFrom S4Vectors coerce
+#' @export
+NULL
+
+#' @rdname reexports
+#' @name complete.cases
+#' @importFrom S4Vectors complete.cases
+#' @export
+NULL
+
+#' @rdname reexports
 #' @name decode
 #' @importFrom S4Vectors decode
 #' @export
@@ -134,10 +150,6 @@ NULL
 
 
 
-# as.data.frame
-# as.list
-# coerce
-# complete.cases
 # cor
 # decode
 # do.call
