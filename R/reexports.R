@@ -207,6 +207,24 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name na.omit
+#' @importFrom S4Vectors na.omit
+#' @export
+NULL
+
+#' @rdname reexports
+#' @name rep
+#' @importFrom S4Vectors rep
+#' @export
+NULL
+
+#' @rdname reexports
+#' @name split
+#' @importFrom S4Vectors split
+#' @export
+NULL
+
+#' @rdname reexports
 #' @name summary
 #' @importFrom S4Vectors summary
 #' @export
@@ -217,11 +235,3 @@ NULL
 #' @importFrom S4Vectors tail
 #' @export
 NULL
-
-
-
-
-# na.omit
-# order
-# rep
-# split
