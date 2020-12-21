@@ -51,6 +51,7 @@
 \alias{split}
 \alias{summary}
 \alias{tail}
+\alias{show}
 \title{Objects exported from other packages}
 \description{
 These objects are imported from other packages.
