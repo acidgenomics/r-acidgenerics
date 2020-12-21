@@ -1,124 +1,196 @@
+#' Objects exported from other packages
+#'
+#' These objects are imported from other packages.
+#'
+#' @name reexports
+#' @docType import
+#' @keywords internal
+#' @note Updated 2020-12-21.
+NULL
+
+
+
+#' @rdname reexports
+#' @name sampleNames
 #' @importFrom Biobase sampleNames
 #' @export
-Biobase::sampleNames
+NULL
 
+#' @rdname reexports
+#' @name sampleNames<-
 #' @importFrom Biobase sampleNames<-
 #' @export
-Biobase::`sampleNames<-`
+NULL
 
 
 
+#' @rdname reexports
+#' @name %in%
 #' @importFrom BiocGenerics %in%
 #' @export
-BiocGenerics::`%in%`
+NULL
 
+#' @rdname reexports
+#' @name as.data.frame
 #' @importFrom BiocGenerics as.data.frame
 #' @export
-BiocGenerics::as.data.frame
+NULL
 
+#' @rdname reexports
+#' @name as.list
 #' @importFrom BiocGenerics as.list
 #' @export
-BiocGenerics::as.list
+NULL
 
+#' @rdname reexports
+#' @name colSums
 #' @importFrom BiocGenerics colSums
 #' @export
-BiocGenerics::colSums
+NULL
 
+#' @rdname reexports
+#' @name combine
 #' @importFrom BiocGenerics combine
 #' @export
-BiocGenerics::combine
+NULL
 
+#' @rdname reexports
+#' @name counts
 #' @importFrom BiocGenerics counts
 #' @export
-BiocGenerics::counts
+NULL
 
+#' @rdname reexports
+#' @name counts<-
 #' @importFrom BiocGenerics counts<-
 #' @export
-BiocGenerics::`counts<-`
+NULL
 
+#' @rdname reexports
+#' @name do.call
 #' @importFrom BiocGenerics do.call
 #' @export
-BiocGenerics::do.call
+NULL
 
+#' @rdname reexports
+#' @name estimateSizeFactors
 #' @importFrom BiocGenerics estimateSizeFactors
 #' @export
-BiocGenerics::estimateSizeFactors
+NULL
 
+#' @rdname reexports
+#' @name lapply
 #' @importFrom BiocGenerics lapply
 #' @export
-BiocGenerics::lapply
+NULL
 
+#' @rdname reexports
+#' @name match
 #' @importFrom BiocGenerics match
 #' @export
-BiocGenerics::match
+NULL
 
+#' @rdname reexports
+#' @name normalize
 #' @importFrom BiocGenerics normalize
 #' @export
-BiocGenerics::normalize
+NULL
 
+#' @rdname reexports
+#' @name order
 #' @importFrom BiocGenerics order
 #' @export
-BiocGenerics::order
+NULL
 
+#' @rdname reexports
+#' @name organism
 #' @importFrom BiocGenerics organism
 #' @export
-BiocGenerics::organism
+NULL
 
+#' @rdname reexports
+#' @name organism<-
 #' @importFrom BiocGenerics organism<-
 #' @export
-BiocGenerics::`organism<-`
+NULL
 
+#' @rdname reexports
+#' @name plotDispEsts
 #' @importFrom BiocGenerics plotDispEsts
 #' @export
-BiocGenerics::plotDispEsts
+NULL
 
+#' @rdname reexports
+#' @name plotMA
 #' @importFrom BiocGenerics plotMA
 #' @export
-BiocGenerics::plotMA
+NULL
 
+#' @rdname reexports
+#' @name plotPCA
 #' @importFrom BiocGenerics plotPCA
 #' @export
-BiocGenerics::plotPCA
+NULL
 
+#' @rdname reexports
+#' @name rowMeans
 #' @importFrom BiocGenerics rowMeans
 #' @export
-BiocGenerics::rowMeans
+NULL
 
+#' @rdname reexports
+#' @name rowSums
 #' @importFrom BiocGenerics rowSums
 #' @export
-BiocGenerics::rowSums
+NULL
 
+#' @rdname reexports
+#' @name setdiff
 #' @importFrom BiocGenerics setdiff
 #' @export
-BiocGenerics::setdiff
+NULL
 
+#' @rdname reexports
+#' @name sizeFactors
 #' @importFrom BiocGenerics sizeFactors
 #' @export
-BiocGenerics::sizeFactors
+NULL
 
+#' @rdname reexports
+#' @name sizeFactors<-
 #' @importFrom BiocGenerics sizeFactors<-
 #' @export
-BiocGenerics::`sizeFactors<-`
+NULL
 
+#' @rdname reexports
+#' @name t
 #' @importFrom BiocGenerics t
 #' @export
-BiocGenerics::t
+NULL
 
+#' @rdname reexports
+#' @name table
 #' @importFrom BiocGenerics table
 #' @export
-BiocGenerics::table
+NULL
 
+#' @rdname reexports
+#' @name unique
 #' @importFrom BiocGenerics unique
 #' @export
-BiocGenerics::unique
+NULL
 
+#' @rdname reexports
+#' @name unlist
 #' @importFrom BiocGenerics unlist
 #' @export
-BiocGenerics::unlist
+NULL
 
+#' @rdname reexports
+#' @name updateObject
 #' @importFrom BiocGenerics updateObject
 #' @export
-BiocGenerics::updateObject
+NULL
 
 
 
