@@ -122,14 +122,17 @@
       
     </div>
 
-    <div id="acidgenerics-050-2020-12-18" class="section level2">
+    <div id="acidgenerics-050-2020-12-21" class="section level2">
 <h2 class="hasAnchor">
-<a href="#acidgenerics-050-2020-12-18" class="anchor"></a>AcidGenerics 0.5.0 (2020-12-18)</h2>
+<a href="#acidgenerics-050-2020-12-21" class="anchor"></a>AcidGenerics 0.5.0 (2020-12-21)</h2>
 <div id="major-changes" class="section level3">
 <h3 class="hasAnchor">
 <a href="#major-changes" class="anchor"></a>Major changes</h3>
 <ul>
 <li>Now reexporting S4 generics defined in BiocGenerics and S4Vectors that are used to define methods inside Acid Genomics R packages.</li>
+<li>Importing Biobase package, which defines <code>sampleNames</code> and <code>sampleNames&lt;-</code> generics.</li>
+<li>Migrated some generics previously defined in basejump: <code>integerCounts</code>, <code>makeSampleData</code>.</li>
+<li>Need to reexport <code>colSums</code>, <code>rowSums</code>, and <code>unlist</code> from BiocGenerics.</li>
 </ul>
 </div>
 </div>

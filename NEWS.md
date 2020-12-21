@@ -8,6 +8,7 @@
   generics.
 - Migrated some generics previously defined in basejump: `integerCounts`,
   `makeSampleData`.
+- Need to reexport `colSums`, `rowSums`, and `unlist` from BiocGenerics.
 
 ## AcidGenerics 0.4.1 (2020-11-24)
 

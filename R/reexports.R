@@ -12,6 +12,10 @@ Biobase::`sampleNames<-`
 #' @export
 BiocGenerics::as.data.frame
 
+#' @importFrom BiocGenerics colSums
+#' @export
+BiocGenerics::colSums
+
 #' @importFrom BiocGenerics combine
 #' @export
 BiocGenerics::combine
