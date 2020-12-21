@@ -1,8 +1,9 @@
 #' Reexport S4 classes
 #'
 #' @name reexports-classes
-#' @note Updated 2020-12-21.
+#' @docType import
 #' @keywords internal
+#' @note Updated 2020-12-21.
 NULL
 
 
