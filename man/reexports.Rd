@@ -47,6 +47,9 @@
 \alias{mcols<-}
 \alias{metadata}
 \alias{metadata<-}
+\alias{na.omit}
+\alias{rep}
+\alias{split}
 \alias{summary}
 \alias{tail}
 \title{Objects exported from other packages}
