@@ -15,6 +15,8 @@
 #' @param x,y,use,method
 #'   See [`stats::cor`][stats::cor] for details.
 #'
+#' @return `numeric(1)` or `matrix`.
+#'
 #' @examples
-#' class(cor)
+#' showMethods("cor")
 NULL

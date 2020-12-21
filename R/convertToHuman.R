@@ -7,7 +7,7 @@
 #'   Features (i.e. rownames) will be remapped to human genes.
 #'
 #' @examples
-#' class(convertToHuman)
+#' showMethods("convertToHuman")
 setGeneric(
     name = "convertToHuman",
     def = function(object, ...) {
