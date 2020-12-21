@@ -7,7 +7,7 @@
 #' Gene identifiers per contrast.
 #'
 #' @examples
-#' class(degPerContrast)
+#' showMethods("degPerContrast")
 setGeneric(
     name = "degPerContrast",
     def = function(object, ...) {
