@@ -36,6 +36,10 @@ BiocGenerics::counts
 #' @export
 BiocGenerics::`counts<-`
 
+#' @importFrom BiocGenerics do.call
+#' @export
+BiocGenerics::do.call
+
 #' @importFrom BiocGenerics estimateSizeFactors
 #' @export
 BiocGenerics::estimateSizeFactors
@@ -113,6 +117,12 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name cor
+#' @importFrom S4Vectors cor
+#' @export
+NULL
+
+#' @rdname reexports
 #' @name decode
 #' @importFrom S4Vectors decode
 #' @export
@@ -150,8 +160,6 @@ NULL
 
 
 
-# cor
-# decode
 # do.call
 # expand
 # expand.grid
