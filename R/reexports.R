@@ -1,3 +1,13 @@
+#' @importFrom Biobase sampleNames
+#' @export
+Biobase::sampleNames
+
+#' @importFrom Biobase sampleNames<-
+#' @export
+Biobase::`sampleNames<-`
+
+
+
 #' @importFrom BiocGenerics as.data.frame
 #' @export
 BiocGenerics::as.data.frame
