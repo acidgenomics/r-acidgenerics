@@ -8,7 +8,7 @@
 #' @return `integer matrix`.
 #'
 #' @examples
-#' class(alphaSummary)
+#' showMethods("alphaSummary")
 setGeneric(
     name = "alphaSummary",
     def = function(object, ...) {

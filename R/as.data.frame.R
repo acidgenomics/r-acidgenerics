@@ -12,7 +12,7 @@
 #' @return `data.frame`.
 #'
 #' @examples
-#' class(as.data.frame)
+#' showMethods("as.data.frame")
 NULL
 
 

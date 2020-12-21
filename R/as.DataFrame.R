@@ -6,7 +6,7 @@
 #' @return `DataFrame`.
 #'
 #' @examples
-#' class(as.DataFrame)
+#' showMethods("as.DataFrame")
 setGeneric(
     name = "as.DataFrame",
     def = function(x, ...) {

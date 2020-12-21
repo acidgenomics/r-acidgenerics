@@ -12,7 +12,7 @@
 #' @return `list`.
 #'
 #' @examples
-#' class(as.list)
+#' showMethods("as.list")
 NULL
 
 

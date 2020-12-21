@@ -6,7 +6,7 @@
 #' @return Modified object, with padded zeros.
 #'
 #' @examples
-#' class(autopadZeros)
+#' showMethods("autopadZeros")
 setGeneric(
     name = "autopadZeros",
     def = function(object, ...) {
