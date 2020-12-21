@@ -12,5 +12,5 @@
 #' @return Modified object.
 #'
 #' @examples
-#' class(aggregate)
+#' showMethods("aggregate")
 NULL

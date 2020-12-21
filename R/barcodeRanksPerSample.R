@@ -6,7 +6,7 @@
 #' @return `DataFrameList`.
 #'
 #' @examples
-#' class(barcodeRanksPerSample)
+#' showMethods("barcodeRanksPerSample")
 setGeneric(
     name = "barcodeRanksPerSample",
     def = function(object, ...) {

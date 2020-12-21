@@ -11,7 +11,7 @@
 #' Alpha cutoff level.
 #'
 #' @examples
-#' class(alphaThreshold)
+#' showMethods("alphaThreshold")
 setGeneric(
     name = "alphaThreshold",
     def = function(object, ...) {
