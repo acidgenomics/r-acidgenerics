@@ -24,6 +24,7 @@
 \alias{table}
 \alias{unlist}
 \alias{updateObject}
+\alias{\%in\%}
 \alias{aggregate}
 \alias{decode}
 \alias{droplevels}

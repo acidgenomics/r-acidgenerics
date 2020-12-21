@@ -87,6 +87,12 @@ BiocGenerics::updateObject
 
 
 #' @rdname reexports
+#' @name %in%
+#' @importFrom S4Vectors %in%
+#' @export
+NULL
+
+#' @rdname reexports
 #' @name aggregate
 #' @importFrom S4Vectors aggregate
 #' @export
@@ -127,3 +133,33 @@ NULL
 #' @importFrom S4Vectors tail
 #' @export
 NULL
+
+
+
+# aggregate
+# as.data.frame
+# as.list
+# coerce
+# complete.cases
+# cor
+# decode
+# do.call
+# expand
+# expand.grid
+# head
+# lapply
+# match
+# mcols
+# mcols<-
+# merge
+# metadata
+# metadata<-
+# na.omit
+# order
+# rep
+# setdiff
+# split
+# summary
+# t
+# tail
+# unique
