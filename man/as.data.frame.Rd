@@ -12,3 +12,6 @@ as.data.frame(x, row.names = NULL, optional = FALSE, ...)
 \description{
 Coerce object to a data frame
 }
+\note{
+Updated 2020-12-21.
+}
