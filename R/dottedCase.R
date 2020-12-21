@@ -9,7 +9,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @examples
-#' class(dottedCase)
+#' showMethods("dottedCase")
 setGeneric(
     name = "dottedCase",
     def = function(object, ...) {

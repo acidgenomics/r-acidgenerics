@@ -8,7 +8,7 @@
 #'   lowest. Gene identifiers are defined as the names.
 #'
 #' @examples
-#' class(degIntersection)
+#' showMethods("degIntersection")
 setGeneric(
     name = "degIntersection",
     def = function(object, ...) {
