@@ -1,57 +1,3 @@
-## FIXME NEED TO DEFINE DOCUMENTATION FOR THESE INSTEAD.
-
-
-
-#' Objects exported from other packages
-#'
-#' These objects are imported from other packages.
-#'
-#' @name reexports
-#' @docType import
-#' @keywords internal
-#' @note Updated 2020-12-21.
-NULL
-
-
-
-#' @rdname reexports
-#' @name sampleNames
-#' @importFrom Biobase sampleNames
-#' @export
-NULL
-
-#' @rdname reexports
-#' @name sampleNames<-
-#' @importFrom Biobase sampleNames<-
-#' @export
-NULL
-
-
-
-#' @rdname reexports
-#' @name %in%
-#' @importFrom BiocGenerics %in%
-#' @export
-NULL
-
-#' @rdname reexports
-#' @name as.data.frame
-#' @importFrom BiocGenerics as.data.frame
-#' @export
-NULL
-
-#' @rdname reexports
-#' @name as.list
-#' @importFrom BiocGenerics as.list
-#' @export
-NULL
-
-#' @rdname reexports
-#' @name colSums
-#' @importFrom BiocGenerics colSums
-#' @export
-NULL
-
 #' @rdname reexports
 #' @name combine
 #' @importFrom BiocGenerics combine
@@ -85,12 +31,6 @@ NULL
 #' @rdname reexports
 #' @name lapply
 #' @importFrom BiocGenerics lapply
-#' @export
-NULL
-
-#' @rdname reexports
-#' @name match
-#' @importFrom BiocGenerics match
 #' @export
 NULL
 
@@ -303,13 +243,5 @@ NULL
 #' @rdname reexports
 #' @name tail
 #' @importFrom S4Vectors tail
-#' @export
-NULL
-
-
-
-#' @rdname reexports
-#' @name show
-#' @importFrom methods show
 #' @export
 NULL
