@@ -19,82 +19,52 @@ NULL
 
 
 
-## v0.1.7 =======================================================================
-#' @rdname defunct
-#' @export
-setGeneric(
-    name = "plotGene",
-    def = function(object, ...) {
-        .Defunct("plotCounts")
-    }
-)
-
-
-
-## v0.2.1 ======================================================================
-#' @rdname deprecated
-#' @export
-setGeneric(
-    name = "clusterID",
-    def = function(object, ...) {
-        .Deprecated("clusters")
-        standardGeneric("clusterID")
-    }
-)
-
-
-
 ## v0.2.4 ======================================================================
-#' @rdname deprecated
+#' @rdname defunct
 #' @export
 setGeneric(
     name = "plotGenesPerCell",
     def = function(object, ...) {
-        .Deprecated("plotFeaturesPerCell")
-        standardGeneric("plotGenesPerCell")
+        .Defunct("plotFeaturesPerCell")
     }
 )
 
-#' @rdname deprecated
+#' @rdname defunct
 #' @export
 setGeneric(
     name = "plotGenesDetected",
     def = function(object, ...) {
-        .Deprecated("plotFeaturesDetected")
-        standardGeneric("plotGenesDetected")
+        .Defunct("plotFeaturesDetected")
     }
 )
 
-#' @rdname deprecated
+#' @rdname defunct
 #' @export
 setGeneric(
     name = "plotUMIsPerCell",
     def = function(object, ...) {
-        .Deprecated("plotCountsPerCell")
-        standardGeneric("plotUMIsPerCell")
+        .Defunct("plotCountsPerCell")
     }
 )
 
-#' @rdname deprecated
+#' @rdname defunct
 #' @export
 setGeneric(
     name = "plotUMIsVsGenes",
     def = function(object, ...) {
-        .Deprecated("plotCountsVsFeatures")
-        standardGeneric("plotUMIsVsGenes")
+        .Defunct("plotCountsVsFeatures")
     }
 )
 
 
 
 ## v0.2.7 ======================================================================
-#' @rdname deprecated
+#' @rdname defunct
 #' @export
 setGeneric(
     name = "meltCounts",
     def = function(object, ...) {
-        .Deprecated("melt")
-        standardGeneric("meltCounts")
+        .Defunct("melt")
     }
 )
 
