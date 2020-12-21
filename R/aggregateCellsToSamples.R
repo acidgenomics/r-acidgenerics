@@ -8,6 +8,9 @@
 #'
 #' @return `SummarizedExperiment`.
 #' Object with cell-level counts aggregated to sample-level.
+#'
+#' @examples
+#' class(aggregateCellsToSamples)
 setGeneric(
     name = "aggregateCellsToSamples",
     def = function(x, ...) {

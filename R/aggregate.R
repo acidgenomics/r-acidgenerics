@@ -10,4 +10,7 @@
 #' @param ... Additional arguments.
 #'
 #' @return Modified object.
+#'
+#' @examples
+#' class(aggregate)
 NULL
