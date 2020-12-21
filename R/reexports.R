@@ -44,9 +44,21 @@ BiocGenerics::do.call
 #' @export
 BiocGenerics::estimateSizeFactors
 
+#' @importFrom BiocGenerics lapply
+#' @export
+BiocGenerics::lapply
+
+#' @importFrom BiocGenerics match
+#' @export
+BiocGenerics::match
+
 #' @importFrom BiocGenerics normalize
 #' @export
 BiocGenerics::normalize
+
+#' @importFrom BiocGenerics order
+#' @export
+BiocGenerics::order
 
 #' @importFrom BiocGenerics organism
 #' @export
@@ -76,6 +88,10 @@ BiocGenerics::rowMeans
 #' @export
 BiocGenerics::rowSums
 
+#' @importFrom BiocGenerics setdiff
+#' @export
+BiocGenerics::setdiff
+
 #' @importFrom BiocGenerics sizeFactors
 #' @export
 BiocGenerics::sizeFactors
@@ -84,9 +100,17 @@ BiocGenerics::sizeFactors
 #' @export
 BiocGenerics::`sizeFactors<-`
 
+#' @importFrom BiocGenerics t
+#' @export
+BiocGenerics::t
+
 #' @importFrom BiocGenerics table
 #' @export
 BiocGenerics::table
+
+#' @importFrom BiocGenerics unique
+#' @export
+BiocGenerics::unique
 
 #' @importFrom BiocGenerics unlist
 #' @export
@@ -160,12 +184,9 @@ NULL
 
 
 
-# do.call
 # expand
 # expand.grid
 # head
-# lapply
-# match
 # mcols
 # mcols<-
 # merge
@@ -174,9 +195,6 @@ NULL
 # na.omit
 # order
 # rep
-# setdiff
 # split
 # summary
-# t
 # tail
-# unique
