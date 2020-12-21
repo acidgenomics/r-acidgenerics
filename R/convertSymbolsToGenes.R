@@ -7,7 +7,7 @@
 #'   remapped back to stable gene identifiers.
 #'
 #' @examples
-#' class(convertSymbolsToGenes)
+#' showMethods("convertSymbolsToGenes")
 setGeneric(
     name = "convertSymbolsToGenes",
     def = function(object, ...) {
