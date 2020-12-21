@@ -1,3 +1,7 @@
+## FIXME NEED TO DEFINE DOCUMENTATION FOR THESE INSTEAD.
+
+
+
 #' Objects exported from other packages
 #'
 #' These objects are imported from other packages.
@@ -299,5 +303,13 @@ NULL
 #' @rdname reexports
 #' @name tail
 #' @importFrom S4Vectors tail
+#' @export
+NULL
+
+
+
+#' @rdname reexports
+#' @name show
+#' @importFrom methods show
 #' @export
 NULL
