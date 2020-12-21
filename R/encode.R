@@ -6,7 +6,7 @@
 #' @return Modified object, with data encoded into `Rle` class.
 #'
 #' @examples
-#' class(encode)
+#' showMethods("encode")
 setGeneric(
     name = "encode",
     def = function(x, ...) {
