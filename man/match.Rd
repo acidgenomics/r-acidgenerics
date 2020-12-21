@@ -10,11 +10,9 @@ match(x, table, nomatch = NA_integer_, incomparables = NULL, ...)
 x %in% table
 }
 \arguments{
-\item{x, table}{Vector-like objects (typically of the same class, but not necessarily).}
+\item{x, table, nomatch, incomparables, ...}{Vector-like objects (typically of the same class, but not necessarily).}
 
-\item{nomatch, incomparables}{See [base::match][] for a description of these arguments.}
-
-\item{...}{Additional arguments.}
+\item{nomatch, incomparables}{See \code{\link[base:match]{base::match()}} for details.}
 }
 \description{
 Value matching
