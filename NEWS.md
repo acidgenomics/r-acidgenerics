@@ -1,9 +1,13 @@
-## AcidGenerics 0.5.0 (2020-12-18)
+## AcidGenerics 0.5.0 (2020-12-21)
 
 ### Major changes
 
 - Now reexporting S4 generics defined in BiocGenerics and S4Vectors that are
   used to define methods inside Acid Genomics R packages.
+- Importing Biobase package, which defines `sampleNames` and `sampleNames<-`
+  generics.
+- Migrated some generics previously defined in basejump: `integerCounts`,
+  `makeSampleData`.
 
 ## AcidGenerics 0.4.1 (2020-11-24)
 
