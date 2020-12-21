@@ -14,6 +14,30 @@ NULL
 #' @exportMethod do.call
 NULL
 
+#' @importMethodsFrom S4Vectors lapply
+#' @exportMethod lapply
+NULL
+
+#' @importMethodsFrom S4Vectors match
+#' @exportMethod match
+NULL
+
+#' @importMethodsFrom S4Vectors order
+#' @exportMethod order
+NULL
+
+#' @importMethodsFrom S4Vectors setdiff
+#' @exportMethod setdiff
+NULL
+
+#' @importMethodsFrom S4Vectors t
+#' @exportMethod t
+NULL
+
+#' @importMethodsFrom S4Vectors unique
+#' @exportMethod unique
+NULL
+
 #' @importMethodsFrom S4Vectors updateObject
 #' @exportMethod updateObject
 NULL
