@@ -7,6 +7,7 @@
 \alias{sampleNames<-}
 \alias{\%in\%}
 \alias{as.data.frame}
+\alias{as.list}
 \alias{colSums}
 \alias{combine}
 \alias{counts}
@@ -26,6 +27,8 @@
 \alias{unlist}
 \alias{updateObject}
 \alias{aggregate}
+\alias{coerce}
+\alias{complete.cases}
 \alias{decode}
 \alias{droplevels}
 \alias{head}
@@ -41,6 +44,6 @@ below to see their documentation.
 \describe{
   \item{Biobase}{\code{\link[Biobase:featureNames]{sampleNames}}, \code{\link[Biobase:featureNames]{sampleNames<-}}}
 
-  \item{BiocGenerics}{\code{\link[BiocGenerics:match]{\%in\%}}, \code{\link[BiocGenerics]{as.data.frame}}, \code{\link[BiocGenerics]{colSums}}, \code{\link[BiocGenerics]{combine}}, \code{\link[BiocGenerics:dge]{counts}}, \code{\link[BiocGenerics:dge]{counts<-}}, \code{\link[BiocGenerics:dge]{estimateSizeFactors}}, \code{\link[BiocGenerics]{normalize}}, \code{\link[BiocGenerics:organism_species]{organism}}, \code{\link[BiocGenerics:organism_species]{organism<-}}, \code{\link[BiocGenerics:dge]{plotDispEsts}}, \code{\link[BiocGenerics]{plotMA}}, \code{\link[BiocGenerics]{plotPCA}}, \code{\link[BiocGenerics:colSums]{rowMeans}}, \code{\link[BiocGenerics:colSums]{rowSums}}, \code{\link[BiocGenerics:dge]{sizeFactors}}, \code{\link[BiocGenerics:dge]{sizeFactors<-}}, \code{\link[BiocGenerics]{table}}, \code{\link[BiocGenerics]{unlist}}, \code{\link[BiocGenerics]{updateObject}}}
+  \item{BiocGenerics}{\code{\link[BiocGenerics:match]{\%in\%}}, \code{\link[BiocGenerics]{as.data.frame}}, \code{\link[BiocGenerics]{as.list}}, \code{\link[BiocGenerics]{colSums}}, \code{\link[BiocGenerics]{combine}}, \code{\link[BiocGenerics:dge]{counts}}, \code{\link[BiocGenerics:dge]{counts<-}}, \code{\link[BiocGenerics:dge]{estimateSizeFactors}}, \code{\link[BiocGenerics]{normalize}}, \code{\link[BiocGenerics:organism_species]{organism}}, \code{\link[BiocGenerics:organism_species]{organism<-}}, \code{\link[BiocGenerics:dge]{plotDispEsts}}, \code{\link[BiocGenerics]{plotMA}}, \code{\link[BiocGenerics]{plotPCA}}, \code{\link[BiocGenerics:colSums]{rowMeans}}, \code{\link[BiocGenerics:colSums]{rowSums}}, \code{\link[BiocGenerics:dge]{sizeFactors}}, \code{\link[BiocGenerics:dge]{sizeFactors<-}}, \code{\link[BiocGenerics]{table}}, \code{\link[BiocGenerics]{unlist}}, \code{\link[BiocGenerics]{updateObject}}}
 }}
 
