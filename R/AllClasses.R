@@ -7,4 +7,7 @@
 #' @usage I(x)
 #'
 #' @param x Object.
+#'
+#' @examples
+#' getClass("AsIs")
 NULL
