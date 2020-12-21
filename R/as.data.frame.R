@@ -10,6 +10,9 @@
 #'   See [base::as.data.frame()] for details.
 #'
 #' @return `data.frame`.
+#'
+#' @examples
+#' class(as.data.frame)
 NULL
 
 

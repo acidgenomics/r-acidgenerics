@@ -10,6 +10,9 @@
 #' @param ... Additional arguments.
 #'
 #' @return `list`.
+#'
+#' @examples
+#' class(as.list)
 NULL
 
 
