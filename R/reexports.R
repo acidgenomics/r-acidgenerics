@@ -159,6 +159,18 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name expand
+#' @importFrom S4Vectors expand
+#' @export
+NULL
+
+#' @rdname reexports
+#' @name expand.grid
+#' @importFrom S4Vectors expand.grid
+#' @export
+NULL
+
+#' @rdname reexports
 #' @name head
 #' @importFrom S4Vectors head
 #' @export
@@ -184,8 +196,6 @@ NULL
 
 
 
-# expand
-# expand.grid
 # head
 # mcols
 # mcols<-
