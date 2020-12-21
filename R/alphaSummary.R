@@ -6,9 +6,6 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return `integer matrix`.
-#'
-#' @examples
-#' class(alphaSummary)
 setGeneric(
     name = "alphaSummary",
     def = function(object, ...) {

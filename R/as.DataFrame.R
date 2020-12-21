@@ -4,9 +4,6 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return `DataFrame`.
-#'
-#' @examples
-#' class(as.DataFrame)
 setGeneric(
     name = "as.DataFrame",
     def = function(x, ...) {
