@@ -3,11 +3,10 @@
 #' @name match
 #' @note Updated 2020-12-21.
 #'
-#' @param x,table
+#' @param x,table,nomatch,incomparables,...
 #'   Vector-like objects (typically of the same class, but not necessarily).
 #' @param nomatch,incomparables
-#'   See [base::match][] for a description of these arguments.
-#' @param ... Additional arguments.
+#'   See [base::match()] for details.
 NULL
 
 #' @rdname match
