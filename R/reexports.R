@@ -8,6 +8,10 @@ Biobase::`sampleNames<-`
 
 
 
+#' @importFrom BiocGenerics %in%
+#' @export
+BiocGenerics::`%in%`
+
 #' @importFrom BiocGenerics as.data.frame
 #' @export
 BiocGenerics::as.data.frame
@@ -87,12 +91,6 @@ BiocGenerics::updateObject
 
 
 #' @rdname reexports
-#' @name %in%
-#' @importFrom S4Vectors %in%
-#' @export
-NULL
-
-#' @rdname reexports
 #' @name aggregate
 #' @importFrom S4Vectors aggregate
 #' @export
@@ -136,7 +134,6 @@ NULL
 
 
 
-# aggregate
 # as.data.frame
 # as.list
 # coerce
