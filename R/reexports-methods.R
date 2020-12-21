@@ -10,6 +10,10 @@ NULL
 #' @exportMethod as.list
 NULL
 
+#' @importMethodsFrom S4Vectors do.call
+#' @exportMethod do.call
+NULL
+
 #' @importMethodsFrom S4Vectors updateObject
 #' @exportMethod updateObject
 NULL
