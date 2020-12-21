@@ -39,6 +39,8 @@
 \alias{cor}
 \alias{decode}
 \alias{droplevels}
+\alias{expand}
+\alias{expand.grid}
 \alias{head}
 \alias{merge}
 \alias{summary}
