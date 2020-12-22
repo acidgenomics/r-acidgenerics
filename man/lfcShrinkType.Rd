@@ -19,5 +19,5 @@ Name of adaptive shrinkage method applied (e.g. "apeglm" or "ashr").
 Shrunken log2 fold change (LFC) type
 }
 \examples{
-class(lfcShrinkType)
+showMethods("lfcShrinkType")
 }

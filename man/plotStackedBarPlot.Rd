@@ -18,5 +18,5 @@ plotStackedBarPlot(object, ...)
 Plot stacked bar plot
 }
 \examples{
-class(plotStackedBarPlot)
+showMethods("plotStackedBarPlot")
 }

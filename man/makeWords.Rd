@@ -19,5 +19,5 @@ Words separated by spaces.
 Convert syntactic names to words separated by spaces
 }
 \examples{
-class(makeWords)
+showMethods("makeWords")
 }

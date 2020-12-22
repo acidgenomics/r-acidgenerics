@@ -23,7 +23,7 @@ transcripts) detected.
 droplet-based scRNA-seq data.
 }
 \examples{
-class(plotCountsVsFeatures)
+showMethods("plotCountsVsFeatures")
 }
 \seealso{
 \code{\link[=plotCountsPerCell]{plotCountsPerCell()}}.

@@ -18,5 +18,5 @@ plotMappedReads(object, ...)
 The number of mapped reads should correspond to the number of total reads.
 }
 \examples{
-class(plotMappedReads)
+showMethods("plotMappedReads")
 }

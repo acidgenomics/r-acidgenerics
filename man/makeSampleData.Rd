@@ -18,5 +18,5 @@ makeSampleData(object, ...)
 Make sample data
 }
 \examples{
-class(makeSampleData)
+showMethods("makeSampleData")
 }

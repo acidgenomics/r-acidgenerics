@@ -18,5 +18,5 @@ plotUMAP(object, ...)
 UMAP plot
 }
 \examples{
-class(plotUMAP)
+showMethods("plotUMAP")
 }

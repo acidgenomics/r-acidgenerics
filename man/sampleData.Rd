@@ -30,5 +30,5 @@ columns map to a single sample (e.g. cells for a single-cell RNA-seq
 experiment).
 }
 \examples{
-class(sampleData)
+showMethods("sampleData")
 }

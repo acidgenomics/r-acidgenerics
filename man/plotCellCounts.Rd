@@ -18,5 +18,5 @@ plotCellCounts(object, ...)
 Plot cell counts
 }
 \examples{
-class(plotCellCounts)
+showMethods("plotCellCounts")
 }

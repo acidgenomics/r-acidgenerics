@@ -21,5 +21,5 @@ Invisibly return a \code{ggplot} \code{list}.
 Plot known markers
 }
 \examples{
-class(plotKnownMarkers)
+showMethods("plotKnownMarkers")
 }

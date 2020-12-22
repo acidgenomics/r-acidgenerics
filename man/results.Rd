@@ -18,5 +18,5 @@ Varies, depending on the method.
 Results
 }
 \examples{
-class(results)
+showMethods("results")
 }

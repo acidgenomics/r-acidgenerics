@@ -18,5 +18,5 @@ plotPCACovariates(object, ...)
 Find correlation between principal components (PCs) and covariates
 }
 \examples{
-class(plotPCACovariates)
+showMethods("plotPCACovariates")
 }

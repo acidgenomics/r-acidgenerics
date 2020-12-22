@@ -23,5 +23,5 @@ nesThreshold(object, ...) <- value
 Normalized enrichment score (NES) threshold
 }
 \examples{
-class(nesThreshold)
+showMethods("nesThreshold")
 }

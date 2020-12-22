@@ -24,5 +24,5 @@ This can make dimnames invalid (see \code{\link[base:make.names]{make.names()}})
 should only be called prior to writing files to disk.
 }
 \examples{
-class(humanize)
+showMethods("humanize")
 }

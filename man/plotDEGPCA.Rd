@@ -25,5 +25,5 @@ To adjust the annotation columns, modify the
 must contain/extend a \code{SummarizedExperiment}.
 }
 \examples{
-class(plotDEGPCA)
+showMethods("plotDEGPCA")
 }

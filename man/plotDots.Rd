@@ -18,5 +18,5 @@ plotDots(object, ...)
 Dot plot
 }
 \examples{
-class(plotDots)
+showMethods("plotDots")
 }

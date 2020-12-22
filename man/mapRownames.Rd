@@ -18,5 +18,5 @@ mapRownames(object, ...)
 Map input to row names
 }
 \examples{
-class(mapRownames)
+showMethods("mapRownames")
 }

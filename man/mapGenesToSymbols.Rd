@@ -18,5 +18,5 @@ mapGenesToSymbols(object, ...)
 Map genes (gene identifiers) to gene names (symbols)
 }
 \examples{
-class(mapGenesToSymbols)
+showMethods("mapGenesToSymbols")
 }

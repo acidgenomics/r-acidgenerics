@@ -18,5 +18,5 @@ plotExonicMappingRate(object, ...)
 Plot exonic mapping rate
 }
 \examples{
-class(plotExonicMappingRate)
+showMethods("plotExonicMappingRate")
 }

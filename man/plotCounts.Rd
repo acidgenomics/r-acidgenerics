@@ -18,7 +18,7 @@ plotCounts(object, ...)
 Plot counts
 }
 \examples{
-class(plotCounts)
+showMethods("plotCounts")
 }
 \seealso{
 \code{DESeq2::plotCounts()}.

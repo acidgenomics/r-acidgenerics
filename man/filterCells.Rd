@@ -18,5 +18,5 @@ filterCells(object, ...)
 Filter cells
 }
 \examples{
-class(filterCells)
+showMethods("filterCells")
 }

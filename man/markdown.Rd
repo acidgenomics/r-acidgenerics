@@ -18,5 +18,5 @@ Markdown output.
 Markdown
 }
 \examples{
-class(markdown)
+showMethods("markdown")
 }

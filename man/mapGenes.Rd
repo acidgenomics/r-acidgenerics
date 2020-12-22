@@ -18,5 +18,5 @@ mapGenes(object, ...)
 Map input to gene identifiers
 }
 \examples{
-class(mapGenes)
+showMethods("mapGenes")
 }

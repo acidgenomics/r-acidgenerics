@@ -18,5 +18,5 @@ mapCells(object, ...)
 Map input to cell identifiers
 }
 \examples{
-class(mapCells)
+showMethods("mapCells")
 }

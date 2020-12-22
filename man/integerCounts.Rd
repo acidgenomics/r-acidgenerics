@@ -18,10 +18,6 @@ Typically \code{matrix} or \code{Matrix} class.
 \description{
 Integer counts
 }
-\note{
-For a \code{SummarizedExperiment} object, \code{"counts"} must be explicitly
-defined in \code{assayNames}.
-}
 \examples{
-class(integerCounts)
+showMethods("integerCounts")
 }

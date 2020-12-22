@@ -28,5 +28,5 @@ for S4 class names and corresponding generators, but not variables or
 functions.
 }
 \examples{
-class(upperCamelCase)
+showMethods("upperCamelCase")
 }

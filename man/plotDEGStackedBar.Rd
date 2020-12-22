@@ -18,5 +18,5 @@ plotDEGStackedBar(object, ...)
 Stacked bar plot of DEGs
 }
 \examples{
-class(plotDEGStackedBar)
+showMethods("plotDEGStackedBar")
 }

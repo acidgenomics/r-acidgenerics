@@ -18,5 +18,5 @@ Plot.
 UpSet plot of directional enriched pathway intersections across contrasts
 }
 \examples{
-class(plotEnrichedUpset)
+showMethods("plotEnrichedUpset")
 }

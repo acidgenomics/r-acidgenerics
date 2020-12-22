@@ -26,7 +26,7 @@ List of data frames split by factors.
 Split by factor level
 }
 \examples{
-class(splitByLevel)
+showMethods("splitByLevel")
 }
 \seealso{
 \itemize{

@@ -2,11 +2,9 @@
 % Please edit documentation in R/sampleNames.R
 \name{sampleNames}
 \alias{sampleNames}
-\alias{sampleNames<-}
 \title{Sample names}
 \usage{
 sampleNames(object)
-
 sampleNames(object) <- value
 }
 \arguments{
@@ -16,9 +14,12 @@ sampleNames(object) <- value
 
 \item{...}{Additional arguments.}
 }
+\value{
+\code{character}.
+}
 \description{
 Sample names
 }
-\note{
-Updated 2020-12-21.
+\examples{
+showMethods("sampleNames")
 }

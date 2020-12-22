@@ -18,7 +18,7 @@ melt(object, ...)
 Unpivot column data from wide format to long format.
 }
 \examples{
-class(melt)
+showMethods("melt")
 }
 \seealso{
 \itemize{
