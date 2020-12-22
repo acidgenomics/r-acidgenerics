@@ -6,7 +6,7 @@
 #' @return Plot.
 #'
 #' @examples
-#' class(plotCorrelationHeatmap)
+#' showMethods("plotCorrelationHeatmap")
 setGeneric(
     name = "plotCorrelationHeatmap",
     def = function(object, ...) {

@@ -8,7 +8,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotReadsPerCell)
+#' showMethods("plotReadsPerCell")
 setGeneric(
     name = "plotReadsPerCell",
     def = function(object, ...) {

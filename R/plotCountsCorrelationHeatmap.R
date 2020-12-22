@@ -8,7 +8,7 @@
 #' @return Graphical output.
 #'
 #' @examples
-#' class(plotCountsCorrelationHeatmap)
+#' showMethods("plotCountsCorrelationHeatmap")
 setGeneric(
     name = "plotCountsCorrelationHeatmap",
     def = function(x, y, ...) {

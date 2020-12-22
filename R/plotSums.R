@@ -9,7 +9,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotSums)
+#' showMethods("plotSums")
 setGeneric(
     name = "plotSums",
     def = function(object, ...) {

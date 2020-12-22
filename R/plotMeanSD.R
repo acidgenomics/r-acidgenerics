@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotMeanSD)
+#' showMethods("plotMeanSD")
 setGeneric(
     name = "plotMeanSD",
     def = function(object, ...) {

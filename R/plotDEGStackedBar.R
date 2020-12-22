@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotDEGStackedBar)
+#' showMethods("plotDEGStackedBar")
 setGeneric(
     name = "plotDEGStackedBar",
     def = function(object, ...) {

@@ -14,7 +14,7 @@
 #' @seealso [plotCountsPerCell()].
 #'
 #' @examples
-#' class(plotCountsVsFeatures)
+#' showMethods("plotCountsVsFeatures")
 setGeneric(
     name = "plotCountsVsFeatures",
     def = function(object, ...) {

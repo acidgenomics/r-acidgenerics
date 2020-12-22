@@ -8,7 +8,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotPCElbow)
+#' showMethods("plotPCElbow")
 setGeneric(
     name = "plotPCElbow",
     def = function(object, ...) {

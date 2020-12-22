@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotTotalCounts)
+#' showMethods("plotTotalCounts")
 setGeneric(
     name = "plotTotalCounts",
     def = function(object, ...) {

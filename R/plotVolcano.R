@@ -8,7 +8,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotVolcano)
+#' showMethods("plotVolcano")
 setGeneric(
     name = "plotVolcano",
     def = function(object, ...) {

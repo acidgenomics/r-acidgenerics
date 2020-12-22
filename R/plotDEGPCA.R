@@ -14,7 +14,7 @@
 #' @return Plot.
 #'
 #' @examples
-#' class(plotDEGPCA)
+#' showMethods("plotDEGPCA")
 setGeneric(
     name = "plotDEGPCA",
     def = function(object, ...) {

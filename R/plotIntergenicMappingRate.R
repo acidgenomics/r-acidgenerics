@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotIntergenicMappingRate)
+#' showMethods("plotIntergenicMappingRate")
 setGeneric(
     name = "plotIntergenicMappingRate",
     def = function(object, ...) {

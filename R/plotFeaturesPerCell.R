@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotFeaturesPerCell)
+#' showMethods("plotFeaturesPerCell")
 setGeneric(
     name = "plotFeaturesPerCell",
     def = function(object, ...) {

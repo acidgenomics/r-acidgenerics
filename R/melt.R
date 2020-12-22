@@ -13,7 +13,7 @@
 #' @return `DataFrame`.
 #'
 #' @examples
-#' class(melt)
+#' showMethods("melt")
 setGeneric(
     name = "melt",
     def = function(object, ...) {

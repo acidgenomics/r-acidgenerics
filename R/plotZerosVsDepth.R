@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotZerosVsDepth)
+#' showMethods("plotZerosVsDepth")
 setGeneric(
     name = "plotZerosVsDepth",
     def = function(object, ...) {

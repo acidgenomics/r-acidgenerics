@@ -6,7 +6,7 @@
 #' @return Plot.
 #'
 #' @examples
-#' class(plotCellCountsPerCluster)
+#' showMethods("plotCellCountsPerCluster")
 setGeneric(
     name = "plotCellCountsPerCluster",
     def = function(object, ...) {

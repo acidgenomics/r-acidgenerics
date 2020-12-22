@@ -8,7 +8,7 @@
 #' @seealso `DESeq2::plotCounts()`.
 #'
 #' @examples
-#' class(plotCounts)
+#' showMethods("plotCounts")
 setGeneric(
     name = "plotCounts",
     def = function(object, ...) {

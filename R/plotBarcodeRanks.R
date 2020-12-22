@@ -6,7 +6,7 @@
 #' @return `ggplot` grid.
 #'
 #' @examples
-#' class(plotBarcodeRanks)
+#' showMethods("plotBarcodeRanks")
 setGeneric(
     name = "plotBarcodeRanks",
     def = function(object, ...) {

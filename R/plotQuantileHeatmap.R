@@ -6,7 +6,7 @@
 #' @return Plot.
 #'
 #' @examples
-#' class(plotQuantileHeatmap)
+#' showMethods("plotQuantileHeatmap")
 setGeneric(
     name = "plotQuantileHeatmap",
     def = function(object, ...) {

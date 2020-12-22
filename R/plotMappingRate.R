@@ -10,7 +10,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotMappingRate)
+#' showMethods("plotMappingRate")
 setGeneric(
     name = "plotMappingRate",
     def = function(object, ...) {

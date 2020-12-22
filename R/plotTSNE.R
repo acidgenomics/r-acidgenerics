@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotTSNE)
+#' showMethods("plotTSNE")
 setGeneric(
     name = "plotTSNE",
     def = function(object, ...) {
