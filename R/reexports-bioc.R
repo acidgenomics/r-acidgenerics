@@ -101,6 +101,7 @@ NULL
 
 #' @rdname reexports-bioc
 #' @name mcols
+#' @aliases mcols<-
 #' @importFrom S4Vectors mcols mcols<-
 #' @export mcols mcols<-
 NULL
@@ -117,6 +118,7 @@ NULL
 
 #' @rdname reexports-bioc
 #' @name metadata
+#' @aliases metadata<-
 #' @importFrom S4Vectors metadata metadata<-
 #' @export metadata metadata<-
 NULL
