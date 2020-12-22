@@ -19,8 +19,7 @@ NULL
 #' @name %in%
 #' @importFrom BiocGenerics %in%
 #' @export
-NULL
-
+#'
 #' @importMethodsFrom S4Vectors %in%
 #' @exportMethod %in%
 NULL
@@ -55,8 +54,7 @@ NULL
 #' @name do.call
 #' @importFrom BiocGenerics do.call
 #' @export
-NULL
-
+#'
 #' @importMethodsFrom S4Vectors do.call
 #' @exportMethod do.call
 NULL
@@ -83,8 +81,7 @@ NULL
 #' @name lapply
 #' @importFrom BiocGenerics lapply
 #' @export
-NULL
-
+#'
 #' @importMethodsFrom S4Vectors lapply
 #' @exportMethod lapply
 NULL
@@ -95,8 +92,7 @@ NULL
 #' @name match
 #' @importFrom BiocGenerics match
 #' @export
-NULL
-
+#'
 #' @importMethodsFrom S4Vectors match
 #' @exportMethod match
 NULL
@@ -105,14 +101,8 @@ NULL
 
 #' @rdname reexports-bioc
 #' @name mcols
-#' @importFrom S4Vectors mcols
-#' @export
-NULL
-
-#' @rdname reexports-bioc
-#' @name mcols<-
-#' @importFrom S4Vectors mcols<-
-#' @export
+#' @importFrom S4Vectors mcols mcols<-
+#' @export mcols mcols<-
 NULL
 
 
@@ -127,14 +117,8 @@ NULL
 
 #' @rdname reexports-bioc
 #' @name metadata
-#' @importFrom S4Vectors metadata
-#' @export
-NULL
-
-#' @rdname reexports-bioc
-#' @name metadata<-
-#' @importFrom S4Vectors metadata<-
-#' @export
+#' @importFrom S4Vectors metadata metadata<-
+#' @export metadata metadata<-
 NULL
 
 
@@ -151,8 +135,7 @@ NULL
 #' @name order
 #' @importFrom BiocGenerics order
 #' @export
-NULL
-
+#'
 #' @importMethodsFrom S4Vectors order
 #' @exportMethod order
 NULL
@@ -179,8 +162,7 @@ NULL
 #' @name setdiff
 #' @importFrom BiocGenerics setdiff
 #' @export
-NULL
-
+#'
 #' @importMethodsFrom S4Vectors setdiff
 #' @exportMethod setdiff
 NULL
@@ -199,8 +181,7 @@ NULL
 #' @name t
 #' @importFrom BiocGenerics t
 #' @export
-NULL
-
+#'
 #' @importMethodsFrom S4Vectors t
 #' @exportMethod t
 NULL
@@ -219,8 +200,7 @@ NULL
 #' @name unique
 #' @importFrom BiocGenerics unique
 #' @export
-NULL
-
+#'
 #' @importMethodsFrom S4Vectors unique
 #' @exportMethod unique
 NULL

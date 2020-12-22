@@ -1,6 +1,12 @@
 #' Size factors
 #'
 #' @name sizeFactors
+#' @importFrom BiocGenerics sizeFactors sizeFactors<-
+#' @export sizeFactors sizeFactors<-
+#'
+#' @usage
+#' sizeFactors(object, ...)
+#' sizeFactors(object, ...) <- value
 #'
 #' @param object Object.
 #' @param value Value to assign.
@@ -10,20 +16,4 @@
 #'
 #' @examples
 #' showMethods("sizeFactors")
-NULL
-
-
-
-#' @rdname sizeFactors
-#' @name sizeFactors
-#' @importFrom BiocGenerics sizeFactors
-#' @usage sizeFactors(object, ...)
-#' @export
-NULL
-
-#' @rdname sizeFactors
-#' @name sizeFactors<-
-#' @importFrom BiocGenerics sizeFactors<-
-#' @usage sizeFactors(object, ...) <- value
-#' @export
 NULL

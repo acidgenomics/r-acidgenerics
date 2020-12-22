@@ -4,6 +4,9 @@
 #' @importFrom BiocGenerics as.data.frame
 #' @export
 #'
+#' @importMethodsFrom S4Vectors as.data.frame
+#' @exportMethod as.data.frame
+#'
 #' @usage as.data.frame(x, row.names = NULL, optional = FALSE, ...)
 #'
 #' @param x,row.names,optional,...
@@ -13,10 +16,4 @@
 #'
 #' @examples
 #' showMethods("as.data.frame")
-NULL
-
-
-
-#' @importMethodsFrom S4Vectors as.data.frame
-#' @exportMethod as.data.frame
 NULL

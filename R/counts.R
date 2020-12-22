@@ -1,6 +1,12 @@
 #' Counts
 #'
 #' @name counts
+#' @importFrom BiocGenerics counts counts<-
+#' @export counts counts<-
+#'
+#' @usage
+#' counts(object, ...)
+#' counts(object) <- value
 #'
 #' @param object Object.
 #' @param value Value to assign.
@@ -10,22 +16,4 @@
 #'
 #' @examples
 #' showMethods("counts")
-NULL
-
-
-
-#' @rdname counts
-#' @name counts
-#' @importFrom BiocGenerics counts
-#' @usage counts(object, ...)
-#' @export
-NULL
-
-
-
-#' @rdname counts
-#' @name counts<-
-#' @importFrom BiocGenerics counts<-
-#' @usage counts(object) <- value
-#' @export
 NULL
