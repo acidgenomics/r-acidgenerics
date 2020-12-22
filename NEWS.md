@@ -12,6 +12,9 @@
 - Now importing `AsIs` S4 class defined in BiocGenerics.
 - Importing additional S4 generics defined in S4Vectors that are in use
   internally inside basejump.
+- Migrated generics previously defined in bcbioRNASeq: `as.DESeqDataSet`,
+  `as.DESeqTransform`, `as.DGEList`, `plotPseudoVsAlignedCounts`, and
+  `slotAlignedCounts`.
 
 ## AcidGenerics 0.4.1 (2020-11-24)
 
