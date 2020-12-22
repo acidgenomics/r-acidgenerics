@@ -16,7 +16,7 @@
 #' - `cat()`.
 #'
 #' @examples
-#' class(headtail)
+#' showMethods("headtail")
 setGeneric(
     name = "headtail",
     def = function(x, ...) {

@@ -6,7 +6,7 @@
 #' @return `character`.
 #'
 #' @examples
-#' class(interestingGroups)
+#' showMethods("interestingGroups")
 setGeneric(
     name = "interestingGroups",
     def = function(object, ...) {

@@ -1,8 +1,5 @@
 #' Integer counts
 #'
-#' @note For a `SummarizedExperiment` object, `"counts"` must be explicitly
-#'   defined in `assayNames`.
-#'
 #' @export
 #' @inheritParams AcidRoxygen::params
 #'
@@ -10,7 +7,7 @@
 #' Typically `matrix` or `Matrix` class.
 #'
 #' @examples
-#' class(integerCounts)
+#' showMethods("integerCounts")
 setGeneric(
     name = "integerCounts",
     def = function(object, ...) {

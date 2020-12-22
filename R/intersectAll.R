@@ -6,7 +6,7 @@
 #' @return `vector`.
 #'
 #' @examples
-#' class(intersectAll)
+#' showMethods("intersectAll")
 setGeneric(
     name = "intersectAll",
     def = function(object, ...) {

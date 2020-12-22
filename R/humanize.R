@@ -12,7 +12,7 @@
 #' IDs) and colnames (e.g. sample names instead of sample IDs).
 #'
 #' @examples
-#' class(humanize)
+#' showMethods("humanize")
 setGeneric(
     name = "humanize",
     def = function(object, ...) {
