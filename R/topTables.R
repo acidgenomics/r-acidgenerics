@@ -9,7 +9,7 @@
 #' Markdown tables.
 #'
 #' @examples
-#' class(topTables)
+#' showMethods("topTables")
 setGeneric(
     name = "topTables",
     def = function(object, ...) {

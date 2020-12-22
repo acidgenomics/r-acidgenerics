@@ -6,7 +6,7 @@
 #' @return `list`.
 #'
 #' @examples
-#' class(resultsTables)
+#' showMethods("resultsTables")
 setGeneric(
     name = "resultsTables",
     def = function(object, ...) {

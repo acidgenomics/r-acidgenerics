@@ -6,7 +6,7 @@
 #' @return `DataFrame`.
 #'
 #' @examples
-#' class(topMarkers)
+#' showMethods("topMarkers")
 setGeneric(
     name = "topMarkers",
     def = function(object, ...) {

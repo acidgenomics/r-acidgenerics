@@ -14,7 +14,7 @@
 #' @return `DataFrame`.
 #'
 #' @examples
-#' class(sampleData)
+#' showMethods("sampleData")
 setGeneric(
     name = "sampleData",
     def = function(object, ...) {

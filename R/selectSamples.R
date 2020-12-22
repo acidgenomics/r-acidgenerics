@@ -36,7 +36,7 @@
 #' - `S4Vectors::split()`.
 #'
 #' @examples
-#' class(selectSamples)
+#' showMethods("selectSamples")
 setGeneric(
     name = "selectSamples",
     def = function(object, ...) {

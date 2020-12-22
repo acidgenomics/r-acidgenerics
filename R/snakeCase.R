@@ -8,7 +8,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @examples
-#' class(snakeCase)
+#' showMethods("snakeCase")
 setGeneric(
     name = "snakeCase",
     def = function(object, ...) {

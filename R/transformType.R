@@ -7,7 +7,7 @@
 #'   Transformation method name.
 #'
 #' @examples
-#' class(transformType)
+#' showMethods("transformType")
 setGeneric(
     name = "transformType",
     def = function(object, ...) {

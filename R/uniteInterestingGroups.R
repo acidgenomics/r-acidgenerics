@@ -11,7 +11,7 @@
 #' Now contains an `interestingGroups` column.
 #'
 #' @examples
-#' class(uniteInterestingGroups)
+#' showMethods("uniteInterestingGroups")
 setGeneric(
     name = "uniteInterestingGroups",
     def = function(object, ...) {
