@@ -1,12 +1,13 @@
 #' Counts
 #'
 #' @name counts
+#' @aliases counts<-
 #' @importFrom BiocGenerics counts counts<-
 #' @export counts counts<-
 #'
 #' @usage
 #' counts(object, ...)
-#' counts(object) <- value
+#' counts(object, ...) <- value
 #'
 #' @param object Object.
 #' @param value Value to assign.

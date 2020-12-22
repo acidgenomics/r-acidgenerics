@@ -3,6 +3,7 @@
 #' Get or set the organism (i.e. species) of an object.
 #'
 #' @name organism
+#' @aliases organism<-
 #' @importFrom BiocGenerics organism organism<-
 #' @export organism organism<-
 #'

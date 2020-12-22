@@ -2,10 +2,11 @@
 % Please edit documentation in R/counts.R
 \name{counts}
 \alias{counts}
+\alias{counts<-}
 \title{Counts}
 \usage{
 counts(object, ...)
-counts(object) <- value
+counts(object, ...) <- value
 }
 \arguments{
 \item{object}{Object.}
