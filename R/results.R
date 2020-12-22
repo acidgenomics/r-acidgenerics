@@ -6,7 +6,7 @@
 #' @return Varies, depending on the method.
 #'
 #' @examples
-#' class(results)
+#' showMethods("results")
 setGeneric(
     name = "results",
     def = function(object, ...) {

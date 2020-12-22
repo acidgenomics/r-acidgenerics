@@ -6,7 +6,7 @@
 #' @return Modified object.
 #'
 #' @examples
-#' class(sentenceCase)
+#' showMethods("sentenceCase")
 setGeneric(
     name = "sentenceCase",
     def = function(object, ...) {

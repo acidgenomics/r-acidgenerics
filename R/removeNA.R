@@ -6,7 +6,7 @@
 #' @return Sanitized object.
 #'
 #' @examples
-#' class(removeNA)
+#' showMethods("removeNA")
 setGeneric(
     name = "removeNA",
     def = function(object, ...) {

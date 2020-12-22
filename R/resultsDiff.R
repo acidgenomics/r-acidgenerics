@@ -7,7 +7,7 @@
 #'   Names correspond to the features (i.e. genes) analyzed.
 #'
 #' @examples
-#' class(resultsDiff)
+#' showMethods("resultsDiff")
 setGeneric(
     name = "resultsDiff",
     def = function(x, y, ...) {
