@@ -14,8 +14,10 @@
 \alias{lapply}
 \alias{match}
 \alias{mcols}
+\alias{mcols<-}
 \alias{merge}
 \alias{metadata}
+\alias{metadata<-}
 \alias{na.omit}
 \alias{order}
 \alias{rowMeans}
