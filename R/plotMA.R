@@ -16,5 +16,5 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' showMethods("plotMA')
+#' showMethods("plotMA")
 NULL
