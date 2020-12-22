@@ -15,6 +15,7 @@
 - Migrated generics previously defined in bcbioRNASeq: `as.DESeqDataSet`,
   `as.DESeqTransform`, `as.DGEList`, `plotPseudoVsAlignedCounts`, and
   `slotAlignedCounts`.
+- Added `unlistToDataFrame`, which is being added to AcidPlyr.
 
 ## AcidGenerics 0.4.1 (2020-11-24)
 
