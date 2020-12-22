@@ -13,7 +13,7 @@
 #' - [stringr::str_to_lower()]
 #'
 #' @examples
-#' class(makeLabel)
+#' showMethods("makeLabel")
 setGeneric(
     name = "makeLabel",
     def = function(object, ...) {

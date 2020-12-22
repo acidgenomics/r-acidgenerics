@@ -17,7 +17,7 @@
 #' @return Modified object.
 #'
 #' @examples
-#' class(kebabCase)
+#' showMethods("kebabCase")
 setGeneric(
     name = "kebabCase",
     def = function(object, ...) {

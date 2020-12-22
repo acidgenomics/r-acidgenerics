@@ -6,7 +6,7 @@
 #' @return `character`.
 #'
 #' @examples
-#' class(mapGenesToRownames)
+#' showMethods("mapGenesToRownames")
 setGeneric(
     name = "mapGenesToRownames",
     def = function(object, ...) {

@@ -6,7 +6,7 @@
 #' @return Markdown output.
 #'
 #' @examples
-#' class(markdown)
+#' showMethods("markdown")
 setGeneric(
     name = "markdown",
     def = function(object, ...) {
