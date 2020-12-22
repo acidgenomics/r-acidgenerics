@@ -8,7 +8,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotMappedReads)
+#' showMethods("plotMappedReads")
 setGeneric(
     name = "plotMappedReads",
     def = function(object, ...) {

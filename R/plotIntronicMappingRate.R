@@ -8,7 +8,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotIntronicMappingRate)
+#' showMethods("plotIntronicMappingRate")
 setGeneric(
     name = "plotIntronicMappingRate",
     def = function(object, ...) {

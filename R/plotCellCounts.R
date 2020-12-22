@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotCellCounts)
+#' showMethods("plotCellCounts")
 setGeneric(
     name = "plotCellCounts",
     def = function(object, ...) {

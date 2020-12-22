@@ -9,7 +9,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotCountsPerFeature)
+#' showMethods("plotCountsPerFeature")
 setGeneric(
     name = "plotCountsPerFeature",
     def = function(object, ...) {

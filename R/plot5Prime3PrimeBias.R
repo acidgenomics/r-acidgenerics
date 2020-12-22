@@ -29,7 +29,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plot5Prime3PrimeBias)
+#' showMethods("plot5Prime3PrimeBias")
 setGeneric(
     name = "plot5Prime3PrimeBias",
     def = function(object, ...) {

@@ -10,7 +10,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotDots)
+#' showMethods("plotDots")
 setGeneric(
     name = "plotDots",
     def = function(object, ...) {

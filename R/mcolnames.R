@@ -8,7 +8,7 @@
 #' @return `character`.
 #'
 #' @examples
-#' class(mcolnames)
+#' showMethods("mcolnames")
 setGeneric(
     name = "mcolnames",
     def = function(x, ...) {

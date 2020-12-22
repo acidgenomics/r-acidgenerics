@@ -6,7 +6,7 @@
 #' @return Plot.
 #'
 #' @examples
-#' class(plotEnrichedGeneSets)
+#' showMethods("plotEnrichedGeneSets")
 setGeneric(
     name = "plotEnrichedGeneSets",
     def = function(object, ...) {

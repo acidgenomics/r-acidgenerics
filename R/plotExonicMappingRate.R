@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotExonicMappingRate)
+#' showMethods("plotExonicMappingRate")
 setGeneric(
     name = "plotExonicMappingRate",
     def = function(object, ...) {

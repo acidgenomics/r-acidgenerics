@@ -6,7 +6,7 @@
 #' @return `numeric(1)`.
 #'
 #' @examples
-#' class(nesThreshold)
+#' showMethods("nesThreshold")
 setGeneric(
     name = "nesThreshold",
     def = function(object, ...) {

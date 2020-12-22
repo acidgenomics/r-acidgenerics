@@ -15,7 +15,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotGeneSaturation)
+#' showMethods("plotGeneSaturation")
 setGeneric(
     name = "plotGeneSaturation",
     def = function(object, ...) {

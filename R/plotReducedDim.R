@@ -8,7 +8,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotReducedDim)
+#' showMethods("plotReducedDim")
 setGeneric(
     name = "plotReducedDim",
     def = function(object, ...) {

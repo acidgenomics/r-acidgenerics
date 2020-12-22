@@ -9,7 +9,7 @@
 #' Invisibly return a `ggplot` `list`.
 #'
 #' @examples
-#' class(plotMarker)
+#' showMethods("plotMarker")
 setGeneric(
     name = "plotMarker",
     def = function(object, ...) {

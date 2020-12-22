@@ -11,7 +11,7 @@
 #' @seealso `plotCounts()`.
 #'
 #' @examples
-#' class(plotGenderMarkers)
+#' showMethods("plotGenderMarkers")
 setGeneric(
     name = "plotGenderMarkers",
     def = function(object, ...) {

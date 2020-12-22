@@ -6,7 +6,7 @@
 #' @return `data.frame`
 #'
 #' @examples
-#' class(metrics)
+#' showMethods("metrics")
 setGeneric(
     name = "metrics",
     def = function(object, ...) {

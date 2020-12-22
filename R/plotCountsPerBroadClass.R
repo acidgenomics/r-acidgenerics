@@ -6,7 +6,7 @@
 #' @return Plot.
 #'
 #' @examples
-#' class(plotCountsPerBroadClass)
+#' showMethods("plotCountsPerBroadClass")
 setGeneric(
     name = "plotCountsPerBroadClass",
     def = function(object, ...) {

@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotPCACovariates)
+#' showMethods("plotPCACovariates")
 setGeneric(
     name = "plotPCACovariates",
     def = function(object, ...) {
