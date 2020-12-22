@@ -19,7 +19,7 @@ British style sentence case.
 Doesn't modify strings already containing a space or multi-letter acronym.
 }
 \examples{
-class(makeTitle)
+showMethods("makeTitle")
 }
 \seealso{
 \itemize{

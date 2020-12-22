@@ -18,5 +18,5 @@ Plot.
 UpSet plot of directional DEG intersections across contrasts
 }
 \examples{
-class(plotDEGUpset)
+showMethods("plotDEGUpset")
 }

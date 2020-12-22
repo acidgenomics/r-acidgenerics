@@ -23,5 +23,5 @@ lfcThreshold(object, ...) <- value
 Log2 fold change threshold
 }
 \examples{
-class(lfcThreshold)
+showMethods("lfcThreshold")
 }

@@ -18,5 +18,5 @@ Sanitized object.
 Remove rows and columns containing only NA values
 }
 \examples{
-class(removeNA)
+showMethods("removeNA")
 }

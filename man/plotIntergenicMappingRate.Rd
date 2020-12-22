@@ -18,5 +18,5 @@ plotIntergenicMappingRate(object, ...)
 Plot intergenic mapping rate
 }
 \examples{
-class(plotIntergenicMappingRate)
+showMethods("plotIntergenicMappingRate")
 }

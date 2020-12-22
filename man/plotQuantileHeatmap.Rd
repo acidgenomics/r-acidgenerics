@@ -18,5 +18,5 @@ Plot.
 Quantile heatmap
 }
 \examples{
-class(plotQuantileHeatmap)
+showMethods("plotQuantileHeatmap")
 }

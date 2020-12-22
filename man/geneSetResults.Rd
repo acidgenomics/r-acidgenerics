@@ -18,5 +18,5 @@ geneSetResults(object, ...)
 Gene set results
 }
 \examples{
-class(geneSetResults)
+showMethods("geneSetResults")
 }

@@ -21,5 +21,5 @@ Volcano plot
 Don't apply post hoc alpha level or LFC threshold cutoffs.
 }
 \examples{
-class(plotVolcano)
+showMethods("plotVolcano")
 }

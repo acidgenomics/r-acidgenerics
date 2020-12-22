@@ -19,5 +19,5 @@ Both row and columns names will be made syntactically valid.
 Make syntactically valid dimnames
 }
 \examples{
-class(makeDimnames)
+showMethods("makeDimnames")
 }

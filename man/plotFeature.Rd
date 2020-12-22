@@ -18,5 +18,5 @@ plotFeature(object, ...)
 Plot feature
 }
 \examples{
-class(plotFeature)
+showMethods("plotFeature")
 }

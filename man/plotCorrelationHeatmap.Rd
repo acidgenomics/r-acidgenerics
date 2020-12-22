@@ -18,5 +18,5 @@ Plot.
 Correlation heatmap
 }
 \examples{
-class(plotCorrelationHeatmap)
+showMethods("plotCorrelationHeatmap")
 }

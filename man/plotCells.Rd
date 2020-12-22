@@ -18,5 +18,5 @@ plotCells(object, ...)
 Plot cells
 }
 \examples{
-class(plotCells)
+showMethods("plotCells")
 }

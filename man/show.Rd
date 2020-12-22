@@ -9,9 +9,12 @@ show(object)
 \arguments{
 \item{object}{Object.}
 }
+\value{
+Console output.
+}
 \description{
 Show an object
 }
-\note{
-Updated 2020-12-21.
+\examples{
+showMethods("show")
 }

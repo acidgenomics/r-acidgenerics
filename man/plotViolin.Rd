@@ -18,5 +18,5 @@ plotViolin(object, ...)
 Violin plot
 }
 \examples{
-class(plotViolin)
+showMethods("plotViolin")
 }

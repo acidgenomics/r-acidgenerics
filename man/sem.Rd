@@ -18,7 +18,7 @@ sem(x, ...)
 Standard error of the mean
 }
 \examples{
-class(sem)
+showMethods("sem")
 }
 \seealso{
 \itemize{

@@ -18,5 +18,5 @@ Modified object.
 Subset object to keep only non-zero rows and columns
 }
 \examples{
-class(nonzeroRowsAndCols)
+showMethods("nonzeroRowsAndCols")
 }

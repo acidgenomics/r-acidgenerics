@@ -29,5 +29,5 @@ We're not including the additional S4 methods that work on
 are not syntactically valid for names in R.
 }
 \examples{
-class(kebabCase)
+showMethods("kebabCase")
 }

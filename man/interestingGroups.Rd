@@ -23,5 +23,5 @@ interestingGroups(object, ...) <- value
 Interesting groups
 }
 \examples{
-class(interestingGroups)
+showMethods("interestingGroups")
 }

@@ -18,5 +18,5 @@ Plot.
 Plot cell counts per cluster
 }
 \examples{
-class(plotCellCountsPerCluster)
+showMethods("plotCellCountsPerCluster")
 }

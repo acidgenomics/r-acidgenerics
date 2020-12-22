@@ -18,5 +18,5 @@ intersectionMatrix(object, ...)
 Intersection matrix
 }
 \examples{
-class(intersectionMatrix)
+showMethods("intersectionMatrix")
 }

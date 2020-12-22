@@ -18,5 +18,5 @@ Modified object, with log ratios converted to fold changes.
 Log ratio to fold change
 }
 \examples{
-class(logRatioToFoldChange)
+showMethods("logRatioToFoldChange")
 }

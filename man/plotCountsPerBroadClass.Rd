@@ -18,5 +18,5 @@ Plot.
 Plot counts per broad class definition
 }
 \examples{
-class(plotCountsPerBroadClass)
+showMethods("plotCountsPerBroadClass")
 }

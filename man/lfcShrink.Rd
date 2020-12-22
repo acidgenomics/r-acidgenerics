@@ -23,5 +23,5 @@ Varies, depending on object class.
 Shrink log2 fold changes
 }
 \examples{
-class(lfcShrink)
+showMethods("lfcShrink")
 }

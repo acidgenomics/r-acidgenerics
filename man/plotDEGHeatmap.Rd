@@ -26,5 +26,5 @@ To adjust the annotation columns, modify the
 must contain a \code{SummarizedExperiment}.
 }
 \examples{
-class(plotDEGHeatmap)
+showMethods("plotDEGHeatmap")
 }

@@ -39,7 +39,7 @@ New object containing a merge of \code{x} and \code{y} objects.
 Join operations
 }
 \examples{
-class(leftJoin)
+showMethods("leftJoin")
 }
 \seealso{
 These functions are inspired by dplyr. However, they are designed to only

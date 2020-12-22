@@ -18,5 +18,5 @@ metrics(object, ...)
 Quality control metrics
 }
 \examples{
-class(metrics)
+showMethods("metrics")
 }

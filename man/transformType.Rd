@@ -19,5 +19,5 @@ Transformation method name.
 Variance-stabilizing transformation type
 }
 \examples{
-class(transformType)
+showMethods("transformType")
 }

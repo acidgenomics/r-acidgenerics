@@ -18,5 +18,5 @@ mapGenesToIDs(object, ...)
 Map genes (gene names) to gene identifiers
 }
 \examples{
-class(mapGenesToIDs)
+showMethods("mapGenesToIDs")
 }

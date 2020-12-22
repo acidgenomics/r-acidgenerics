@@ -38,5 +38,5 @@ transcript.
 }
 }
 \examples{
-class(plot5Prime3PrimeBias)
+showMethods("plot5Prime3PrimeBias")
 }

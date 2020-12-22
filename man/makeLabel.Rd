@@ -19,7 +19,7 @@ Lowercase string.
 Doesn't modify strings already containing a space or multi-letter acronym.
 }
 \examples{
-class(makeLabel)
+showMethods("makeLabel")
 }
 \seealso{
 \itemize{

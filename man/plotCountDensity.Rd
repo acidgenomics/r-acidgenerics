@@ -19,5 +19,5 @@ Generally, we expect similar count spreads for all genes between samples
 unless the total expressed RNA per sample is different.
 }
 \examples{
-class(plotCountDensity)
+showMethods("plotCountDensity")
 }

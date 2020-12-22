@@ -18,5 +18,5 @@ plotGeneSet(object, ...)
 Plot gene set enrichment
 }
 \examples{
-class(plotGeneSet)
+showMethods("plotGeneSet")
 }

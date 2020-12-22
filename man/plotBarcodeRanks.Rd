@@ -18,5 +18,5 @@ plotBarcodeRanks(object, ...)
 Plot barcode ranks
 }
 \examples{
-class(plotBarcodeRanks)
+showMethods("plotBarcodeRanks")
 }

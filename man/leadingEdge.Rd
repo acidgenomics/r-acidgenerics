@@ -19,5 +19,5 @@ Elements of gene set that correspond to leading edge.
 Leading edge genes
 }
 \examples{
-class(leadingEdge)
+showMethods("leadingEdge")
 }
