@@ -7,7 +7,7 @@
 #'   Elements of gene set that correspond to leading edge.
 #'
 #' @examples
-#' class(leadingEdge)
+#' showMethods("leadingEdge")
 setGeneric(
     name = "leadingEdge",
     def = function(object, ...) {

@@ -7,7 +7,7 @@
 #'   Words separated by spaces.
 #'
 #' @examples
-#' class(makeWords)
+#' showMethods("makeWords")
 setGeneric(
     name = "makeWords",
     def = function(object, ...) {

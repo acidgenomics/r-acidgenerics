@@ -6,7 +6,7 @@
 #' @return `DataFrame`.
 
 #' @examples
-#' class(makeSampleData)
+#' showMethods("makeSampleData")
 setGeneric(
     name = "makeSampleData",
     def = function(object, ...) {
