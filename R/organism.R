@@ -3,6 +3,12 @@
 #' Get or set the organism (i.e. species) of an object.
 #'
 #' @name organism
+#' @importFrom BiocGenerics organism organism<-
+#' @export organism organism<-
+#'
+#' @usage
+#' organism(object)
+#' organism(object) <- value
 #'
 #' @param object Object.
 #' @param value Value to assign.
@@ -11,22 +17,4 @@
 #'
 #' @examples
 #' showMethods("organism")
-NULL
-
-
-
-#' @rdname organism
-#' @name organism
-#' @importFrom BiocGenerics organism
-#' @usage organism(object)
-#' @export
-NULL
-
-
-
-#' @rdname organism
-#' @name organism<-
-#' @importFrom BiocGenerics organism<-
-#' @usage organism(object) <- value
-#' @export
 NULL

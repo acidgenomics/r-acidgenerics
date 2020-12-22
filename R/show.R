@@ -1,12 +1,15 @@
 #' Show an object
 #'
 #' @name show
-#' @note Updated 2020-12-21.
-#'
-#' @export
 #' @importFrom methods show
+#' @export
 #'
 #' @usage show(object)
 #'
 #' @param object Object.
+#'
+#' @return Console output.
+#'
+#' @examples
+#' showMethods("show")
 NULL

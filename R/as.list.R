@@ -4,6 +4,9 @@
 #' @importFrom BiocGenerics as.list
 #' @export
 #'
+#' @importMethodsFrom S4Vectors as.list
+#' @exportMethod as.list
+#'
 #' @usage as.list(x, ...)
 #'
 #' @param x Object.
@@ -13,10 +16,4 @@
 #'
 #' @examples
 #' showMethods("as.list")
-NULL
-
-
-
-#' @importMethodsFrom S4Vectors as.list
-#' @exportMethod as.list
 NULL
