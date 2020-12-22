@@ -6,7 +6,7 @@
 #' @return Modified object, with fold changes converted to log ratios.
 #'
 #' @examples
-#' class(foldChangeToLogRatio)
+#' showMethods("foldChangeToLogRatio")
 setGeneric(
     name = "foldChangeToLogRatio",
     def = function(object, ...) {

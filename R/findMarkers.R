@@ -6,7 +6,7 @@
 #' @return `data.frame`.
 #'
 #' @examples
-#' class(findMarkers)
+#' showMethods("findMarkers")
 setGeneric(
     name = "findMarkers",
     def = function(object, ...) {
