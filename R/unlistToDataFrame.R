@@ -9,7 +9,7 @@
 #' showMethods("unlistToDataFrame")
 setGeneric(
     name = "unlistToDataFrame",
-    def = function(object, ...) {
+    def = function(x, ...) {
         standardGeneric("unlistToDataFrame")
     }
 )

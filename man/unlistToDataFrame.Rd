@@ -4,10 +4,10 @@
 \alias{unlistToDataFrame}
 \title{Unlist to a data frame}
 \usage{
-unlistToDataFrame(object, ...)
+unlistToDataFrame(x, ...)
 }
 \arguments{
-\item{object}{Object.}
+\item{x}{Object.}
 
 \item{...}{Additional arguments.}
 }
