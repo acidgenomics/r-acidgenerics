@@ -1,4 +1,4 @@
-## AcidGenerics 0.5.0 (2020-12-21)
+## AcidGenerics 0.5.0 (2020-12-22)
 
 ### Major changes
 

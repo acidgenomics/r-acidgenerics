@@ -2,6 +2,7 @@
 % Please edit documentation in R/sampleNames.R
 \name{sampleNames}
 \alias{sampleNames}
+\alias{sampleNames<-}
 \title{Sample names}
 \usage{
 sampleNames(object)
@@ -11,8 +12,6 @@ sampleNames(object) <- value
 \item{object}{Object.}
 
 \item{value}{Value to assign.}
-
-\item{...}{Additional arguments.}
 }
 \value{
 \code{character}.

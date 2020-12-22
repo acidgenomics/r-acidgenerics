@@ -1,6 +1,7 @@
 #' Size factors
 #'
 #' @name sizeFactors
+#' @aliases sizeFactors<-
 #' @importFrom BiocGenerics sizeFactors sizeFactors<-
 #' @export sizeFactors sizeFactors<-
 #'

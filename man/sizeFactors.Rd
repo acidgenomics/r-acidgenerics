@@ -2,6 +2,7 @@
 % Please edit documentation in R/sizeFactors.R
 \name{sizeFactors}
 \alias{sizeFactors}
+\alias{sizeFactors<-}
 \title{Size factors}
 \usage{
 sizeFactors(object, ...)

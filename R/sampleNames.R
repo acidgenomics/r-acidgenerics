@@ -1,6 +1,7 @@
 #' Sample names
 #'
 #' @name sampleNames
+#' @aliases sampleNames<-
 #' @importFrom Biobase sampleNames sampleNames<-
 #' @export sampleNames sampleNames<-
 #'
@@ -10,7 +11,6 @@
 #'
 #' @param object Object.
 #' @param value Value to assign.
-#' @param ... Additional arguments.
 #'
 #' @return `character`.
 #'

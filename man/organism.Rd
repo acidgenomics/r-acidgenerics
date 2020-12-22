@@ -2,6 +2,7 @@
 % Please edit documentation in R/organism.R
 \name{organism}
 \alias{organism}
+\alias{organism<-}
 \title{Organism}
 \usage{
 organism(object)
