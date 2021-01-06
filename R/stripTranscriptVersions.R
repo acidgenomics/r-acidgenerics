@@ -7,7 +7,7 @@
 #' Contains transcript identifiers without version numbers.
 #'
 #' @examples
-#' class(stripTranscriptVersions)
+#' showMethods("stripTranscriptVersions")
 setGeneric(
     name = "stripTranscriptVersions",
     def = function(object, ...) {

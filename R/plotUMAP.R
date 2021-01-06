@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotUMAP)
+#' showMethods("plotUMAP")
 setGeneric(
     name = "plotUMAP",
     def = function(object, ...) {

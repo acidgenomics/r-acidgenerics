@@ -6,7 +6,7 @@
 #' @return Modified object.
 #'
 #' @examples
-#' class(nonzeroRowsAndCols)
+#' showMethods("nonzeroRowsAndCols")
 setGeneric(
     name = "nonzeroRowsAndCols",
     def = function(object, ...) {

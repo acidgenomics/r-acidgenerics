@@ -6,7 +6,7 @@
 #' @return `character(1)`.
 #'
 #' @examples
-#' class(matchRowNameColumn)
+#' showMethods("matchRowNameColumn")
 setGeneric(
     name = "matchRowNameColumn",
     def = function(object, ...) {

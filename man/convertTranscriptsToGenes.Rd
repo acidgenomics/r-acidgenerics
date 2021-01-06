@@ -18,5 +18,5 @@ Modified object of same class, with transcripts remapped to genes.
 Convert transcripts to genes
 }
 \examples{
-class(convertTranscriptsToGenes)
+showMethods("convertTranscriptsToGenes")
 }

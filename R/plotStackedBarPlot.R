@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotStackedBarPlot)
+#' showMethods("plotStackedBarPlot")
 setGeneric(
     name = "plotStackedBarPlot",
     def = function(object, ...) {

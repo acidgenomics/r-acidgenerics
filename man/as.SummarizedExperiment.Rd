@@ -17,6 +17,3 @@ as.SummarizedExperiment(x, ...)
 \description{
 Coerce object to SummarizedExperiment
 }
-\examples{
-class(as.SummarizedExperiment)
-}

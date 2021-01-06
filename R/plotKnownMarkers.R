@@ -8,7 +8,7 @@
 #' Invisibly return a `ggplot` `list`.
 #'
 #' @examples
-#' class(plotKnownMarkers)
+#' showMethods("plotKnownMarkers")
 setGeneric(
     name = "plotKnownMarkers",
     def = function(object, markers, ...) {

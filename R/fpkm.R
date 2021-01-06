@@ -13,7 +13,7 @@
 #' @return `matrix`
 #'
 #' @examples
-#' class(fpkm)
+#' showMethods("fpkm")
 setGeneric(
     name = "fpkm",
     def = function(object, ...) {

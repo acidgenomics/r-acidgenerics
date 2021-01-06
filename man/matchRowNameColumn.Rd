@@ -18,5 +18,5 @@ matchRowNameColumn(object, ...)
 Match row name column
 }
 \examples{
-class(matchRowNameColumn)
+showMethods("matchRowNameColumn")
 }

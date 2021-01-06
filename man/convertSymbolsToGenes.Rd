@@ -19,5 +19,5 @@ remapped back to stable gene identifiers.
 Convert symbols to genes
 }
 \examples{
-class(convertSymbolsToGenes)
+showMethods("convertSymbolsToGenes")
 }

@@ -9,7 +9,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotCountDensity)
+#' showMethods("plotCountDensity")
 setGeneric(
     name = "plotCountDensity",
     def = function(object, ...) {

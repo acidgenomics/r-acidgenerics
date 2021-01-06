@@ -19,5 +19,5 @@ List of \code{character} gene sets.
 Enriched gene sets
 }
 \examples{
-class(enrichedGeneSets)
+showMethods("enrichedGeneSets")
 }

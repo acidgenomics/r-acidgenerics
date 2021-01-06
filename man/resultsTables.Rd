@@ -18,5 +18,5 @@ resultsTables(object, ...)
 Results tables
 }
 \examples{
-class(resultsTables)
+showMethods("resultsTables")
 }

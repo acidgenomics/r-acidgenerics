@@ -1,12 +1,12 @@
 #' Contrast names
 #'
-#' @inheritParams AcidRoxygen::params
 #' @export
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return `character`.
 #'
 #' @examples
-#' class(contrastNames)
+#' showMethods("contrastNames")
 setGeneric(
     name = "contrastNames",
     def = function(object, ...) {

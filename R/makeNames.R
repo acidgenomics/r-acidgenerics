@@ -15,7 +15,7 @@
 #' @return Modified object.
 #'
 #' @examples
-#' class(makeNames)
+#' showMethods("makeNames")
 setGeneric(
     name = "makeNames",
     def = function(object, ...) {

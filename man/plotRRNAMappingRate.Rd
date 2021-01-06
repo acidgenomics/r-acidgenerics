@@ -22,5 +22,5 @@ reduce the number of biologically meaningful reads in the experiment and is
 best avoided.
 }
 \examples{
-class(plotRRNAMappingRate)
+showMethods("plotRRNAMappingRate")
 }

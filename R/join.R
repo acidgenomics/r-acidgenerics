@@ -18,7 +18,7 @@
 #' @return New object containing a merge of `x` and `y` objects.
 #'
 #' @examples
-#' class(leftJoin)
+#' showMethods("leftJoin")
 NULL
 
 

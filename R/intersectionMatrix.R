@@ -6,7 +6,7 @@
 #' @return `matrix`.
 #'
 #' @examples
-#' class(intersectionMatrix)
+#' showMethods("intersectionMatrix")
 setGeneric(
     name = "intersectionMatrix",
     def = function(object, ...) {

@@ -18,5 +18,5 @@ Modified object of same class, with columns aggregated.
 Aggregate columns
 }
 \examples{
-class(aggregateCols)
+showMethods("aggregateCols")
 }

@@ -11,7 +11,7 @@
 #' Sanitized to contain proper `NA` values.
 #'
 #' @examples
-#' class(sanitizeNA)
+#' showMethods("sanitizeNA")
 setGeneric(
     name = "sanitizeNA",
     def = function(object, ...) {

@@ -7,7 +7,7 @@
 #' @return Show graphical output. Invisibly return `list`.
 #'
 #' @examples
-#' class(plotCellTypesPerCluster)
+#' showMethods("plotCellTypesPerCluster")
 setGeneric(
     name = "plotCellTypesPerCluster",
     def = function(object, markers, ...) {

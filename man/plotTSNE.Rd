@@ -18,5 +18,5 @@ plotTSNE(object, ...)
 t-SNE plot
 }
 \examples{
-class(plotTSNE)
+showMethods("plotTSNE")
 }

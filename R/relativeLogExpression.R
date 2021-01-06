@@ -10,7 +10,7 @@
 #' @return `matrix`.
 #'
 #' @examples
-#' class(relativeLogExpression)
+#' showMethods("relativeLogExpression")
 setGeneric(
     name = "relativeLogExpression",
     def = function(object, ...) {

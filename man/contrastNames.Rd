@@ -23,5 +23,5 @@ contrastNames(object, ...) <- value
 Contrast names
 }
 \examples{
-class(contrastNames)
+showMethods("contrastNames")
 }

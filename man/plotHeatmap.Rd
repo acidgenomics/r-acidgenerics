@@ -18,5 +18,5 @@ Plot.
 Heatmap
 }
 \examples{
-class(plotHeatmap)
+showMethods("plotHeatmap")
 }

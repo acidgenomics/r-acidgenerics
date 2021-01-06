@@ -22,7 +22,7 @@ mapped fragments.
 Only recommended for gene-level counts.
 }
 \examples{
-class(fpkm)
+showMethods("fpkm")
 }
 \seealso{
 \code{DESeq2::fpkm()}.

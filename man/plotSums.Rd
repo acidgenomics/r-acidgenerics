@@ -19,5 +19,5 @@ Visualize row or column sums using empirical cumulative distribution function
 (ECDF) plot.
 }
 \examples{
-class(plotSums)
+showMethods("plotSums")
 }

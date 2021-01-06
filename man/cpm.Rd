@@ -18,5 +18,5 @@ cpm(object, ...)
 Counts per million
 }
 \examples{
-class(cpm)
+showMethods("cpm")
 }

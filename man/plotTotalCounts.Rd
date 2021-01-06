@@ -18,5 +18,5 @@ plotTotalCounts(object, ...)
 Plot total read counts
 }
 \examples{
-class(plotTotalCounts)
+showMethods("plotTotalCounts")
 }

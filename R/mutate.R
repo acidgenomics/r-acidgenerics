@@ -20,7 +20,7 @@
 #' work on Bioconductor S4 class objects, and use base R code internally.
 #'
 #' @examples
-#' class(mutateIf)
+#' showMethods("mutateIf")
 NULL
 
 

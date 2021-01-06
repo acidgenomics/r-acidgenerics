@@ -23,7 +23,7 @@ mcolnames(x, ...) <- value
 Metadata column names
 }
 \examples{
-class(mcolnames)
+showMethods("mcolnames")
 }
 \seealso{
 \code{S4Vectors::mcols()}.

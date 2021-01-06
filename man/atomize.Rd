@@ -18,6 +18,3 @@ Non-atomic columns (e.g. \code{list} or complex S4 classes) will be dropped.
 \description{
 Ensure all columns in the object are \code{atomic}.
 }
-\examples{
-class(atomize)
-}

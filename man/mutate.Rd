@@ -44,7 +44,7 @@ Mutate multiple columns
 Mutations are only allowed on \code{atomic} columns.
 }
 \examples{
-class(mutateIf)
+showMethods("mutateIf")
 }
 \seealso{
 These functions are inspired by dplyr. However, they are designed to only

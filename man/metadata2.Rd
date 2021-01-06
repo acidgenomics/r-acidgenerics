@@ -50,5 +50,5 @@ Attribute is also accessible via \code{metadata(object)[[which]]}.
 }
 
 \examples{
-class(metadata2)
+showMethods("metadata2")
 }

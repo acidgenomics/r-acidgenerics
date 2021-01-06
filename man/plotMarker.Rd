@@ -19,5 +19,5 @@ Invisibly return a \code{ggplot} \code{list}.
 Visualize gene markers on a reduced dimension plot (e.g. t-SNE, UMAP).
 }
 \examples{
-class(plotMarker)
+showMethods("plotMarker")
 }

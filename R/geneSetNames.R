@@ -6,7 +6,7 @@
 #' @return `character`.
 #'
 #' @examples
-#' class(geneSetNames)
+#' showMethods("geneSetNames")
 setGeneric(
     name = "geneSetNames",
     def = function(object, ...) {

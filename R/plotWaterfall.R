@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotWaterfall)
+#' showMethods("plotWaterfall")
 setGeneric(
     name = "plotWaterfall",
     def = function(object, ...) {

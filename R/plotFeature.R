@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotFeature)
+#' showMethods("plotFeature")
 setGeneric(
     name = "plotFeature",
     def = function(object, ...) {

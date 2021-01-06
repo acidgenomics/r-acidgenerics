@@ -18,5 +18,5 @@ plotQC(object, ...)
 Quality control
 }
 \examples{
-class(plotQC)
+showMethods("plotQC")
 }

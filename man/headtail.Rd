@@ -23,7 +23,7 @@ Inspired by the \code{\link[base:print]{print()}} method for \code{DataFrame} cl
 objects.
 }
 \examples{
-class(headtail)
+showMethods("headtail")
 }
 \seealso{
 \itemize{

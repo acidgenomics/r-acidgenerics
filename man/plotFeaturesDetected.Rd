@@ -18,5 +18,5 @@ plotFeaturesDetected(object, ...)
 Visualize the number of features (i.e. genes) detected.
 }
 \examples{
-class(plotFeaturesDetected)
+showMethods("plotFeaturesDetected")
 }

@@ -18,5 +18,5 @@ metricsPerSample(object, ...)
 Quality control metrics per sample
 }
 \examples{
-class(metricsPerSample)
+showMethods("metricsPerSample")
 }

@@ -6,7 +6,7 @@
 #' @return `numeric(1)`.
 #'
 #' @examples
-#' class(lfcThreshold)
+#' showMethods("lfcThreshold")
 setGeneric(
     name = "lfcThreshold",
     def = function(object, ...) {

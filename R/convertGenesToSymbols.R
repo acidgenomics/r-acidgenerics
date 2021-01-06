@@ -7,7 +7,7 @@
 #'   to human-readable gene symbols.
 #'
 #' @examples
-#' class(convertGenesToSymbols)
+#' showMethods("convertGenesToSymbols")
 setGeneric(
     name = "convertGenesToSymbols",
     def = function(object, ...) {

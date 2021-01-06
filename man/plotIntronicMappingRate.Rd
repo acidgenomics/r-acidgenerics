@@ -18,5 +18,5 @@ plotIntronicMappingRate(object, ...)
 The majority of reads should map to exons and not introns.
 }
 \examples{
-class(plotIntronicMappingRate)
+showMethods("plotIntronicMappingRate")
 }

@@ -19,5 +19,5 @@ Contains transcript identifiers without version numbers.
 Strip transcript versions
 }
 \examples{
-class(stripTranscriptVersions)
+showMethods("stripTranscriptVersions")
 }

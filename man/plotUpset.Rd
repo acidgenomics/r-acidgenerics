@@ -18,5 +18,5 @@ Plot.
 UpSet plot
 }
 \examples{
-class(plotUpset)
+showMethods("plotUpset")
 }

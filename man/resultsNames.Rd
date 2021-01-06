@@ -23,7 +23,7 @@ resultsNames(object, ...) <- value
 Results names
 }
 \examples{
-class(resultsNames)
+showMethods("resultsNames")
 }
 \seealso{
 \itemize{

@@ -18,5 +18,5 @@ as.DataFrame(x, ...)
 Coerce object to S4 DataFrame
 }
 \examples{
-class(as.DataFrame)
+showMethods("as.DataFrame")
 }

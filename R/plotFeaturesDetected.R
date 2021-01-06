@@ -8,7 +8,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotFeaturesDetected)
+#' showMethods("plotFeaturesDetected")
 setGeneric(
     name = "plotFeaturesDetected",
     def = function(object, ...) {

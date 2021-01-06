@@ -20,7 +20,7 @@ correlation(x, y, ...)
 Correlation
 }
 \examples{
-class(correlation)
+showMethods("correlation")
 }
 \seealso{
 \itemize{

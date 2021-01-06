@@ -21,5 +21,5 @@ Names correspond to the features (i.e. genes) analyzed.
 Relative difference of results
 }
 \examples{
-class(resultsDiff)
+showMethods("resultsDiff")
 }

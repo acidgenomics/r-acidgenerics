@@ -18,5 +18,5 @@ findMarkers(object, ...)
 Find cluster-specific marker genes
 }
 \examples{
-class(findMarkers)
+showMethods("findMarkers")
 }

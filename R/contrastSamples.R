@@ -7,7 +7,7 @@
 #' Sample identifiers.
 #'
 #' @examples
-#' class(contrastSamples)
+#' showMethods("contrastSamples")
 setGeneric(
     name = "contrastSamples",
     def = function(object, ...) {

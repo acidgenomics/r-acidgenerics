@@ -7,7 +7,7 @@
 #' Contrast name.
 #'
 #' @examples
-#' class(contrastName)
+#' showMethods("contrastName")
 setGeneric(
     name = "contrastName",
     def = function(object, ...) {

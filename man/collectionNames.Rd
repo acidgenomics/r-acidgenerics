@@ -23,5 +23,5 @@ collectionNames(object, ...) <- value
 Gene set collection names
 }
 \examples{
-class(collectionNames)
+showMethods("collectionNames")
 }

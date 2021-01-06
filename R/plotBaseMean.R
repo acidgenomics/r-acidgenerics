@@ -9,7 +9,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotBaseMean)
+#' showMethods("plotBaseMean")
 setGeneric(
     name = "plotBaseMean",
     def = function(object, ...) {

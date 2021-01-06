@@ -15,7 +15,7 @@
 #' @return Plot.
 #'
 #' @examples
-#' class(plotDEGHeatmap)
+#' showMethods("plotDEGHeatmap")
 setGeneric(
     name = "plotDEGHeatmap",
     def = function(object, ...) {

@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotViolin)
+#' showMethods("plotViolin")
 setGeneric(
     name = "plotViolin",
     def = function(object, ...) {

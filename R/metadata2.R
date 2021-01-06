@@ -30,7 +30,7 @@
 #' - `metadata2<-()`: Modified object.
 #'
 #' @examples
-#' class(metadata2)
+#' showMethods("metadata2")
 setGeneric(
     name = "metadata2",
     def = function(x, which, ...) {

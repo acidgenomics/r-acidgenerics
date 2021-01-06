@@ -18,5 +18,5 @@ geneSet(object, ...)
 Gene set
 }
 \examples{
-class(geneSet)
+showMethods("geneSet")
 }
