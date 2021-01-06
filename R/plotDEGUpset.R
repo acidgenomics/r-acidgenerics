@@ -6,7 +6,7 @@
 #' @return Plot.
 #'
 #' @examples
-#' class(plotDEGUpset)
+#' showMethods("plotDEGUpset")
 setGeneric(
     name = "plotDEGUpset",
     def = function(object, ...) {

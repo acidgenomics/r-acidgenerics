@@ -11,7 +11,7 @@
 #' All columns will be coerced to `factor`.
 #'
 #' @examples
-#' class(factorize)
+#' showMethods("factorize")
 setGeneric(
     name = "factorize",
     def = function(object, ...) {

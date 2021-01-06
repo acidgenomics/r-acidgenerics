@@ -14,7 +14,7 @@
 #' returns unchanged, except for `character` or `vector` class.
 #'
 #' @examples
-#' class(camelCase)
+#' showMethods("camelCase")
 setGeneric(
     name = "camelCase",
     def = function(object, ...) {

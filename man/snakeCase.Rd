@@ -22,5 +22,5 @@ Format character strings to use snake-style formatting, where word boundaries
 are defined by underscores (e.g. \code{this_is_snake_case}).
 }
 \examples{
-class(snakeCase)
+showMethods("snakeCase")
 }

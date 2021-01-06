@@ -6,7 +6,7 @@
 #' @return `factor`.
 #'
 #' @examples
-#' class(cell2sample)
+#' showMethods("cell2sample")
 setGeneric(
     name = "cell2sample",
     def = function(object, ...) {

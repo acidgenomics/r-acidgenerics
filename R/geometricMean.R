@@ -10,7 +10,7 @@
 #' @return `numeric`.
 #'
 #' @examples
-#' class(geometricMean)
+#' showMethods("geometricMean")
 setGeneric(
     name = "geometricMean",
     def = function(object, ...) {

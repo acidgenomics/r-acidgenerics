@@ -18,5 +18,5 @@ subsetPerSample(object, ...)
 Subset per sample
 }
 \examples{
-class(subsetPerSample)
+showMethods("subsetPerSample")
 }

@@ -6,7 +6,7 @@
 #' @return `matrix`.
 #'
 #' @examples
-#' class(resultsMatrix)
+#' showMethods("resultsMatrix")
 setGeneric(
     name = "resultsMatrix",
     def = function(object, ...) {

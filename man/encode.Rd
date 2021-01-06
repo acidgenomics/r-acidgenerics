@@ -18,5 +18,5 @@ Modified object, with data encoded into \code{Rle} class.
 Encode using run-length encoding
 }
 \examples{
-class(encode)
+showMethods("encode")
 }

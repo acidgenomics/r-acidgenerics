@@ -18,5 +18,5 @@ standardizeCells(object, ...)
 Standardize cell line names
 }
 \examples{
-class(standardizeCells)
+showMethods("standardizeCells")
 }

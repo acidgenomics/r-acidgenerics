@@ -6,7 +6,7 @@
 #' @return Modified object of same class, with rows aggregated.
 #'
 #' @examples
-#' class(aggregateRows)
+#' showMethods("aggregateRows")
 setGeneric(
     name = "aggregateRows",
     def = function(x, ...) {

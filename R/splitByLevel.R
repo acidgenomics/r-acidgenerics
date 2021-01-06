@@ -18,7 +18,7 @@
 #' - `dplyr::group_split()`
 #'
 #' @examples
-#' class(splitByLevel)
+#' showMethods("splitByLevel")
 setGeneric(
     name = "splitByLevel",
     def = function(x, f, ref = FALSE, ...) {

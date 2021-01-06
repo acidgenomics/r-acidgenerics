@@ -18,5 +18,5 @@ tpm(object, ...)
 Transcripts per million
 }
 \examples{
-class(tpm)
+showMethods("tpm")
 }

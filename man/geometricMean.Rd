@@ -21,5 +21,5 @@ The geometric mean is the nth root of n products or e to the mean log of \code{x
 Useful for describing non-normal (i.e. geometric) distributions.
 }
 \examples{
-class(geometricMean)
+showMethods("geometricMean")
 }

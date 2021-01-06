@@ -18,5 +18,5 @@ Modified object.
 Sentence case
 }
 \examples{
-class(sentenceCase)
+showMethods("sentenceCase")
 }

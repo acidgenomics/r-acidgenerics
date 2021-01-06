@@ -19,5 +19,5 @@ Sample identifiers.
 Samples corresponding to a differential expression contrast
 }
 \examples{
-class(contrastSamples)
+showMethods("contrastSamples")
 }

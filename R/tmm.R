@@ -17,7 +17,7 @@
 #' @return `matrix`.
 #'
 #' @examples
-#' class(tmm)
+#' showMethods("tmm")
 setGeneric(
     name = "tmm",
     def = function(object, ...) {

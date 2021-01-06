@@ -7,7 +7,7 @@
 #' Base mean cutoff level.
 #'
 #' @examples
-#' class(baseMeanThreshold)
+#' showMethods("baseMeanThreshold")
 setGeneric(
     name = "baseMeanThreshold",
     def = function(object, ...) {

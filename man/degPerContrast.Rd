@@ -19,5 +19,5 @@ Gene identifiers per contrast.
 Differentially expressed genes per contrast
 }
 \examples{
-class(degPerContrast)
+showMethods("degPerContrast")
 }

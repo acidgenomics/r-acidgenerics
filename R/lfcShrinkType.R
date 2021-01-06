@@ -7,7 +7,7 @@
 #'   Name of adaptive shrinkage method applied (e.g. "apeglm" or "ashr").
 #'
 #' @examples
-#' class(lfcShrinkType)
+#' showMethods("lfcShrinkType")
 setGeneric(
     name = "lfcShrinkType",
     def = function(object, ...) {

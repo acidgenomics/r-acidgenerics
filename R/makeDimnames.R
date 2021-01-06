@@ -7,7 +7,7 @@
 #' Both row and columns names will be made syntactically valid.
 #'
 #' @examples
-#' class(makeDimnames)
+#' showMethods("makeDimnames")
 setGeneric(
     name = "makeDimnames",
     def = function(object, ...) {

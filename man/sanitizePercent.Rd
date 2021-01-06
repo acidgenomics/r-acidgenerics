@@ -28,5 +28,5 @@ Excel.
 }
 
 \examples{
-class(sanitizePercent)
+showMethods("sanitizePercent")
 }

@@ -7,7 +7,7 @@
 #'   a character string.
 #'
 #' @examples
-#' class(collapseToString)
+#' showMethods("collapseToString")
 setGeneric(
     name = "collapseToString",
     def = function(object, ...) {

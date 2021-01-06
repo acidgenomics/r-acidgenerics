@@ -23,5 +23,5 @@ recommended to avoid using it for variable assignments into an \code{environment
 as that can introduce conflicts with base functions.
 }
 \examples{
-class(dottedCase)
+showMethods("dottedCase")
 }

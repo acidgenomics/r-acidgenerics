@@ -6,7 +6,7 @@
 #' @return `DataFrame`.
 #'
 #' @examples
-#' class(cellCountsPerCluster)
+#' showMethods("cellCountsPerCluster")
 setGeneric(
     name = "cellCountsPerCluster",
     def = function(object, ...) {

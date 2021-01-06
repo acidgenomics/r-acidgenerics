@@ -46,7 +46,7 @@ identifiers for columns and gene identifiers for rows.
 }
 
 \examples{
-class(selectSamples)
+showMethods("selectSamples")
 }
 \seealso{
 \itemize{

@@ -6,7 +6,7 @@
 #' @return `SingleCellExperiment`.
 #'
 #' @examples
-#' class(filterCells)
+#' showMethods("filterCells")
 setGeneric(
     name = "filterCells",
     def = function(object, ...) {

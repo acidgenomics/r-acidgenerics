@@ -18,5 +18,5 @@ intersectAll(object, ...)
 Intersection of more than two vectors
 }
 \examples{
-class(intersectAll)
+showMethods("intersectAll")
 }

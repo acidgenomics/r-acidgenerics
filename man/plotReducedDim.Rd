@@ -18,5 +18,5 @@ plotReducedDim(object, ...)
 Plot cell-level dimensionality reduction.
 }
 \examples{
-class(plotReducedDim)
+showMethods("plotReducedDim")
 }

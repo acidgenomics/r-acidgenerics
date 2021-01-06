@@ -18,5 +18,5 @@ Varies, depending on the method.
 Differential expression
 }
 \examples{
-class(diffExp)
+showMethods("diffExp")
 }

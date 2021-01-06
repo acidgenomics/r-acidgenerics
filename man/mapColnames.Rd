@@ -18,5 +18,5 @@ mapColnames(object, ...)
 Map input to column names
 }
 \examples{
-class(mapColnames)
+showMethods("mapColnames")
 }

@@ -13,7 +13,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @examples
-#' class(upperCamelCase)
+#' showMethods("upperCamelCase")
 setGeneric(
     name = "upperCamelCase",
     def = function(object, ...) {

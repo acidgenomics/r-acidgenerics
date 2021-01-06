@@ -7,7 +7,7 @@
 #' Gene identifiers.
 #'
 #' @examples
-#' class(deg)
+#' showMethods("deg")
 setGeneric(
     name = "deg",
     def = function(object, ...) {

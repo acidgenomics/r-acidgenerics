@@ -18,5 +18,5 @@ plotMeanSD(object, ...)
 Plot row standard deviations vs. row means
 }
 \examples{
-class(plotMeanSD)
+showMethods("plotMeanSD")
 }

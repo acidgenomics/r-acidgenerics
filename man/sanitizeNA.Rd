@@ -21,5 +21,5 @@ inside a character vector to \code{NA_character_}. Other \code{atomic} data type
 returned unmodified.
 }
 \examples{
-class(sanitizeNA)
+showMethods("sanitizeNA")
 }

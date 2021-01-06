@@ -18,5 +18,5 @@ plotNES(object, ...)
 Plot normalized enrichment score
 }
 \examples{
-class(plotNES)
+showMethods("plotNES")
 }

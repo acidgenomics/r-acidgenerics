@@ -9,7 +9,7 @@
 #' @return `character`.
 #'
 #' @examples
-#' class(resultsNames)
+#' showMethods("resultsNames")
 setGeneric(
     name = "resultsNames",
     def = function(object, ...) {

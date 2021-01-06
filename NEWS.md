@@ -1,3 +1,22 @@
+## AcidGenerics 0.5.0 (2020-12-22)
+
+### Major changes
+
+- Now reexporting S4 generics defined in BiocGenerics and S4Vectors that are
+  used to define methods inside Acid Genomics R packages.
+- Importing Biobase package, which defines `sampleNames` and `sampleNames<-`
+  generics.
+- Migrated some generics previously defined in basejump: `integerCounts`,
+  `makeSampleData`.
+- Need to reexport `colSums`, `rowSums`, and `unlist` from BiocGenerics.
+- Now importing `AsIs` S4 class defined in BiocGenerics.
+- Importing additional S4 generics defined in S4Vectors that are in use
+  internally inside basejump.
+- Migrated generics previously defined in bcbioRNASeq: `as.DESeqDataSet`,
+  `as.DESeqTransform`, `as.DGEList`, `plotPseudoVsAlignedCounts`, and
+  `slotAlignedCounts`.
+- Added `unlistToDataFrame`, which is being added to AcidPlyr.
+
 ## AcidGenerics 0.4.1 (2020-11-24)
 
 ### New functions

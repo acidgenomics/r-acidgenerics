@@ -22,7 +22,7 @@ Plot the disambiguated counts per cell.
 droplet-based scRNA-seq data.
 }
 \examples{
-class(plotCountsPerCell)
+showMethods("plotCountsPerCell")
 }
 \seealso{
 \code{\link[=plotCountsVsFeatures]{plotCountsVsFeatures()}}.

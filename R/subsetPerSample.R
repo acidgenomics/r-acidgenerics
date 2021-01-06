@@ -6,7 +6,7 @@
 #' @return `list`.
 #'
 #' @examples
-#' class(subsetPerSample)
+#' showMethods("subsetPerSample")
 setGeneric(
     name = "subsetPerSample",
     def = function(object, ...) {

@@ -14,7 +14,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotCountsPerGene)
+#' showMethods("plotCountsPerGene")
 setGeneric(
     name = "plotCountsPerGene",
     def = function(object, ...) {

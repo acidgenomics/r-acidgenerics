@@ -24,5 +24,5 @@ Alpha cutoff level.
 Alpha threshold
 }
 \examples{
-class(alphaThreshold)
+showMethods("alphaThreshold")
 }

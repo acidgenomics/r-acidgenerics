@@ -18,5 +18,5 @@ mapGenesToRownames(object, ...)
 Map genes to row names
 }
 \examples{
-class(mapGenesToRownames)
+showMethods("mapGenesToRownames")
 }

@@ -6,7 +6,7 @@
 #' @return Plot.
 #'
 #' @examples
-#' class(plotUpset)
+#' showMethods("plotUpset")
 setGeneric(
     name = "plotUpset",
     def = function(object, ...) {

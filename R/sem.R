@@ -9,7 +9,7 @@
 #' - https://stackoverflow.com/questions/2676554/
 #'
 #' @examples
-#' class(sem)
+#' showMethods("sem")
 setGeneric(
     name = "sem",
     def = function(x, ...) {

@@ -6,7 +6,7 @@
 #' @return Varies, depending on the method.
 #'
 #' @examples
-#' class(diffExp)
+#' showMethods("diffExp")
 setGeneric(
     name = "diffExp",
     def = function(object, ...) {

@@ -16,7 +16,7 @@
 #' numeric proportions (e.g. `0.5`).
 #'
 #' @examples
-#' class(sanitizePercent)
+#' showMethods("sanitizePercent")
 setGeneric(
     name = "sanitizePercent",
     def = function(object, ...) {

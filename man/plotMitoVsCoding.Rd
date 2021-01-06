@@ -18,5 +18,5 @@ plotMitoVsCoding(object, ...)
 Plot mitochondrial vs. coding counts
 }
 \examples{
-class(plotMitoVsCoding)
+showMethods("plotMitoVsCoding")
 }

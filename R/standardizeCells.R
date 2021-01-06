@@ -6,7 +6,7 @@
 #' @return `character`.
 #'
 #' @examples
-#' class(standardizeCells)
+#' showMethods("standardizeCells")
 setGeneric(
     name = "standardizeCells",
     def = function(object, ...) {

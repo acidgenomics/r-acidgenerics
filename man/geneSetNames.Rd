@@ -18,5 +18,5 @@ geneSetNames(object, ...)
 Gene set names
 }
 \examples{
-class(geneSetNames)
+showMethods("geneSetNames")
 }

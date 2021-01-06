@@ -6,7 +6,7 @@
 #' @return Varies, depending on object class.
 #'
 #' @examples
-#' class(lfcShrink)
+#' showMethods("lfcShrink")
 setGeneric(
     name = "lfcShrink",
     def = function(object, ...) {

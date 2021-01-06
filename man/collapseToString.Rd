@@ -19,5 +19,5 @@ a character string.
 Collapse to string
 }
 \examples{
-class(collapseToString)
+showMethods("collapseToString")
 }

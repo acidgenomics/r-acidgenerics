@@ -20,5 +20,5 @@ Show graphical output. Invisibly return a \code{ggplot} \code{list}.
 Plot top markers
 }
 \examples{
-class(plotTopMarkers)
+showMethods("plotTopMarkers")
 }

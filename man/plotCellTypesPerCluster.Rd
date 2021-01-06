@@ -20,5 +20,5 @@ Show graphical output. Invisibly return \code{list}.
 Plot cell types per cluster
 }
 \examples{
-class(plotCellTypesPerCluster)
+showMethods("plotCellTypesPerCluster")
 }

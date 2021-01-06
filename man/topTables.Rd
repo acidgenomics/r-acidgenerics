@@ -19,5 +19,5 @@ Markdown tables.
 Top tables of differentially expressed genes.
 }
 \examples{
-class(topTables)
+showMethods("topTables")
 }

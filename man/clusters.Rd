@@ -18,5 +18,5 @@ clusters(object, ...)
 Cluster identifiers
 }
 \examples{
-class(clusters)
+showMethods("clusters")
 }

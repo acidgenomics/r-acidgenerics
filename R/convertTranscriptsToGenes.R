@@ -6,7 +6,7 @@
 #' @return Modified object of same class, with transcripts remapped to genes.
 #'
 #' @examples
-#' class(convertTranscriptsToGenes)
+#' showMethods("convertTranscriptsToGenes")
 setGeneric(
     name = "convertTranscriptsToGenes",
     def = function(object, ...) {

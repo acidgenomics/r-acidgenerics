@@ -20,5 +20,5 @@ Graphical output.
 Compare feature expression correlation across two data sets.
 }
 \examples{
-class(plotCountsCorrelationHeatmap)
+showMethods("plotCountsCorrelationHeatmap")
 }

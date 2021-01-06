@@ -19,5 +19,5 @@ Gene identifiers.
 Differentially expressed genes
 }
 \examples{
-class(deg)
+showMethods("deg")
 }

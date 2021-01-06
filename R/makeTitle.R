@@ -14,7 +14,7 @@
 #' - [stringr::str_to_sentence()].
 #'
 #' @examples
-#' class(makeTitle)
+#' showMethods("makeTitle")
 setGeneric(
     name = "makeTitle",
     def = function(object, ...) {

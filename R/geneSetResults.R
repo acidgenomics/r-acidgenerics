@@ -6,7 +6,7 @@
 #' @return `DataFrame`.
 #'
 #' @examples
-#' class(geneSetResults)
+#' showMethods("geneSetResults")
 setGeneric(
     name = "geneSetResults",
     def = function(object, ...) {

@@ -18,5 +18,5 @@ resultsMatrix(object, ...)
 Results matrix
 }
 \examples{
-class(resultsMatrix)
+showMethods("resultsMatrix")
 }

@@ -19,5 +19,5 @@ Top barcodes as \code{character}, split by \code{sampleID}.
 Obtain the top cellular barcodes, based on counts.
 }
 \examples{
-class(topCellsPerSample)
+showMethods("topCellsPerSample")
 }

@@ -18,5 +18,5 @@ plotWaterfall(object, ...)
 Plot waterfall
 }
 \examples{
-class(plotWaterfall)
+showMethods("plotWaterfall")
 }

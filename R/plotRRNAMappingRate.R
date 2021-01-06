@@ -12,7 +12,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotRRNAMappingRate)
+#' showMethods("plotRRNAMappingRate")
 setGeneric(
     name = "plotRRNAMappingRate",
     def = function(object, ...) {

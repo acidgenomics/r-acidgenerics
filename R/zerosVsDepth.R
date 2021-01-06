@@ -8,7 +8,7 @@
 #' @return `matrix`.
 #'
 #' @examples
-#' class(zerosVsDepth)
+#' showMethods("zerosVsDepth")
 setGeneric(
     name = "zerosVsDepth",
     def = function(object, ...) {

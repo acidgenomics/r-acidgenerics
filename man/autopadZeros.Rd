@@ -18,5 +18,5 @@ Modified object, with padded zeros.
 Autopad zeros
 }
 \examples{
-class(autopadZeros)
+showMethods("autopadZeros")
 }

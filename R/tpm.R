@@ -6,7 +6,7 @@
 #' @return `matrix`
 #'
 #' @examples
-#' class(tpm)
+#' showMethods("tpm")
 setGeneric(
     name = "tpm",
     def = function(object, ...) {

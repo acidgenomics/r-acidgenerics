@@ -18,5 +18,5 @@ plotFeaturesPerCell(object, ...)
 Plot features per cell
 }
 \examples{
-class(plotFeaturesPerCell)
+showMethods("plotFeaturesPerCell")
 }

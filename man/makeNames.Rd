@@ -24,7 +24,7 @@ Sanitizes names using underscores instead of dots, the convention used by
 \code{\link[base:make.names]{make.names()}}.
 }
 \examples{
-class(makeNames)
+showMethods("makeNames")
 }
 \seealso{
 \code{\link[base:make.names]{make.names()}}.

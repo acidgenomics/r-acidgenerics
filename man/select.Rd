@@ -23,7 +23,7 @@ Modified object.
 Select multiple columns
 }
 \examples{
-class(selectIf)
+showMethods("selectIf")
 }
 \seealso{
 These functions are inspired by dplyr. However, they are designed to only

@@ -18,5 +18,5 @@ plotLFC(object, ...)
 Plot log2 fold change distributions
 }
 \examples{
-class(plotLFC)
+showMethods("plotLFC")
 }

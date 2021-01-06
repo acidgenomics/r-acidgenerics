@@ -7,7 +7,7 @@
 #' @return Show graphical output. Invisibly return a `ggplot` `list`.
 #'
 #' @examples
-#' class(plotTopMarkers)
+#' showMethods("plotTopMarkers")
 setGeneric(
     name = "plotTopMarkers",
     def = function(object, markers, ...) {

@@ -9,7 +9,7 @@
 #' Top barcodes as `character`, split by `sampleID`.
 #'
 #' @examples
-#' class(topCellsPerSample)
+#' showMethods("topCellsPerSample")
 setGeneric(
     name = "topCellsPerSample",
     def = function(object, ...) {

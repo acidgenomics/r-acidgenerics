@@ -2,27 +2,9 @@
 % Please edit documentation in R/deprecated.R
 \name{deprecated}
 \alias{deprecated}
-\alias{clusterID}
-\alias{plotGenesPerCell}
-\alias{plotGenesDetected}
-\alias{plotUMIsPerCell}
-\alias{plotUMIsVsGenes}
-\alias{meltCounts}
 \alias{plotDot}
 \title{Deprecated functions}
 \usage{
-clusterID(object, ...)
-
-plotGenesPerCell(object, ...)
-
-plotGenesDetected(object, ...)
-
-plotUMIsPerCell(object, ...)
-
-plotUMIsVsGenes(object, ...)
-
-meltCounts(object, ...)
-
 plotDot(object, ...)
 }
 \arguments{

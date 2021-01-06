@@ -6,7 +6,7 @@
 #' @return `character`.
 #'
 #' @examples
-#' class(mapColnames)
+#' showMethods("mapColnames")
 setGeneric(
     name = "mapColnames",
     def = function(object, ...) {

@@ -22,7 +22,7 @@ of genes are not differentially expressed.
 Only recommended for gene-level counts.
 }
 \examples{
-class(tmm)
+showMethods("tmm")
 }
 \references{
 Robinson and Oshlack (2010).

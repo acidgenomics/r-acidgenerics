@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotQC)
+#' showMethods("plotQC")
 setGeneric(
     name = "plotQC",
     def = function(object, ...) {

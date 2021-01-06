@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotMitoVsCoding)
+#' showMethods("plotMitoVsCoding")
 setGeneric(
     name = "plotMitoVsCoding",
     def = function(object, ...) {

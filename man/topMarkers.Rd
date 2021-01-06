@@ -18,5 +18,5 @@ topMarkers(object, ...)
 Top markers
 }
 \examples{
-class(topMarkers)
+showMethods("topMarkers")
 }

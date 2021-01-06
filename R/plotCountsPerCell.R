@@ -13,7 +13,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotCountsPerCell)
+#' showMethods("plotCountsPerCell")
 setGeneric(
     name = "plotCountsPerCell",
     def = function(object, ...) {

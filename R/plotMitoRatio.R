@@ -6,7 +6,7 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' class(plotMitoRatio)
+#' showMethods("plotMitoRatio")
 setGeneric(
     name = "plotMitoRatio",
     def = function(object, ...) {
