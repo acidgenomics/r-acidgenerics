@@ -15,9 +15,9 @@ Authors@R: c(
         role = c("cph", "fnd")
     ))
 URL:
-    https://acidgenerics.acidgenomics.com/,
-    https://github.com/acidgenomics/AcidGenerics/
-BugReports: https://github.com/acidgenomics/AcidGenerics/issues/
+    https://r.acidgenomics.com/packages/acidgenerics/,
+    https://github.com/acidgenomics/r-acidgenerics/
+BugReports: https://github.com/acidgenomics/r-acidgenerics/issues/
 License: GPL-3
 Encoding: UTF-8
 Depends: R (>= 4.0)
