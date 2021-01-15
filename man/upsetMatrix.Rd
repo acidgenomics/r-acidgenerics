@@ -20,3 +20,9 @@ UpSet matrix
 \examples{
 showMethods("upsetMatrix")
 }
+\seealso{
+\itemize{
+\item \code{UpSetR::fromList()}.
+\item \code{intersect()}, \code{setdiff()}.
+}
+}
