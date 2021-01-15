@@ -5,6 +5,10 @@
 #'
 #' @return `logical matrix`.
 #'
+#' @seealso
+#' - `UpSetR::fromList()`.
+#' - `intersect()`, `setdiff()`.
+#'
 #' @examples
 #' showMethods("upsetMatrix")
 setGeneric(
