@@ -13,7 +13,7 @@ topCellsPerSample(object, ...)
 }
 \value{
 \code{list}.
-Top barcodes as \code{character}, split by \code{sampleID}.
+Top barcodes as \code{character}, split by sample identifier.
 }
 \description{
 Obtain the top cellular barcodes, based on counts.

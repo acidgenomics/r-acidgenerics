@@ -6,7 +6,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return `list`.
-#' Top barcodes as `character`, split by `sampleID`.
+#' Top barcodes as `character`, split by sample identifier.
 #'
 #' @examples
 #' showMethods("topCellsPerSample")
