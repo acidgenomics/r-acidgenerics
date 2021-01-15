@@ -1,4 +1,4 @@
-#' Match row name column
+#' Match sample identifier column
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
@@ -6,10 +6,10 @@
 #' @return `character(1)`.
 #'
 #' @examples
-#' showMethods("matchRownameColumn")
+#' showMethods("matchSampleColumn")
 setGeneric(
-    name = "matchRownameColumn",
+    name = "matchSampleColumn",
     def = function(object, ...) {
-        standardGeneric("matchRownameColumn")
+        standardGeneric("matchSampleColumn")
     }
 )

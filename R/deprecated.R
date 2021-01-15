@@ -119,5 +119,18 @@ setGeneric(
 
 
 
+## 0.5.1 =======================================================================
+#' @rdname deprecated
+#' @export
+setGeneric(
+    name = "matchRowNameColumn",
+    def = function(object, ...) {
+        .Deprecated("matchRownameColumn")
+        standardGeneric("matchRowNameColumn")
+    }
+)
+
+
+
 ## nolint end
 ## nocov end

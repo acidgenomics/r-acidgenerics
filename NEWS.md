@@ -1,7 +1,14 @@
 ## AcidGenerics 0.5.1 (2021-01-15)
 
-- `upsetMatrix`: Added new generic for quickly generating an UpSet-style
-  intersection matrix.
+## New functions
+
+- Added some useful matching generics, which will be deployed in Acid Generics
+  packages to avoid hard-coding identifier column names: `matchCellColumn`,
+  `matchGeneColumn`, `matchSampleColumn`, and `matchTranscriptColumn`.
+
+### Deprecations
+
+- Deprecated `matchRowNameColumn` in favor if `matchRownameColumn` (note case).
 
 ## AcidGenerics 0.5.0 (2020-12-22)
 
