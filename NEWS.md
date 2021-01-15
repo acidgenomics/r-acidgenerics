@@ -1,3 +1,8 @@
+## AcidGenerics 0.5.1 (2021-01-15)
+
+- `upsetMatrix`: Added new generic for quickly generating an UpSet-style
+  intersection matrix.
+
 ## AcidGenerics 0.5.0 (2020-12-22)
 
 ### Major changes
