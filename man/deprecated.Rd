@@ -3,9 +3,12 @@
 \name{deprecated}
 \alias{deprecated}
 \alias{plotDot}
+\alias{matchRowNameColumn}
 \title{Deprecated functions}
 \usage{
 plotDot(object, ...)
+
+matchRowNameColumn(object, ...)
 }
 \arguments{
 \item{object}{Object.}
