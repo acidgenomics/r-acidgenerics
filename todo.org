@@ -2,8 +2,3 @@
 #+STARTUP: content
 * Development
 ** TODO stripVersions
-** TODO geneIDs
-** TODO geneNames
-** TODO transcriptIDs
-** TODO transcriptNames
-** TODO convertToHuman

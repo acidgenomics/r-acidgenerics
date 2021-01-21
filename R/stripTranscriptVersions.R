@@ -1,4 +1,8 @@
-#' Strip transcript versions
+#' Strip transcript identifier versions
+#'
+#' @details
+#' Intentionally does not strip gene versions, if defined in the object.
+#' To perform that action in parallel, use `stripVersions` instead.
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
