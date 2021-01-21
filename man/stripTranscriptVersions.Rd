@@ -2,7 +2,7 @@
 % Please edit documentation in R/stripTranscriptVersions.R
 \name{stripTranscriptVersions}
 \alias{stripTranscriptVersions}
-\title{Strip transcript versions}
+\title{Strip transcript identifier versions}
 \usage{
 stripTranscriptVersions(object, ...)
 }
@@ -16,7 +16,11 @@ Modified object.
 Contains transcript identifiers without version numbers.
 }
 \description{
-Strip transcript versions
+Strip transcript identifier versions
+}
+\details{
+Intentionally does not strip gene versions, if defined in the object.
+To perform that action in parallel, use \code{stripVersions} instead.
 }
 \examples{
 showMethods("stripTranscriptVersions")

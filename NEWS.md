@@ -1,3 +1,12 @@
+## AcidGenerics 0.5.2 (2021-01-21)
+
+## New functions
+
+- `geneIDs` (complementing previous `geneNames` generic), `transcriptIDs`,
+  `transcriptNames`, `stripGeneVersions`, (complementing previous
+  `stripTranscriptVersions` generic), and a new `stripVersions` generic that
+  is intended to sanitize both genes and transcripts in a single call.
+
 ## AcidGenerics 0.5.1 (2021-01-15)
 
 ## New functions
