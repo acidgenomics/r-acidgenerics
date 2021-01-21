@@ -1,0 +1,4 @@
+#+TITLE: Acid Genomics
+#+STARTUP: content
+* Development
+** TODO stripVersions
