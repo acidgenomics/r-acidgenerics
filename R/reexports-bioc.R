@@ -78,6 +78,17 @@ NULL
 
 
 #' @rdname reexports-bioc
+#' @name is.unsorted
+#' @importFrom BiocGenerics is.unsorted
+#' @export
+#'
+#' @importMethodsFrom S4Vectors is.unsorted
+#' @exportMethod is.unsorted
+NULL
+
+
+
+#' @rdname reexports-bioc
 #' @name lapply
 #' @importFrom BiocGenerics lapply
 #' @export
@@ -167,6 +178,17 @@ NULL
 #'
 #' @importMethodsFrom S4Vectors setdiff
 #' @exportMethod setdiff
+NULL
+
+
+
+#' @rdname reexports-bioc
+#' @name sort
+#' @importFrom BiocGenerics sort
+#' @export
+#'
+#' @importMethodsFrom S4Vectors sort
+#' @exportMethod sort
 NULL
 
 
