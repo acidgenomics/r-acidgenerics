@@ -11,6 +11,7 @@
 \alias{do.call}
 \alias{expand}
 \alias{expand.grid}
+\alias{is.unsorted}
 \alias{lapply}
 \alias{match}
 \alias{mcols}
@@ -23,6 +24,7 @@
 \alias{rowMeans}
 \alias{rowSums}
 \alias{setdiff}
+\alias{sort}
 \alias{split}
 \alias{t}
 \alias{table}
