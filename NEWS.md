@@ -1,3 +1,9 @@
+## AcidGenerics 0.5.6 (2021-02-02)
+
+### New classes
+
+- Exporting `missingOrNULL` class, previously defined internally in basejump.
+
 ## AcidGenerics 0.5.5 (2021-02-02)
 
 ### Minor changes
