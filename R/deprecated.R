@@ -11,11 +11,11 @@ NULL
 
 
 
-#' @name deprecated
-#' @inherit AcidRoxygen::deprecated description examples return seealso title
-#' @inheritParams AcidRoxygen::params
-#' @keywords internal
-NULL
+## #' @name deprecated
+## #' @inherit AcidRoxygen::deprecated description examples return seealso title
+## #' @inheritParams AcidRoxygen::params
+## #' @keywords internal
+## NULL
 
 
 
@@ -107,26 +107,56 @@ setGeneric(
 
 
 ## v0.2.13 =====================================================================
-#' @rdname deprecated
+#' @rdname defunct
 #' @export
 setGeneric(
     name = "plotDot",
     def = function(object, ...) {
-        .Deprecated("plotDots")
-        standardGeneric("plotDot")
+        .Defunct("plotDots")
     }
 )
 
 
 
 ## 0.5.1 =======================================================================
-#' @rdname deprecated
+#' @rdname defunct
 #' @export
 setGeneric(
     name = "matchRowNameColumn",
     def = function(object, ...) {
-        .Deprecated("matchRownameColumn")
-        standardGeneric("matchRowNameColumn")
+        .Defunct("matchRownameColumn")
+    }
+)
+
+
+
+## 0.5.3 =======================================================================
+#' @rdname defunct
+#' @export
+setGeneric(
+    name = "markdown",
+    def = function(object, ...) {
+        .Defunct()
+    }
+)
+
+
+
+#' @rdname defunct
+#' @export
+setGeneric(
+    name = "mcolnames",
+    def = function(x, ...) {
+        .Defunct()
+    }
+)
+
+#' @rdname defunct
+#' @export
+setGeneric(
+    name = "mcolnames<-",
+    def = function(x, ..., value) {
+        .Defunct()
     }
 )
 
