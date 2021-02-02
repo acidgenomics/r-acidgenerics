@@ -1,3 +1,10 @@
+## AcidGenerics 0.5.5 (2021-02-02)
+
+### Minor changes
+
+- `geometricMean`: Renamed primary argument from "object" to "x", better
+  matching the conventions used by `mean` and `sem`.
+
 ## AcidGenerics 0.5.4 (2021-02-02)
 
 ## Major changes
