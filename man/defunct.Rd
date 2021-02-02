@@ -10,6 +10,11 @@
 \alias{clusterCellCountsPerSample}
 \alias{flatFiles}
 \alias{plotGSEATable}
+\alias{plotDot}
+\alias{matchRowNameColumn}
+\alias{markdown}
+\alias{mcolnames}
+\alias{mcolnames<-}
 \title{Defunct functions}
 \usage{
 plotGenesPerCell(object, ...)
@@ -27,11 +32,25 @@ clusterCellCountsPerSample(object, ...)
 flatFiles(object, ...)
 
 plotGSEATable(object, ...)
+
+plotDot(object, ...)
+
+matchRowNameColumn(object, ...)
+
+markdown(object, ...)
+
+mcolnames(x, ...)
+
+mcolnames(x, ...) <- value
 }
 \arguments{
 \item{object}{Object.}
 
 \item{...}{Additional arguments.}
+
+\item{x}{Object.}
+
+\item{value}{Value to assign.}
 }
 \value{
 \code{.Defunct}.
