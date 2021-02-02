@@ -1,4 +1,4 @@
-## AcidGenerics 0.5.4 (UNRELEASED)
+## AcidGenerics 0.5.4 (2021-02-02)
 
 ## Major changes
 
