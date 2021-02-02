@@ -1,3 +1,15 @@
+## AcidGenerics 0.5.4 (UNRELEASED)
+
+## Major changes
+
+- Made `markdown` and `mcolnames` generics defunct.
+
+## AcidGenerics 0.5.3 (2021-01-25)
+
+### Minor changes
+
+- Reexporting `is.unsorted` and `sort` from BiocGenerics.
+
 ## AcidGenerics 0.5.2 (2021-01-21)
 
 ## New functions
