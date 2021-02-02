@@ -4,10 +4,10 @@
 \alias{geometricMean}
 \title{Geometric mean}
 \usage{
-geometricMean(object, ...)
+geometricMean(x, ...)
 }
 \arguments{
-\item{object}{Object.}
+\item{x}{Object.}
 
 \item{...}{Additional arguments.}
 }

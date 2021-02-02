@@ -13,7 +13,7 @@
 #' showMethods("geometricMean")
 setGeneric(
     name = "geometricMean",
-    def = function(object, ...) {
+    def = function(x, ...) {
         standardGeneric("geometricMean")
     }
 )
