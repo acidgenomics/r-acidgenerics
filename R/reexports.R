@@ -3,6 +3,17 @@
 #' @name reexports
 #' @docType import
 #' @keywords internal
+#'
+#' @details
+#' Use `findMethod()` to locate the package where the methods are defined.
+#' The `showMethod()` or `getMethod()` approaches don't clearly show package
+#' for `derivedDefaultMethod`, which are defined in BiocGenerics.
+#'
+#' Here's how to locate a method:
+#'
+#' ```r
+#' findMethod("do.call", signature(what="ANY", args="List"))
+#' ```
 NULL
 
 
@@ -19,6 +30,7 @@ NULL
 #' @name %in%
 #' @importFrom BiocGenerics %in%
 #' @export
+#' @importMethodsFrom BiocGenerics %in%
 #' @importMethodsFrom S4Vectors %in%
 #' @exportMethod %in%
 NULL
@@ -59,6 +71,7 @@ NULL
 #' @name do.call
 #' @importFrom BiocGenerics do.call
 #' @export
+#' @importMethodsFrom BiocGenerics do.call
 #' @importMethodsFrom S4Vectors do.call
 #' @exportMethod do.call
 NULL
@@ -89,6 +102,7 @@ NULL
 #' @name is.unsorted
 #' @importFrom BiocGenerics is.unsorted
 #' @export
+#' @importMethodsFrom BiocGenerics is.unsorted
 #' @importMethodsFrom S4Vectors is.unsorted
 #' @exportMethod is.unsorted
 NULL
@@ -99,6 +113,7 @@ NULL
 #' @name lapply
 #' @importFrom BiocGenerics lapply
 #' @export
+#' @importMethodsFrom BiocGenerics lapply
 #' @importMethodsFrom S4Vectors lapply
 #' @exportMethod lapply
 NULL
@@ -109,6 +124,7 @@ NULL
 #' @name match
 #' @importFrom BiocGenerics match
 #' @export
+#' @importMethodsFrom BiocGenerics match
 #' @importMethodsFrom S4Vectors match
 #' @exportMethod match
 NULL
@@ -141,6 +157,8 @@ NULL
 #' @aliases metadata<-
 #' @importFrom S4Vectors metadata metadata<-
 #' @export metadata metadata<-
+#' @importMethodsFrom S4Vectors metadata metadata<-
+#' @exportMethod metadata metadata<-
 NULL
 
 
@@ -159,6 +177,7 @@ NULL
 #' @name order
 #' @importFrom BiocGenerics order
 #' @export
+#' @importMethodsFrom BiocGenerics order
 #' @importMethodsFrom S4Vectors order
 #' @exportMethod order
 NULL
@@ -169,6 +188,8 @@ NULL
 #' @name rowMeans
 #' @importFrom BiocGenerics rowMeans
 #' @export
+#' @importMethodsFrom BiocGenerics rowMeans
+#' @exportMethod rowMeans
 NULL
 
 
@@ -177,6 +198,8 @@ NULL
 #' @name rowSums
 #' @importFrom BiocGenerics rowSums
 #' @export
+#' @importMethodsFrom BiocGenerics rowSums
+#' @exportMethod rowSums
 NULL
 
 
@@ -185,6 +208,7 @@ NULL
 #' @name setdiff
 #' @importFrom BiocGenerics setdiff
 #' @export
+#' @importMethodsFrom BiocGenerics setdiff
 #' @importMethodsFrom S4Vectors setdiff
 #' @exportMethod setdiff
 NULL
@@ -195,7 +219,7 @@ NULL
 #' @name sort
 #' @importFrom BiocGenerics sort
 #' @export
-#'
+#' @importMethodsFrom BiocGenerics sort
 #' @importMethodsFrom S4Vectors sort
 #' @exportMethod sort
 NULL
@@ -206,6 +230,8 @@ NULL
 #' @name split
 #' @importFrom S4Vectors split
 #' @export
+#' @importMethodsFrom S4Vectors split
+#' @exportMethod split
 NULL
 
 
@@ -214,7 +240,7 @@ NULL
 #' @name t
 #' @importFrom BiocGenerics t
 #' @export
-#'
+#' @importMethodsFrom BiocGenerics t
 #' @importMethodsFrom S4Vectors t
 #' @exportMethod t
 NULL
@@ -225,6 +251,8 @@ NULL
 #' @name table
 #' @importFrom BiocGenerics table
 #' @export
+#' @importMethodsFrom BiocGenerics table
+#' @exportMethod table
 NULL
 
 
@@ -233,15 +261,18 @@ NULL
 #' @name unique
 #' @importFrom BiocGenerics unique
 #' @export
-#'
+#' @importMethodsFrom BiocGenerics unique
 #' @importMethodsFrom S4Vectors unique
 #' @exportMethod unique
 NULL
 
 
 
+## NOTE No BiocGenerics methods for this currently.
 #' @rdname reexports
 #' @name unlist
 #' @importFrom BiocGenerics unlist
 #' @export
+#' @importMethodsFrom S4Vectors unlist
+#' @exportMethod unlist
 NULL

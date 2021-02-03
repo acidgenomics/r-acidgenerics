@@ -34,4 +34,12 @@
 \description{
 Re-exported S4 classes, generics, and methods
 }
+\details{
+Use \code{findMethod()} to locate the package where the methods are defined.
+The \code{showMethod()} or \code{getMethod()} approaches don't clearly show package
+for \code{derivedDefaultMethod}, which are defined in BiocGenerics.
+
+Here's how to locate a method:\if{html}{\out{<div class="r">}}\preformatted{findMethod("do.call", signature(what="ANY", args="List"))
+}\if{html}{\out{</div>}}
+}
 \keyword{internal}
