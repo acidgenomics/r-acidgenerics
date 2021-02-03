@@ -13,7 +13,13 @@
 #' @param value Value to assign.
 #' @param ... Additional arguments.
 #'
-#' @return Varies, depending on the method.
+#' @return `numeric`.
+#'   Names correspond to object column names.
+#'
+#' @seealso
+#' - `DESeq2::sizeFactors()`.
+#' - `DESeq2::estimateSizeFactors()`.
+#' - `DESeq2::estimateSizeFactorsForMatrix()`.
 #'
 #' @examples
 #' showMethods("sizeFactors")

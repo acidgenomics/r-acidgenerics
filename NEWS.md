@@ -1,4 +1,4 @@
-## AcidGenerics 0.5.6 (2021-02-02)
+## AcidGenerics 0.5.6 (UNRELEASED)
 
 ### New classes
 
