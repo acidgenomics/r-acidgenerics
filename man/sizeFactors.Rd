@@ -16,11 +16,19 @@ sizeFactors(object, ...) <- value
 \item{...}{Additional arguments.}
 }
 \value{
-Varies, depending on the method.
+\code{numeric}.
+Names correspond to object column names.
 }
 \description{
 Size factors
 }
 \examples{
 showMethods("sizeFactors")
+}
+\seealso{
+\itemize{
+\item \code{DESeq2::sizeFactors()}.
+\item \code{DESeq2::estimateSizeFactors()}.
+\item \code{DESeq2::estimateSizeFactorsForMatrix()}.
+}
 }
