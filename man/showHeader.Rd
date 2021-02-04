@@ -12,11 +12,14 @@ showHeader(object, ...)
 \item{...}{Additional arguments.}
 }
 \value{
-Console output.
+Console output, via \code{\link[base:cat]{cat()}}.
 }
 \description{
 Header for object show method
 }
 \examples{
 showMethods("showHeader")
+}
+\seealso{
+\code{\link[=show]{show()}}.
 }

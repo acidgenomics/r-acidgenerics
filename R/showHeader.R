@@ -3,7 +3,9 @@
 #' @export
 #' @inheritParams AcidRoxygen::params
 #'
-#' @return Console output.
+#' @return Console output, via [`cat()`][base::cat].
+#'
+#' @seealso [show()].
 #'
 #' @examples
 #' showMethods("showHeader")
