@@ -6,6 +6,10 @@
 
 ## AcidGenerics 0.5.5 (2021-02-02)
 
+### New generics
+
+- Created a new generic for `showHeader`, which is now defined in AcidBase.
+
 ### Minor changes
 
 - `geometricMean`: Renamed primary argument from "object" to "x", better
