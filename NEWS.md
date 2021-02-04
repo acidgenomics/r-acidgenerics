@@ -9,7 +9,8 @@
 
 ### New generics
 
-- Created a new generic for `showHeader`, which is now defined in AcidBase.
+- Created new generics for `rankedMatrix` and `showHeader`, which are now
+  defined in AcidBase. Previously, these functions were defined in basejump.
 
 ### Minor changes
 
