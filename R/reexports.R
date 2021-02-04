@@ -19,6 +19,14 @@ NULL
 
 
 #' @rdname reexports
+#' @name Annotated-class
+#' @importClassesFrom S4Vectors Annotated
+#' @exportClass Annotated
+NULL
+
+
+
+#' @rdname reexports
 #' @name AsIs-class
 #' @importClassesFrom BiocGenerics AsIs
 #' @exportClass AsIs

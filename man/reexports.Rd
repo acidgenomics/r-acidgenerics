@@ -3,6 +3,7 @@
 \docType{import}
 \name{reexports}
 \alias{reexports}
+\alias{Annotated-class}
 \alias{AsIs-class}
 \alias{\%in\%}
 \alias{colSums}

@@ -3,6 +3,7 @@
 ### New classes
 
 - Exporting `missingOrNULL` class, previously defined internally in basejump.
+- Also now reexporting `Annotated` class from S4Vectors.
 
 ## AcidGenerics 0.5.5 (2021-02-02)
 
