@@ -1,3 +1,9 @@
+## AcidGenerics 0.5.8 (2021-02-08)
+
+### New functions
+
+- Include `var` reexport, which is used in AcidPlots.
+
 ## AcidGenerics 0.5.7 (2021-02-08)
 
 ### New functions
