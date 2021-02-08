@@ -31,6 +31,7 @@
 \alias{table}
 \alias{unique}
 \alias{unlist}
+\alias{unsplit}
 \title{Re-exported S4 classes, generics, and methods}
 \description{
 Re-exported S4 classes, generics, and methods

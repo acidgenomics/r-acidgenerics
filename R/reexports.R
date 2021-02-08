@@ -284,3 +284,13 @@ NULL
 #' @importMethodsFrom S4Vectors unlist
 #' @exportMethod unlist
 NULL
+
+
+
+#' @rdname reexports
+#' @name unsplit
+#' @importFrom BiocGenerics unsplit
+#' @export
+#' @importMethodsFrom BiocGenerics unsplit
+#' @exportMethod unsplit
+NULL
