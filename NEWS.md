@@ -1,4 +1,10 @@
-## AcidGenerics 0.5.6 (UNRELEASED)
+## AcidGenerics 0.5.7 (2021-02-08)
+
+### New functions
+
+- Reexporting `unsplit` from BiocGenerics.
+
+## AcidGenerics 0.5.6 (2021-02-05)
 
 ### New classes
 
