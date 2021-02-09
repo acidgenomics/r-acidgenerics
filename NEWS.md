@@ -1,3 +1,9 @@
+## AcidGenerics 0.5.9 (2021-02-09)
+
+### New functions
+
+- Reexporting some additional Bioconductor generics: `head`, `summary`, `tail`.
+
 ## AcidGenerics 0.5.8 (2021-02-08)
 
 ### New functions

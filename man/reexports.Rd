@@ -12,6 +12,7 @@
 \alias{do.call}
 \alias{expand}
 \alias{expand.grid}
+\alias{head}
 \alias{is.unsorted}
 \alias{lapply}
 \alias{match}
@@ -27,8 +28,10 @@
 \alias{setdiff}
 \alias{sort}
 \alias{split}
+\alias{summary}
 \alias{t}
 \alias{table}
+\alias{tail}
 \alias{unique}
 \alias{unlist}
 \alias{unsplit}
