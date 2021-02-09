@@ -31,7 +31,6 @@ showMethods("splitByLevel")
 \seealso{
 \itemize{
 \item \code{split()}
-\item \code{S4Vectors::split()}
 \item \code{dplyr::group_split()}
 }
 }

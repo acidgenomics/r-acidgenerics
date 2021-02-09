@@ -4,6 +4,9 @@
 #' @importFrom S4Vectors droplevels
 #' @export
 #'
+#' @importMethodsFrom S4Vectors droplevels
+#' @exportMethod droplevels
+#'
 #' @usage droplevels(x, ...)
 #'
 #' @param x Object.

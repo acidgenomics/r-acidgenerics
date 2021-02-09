@@ -12,7 +12,7 @@
 #' work on Bioconductor S4 class objects, and use base R code internally.
 #'
 #' - `help(topic = "join", package = "dplyr")`.
-#' - `help(topic = "merge", package = "S4Vectors")`.
+#' - `help(topic = "merge", package = "base")`.
 #' - https://support.bioconductor.org/p/120277/
 #'
 #' @return New object containing a merge of `x` and `y` objects.

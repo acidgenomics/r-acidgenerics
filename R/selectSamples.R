@@ -33,7 +33,7 @@
 #'
 #' @seealso
 #' - `sampleData()`.
-#' - `S4Vectors::split()`.
+#' - `split()`.
 #'
 #' @examples
 #' showMethods("selectSamples")
