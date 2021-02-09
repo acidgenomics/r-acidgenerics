@@ -14,7 +14,6 @@
 #'
 #' @seealso
 #' - `split()`
-#' - `S4Vectors::split()`
 #' - `dplyr::group_split()`
 #'
 #' @examples

@@ -9,7 +9,6 @@
 #' - `stats::cor()`.
 #' - `stats::cor.test()`.
 #' - `stats::sd()`.
-#' - `S4Vectors::cor()`.
 #' - https://stats.stackexchange.com/questions/24980
 #'
 #' @examples

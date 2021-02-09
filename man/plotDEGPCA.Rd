@@ -15,14 +15,13 @@ plotDEGPCA(object, ...)
 Plot.
 }
 \description{
-This function is an extension of \code{\link[BiocGenerics:plotPCA]{plotPCA()}} that is
-optimized for automatic handling of differentially expressed genes, rather
-than requiring manual input of a gene vector or subset object.
+This function is an extension of \code{plotPCA()} that is optimized for automatic
+handling of differentially expressed genes, rather than requiring manual
+input of a gene vector or subset object.
 }
 \details{
-To adjust the annotation columns, modify the
-\code{\link[SummarizedExperiment:SummarizedExperiment-class]{colData()}} of the \code{counts} argument, which
-must contain/extend a \code{SummarizedExperiment}.
+To adjust the annotation columns, modify the \code{colData()} of the \code{counts}
+argument, which must contain/extend a \code{SummarizedExperiment}.
 }
 \examples{
 showMethods("plotDEGPCA")

@@ -4,6 +4,9 @@
 #' @importFrom S4Vectors decode
 #' @export
 #'
+#' @importMethodsFrom S4Vectors decode
+#' @exportMethod decode
+#'
 #' @usage decode(x, ...)
 #'
 #' @param x Object.

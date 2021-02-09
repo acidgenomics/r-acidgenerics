@@ -27,7 +27,6 @@ showMethods("correlation")
 \item \code{stats::cor()}.
 \item \code{stats::cor.test()}.
 \item \code{stats::sd()}.
-\item \code{S4Vectors::cor()}.
 \item https://stats.stackexchange.com/questions/24980
 }
 }

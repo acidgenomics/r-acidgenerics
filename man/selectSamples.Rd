@@ -51,6 +51,6 @@ showMethods("selectSamples")
 \seealso{
 \itemize{
 \item \code{sampleData()}.
-\item \code{S4Vectors::split()}.
+\item \code{split()}.
 }
 }
