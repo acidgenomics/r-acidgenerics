@@ -8,6 +8,9 @@
 #' @importFrom BiocGenerics plotMA
 #' @export
 #'
+#' @importMethodsFrom BiocGenerics plotMA
+#' @exportMethod plotMA
+#'
 #' @usage plotMA(object, ...)
 #'
 #' @param object Object.

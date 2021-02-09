@@ -4,6 +4,9 @@
 #' @importFrom S4Vectors tail
 #' @export
 #'
+#' @importMethodsFrom S4Vectors tail
+#' @exportMethod tail
+#'
 #' @usage tail(x, ...)
 #'
 #' @param x Object.
