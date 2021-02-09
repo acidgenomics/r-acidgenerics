@@ -4,6 +4,9 @@
 #' @importFrom S4Vectors head
 #' @export
 #'
+#' @importMethodsFrom S4Vectors head
+#' @exportMethod head
+#'
 #' @usage head(x, ...)
 #'
 #' @param x Object.

@@ -4,6 +4,7 @@
 #' @importFrom BiocGenerics as.list
 #' @export
 #'
+#' @importMethodsFrom BiocGenerics as.list
 #' @importMethodsFrom S4Vectors as.list
 #' @exportMethod as.list
 #'

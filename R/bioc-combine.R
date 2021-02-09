@@ -4,6 +4,9 @@
 #' @importFrom BiocGenerics combine
 #' @export
 #'
+#' @importMethodsFrom BiocGenerics combine
+#' @exportMethod combine
+#'
 #' @usage combine(x, y, ...)
 #'
 #' @param x Primary object.

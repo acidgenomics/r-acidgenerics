@@ -4,13 +4,14 @@
 #' @importFrom BiocGenerics as.data.frame
 #' @export
 #'
+#' @importMethodsFrom BiocGenerics as.data.frame
 #' @importMethodsFrom S4Vectors as.data.frame
 #' @exportMethod as.data.frame
 #'
 #' @usage as.data.frame(x, row.names = NULL, optional = FALSE, ...)
 #'
 #' @param x,row.names,optional,...
-#'   See [base::as.data.frame()] for details.
+#'   See [`as.data.frame()`][base::as.data.frame] for details.
 #'
 #' @return `data.frame`.
 #'

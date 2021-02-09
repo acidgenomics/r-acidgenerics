@@ -91,14 +91,6 @@ NULL
 NULL
 
 #' @rdname reexports
-#' @name head
-#' @importFrom S4Vectors head
-#' @export
-#' @importMethodsFrom S4Vectors head
-#' @exportMethod head
-NULL
-
-#' @rdname reexports
 #' @name is.unsorted
 #' @importFrom BiocGenerics is.unsorted
 #' @export
@@ -211,14 +203,6 @@ NULL
 NULL
 
 #' @rdname reexports
-#' @name summary
-#' @importFrom S4Vectors summary
-#' @export
-#' @importMethodsFrom S4Vectors summary
-#' @exportMethod summary
-NULL
-
-#' @rdname reexports
 #' @name t
 #' @importFrom BiocGenerics t
 #' @export
@@ -233,14 +217,6 @@ NULL
 #' @export
 #' @importMethodsFrom BiocGenerics table
 #' @exportMethod table
-NULL
-
-#' @rdname reexports
-#' @name tail
-#' @importFrom S4Vectors tail
-#' @export
-#' @importMethodsFrom S4Vectors tail
-#' @exportMethod tail
 NULL
 
 #' @rdname reexports

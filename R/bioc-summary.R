@@ -4,6 +4,9 @@
 #' @importFrom S4Vectors summary
 #' @export
 #'
+#' @importMethodsFrom S4Vectors summary
+#' @exportMethod summary
+#'
 #' @usage summary(object, ...)
 #'
 #' @param object Object.
