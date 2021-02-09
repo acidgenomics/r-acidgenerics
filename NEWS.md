@@ -3,6 +3,7 @@
 ### New functions
 
 - Reexporting some additional Bioconductor generics: `head`, `summary`, `tail`.
+- `plotCorrelation`: New X-Y scatterplot correlation plotting generic.
 
 ## AcidGenerics 0.5.8 (2021-02-08)
 
