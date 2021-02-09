@@ -24,8 +24,6 @@ NULL
 #' @exportClass Annotated
 NULL
 
-
-
 #' @rdname reexports
 #' @name AsIs-class
 #' @importClassesFrom BiocGenerics AsIs
@@ -43,8 +41,6 @@ NULL
 #' @exportMethod %in%
 NULL
 
-
-
 #' @rdname reexports
 #' @name colSums
 #' @importFrom BiocGenerics colSums
@@ -52,8 +48,6 @@ NULL
 #' @importMethodsFrom BiocGenerics colSums
 #' @exportMethod colSums
 NULL
-
-
 
 #' @rdname reexports
 #' @name complete.cases
@@ -63,8 +57,6 @@ NULL
 #' @exportMethod complete.cases
 NULL
 
-
-
 #' @rdname reexports
 #' @name cor
 #' @importFrom S4Vectors cor
@@ -72,8 +64,6 @@ NULL
 #' @importMethodsFrom S4Vectors cor
 #' @exportMethod cor
 NULL
-
-
 
 #' @rdname reexports
 #' @name do.call
@@ -84,8 +74,6 @@ NULL
 #' @exportMethod do.call
 NULL
 
-
-
 #' @rdname reexports
 #' @name expand
 #' @importFrom S4Vectors expand
@@ -93,8 +81,6 @@ NULL
 #' @importMethodsFrom S4Vectors expand
 #' @exportMethod expand
 NULL
-
-
 
 #' @rdname reexports
 #' @name expand.grid
@@ -104,7 +90,13 @@ NULL
 #' @exportMethod expand.grid
 NULL
 
-
+#' @rdname reexports
+#' @name head
+#' @importFrom S4Vectors head
+#' @export
+#' @importMethodsFrom S4Vectors head
+#' @exportMethod head
+NULL
 
 #' @rdname reexports
 #' @name is.unsorted
@@ -115,8 +107,6 @@ NULL
 #' @exportMethod is.unsorted
 NULL
 
-
-
 #' @rdname reexports
 #' @name lapply
 #' @importFrom BiocGenerics lapply
@@ -125,8 +115,6 @@ NULL
 #' @importMethodsFrom S4Vectors lapply
 #' @exportMethod lapply
 NULL
-
-
 
 #' @rdname reexports
 #' @name match
@@ -137,8 +125,6 @@ NULL
 #' @exportMethod match
 NULL
 
-
-
 #' @rdname reexports
 #' @name mcols
 #' @aliases mcols<-
@@ -148,8 +134,6 @@ NULL
 #' @exportMethod mcols mcols<-
 NULL
 
-
-
 #' @rdname reexports
 #' @name merge
 #' @importFrom S4Vectors merge
@@ -157,8 +141,6 @@ NULL
 #' @importMethodsFrom S4Vectors merge
 #' @exportMethod merge
 NULL
-
-
 
 #' @rdname reexports
 #' @name metadata
@@ -169,8 +151,6 @@ NULL
 #' @exportMethod metadata metadata<-
 NULL
 
-
-
 #' @rdname reexports
 #' @name na.omit
 #' @importFrom S4Vectors na.omit
@@ -178,8 +158,6 @@ NULL
 #' @importMethodsFrom S4Vectors na.omit
 #' @exportMethod na.omit
 NULL
-
-
 
 #' @rdname reexports
 #' @name order
@@ -190,8 +168,6 @@ NULL
 #' @exportMethod order
 NULL
 
-
-
 #' @rdname reexports
 #' @name rowMeans
 #' @importFrom BiocGenerics rowMeans
@@ -200,8 +176,6 @@ NULL
 #' @exportMethod rowMeans
 NULL
 
-
-
 #' @rdname reexports
 #' @name rowSums
 #' @importFrom BiocGenerics rowSums
@@ -209,8 +183,6 @@ NULL
 #' @importMethodsFrom BiocGenerics rowSums
 #' @exportMethod rowSums
 NULL
-
-
 
 #' @rdname reexports
 #' @name setdiff
@@ -221,8 +193,6 @@ NULL
 #' @exportMethod setdiff
 NULL
 
-
-
 #' @rdname reexports
 #' @name sort
 #' @importFrom BiocGenerics sort
@@ -232,8 +202,6 @@ NULL
 #' @exportMethod sort
 NULL
 
-
-
 #' @rdname reexports
 #' @name split
 #' @importFrom S4Vectors split
@@ -242,7 +210,13 @@ NULL
 #' @exportMethod split
 NULL
 
-
+#' @rdname reexports
+#' @name summary
+#' @importFrom S4Vectors summary
+#' @export
+#' @importMethodsFrom S4Vectors summary
+#' @exportMethod summary
+NULL
 
 #' @rdname reexports
 #' @name t
@@ -253,8 +227,6 @@ NULL
 #' @exportMethod t
 NULL
 
-
-
 #' @rdname reexports
 #' @name table
 #' @importFrom BiocGenerics table
@@ -263,7 +235,13 @@ NULL
 #' @exportMethod table
 NULL
 
-
+#' @rdname reexports
+#' @name tail
+#' @importFrom S4Vectors tail
+#' @export
+#' @importMethodsFrom S4Vectors tail
+#' @exportMethod tail
+NULL
 
 #' @rdname reexports
 #' @name unique
@@ -274,8 +252,6 @@ NULL
 #' @exportMethod unique
 NULL
 
-
-
 ## NOTE No BiocGenerics methods for this currently.
 #' @rdname reexports
 #' @name unlist
@@ -285,8 +261,6 @@ NULL
 #' @exportMethod unlist
 NULL
 
-
-
 #' @rdname reexports
 #' @name unsplit
 #' @importFrom BiocGenerics unsplit
@@ -294,8 +268,6 @@ NULL
 #' @importMethodsFrom BiocGenerics unsplit
 #' @exportMethod unsplit
 NULL
-
-
 
 #' @rdname reexports
 #' @name var
