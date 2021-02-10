@@ -1,3 +1,9 @@
+## AcidGenerics 0.5.10 (2021-02-10)
+
+### New functions
+
+- Reexporting `cbind` and `rbind` from Bioconductor.
+
 ## AcidGenerics 0.5.9 (2021-02-09)
 
 ### New functions

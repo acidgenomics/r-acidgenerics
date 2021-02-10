@@ -6,6 +6,7 @@
 \alias{Annotated-class}
 \alias{AsIs-class}
 \alias{\%in\%}
+\alias{cbind}
 \alias{colSums}
 \alias{complete.cases}
 \alias{cor}
@@ -22,6 +23,7 @@
 \alias{metadata<-}
 \alias{na.omit}
 \alias{order}
+\alias{rbind}
 \alias{rowMeans}
 \alias{rowSums}
 \alias{setdiff}

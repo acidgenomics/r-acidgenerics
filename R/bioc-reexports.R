@@ -42,6 +42,15 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name cbind
+#' @importFrom BiocGenerics cbind
+#' @export
+#' @importMethodsFrom BiocGenerics cbind
+#' @importMethodsFrom S4Vectors cbind
+#' @exportMethod cbind
+NULL
+
+#' @rdname reexports
 #' @name colSums
 #' @importFrom BiocGenerics colSums
 #' @export
@@ -158,6 +167,15 @@ NULL
 #' @importMethodsFrom BiocGenerics order
 #' @importMethodsFrom S4Vectors order
 #' @exportMethod order
+NULL
+
+#' @rdname reexports
+#' @name rbind
+#' @importFrom BiocGenerics rbind
+#' @export
+#' @importMethodsFrom BiocGenerics rbind
+#' @importMethodsFrom S4Vectors rbind
+#' @exportMethod rbind
 NULL
 
 #' @rdname reexports
