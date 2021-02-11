@@ -1,3 +1,10 @@
+## AcidGenerics 0.5.11 (2021-02-11)
+
+### Minor changes
+
+- Consolidate all S4Vectors class and function reexports here. Some were
+  previously defined in pipette.
+
 ## AcidGenerics 0.5.10 (2021-02-10)
 
 ### New functions
