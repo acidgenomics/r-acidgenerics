@@ -67,3 +67,9 @@ NULL
 #' @importClassesFrom S4Vectors Vector
 #' @exportClass Vector
 NULL
+
+#' @rdname reexports
+#' @name atomic-class
+#' @importClassesFrom S4Vectors atomic
+#' @exportClass atomic
+NULL
