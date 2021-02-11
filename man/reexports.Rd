@@ -12,6 +12,7 @@
 \alias{Rle-class}
 \alias{SimpleList-class}
 \alias{Vector-class}
+\alias{atomic-class}
 \alias{reexports}
 \alias{DataFrame}
 \alias{Factor}
