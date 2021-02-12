@@ -4,12 +4,21 @@
 \docType{import}
 \name{reexports}
 \alias{reexports}
+\alias{CharacterList}
 \alias{DataFrame}
+\alias{DataFrameList}
 \alias{Factor}
+\alias{FactorList}
+\alias{IRanges}
+\alias{IntegerList}
 \alias{LLint}
 \alias{List}
+\alias{LogicalList}
+\alias{NumericList}
 \alias{Rle}
+\alias{RleList}
 \alias{SimpleList}
+\alias{SplitDataFrameList}
 \alias{\%in\%}
 \alias{cbind}
 \alias{colSums}
@@ -21,6 +30,7 @@
 \alias{expand.grid}
 \alias{grep}
 \alias{grepl}
+\alias{gsub}
 \alias{is.unsorted}
 \alias{lapply}
 \alias{match}
@@ -31,15 +41,19 @@
 \alias{metadata<-}
 \alias{na.omit}
 \alias{order}
+\alias{ranges}
 \alias{rbind}
 \alias{rowMeans}
 \alias{rowSums}
+\alias{sd}
 \alias{setdiff}
 \alias{sort}
 \alias{split}
 \alias{start}
+\alias{sub}
 \alias{t}
 \alias{table}
+\alias{trim}
 \alias{unique}
 \alias{unlist}
 \alias{unsplit}
@@ -47,13 +61,23 @@
 \alias{width}
 \alias{Annotated-class}
 \alias{AsIs-class}
+\alias{AtomicList-class}
+\alias{CharacterList-class}
 \alias{DataFrame-class}
+\alias{DataFrameList-class}
 \alias{Factor-class}
+\alias{FactorList-class}
+\alias{IRanges-class}
+\alias{IntegerList-class}
 \alias{LLint-class}
 \alias{List-class}
+\alias{LogicalList-class}
+\alias{NumericList-class}
 \alias{RectangularData-class}
 \alias{Rle-class}
+\alias{RleList-class}
 \alias{SimpleList-class}
+\alias{SplitDataFrameList-class}
 \alias{Vector-class}
 \alias{atomic-class}
 \title{Objects exported from other packages}
@@ -63,6 +87,8 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
+  \item{IRanges}{\code{\link[IRanges:AtomicList-class]{CharacterList}}, \code{\link[IRanges:DataFrameList-class]{DataFrameList}}, \code{\link[IRanges:AtomicList-class]{FactorList}}, \code{\link[IRanges:IRanges-constructor]{IRanges}}, \code{\link[IRanges:AtomicList-class]{IntegerList}}, \code{\link[IRanges:AtomicList-class]{LogicalList}}, \code{\link[IRanges:AtomicList-class]{NumericList}}, \code{\link[IRanges:AtomicList-class]{RleList}}, \code{\link[IRanges:DataFrameList-class]{SplitDataFrameList}}}
+
   \item{S4Vectors}{\code{\link[S4Vectors:DataFrame-class]{DataFrame}}, \code{\link[S4Vectors:Factor-class]{Factor}}, \code{\link[S4Vectors:LLint-class]{LLint}}, \code{\link[S4Vectors:List-class]{List}}, \code{\link[S4Vectors:Rle-class]{Rle}}, \code{\link[S4Vectors:SimpleList-class]{SimpleList}}}
 }}
 

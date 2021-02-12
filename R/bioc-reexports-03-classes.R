@@ -1,6 +1,6 @@
 ## Organization of re-exported classes and functions:
 ##
-## - GenomicRanges, IRanges, and Matrix are reexported in pipette.
+## - GenomicRanges and Matrix are reexported in pipette.
 ## - SummarizedExperiment is reexported in AcidExperiment.
 ## - SingleCellExperiment is reexported in AcidSingleCell.
 ##
@@ -21,15 +21,51 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name AtomicList-class
+#' @importClassesFrom IRanges AtomicList
+#' @exportClass AtomicList
+NULL
+
+#' @rdname reexports
+#' @name CharacterList-class
+#' @importClassesFrom IRanges CharacterList
+#' @exportClass CharacterList
+NULL
+
+#' @rdname reexports
 #' @name DataFrame-class
 #' @importClassesFrom S4Vectors DataFrame
 #' @exportClass DataFrame
 NULL
 
 #' @rdname reexports
+#' @name DataFrameList-class
+#' @importClassesFrom IRanges DataFrameList
+#' @exportClass DataFrameList
+NULL
+
+#' @rdname reexports
 #' @name Factor-class
 #' @importClassesFrom S4Vectors Factor
 #' @exportClass Factor
+NULL
+
+#' @rdname reexports
+#' @name FactorList-class
+#' @importClassesFrom IRanges FactorList
+#' @exportClass FactorList
+NULL
+
+#' @rdname reexports
+#' @name IRanges-class
+#' @importClassesFrom IRanges IRanges
+#' @exportClass IRanges
+NULL
+
+#' @rdname reexports
+#' @name IntegerList-class
+#' @importClassesFrom IRanges IntegerList
+#' @exportClass IntegerList
 NULL
 
 #' @rdname reexports
@@ -45,6 +81,18 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name LogicalList-class
+#' @importClassesFrom IRanges LogicalList
+#' @exportClass LogicalList
+NULL
+
+#' @rdname reexports
+#' @name NumericList-class
+#' @importClassesFrom IRanges NumericList
+#' @exportClass NumericList
+NULL
+
+#' @rdname reexports
 #' @name RectangularData-class
 #' @importClassesFrom S4Vectors RectangularData
 #' @exportClass RectangularData
@@ -57,9 +105,21 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name RleList-class
+#' @importClassesFrom IRanges RleList
+#' @exportClass RleList
+NULL
+
+#' @rdname reexports
 #' @name SimpleList-class
 #' @importClassesFrom S4Vectors SimpleList
 #' @exportClass SimpleList
+NULL
+
+#' @rdname reexports
+#' @name SplitDataFrameList-class
+#' @importClassesFrom IRanges SplitDataFrameList
+#' @exportClass SplitDataFrameList
 NULL
 
 #' @rdname reexports
