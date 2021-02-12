@@ -3,6 +3,7 @@
 ### Major changes
 
 - Now including IRanges in package.
+- Including more reexports that are defined in S4Vectors and BiocGenerics.
 
 ## AcidGenerics 0.5.12 (2021-02-12)
 
