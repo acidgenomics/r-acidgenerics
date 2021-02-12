@@ -3,6 +3,8 @@
 ### Minor changes
 
 - Now reexporting `end`, `start`, and `width` from BiocGenerics.
+- Also reexporting `grep` and `grepl` from BiocGenerics, which is needed
+  for downstream operations on `CharacterList` in AcidGenomes.
 
 ## AcidGenerics 0.5.11 (2021-02-11)
 
