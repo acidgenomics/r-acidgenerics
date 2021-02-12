@@ -1,38 +1,3 @@
-## FIXME MOVE THESE TO ACIDGENERICS.
-
-#' @rdname reexports
-#' @name end
-#' @importFrom BiocGenerics end
-#' @export
-#' @importMethodsFrom BiocGenerics end
-#' @importMethodsFrom S4Vectors end
-#' @exportMethod end
-NULL
-
-#' @rdname reexports
-#' @name start
-#' @importFrom BiocGenerics start
-#' @export
-#' @importMethodsFrom BiocGenerics start
-#' @importMethodsFrom S4Vectors start
-#' @exportMethod start
-NULL
-
-#' @rdname reexports
-#' @name width
-#' @importFrom BiocGenerics width
-#' @export
-#' @importMethodsFrom BiocGenerics width
-#' @importMethodsFrom S4Vectors width
-#' @exportMethod width
-NULL
-
-
-
-
-
-
-
 #' @rdname reexports
 #' @name %in%
 #' @importFrom BiocGenerics %in%
@@ -82,6 +47,15 @@ NULL
 #' @importMethodsFrom BiocGenerics do.call
 #' @importMethodsFrom S4Vectors do.call
 #' @exportMethod do.call
+NULL
+
+#' @rdname reexports
+#' @name end
+#' @importFrom BiocGenerics end
+#' @export
+#' @importMethodsFrom BiocGenerics end
+#' @importMethodsFrom S4Vectors end
+#' @exportMethod end
 NULL
 
 #' @rdname reexports
@@ -222,6 +196,15 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name start
+#' @importFrom BiocGenerics start
+#' @export
+#' @importMethodsFrom BiocGenerics start
+#' @importMethodsFrom S4Vectors start
+#' @exportMethod start
+NULL
+
+#' @rdname reexports
 #' @name t
 #' @importFrom BiocGenerics t
 #' @export
@@ -271,4 +254,13 @@ NULL
 #' @importMethodsFrom BiocGenerics var
 #' @importMethodsFrom S4Vectors var
 #' @exportMethod var
+NULL
+
+#' @rdname reexports
+#' @name width
+#' @importFrom BiocGenerics width
+#' @export
+#' @importMethodsFrom BiocGenerics width
+#' @importMethodsFrom S4Vectors width
+#' @exportMethod width
 NULL
