@@ -19,6 +19,8 @@
 \alias{end}
 \alias{expand}
 \alias{expand.grid}
+\alias{grep}
+\alias{grepl}
 \alias{is.unsorted}
 \alias{lapply}
 \alias{match}

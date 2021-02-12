@@ -75,6 +75,24 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name grep
+#' @importFrom BiocGenerics grep
+#' @export
+#' @importMethodsFrom BiocGenerics grep
+#' @importMethodsFrom S4Vectors grep
+#' @exportMethod grep
+NULL
+
+#' @rdname reexports
+#' @name grepl
+#' @importFrom BiocGenerics grepl
+#' @export
+#' @importMethodsFrom BiocGenerics grepl
+#' @importMethodsFrom S4Vectors grepl
+#' @exportMethod grepl
+NULL
+
+#' @rdname reexports
 #' @name is.unsorted
 #' @importFrom BiocGenerics is.unsorted
 #' @export
