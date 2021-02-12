@@ -1,8 +1,8 @@
 Package: AcidGenerics
 Title: Acid Genomics Generics
 Description: S4 generic functions for Acid Genomics packages.
-Version: 0.5.11
-Date: 2021-02-11
+Version: 0.5.12
+Date: 2021-02-12
 Authors@R: c(
     person(
         "Michael", "Steinbaugh",
