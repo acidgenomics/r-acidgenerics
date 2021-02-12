@@ -1,3 +1,9 @@
+## AcidGenerics 0.5.12 (2021-02-12)
+
+### Minor changes
+
+- Now reexporting `end`, `start`, and `width` from BiocGenerics.
+
 ## AcidGenerics 0.5.11 (2021-02-11)
 
 ### Minor changes
