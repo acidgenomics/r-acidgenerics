@@ -25,7 +25,7 @@ Imports:
     Biobase (>= 2.50),
     BiocGenerics (>= 0.36),
     IRanges (>= 2.24),
-    S4Vectors (>= 2.28),
+    S4Vectors (>= 0.28),
     methods
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
