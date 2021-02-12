@@ -1,3 +1,53 @@
+## FIXME LOAD MATRIX HERE TOO?
+
+# anyDuplicated
+# append
+# basename
+# cbind
+# colnames
+# dirname
+# do.call
+# duplicated,
+# eval
+# evalq
+# Filter
+# Find
+# get
+# grep
+# grepl,
+# intersect
+# is.unsorted
+# lapply
+# Map
+# mapply,
+# match
+# mget
+# order
+# paste
+# pmax
+# pmax.int
+# pmin,
+# pmin.int
+# Position
+# rank
+# rbind
+# Reduce,
+# rownames
+# sapply
+# setdiff
+# sort
+# table
+# tapply,
+# union
+# unique
+# unsplit
+# which.max
+# which.min
+
+
+
+
+
 #' @rdname reexports
 #' @name %in%
 #' @importFrom BiocGenerics %in%
@@ -93,6 +143,14 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name gsub
+#' @importFrom IRanges gsub
+#' @export
+#' @importMethodsFrom IRanges gsub
+#' @exportMethod gsub
+NULL
+
+#' @rdname reexports
 #' @name is.unsorted
 #' @importFrom BiocGenerics is.unsorted
 #' @export
@@ -163,6 +221,14 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name ranges
+#' @importFrom IRanges ranges
+#' @export
+#' @importMethodsFrom IRanges ranges
+#' @exportMethod ranges
+NULL
+
+#' @rdname reexports
 #' @name rbind
 #' @importFrom BiocGenerics rbind
 #' @export
@@ -185,6 +251,15 @@ NULL
 #' @export
 #' @importMethodsFrom BiocGenerics rowSums
 #' @exportMethod rowSums
+NULL
+
+#' @rdname reexports
+#' @name sd
+#' @importFrom BiocGenerics sd
+#' @export
+#' @importMethodsFrom BiocGenerics sd
+#' @importMethodsFrom S4Vectors sd
+#' @exportMethod sd
 NULL
 
 #' @rdname reexports
@@ -223,6 +298,14 @@ NULL
 NULL
 
 #' @rdname reexports
+#' @name sub
+#' @importFrom IRanges sub
+#' @export
+#' @importMethodsFrom IRanges sub
+#' @exportMethod sub
+NULL
+
+#' @rdname reexports
 #' @name t
 #' @importFrom BiocGenerics t
 #' @export
@@ -237,6 +320,14 @@ NULL
 #' @export
 #' @importMethodsFrom BiocGenerics table
 #' @exportMethod table
+NULL
+
+#' @rdname reexports
+#' @name trim
+#' @importFrom IRanges trim
+#' @export
+#' @importMethodsFrom IRanges trim
+#' @exportMethod trim
 NULL
 
 #' @rdname reexports
