@@ -1,3 +1,9 @@
+## AcidGenerics 0.5.13 (2021-02-12)
+
+### Major changes
+
+- Now including IRanges in package.
+
 ## AcidGenerics 0.5.12 (2021-02-12)
 
 ### Minor changes
