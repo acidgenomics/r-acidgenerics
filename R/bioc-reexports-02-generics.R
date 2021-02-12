@@ -1,46 +1,35 @@
-#' Re-exported S4 classes, generics, and methods
-#'
-#' @name reexports
-#' @docType import
-#' @keywords internal
-#'
-#' @details
-#' Use `findMethod()` to locate the package where the methods are defined.
-#' The `showMethod()` or `getMethod()` approaches don't clearly show package
-#' for `derivedDefaultMethod`, which are defined in BiocGenerics.
-#'
-#' Here's how to locate a method:
-#'
-#' ```r
-#' findMethod("do.call", signature(what="ANY", args="List"))
-#' ```
+## FIXME MOVE THESE TO ACIDGENERICS.
+
+#' @rdname reexports
+#' @name end
+#' @importFrom BiocGenerics end
+#' @export
+#' @importMethodsFrom BiocGenerics end
+#' @importMethodsFrom S4Vectors end
+#' @exportMethod end
+NULL
+
+#' @rdname reexports
+#' @name start
+#' @importFrom BiocGenerics start
+#' @export
+#' @importMethodsFrom BiocGenerics start
+#' @importMethodsFrom S4Vectors start
+#' @exportMethod start
+NULL
+
+#' @rdname reexports
+#' @name width
+#' @importFrom BiocGenerics width
+#' @export
+#' @importMethodsFrom BiocGenerics width
+#' @importMethodsFrom S4Vectors width
+#' @exportMethod width
 NULL
 
 
 
-#' @importFrom S4Vectors DataFrame
-#' @export
-S4Vectors::DataFrame
 
-#' @importFrom S4Vectors Factor
-#' @export
-S4Vectors::Factor
-
-#' @importFrom S4Vectors LLint
-#' @export
-S4Vectors::LLint
-
-#' @importFrom S4Vectors List
-#' @export
-S4Vectors::List
-
-#' @importFrom S4Vectors Rle
-#' @export
-S4Vectors::Rle
-
-#' @importFrom S4Vectors SimpleList
-#' @export
-S4Vectors::SimpleList
 
 
 
