@@ -75,6 +75,7 @@
 \alias{rowMeans}
 \alias{rowSums}
 \alias{rownames}
+\alias{rownames<-}
 \alias{sd}
 \alias{setdiff}
 \alias{sort}

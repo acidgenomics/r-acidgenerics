@@ -238,10 +238,10 @@ NULL
 
 #' Counts
 #'
-#' @name counts
 #' @aliases counts<-
-#' @importFrom BiocGenerics counts counts<-
 #' @export counts counts<-
+#' @importFrom BiocGenerics counts counts<-
+#' @name counts
 #'
 #' @usage
 #' counts(object, ...)
@@ -259,12 +259,11 @@ NULL
 
 #' Decode (run-length encoding)
 #'
-#' @name decode
-#' @importFrom S4Vectors decode
 #' @export
-#'
-#' @importMethodsFrom S4Vectors decode
 #' @exportMethod decode
+#' @importFrom S4Vectors decode
+#' @importMethodsFrom S4Vectors decode
+#' @name decode
 #'
 #' @usage decode(x, ...)
 #'
@@ -277,37 +276,36 @@ NULL
 #' showMethods("decode")
 NULL
 
-#' @rdname reexports
-#' @name design
+#' @export
 #' @importFrom BiocGenerics design
-#' @export
+#' @name design
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name dirname
-#' @importFrom BiocGenerics dirname
 #' @export
-#' @importMethodsFrom BiocGenerics dirname
 #' @exportMethod dirname
+#' @importFrom BiocGenerics dirname
+#' @importMethodsFrom BiocGenerics dirname
+#' @name dirname
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name do.call
-#' @importFrom BiocGenerics do.call
 #' @export
+#' @exportMethod do.call
+#' @importFrom BiocGenerics do.call
 #' @importMethodsFrom BiocGenerics do.call
 #' @importMethodsFrom S4Vectors do.call
-#' @exportMethod do.call
+#' @name do.call
+#' @rdname reexports
 NULL
 
 #' Drop levels
 #'
-#' @name droplevels
-#' @importFrom S4Vectors droplevels
 #' @export
-#'
-#' @importMethodsFrom S4Vectors droplevels
 #' @exportMethod droplevels
+#' @importFrom S4Vectors droplevels
+#' @importMethodsFrom S4Vectors droplevels
+#' @name droplevels
 #'
 #' @usage droplevels(x, ...)
 #'
@@ -320,29 +318,29 @@ NULL
 #' showMethods("droplevels")
 NULL
 
-#' @rdname reexports
-#' @name duplicated
-#' @importFrom BiocGenerics duplicated
 #' @export
+#' @exportMethod duplicated
+#' @importFrom BiocGenerics duplicated
 #' @importMethodsFrom BiocGenerics duplicated
 #' @importMethodsFrom S4Vectors duplicated
-#' @exportMethod duplicated
+#' @name duplicated
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name end
-#' @importFrom BiocGenerics end
 #' @export
+#' @exportMethod end
+#' @importFrom BiocGenerics end
 #' @importMethodsFrom BiocGenerics end
 #' @importMethodsFrom S4Vectors end
-#' @exportMethod end
+#' @name end
+#' @rdname reexports
 NULL
 
 #' Estimate size factors
 #'
-#' @name estimateSizeFactors
-#' @importFrom BiocGenerics estimateSizeFactors
 #' @export
+#' @importFrom BiocGenerics estimateSizeFactors
+#' @name estimateSizeFactors
 #'
 #' @usage estimateSizeFactors(object, ...)
 #'
@@ -355,73 +353,72 @@ NULL
 #' showMethods("estimateSizeFactors")
 NULL
 
-#' @rdname reexports
-#' @name eval
-#' @importFrom BiocGenerics eval
 #' @export
+#' @exportMethod eval
+#' @importFrom BiocGenerics eval
 #' @importMethodsFrom BiocGenerics eval
 #' @importMethodsFrom S4Vectors eval
-#' @exportMethod eval
+#' @name eval
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name expand
-#' @importFrom S4Vectors expand
 #' @export
-#' @importMethodsFrom S4Vectors expand
 #' @exportMethod expand
+#' @importFrom S4Vectors expand
+#' @importMethodsFrom S4Vectors expand
+#' @name expand
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name expand.grid
-#' @importFrom S4Vectors expand.grid
 #' @export
-#' @importMethodsFrom S4Vectors expand.grid
 #' @exportMethod expand.grid
+#' @importFrom S4Vectors expand.grid
+#' @importMethodsFrom S4Vectors expand.grid
+#' @name expand.grid
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name get
-#' @importFrom BiocGenerics get
 #' @export
-#' @importMethodsFrom BiocGenerics get
 #' @exportMethod get
+#' @importFrom BiocGenerics get
+#' @importMethodsFrom BiocGenerics get
+#' @name get
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name grep
-#' @importFrom BiocGenerics grep
 #' @export
+#' @exportMethod grep
+#' @importFrom BiocGenerics grep
 #' @importMethodsFrom BiocGenerics grep
 #' @importMethodsFrom S4Vectors grep
-#' @exportMethod grep
+#' @name grep
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name grepl
-#' @importFrom BiocGenerics grepl
 #' @export
+#' @exportMethod grepl
+#' @importFrom BiocGenerics grepl
 #' @importMethodsFrom BiocGenerics grepl
 #' @importMethodsFrom S4Vectors grepl
-#' @exportMethod grepl
+#' @name grepl
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name gsub
-#' @importFrom IRanges gsub
 #' @export
-#' @importMethodsFrom IRanges gsub
 #' @exportMethod gsub
+#' @importFrom IRanges gsub
+#' @importMethodsFrom IRanges gsub
+#' @name gsub
+#' @rdname reexports
 NULL
 
 #' Return the first part of an object
 #'
-#' @name head
-#' @importFrom S4Vectors head
 #' @export
-#'
-#' @importMethodsFrom S4Vectors head
 #' @exportMethod head
+#' @importFrom S4Vectors head
+#' @importMethodsFrom S4Vectors head
+#' @name head
 #'
 #' @usage head(x, ...)
 #'
@@ -434,97 +431,97 @@ NULL
 #' showMethods("head")
 NULL
 
-#' @rdname reexports
-#' @name intersect
-#' @importFrom BiocGenerics intersect
 #' @export
+#' @exportMethod intersect
+#' @importFrom BiocGenerics intersect
 #' @importMethodsFrom BiocGenerics intersect
 #' @importMethodsFrom S4Vectors intersect
-#' @exportMethod intersect
+#' @name intersect
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name is.unsorted
-#' @importFrom BiocGenerics is.unsorted
 #' @export
+#' @exportMethod is.unsorted
+#' @importFrom BiocGenerics is.unsorted
 #' @importMethodsFrom BiocGenerics is.unsorted
 #' @importMethodsFrom S4Vectors is.unsorted
-#' @exportMethod is.unsorted
+#' @name is.unsorted
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name lapply
-#' @importFrom BiocGenerics lapply
 #' @export
+#' @exportMethod lapply
+#' @importFrom BiocGenerics lapply
 #' @importMethodsFrom BiocGenerics lapply
 #' @importMethodsFrom S4Vectors lapply
-#' @exportMethod lapply
+#' @name lapply
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name mapply
-#' @importFrom BiocGenerics mapply
 #' @export
-#' @importMethodsFrom BiocGenerics mapply
 #' @exportMethod mapply
+#' @importFrom BiocGenerics mapply
+#' @importMethodsFrom BiocGenerics mapply
+#' @name mapply
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name match
-#' @importFrom BiocGenerics match
 #' @export
+#' @exportMethod match
+#' @importFrom BiocGenerics match
 #' @importMethodsFrom BiocGenerics match
 #' @importMethodsFrom S4Vectors match
-#' @exportMethod match
+#' @name match
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name mcols
 #' @aliases mcols<-
-#' @importFrom S4Vectors mcols mcols<-
 #' @export mcols mcols<-
-#' @importMethodsFrom S4Vectors mcols mcols<-
 #' @exportMethod mcols mcols<-
+#' @importFrom S4Vectors mcols mcols<-
+#' @importMethodsFrom S4Vectors mcols mcols<-
+#' @name mcols
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name merge
-#' @importFrom S4Vectors merge
 #' @export
-#' @importMethodsFrom S4Vectors merge
 #' @exportMethod merge
+#' @importFrom S4Vectors merge
+#' @importMethodsFrom S4Vectors merge
+#' @name merge
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name metadata
 #' @aliases metadata<-
-#' @importFrom S4Vectors metadata metadata<-
 #' @export metadata metadata<-
-#' @importMethodsFrom S4Vectors metadata metadata<-
 #' @exportMethod metadata metadata<-
+#' @importFrom S4Vectors metadata metadata<-
+#' @importMethodsFrom S4Vectors metadata metadata<-
+#' @name metadata
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name mget
-#' @importFrom BiocGenerics mget
 #' @export
-#' @importMethodsFrom BiocGenerics mget
 #' @exportMethod mget
+#' @importFrom BiocGenerics mget
+#' @importMethodsFrom BiocGenerics mget
+#' @name mget
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name na.omit
-#' @importFrom S4Vectors na.omit
 #' @export
-#' @importMethodsFrom S4Vectors na.omit
 #' @exportMethod na.omit
+#' @importFrom S4Vectors na.omit
+#' @importMethodsFrom S4Vectors na.omit
+#' @name na.omit
+#' @rdname reexports
 NULL
 
 #' Normalize an object
 #'
-#' @name normalize
-#' @importFrom BiocGenerics normalize
 #' @export
+#' @importFrom BiocGenerics normalize
+#' @name normalize
 #'
 #' @usage normalize(object, ...)
 #'
@@ -537,23 +534,23 @@ NULL
 #' showMethods("normalize")
 NULL
 
-#' @rdname reexports
-#' @name order
-#' @importFrom BiocGenerics order
 #' @export
+#' @exportMethod order
+#' @importFrom BiocGenerics order
 #' @importMethodsFrom BiocGenerics order
 #' @importMethodsFrom S4Vectors order
-#' @exportMethod order
+#' @name order
+#' @rdname reexports
 NULL
 
 #' Organism
 #'
 #' Get or set the organism (i.e. species) of an object.
 #'
-#' @name organism
 #' @aliases organism<-
-#' @importFrom BiocGenerics organism organism<-
 #' @export organism organism<-
+#' @importFrom BiocGenerics organism organism<-
+#' @name organism
 #'
 #' @usage
 #' organism(object)
@@ -568,19 +565,19 @@ NULL
 #' showMethods("organism")
 NULL
 
-#' @rdname reexports
-#' @name paste
-#' @importFrom BiocGenerics paste
 #' @export
-#' @importMethodsFrom BiocGenerics paste
 #' @exportMethod paste
+#' @importFrom BiocGenerics paste
+#' @importMethodsFrom BiocGenerics paste
+#' @name paste
+#' @rdname reexports
 NULL
 
 #' Plot dispersion estimates
 #'
-#' @name plotDispEsts
-#' @importFrom BiocGenerics plotDispEsts
 #' @export
+#' @importFrom BiocGenerics plotDispEsts
+#' @name plotDispEsts
 #'
 #' @usage plotDispEsts(object, ...)
 #'
@@ -599,12 +596,11 @@ NULL
 #' samples, by transforming the data onto **M** (log ratio) and **A**
 #' (mean average) scales.
 #'
-#' @name plotMA
-#' @importFrom BiocGenerics plotMA
 #' @export
-#'
-#' @importMethodsFrom BiocGenerics plotMA
 #' @exportMethod plotMA
+#' @importFrom BiocGenerics plotMA
+#' @importMethodsFrom BiocGenerics plotMA
+#' @name plotMA
 #'
 #' @usage plotMA(object, ...)
 #'
@@ -619,9 +615,9 @@ NULL
 
 #' Principal component analysis plot
 #'
-#' @name plotPCA
-#' @importFrom BiocGenerics plotPCA
 #' @export
+#' @importFrom BiocGenerics plotPCA
+#' @name plotPCA
 #'
 #' @usage plotPCA(object, ...)
 #'
@@ -634,86 +630,86 @@ NULL
 #' showMethods("plotPCA")
 NULL
 
-#' @rdname reexports
-#' @name pmax
-#' @importFrom BiocGenerics pmax
 #' @export
-#' @importMethodsFrom BiocGenerics pmax
 #' @exportMethod pmax
+#' @importFrom BiocGenerics pmax
+#' @importMethodsFrom BiocGenerics pmax
+#' @name pmax
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name pmax.int
-#' @importFrom BiocGenerics pmax.int
 #' @export
-#' @importMethodsFrom BiocGenerics pmax.int
 #' @exportMethod pmax.int
+#' @importFrom BiocGenerics pmax.int
+#' @importMethodsFrom BiocGenerics pmax.int
+#' @name pmax.int
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name pmin
-#' @importFrom BiocGenerics pmin
 #' @export
-#' @importMethodsFrom BiocGenerics pmin
 #' @exportMethod pmin
+#' @importFrom BiocGenerics pmin
+#' @importMethodsFrom BiocGenerics pmin
+#' @name pmin
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name pmin.int
-#' @importFrom BiocGenerics pmin.int
 #' @export
-#' @importMethodsFrom BiocGenerics pmin.int
 #' @exportMethod pmin.int
+#' @importFrom BiocGenerics pmin.int
+#' @importMethodsFrom BiocGenerics pmin.int
+#' @name pmin.int
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name ranges
-#' @importFrom IRanges ranges
 #' @export
-#' @importMethodsFrom IRanges ranges
 #' @exportMethod ranges
+#' @importFrom IRanges ranges
+#' @importMethodsFrom IRanges ranges
+#' @name ranges
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name rank
-#' @importFrom BiocGenerics rank
 #' @export
+#' @exportMethod rank
+#' @importFrom BiocGenerics rank
 #' @importMethodsFrom BiocGenerics rank
 #' @importMethodsFrom S4Vectors rank
-#' @exportMethod rank
+#' @name rank
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name rbind
-#' @importFrom BiocGenerics rbind
 #' @export
+#' @exportMethod rbind
+#' @importFrom BiocGenerics rbind
 #' @importMethodsFrom BiocGenerics rbind
 #' @importMethodsFrom S4Vectors rbind
-#' @exportMethod rbind
+#' @name rbind
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name relist
-#' @importFrom BiocGenerics relist
 #' @export
-#' @importMethodsFrom BiocGenerics relist
 #' @exportMethod relist
+#' @importFrom BiocGenerics relist
+#' @importMethodsFrom BiocGenerics relist
+#' @name relist
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name rowMeans
-#' @importFrom BiocGenerics rowMeans
 #' @export
-#' @importMethodsFrom BiocGenerics rowMeans
 #' @exportMethod rowMeans
+#' @importFrom BiocGenerics rowMeans
+#' @importMethodsFrom BiocGenerics rowMeans
+#' @name rowMeans
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name rowSums
-#' @importFrom BiocGenerics rowSums
 #' @export
-#' @importMethodsFrom BiocGenerics rowSums
 #' @exportMethod rowSums
+#' @importFrom BiocGenerics rowSums
+#' @importMethodsFrom BiocGenerics rowSums
+#' @name rowSums
+#' @rdname reexports
 NULL
 
 #' @aliases rownames<-
@@ -726,30 +722,30 @@ NULL
 #' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name sd
-#' @importFrom BiocGenerics sd
 #' @export
+#' @exportMethod sd
+#' @importFrom BiocGenerics sd
 #' @importMethodsFrom BiocGenerics sd
 #' @importMethodsFrom S4Vectors sd
-#' @exportMethod sd
+#' @name sd
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name setdiff
-#' @importFrom BiocGenerics setdiff
 #' @export
+#' @exportMethod setdiff
+#' @importFrom BiocGenerics setdiff
 #' @importMethodsFrom BiocGenerics setdiff
 #' @importMethodsFrom S4Vectors setdiff
-#' @exportMethod setdiff
+#' @name setdiff
+#' @rdname reexports
 NULL
 
 #' Size factors
 #'
-#' @name sizeFactors
 #' @aliases sizeFactors<-
-#' @importFrom BiocGenerics sizeFactors sizeFactors<-
 #' @export sizeFactors sizeFactors<-
+#' @importFrom BiocGenerics sizeFactors sizeFactors<-
+#' @name sizeFactors
 #'
 #' @usage
 #' sizeFactors(object, ...)
@@ -771,48 +767,47 @@ NULL
 #' showMethods("sizeFactors")
 NULL
 
-#' @rdname reexports
-#' @name sort
-#' @importFrom BiocGenerics sort
 #' @export
+#' @exportMethod sort
+#' @importFrom BiocGenerics sort
 #' @importMethodsFrom BiocGenerics sort
 #' @importMethodsFrom S4Vectors sort
-#' @exportMethod sort
+#' @name sort
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name split
-#' @importFrom S4Vectors split
 #' @export
-#' @importMethodsFrom S4Vectors split
 #' @exportMethod split
+#' @importFrom S4Vectors split
+#' @importMethodsFrom S4Vectors split
+#' @name split
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name start
-#' @importFrom BiocGenerics start
 #' @export
+#' @exportMethod start
+#' @importFrom BiocGenerics start
 #' @importMethodsFrom BiocGenerics start
 #' @importMethodsFrom S4Vectors start
-#' @exportMethod start
+#' @name start
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name sub
-#' @importFrom IRanges sub
 #' @export
-#' @importMethodsFrom IRanges sub
 #' @exportMethod sub
+#' @importFrom IRanges sub
+#' @importMethodsFrom IRanges sub
+#' @name sub
+#' @rdname reexports
 NULL
 
 #' Summary
 #'
-#' @name summary
-#' @importFrom S4Vectors summary
 #' @export
-#'
-#' @importMethodsFrom S4Vectors summary
 #' @exportMethod summary
+#' @importFrom S4Vectors summary
+#' @importMethodsFrom S4Vectors summary
+#' @name summary
 #'
 #' @usage summary(object, ...)
 #'
@@ -825,31 +820,30 @@ NULL
 #' showMethods("summary")
 NULL
 
-#' @rdname reexports
-#' @name t
-#' @importFrom BiocGenerics t
 #' @export
+#' @exportMethod t
+#' @importFrom BiocGenerics t
 #' @importMethodsFrom BiocGenerics t
 #' @importMethodsFrom S4Vectors t
-#' @exportMethod t
+#' @name t
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name table
-#' @importFrom BiocGenerics table
 #' @export
-#' @importMethodsFrom BiocGenerics table
 #' @exportMethod table
+#' @importFrom BiocGenerics table
+#' @importMethodsFrom BiocGenerics table
+#' @name table
+#' @rdname reexports
 NULL
 
 #' Return the last part of an object
 #'
-#' @name tail
-#' @importFrom S4Vectors tail
 #' @export
-#'
-#' @importMethodsFrom S4Vectors tail
 #' @exportMethod tail
+#' @importFrom S4Vectors tail
+#' @importMethodsFrom S4Vectors tail
+#' @name tail
 #'
 #' @usage tail(x, ...)
 #'
@@ -862,64 +856,63 @@ NULL
 #' showMethods("tail")
 NULL
 
-#' @rdname reexports
-#' @name tapply
-#' @importFrom BiocGenerics tapply
 #' @export
-#' @importMethodsFrom BiocGenerics tapply
 #' @exportMethod tapply
+#' @importFrom BiocGenerics tapply
+#' @importMethodsFrom BiocGenerics tapply
+#' @name tapply
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name trim
-#' @importFrom IRanges trim
 #' @export
-#' @importMethodsFrom IRanges trim
 #' @exportMethod trim
+#' @importFrom IRanges trim
+#' @importMethodsFrom IRanges trim
+#' @name trim
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name union
-#' @importFrom BiocGenerics union
 #' @export
+#' @exportMethod union
+#' @importFrom BiocGenerics union
 #' @importMethodsFrom BiocGenerics union
 #' @importMethodsFrom S4Vectors union
-#' @exportMethod union
+#' @name union
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name unique
-#' @importFrom BiocGenerics unique
 #' @export
+#' @exportMethod unique
+#' @importFrom BiocGenerics unique
 #' @importMethodsFrom BiocGenerics unique
 #' @importMethodsFrom S4Vectors unique
-#' @exportMethod unique
+#' @name unique
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name unlist
-#' @importFrom BiocGenerics unlist
 #' @export
-#' @importMethodsFrom S4Vectors unlist
 #' @exportMethod unlist
+#' @importFrom BiocGenerics unlist
+#' @importMethodsFrom S4Vectors unlist
+#' @name unlist
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name unsplit
-#' @importFrom BiocGenerics unsplit
 #' @export
-#' @importMethodsFrom BiocGenerics unsplit
 #' @exportMethod unsplit
+#' @importFrom BiocGenerics unsplit
+#' @importMethodsFrom BiocGenerics unsplit
+#' @name unsplit
+#' @rdname reexports
 NULL
 
 #' Update object
 #'
-#' @name updateObject
-#' @importFrom BiocGenerics updateObject
 #' @export
-#'
-#' @importMethodsFrom S4Vectors updateObject
 #' @exportMethod updateObject
+#' @importFrom BiocGenerics updateObject
+#' @importMethodsFrom S4Vectors updateObject
+#' @name updateObject
 #'
 #' @usage updateObject(object, ..., verbose = FALSE)
 #'
@@ -934,45 +927,45 @@ NULL
 #' showMethods("updateObject")
 NULL
 
-#' @rdname reexports
-#' @name var
-#' @importFrom BiocGenerics var
 #' @export
+#' @exportMethod var
+#' @importFrom BiocGenerics var
 #' @importMethodsFrom BiocGenerics var
 #' @importMethodsFrom S4Vectors var
-#' @exportMethod var
+#' @name var
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name which
-#' @importFrom BiocGenerics which
 #' @export
-#' @importMethodsFrom BiocGenerics which
-#' @importMethodsFrom BiocGenerics which
 #' @exportMethod which
+#' @importFrom BiocGenerics which
+#' @importMethodsFrom BiocGenerics which
+#' @importMethodsFrom BiocGenerics which
+#' @name which
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name which.max
-#' @importFrom BiocGenerics which.max
 #' @export
-#' @importMethodsFrom BiocGenerics which.max
 #' @exportMethod which.max
+#' @importFrom BiocGenerics which.max
+#' @importMethodsFrom BiocGenerics which.max
+#' @name which.max
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name which.min
-#' @importFrom BiocGenerics which.min
 #' @export
-#' @importMethodsFrom BiocGenerics which.min
 #' @exportMethod which.min
+#' @importFrom BiocGenerics which.min
+#' @importMethodsFrom BiocGenerics which.min
+#' @name which.min
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name width
-#' @importFrom BiocGenerics width
 #' @export
+#' @exportMethod width
+#' @importFrom BiocGenerics width
 #' @importMethodsFrom BiocGenerics width
 #' @importMethodsFrom S4Vectors width
-#' @exportMethod width
+#' @name width
+#' @rdname reexports
 NULL
