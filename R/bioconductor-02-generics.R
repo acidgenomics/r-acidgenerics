@@ -5,6 +5,7 @@
 ##   - evalq: using eval only.
 ##   - sapply: use vapply instead.
 
+## FIXME start, end, width, pos
 
 
 #' @export
@@ -327,10 +328,11 @@ NULL
 #' @rdname reexports
 NULL
 
+#' @aliases end<-
 #' @export
-#' @exportMethod end
-#' @importFrom BiocGenerics end
-#' @importMethodsFrom BiocGenerics end
+#' @exportMethod end end<-
+#' @importFrom BiocGenerics end end<-
+#' @importMethodsFrom BiocGenerics end end<-
 #' @importMethodsFrom S4Vectors end
 #' @name end
 #' @rdname reexports
