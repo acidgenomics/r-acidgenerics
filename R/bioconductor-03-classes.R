@@ -8,128 +8,128 @@
 
 
 
-#' @rdname reexports
-#' @name Annotated-class
-#' @importClassesFrom S4Vectors Annotated
 #' @exportClass Annotated
+#' @importClassesFrom S4Vectors Annotated
+#' @name Annotated-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name AsIs-class
-#' @importClassesFrom BiocGenerics AsIs
 #' @exportClass AsIs
+#' @importClassesFrom BiocGenerics AsIs
+#' @name AsIs-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name AtomicList-class
-#' @importClassesFrom IRanges AtomicList
 #' @exportClass AtomicList
+#' @importClassesFrom IRanges AtomicList
+#' @name AtomicList-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name CharacterList-class
-#' @importClassesFrom IRanges CharacterList
 #' @exportClass CharacterList
+#' @importClassesFrom IRanges CharacterList
+#' @name CharacterList-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name DataFrame-class
-#' @importClassesFrom S4Vectors DataFrame
 #' @exportClass DataFrame
+#' @importClassesFrom S4Vectors DataFrame
+#' @name DataFrame-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name DataFrameList-class
-#' @importClassesFrom IRanges DataFrameList
 #' @exportClass DataFrameList
+#' @importClassesFrom IRanges DataFrameList
+#' @name DataFrameList-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name Factor-class
-#' @importClassesFrom S4Vectors Factor
 #' @exportClass Factor
+#' @importClassesFrom S4Vectors Factor
+#' @name Factor-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name FactorList-class
-#' @importClassesFrom IRanges FactorList
 #' @exportClass FactorList
+#' @importClassesFrom IRanges FactorList
+#' @name FactorList-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name IRanges-class
-#' @importClassesFrom IRanges IRanges
 #' @exportClass IRanges
+#' @importClassesFrom IRanges IRanges
+#' @name IRanges-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name IntegerList-class
-#' @importClassesFrom IRanges IntegerList
 #' @exportClass IntegerList
+#' @importClassesFrom IRanges IntegerList
+#' @name IntegerList-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name LLint-class
-#' @importClassesFrom S4Vectors LLint
 #' @exportClass LLint
+#' @importClassesFrom S4Vectors LLint
+#' @name LLint-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name List-class
-#' @importClassesFrom S4Vectors List
 #' @exportClass List
+#' @importClassesFrom S4Vectors List
+#' @name List-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name LogicalList-class
-#' @importClassesFrom IRanges LogicalList
 #' @exportClass LogicalList
+#' @importClassesFrom IRanges LogicalList
+#' @name LogicalList-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name NumericList-class
-#' @importClassesFrom IRanges NumericList
 #' @exportClass NumericList
+#' @importClassesFrom IRanges NumericList
+#' @name NumericList-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name RectangularData-class
-#' @importClassesFrom S4Vectors RectangularData
 #' @exportClass RectangularData
+#' @importClassesFrom S4Vectors RectangularData
+#' @name RectangularData-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name Rle-class
-#' @importClassesFrom S4Vectors Rle
 #' @exportClass Rle
+#' @importClassesFrom S4Vectors Rle
+#' @name Rle-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name RleList-class
-#' @importClassesFrom IRanges RleList
 #' @exportClass RleList
+#' @importClassesFrom IRanges RleList
+#' @name RleList-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name SimpleList-class
-#' @importClassesFrom S4Vectors SimpleList
 #' @exportClass SimpleList
+#' @importClassesFrom S4Vectors SimpleList
+#' @name SimpleList-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name SplitDataFrameList-class
-#' @importClassesFrom IRanges SplitDataFrameList
 #' @exportClass SplitDataFrameList
+#' @importClassesFrom IRanges SplitDataFrameList
+#' @name SplitDataFrameList-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name Vector-class
-#' @importClassesFrom S4Vectors Vector
 #' @exportClass Vector
+#' @importClassesFrom S4Vectors Vector
+#' @name Vector-class
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name atomic-class
-#' @importClassesFrom S4Vectors atomic
 #' @exportClass atomic
+#' @importClassesFrom S4Vectors atomic
+#' @name atomic-class
+#' @rdname reexports
 NULL
