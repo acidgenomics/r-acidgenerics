@@ -35,6 +35,7 @@
 \alias{cbind}
 \alias{colSums}
 \alias{colnames}
+\alias{colnames<-}
 \alias{complete.cases}
 \alias{cor}
 \alias{design}

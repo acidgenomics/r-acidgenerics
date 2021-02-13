@@ -33,58 +33,57 @@ NULL
 #' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name Map
-#' @importFrom BiocGenerics Map
 #' @export
-#' @importMethodsFrom BiocGenerics Map
 #' @exportMethod Map
+#' @importFrom BiocGenerics Map
+#' @importMethodsFrom BiocGenerics Map
+#' @name Map
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name Position
-#' @importFrom BiocGenerics Position
 #' @export
-#' @importMethodsFrom BiocGenerics Position
 #' @exportMethod Position
+#' @importFrom BiocGenerics Position
+#' @importMethodsFrom BiocGenerics Position
+#' @name Position
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name Reduce
-#' @importFrom BiocGenerics Reduce
 #' @export
+#' @exportMethod Reduce
+#' @importFrom BiocGenerics Reduce
 #' @importMethodsFrom BiocGenerics Reduce
 #' @importMethodsFrom S4Vectors Reduce
-#' @exportMethod Reduce
+#' @name Reduce
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name anyDuplicated
-#' @importFrom BiocGenerics anyDuplicated
 #' @export
+#' @exportMethod anyDuplicated
+#' @importFrom BiocGenerics anyDuplicated
 #' @importMethodsFrom BiocGenerics anyDuplicated
 #' @importMethodsFrom S4Vectors anyDuplicated
-#' @exportMethod anyDuplicated
+#' @name anyDuplicated
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name append
-#' @importFrom BiocGenerics append
 #' @export
+#' @exportMethod append
+#' @importFrom BiocGenerics append
 #' @importMethodsFrom BiocGenerics append
 #' @importMethodsFrom S4Vectors append
-#' @exportMethod append
+#' @name append
+#' @rdname reexports
 NULL
 
 #' Coerce object to a data frame
 #'
-#' @name as.data.frame
-#' @importFrom BiocGenerics as.data.frame
 #' @export
-#'
+#' @exportMethod as.data.frame
+#' @importFrom BiocGenerics as.data.frame
 #' @importMethodsFrom BiocGenerics as.data.frame
 #' @importMethodsFrom S4Vectors as.data.frame
-#' @exportMethod as.data.frame
+#' @name as.data.frame
 #'
 #' @usage as.data.frame(x, row.names = NULL, optional = FALSE, ...)
 #'
@@ -97,23 +96,22 @@ NULL
 #' showMethods("as.data.frame")
 NULL
 
-#' @rdname reexports
-#' @name as.factor
-#' @importFrom S4Vectors as.factor
 #' @export
-#' @importMethodsFrom S4Vectors as.factor
 #' @exportMethod as.factor
+#' @importFrom S4Vectors as.factor
+#' @importMethodsFrom S4Vectors as.factor
+#' @name as.factor
+#' @rdname reexports
 NULL
 
 #' Coerce object to a list
 #'
-#' @name as.list
-#' @importFrom BiocGenerics as.list
 #' @export
-#'
+#' @exportMethod as.list
+#' @importFrom BiocGenerics as.list
 #' @importMethodsFrom BiocGenerics as.list
 #' @importMethodsFrom S4Vectors as.list
-#' @exportMethod as.list
+#' @name as.list
 #'
 #' @usage as.list(x, ...)
 #'
@@ -126,53 +124,52 @@ NULL
 #' showMethods("as.list")
 NULL
 
-#' @rdname reexports
-#' @name as.matrix
-#' @importFrom S4Vectors as.matrix
 #' @export
-#' @importMethodsFrom S4Vectors as.matrix
 #' @exportMethod as.matrix
+#' @importFrom S4Vectors as.matrix
+#' @importMethodsFrom S4Vectors as.matrix
+#' @name as.matrix
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name as.table
-#' @importFrom S4Vectors as.table
 #' @export
-#' @importMethodsFrom S4Vectors as.table
 #' @exportMethod as.table
+#' @importFrom S4Vectors as.table
+#' @importMethodsFrom S4Vectors as.table
+#' @name as.table
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name as.vector
+#' @export
 #' @importFrom BiocGenerics as.vector
-#' @export
+#' @name as.vector
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name basename
-#' @importFrom BiocGenerics basename
 #' @export
-#' @importMethodsFrom BiocGenerics basename
 #' @exportMethod basename
+#' @importFrom BiocGenerics basename
+#' @importMethodsFrom BiocGenerics basename
+#' @name basename
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name cbind
-#' @importFrom BiocGenerics cbind
 #' @export
+#' @exportMethod cbind
+#' @importFrom BiocGenerics cbind
 #' @importMethodsFrom BiocGenerics cbind
 #' @importMethodsFrom S4Vectors cbind
-#' @exportMethod cbind
+#' @name cbind
+#' @rdname reexports
 NULL
 
 #' Coerce an object to a class
 #'
-#' @name coerce
-#' @importFrom S4Vectors coerce
 #' @export
-#'
-#' @importMethodsFrom S4Vectors coerce
 #' @exportMethod coerce
+#' @importFrom S4Vectors coerce
+#' @importMethodsFrom S4Vectors coerce
+#' @name coerce
 #'
 #' @usage coerce(from, to, strict = TRUE)
 #'
@@ -185,31 +182,31 @@ NULL
 #' showMethods("coerce")
 NULL
 
-#' @rdname reexports
-#' @name colSums
-#' @importFrom BiocGenerics colSums
 #' @export
-#' @importMethodsFrom BiocGenerics colSums
 #' @exportMethod colSums
+#' @importFrom BiocGenerics colSums
+#' @importMethodsFrom BiocGenerics colSums
+#' @name colSums
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name colnames
-#' @importFrom BiocGenerics colnames colnames<-
+#' @aliases colnames<-
 #' @export colnames colnames<-
+#' @exportMethod colnames colnames<-
+#' @importFrom BiocGenerics colnames colnames<-
 #' @importMethodsFrom BiocGenerics colnames colnames<-
 #' @importMethodsFrom S4Vectors colnames colnames<-
-#' @exportMethod colnames colnames<-
+#' @name colnames
+#' @rdname reexports
 NULL
 
 #' Combine multiple objects
 #'
-#' @name combine
-#' @importFrom BiocGenerics combine
 #' @export
-#'
-#' @importMethodsFrom BiocGenerics combine
 #' @exportMethod combine
+#' @importFrom BiocGenerics combine
+#' @importMethodsFrom BiocGenerics combine
+#' @name combine
 #'
 #' @usage combine(x, y, ...)
 #'
@@ -223,20 +220,20 @@ NULL
 #' showMethods("combine")
 NULL
 
-#' @rdname reexports
-#' @name complete.cases
-#' @importFrom S4Vectors complete.cases
 #' @export
-#' @importMethodsFrom S4Vectors complete.cases
 #' @exportMethod complete.cases
+#' @importFrom S4Vectors complete.cases
+#' @importMethodsFrom S4Vectors complete.cases
+#' @name complete.cases
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name cor
-#' @importFrom S4Vectors cor
 #' @export
-#' @importMethodsFrom S4Vectors cor
 #' @exportMethod cor
+#' @importFrom S4Vectors cor
+#' @importMethodsFrom S4Vectors cor
+#' @name cor
+#' @rdname reexports
 NULL
 
 #' Counts
@@ -719,13 +716,14 @@ NULL
 #' @exportMethod rowSums
 NULL
 
-#' @rdname reexports
-#' @name rownames
-#' @importFrom BiocGenerics rownames rownames<-
+#' @aliases rownames<-
 #' @export rownames rownames<-
+#' @exportMethod rownames rownames<-
+#' @importFrom BiocGenerics rownames rownames<-
 #' @importMethodsFrom BiocGenerics rownames rownames<-
 #' @importMethodsFrom S4Vectors rownames rownames<-
-#' @exportMethod rownames rownames<-
+#' @name rownames
+#' @rdname reexports
 NULL
 
 #' @rdname reexports
