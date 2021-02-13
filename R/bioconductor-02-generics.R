@@ -1,48 +1,36 @@
 ## NOTE Generics we're not including:
-## - annotation
-## - evalq: using eval only.
-## - sapply: use vapply instead.
-
-## NOTE Add these:
-## - anyNA
-## - as.character
-## - as.complex
-## - as.double
-## - as.factor
-## - as.integer
-## - as.logical
-## - as.matrix
-## - as.numeric
-## - as.raw
-## - as.table
-## - as.vector
+## - BiocGenerics:
+##   - annotation, annotation<-
+##   - basename<-
+##   - evalq: using eval only.
+##   - sapply: use vapply instead.
 
 
 
-#' @rdname reexports
-#' @name %in%
-#' @importFrom BiocGenerics %in%
 #' @export
+#' @exportMethod %in%
+#' @importFrom BiocGenerics %in%
 #' @importMethodsFrom BiocGenerics %in%
 #' @importMethodsFrom S4Vectors %in%
-#' @exportMethod %in%
+#' @name %in%
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name Filter
-#' @importFrom BiocGenerics Filter
 #' @export
+#' @exportMethod Filter
+#' @importFrom BiocGenerics Filter
 #' @importMethodsFrom BiocGenerics Filter
 #' @importMethodsFrom S4Vectors Filter
-#' @exportMethod Filter
+#' @name Filter
+#' @rdname reexports
 NULL
 
-#' @rdname reexports
-#' @name Find
-#' @importFrom BiocGenerics Find
 #' @export
-#' @importMethodsFrom BiocGenerics Find
 #' @exportMethod Find
+#' @importFrom BiocGenerics Find
+#' @importMethodsFrom BiocGenerics Find
+#' @name Find
+#' @rdname reexports
 NULL
 
 #' @rdname reexports
@@ -71,21 +59,21 @@ NULL
 NULL
 
 #' @rdname reexports
-#' @name append
-#' @importFrom BiocGenerics append
-#' @export
-#' @importMethodsFrom BiocGenerics append
-#' @importMethodsFrom S4Vectors append
-#' @exportMethod append
-NULL
-
-#' @rdname reexports
 #' @name anyDuplicated
 #' @importFrom BiocGenerics anyDuplicated
 #' @export
 #' @importMethodsFrom BiocGenerics anyDuplicated
 #' @importMethodsFrom S4Vectors anyDuplicated
 #' @exportMethod anyDuplicated
+NULL
+
+#' @rdname reexports
+#' @name append
+#' @importFrom BiocGenerics append
+#' @export
+#' @importMethodsFrom BiocGenerics append
+#' @importMethodsFrom S4Vectors append
+#' @exportMethod append
 NULL
 
 #' Coerce object to a data frame
@@ -109,6 +97,14 @@ NULL
 #' showMethods("as.data.frame")
 NULL
 
+#' @rdname reexports
+#' @name as.factor
+#' @importFrom S4Vectors as.factor
+#' @export
+#' @importMethodsFrom S4Vectors as.factor
+#' @exportMethod as.factor
+NULL
+
 #' Coerce object to a list
 #'
 #' @name as.list
@@ -128,6 +124,28 @@ NULL
 #'
 #' @examples
 #' showMethods("as.list")
+NULL
+
+#' @rdname reexports
+#' @name as.matrix
+#' @importFrom S4Vectors as.matrix
+#' @export
+#' @importMethodsFrom S4Vectors as.matrix
+#' @exportMethod as.matrix
+NULL
+
+#' @rdname reexports
+#' @name as.table
+#' @importFrom S4Vectors as.table
+#' @export
+#' @importMethodsFrom S4Vectors as.table
+#' @exportMethod as.table
+NULL
+
+#' @rdname reexports
+#' @name as.vector
+#' @importFrom BiocGenerics as.vector
+#' @export
 NULL
 
 #' @rdname reexports
@@ -177,11 +195,11 @@ NULL
 
 #' @rdname reexports
 #' @name colnames
-#' @importFrom BiocGenerics colnames
-#' @export
-#' @importMethodsFrom BiocGenerics colnames
-#' @importMethodsFrom S4Vectors colnames
-#' @exportMethod colnames
+#' @importFrom BiocGenerics colnames colnames<-
+#' @export colnames colnames<-
+#' @importMethodsFrom BiocGenerics colnames colnames<-
+#' @importMethodsFrom S4Vectors colnames colnames<-
+#' @exportMethod colnames colnames<-
 NULL
 
 #' Combine multiple objects
@@ -260,6 +278,12 @@ NULL
 #'
 #' @examples
 #' showMethods("decode")
+NULL
+
+#' @rdname reexports
+#' @name design
+#' @importFrom BiocGenerics design
+#' @export
 NULL
 
 #' @rdname reexports
@@ -697,11 +721,11 @@ NULL
 
 #' @rdname reexports
 #' @name rownames
-#' @importFrom BiocGenerics rownames
-#' @export
-#' @importMethodsFrom BiocGenerics rownames
-#' @importMethodsFrom S4Vectors rownames
-#' @exportMethod rownames
+#' @importFrom BiocGenerics rownames rownames<-
+#' @export rownames rownames<-
+#' @importMethodsFrom BiocGenerics rownames rownames<-
+#' @importMethodsFrom S4Vectors rownames rownames<-
+#' @exportMethod rownames rownames<-
 NULL
 
 #' @rdname reexports
@@ -919,6 +943,15 @@ NULL
 #' @importMethodsFrom BiocGenerics var
 #' @importMethodsFrom S4Vectors var
 #' @exportMethod var
+NULL
+
+#' @rdname reexports
+#' @name which
+#' @importFrom BiocGenerics which
+#' @export
+#' @importMethodsFrom BiocGenerics which
+#' @importMethodsFrom BiocGenerics which
+#' @exportMethod which
 NULL
 
 #' @rdname reexports
