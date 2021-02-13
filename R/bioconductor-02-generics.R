@@ -1,14 +1,3 @@
-## NOTE Generics we're not including:
-## - BiocGenerics:
-##   - annotation, annotation<-
-##   - basename<-
-##   - evalq: using eval only.
-##   - sapply: use vapply instead.
-
-## FIXME start, end, width, pos
-
-
-
 #' @export
 #' @importFrom BiocGenerics %in%
 #' @name %in%
@@ -232,6 +221,12 @@ NULL
 NULL
 
 #' @export
+#' @importFrom BiocGenerics dims
+#' @name dims
+#' @rdname reexports
+NULL
+
+#' @export
 #' @importFrom BiocGenerics dirname
 #' @name dirname
 #' @rdname reexports
@@ -267,9 +262,15 @@ NULL
 NULL
 
 #' @aliases end<-
-#' @export
+#' @export end end<-
 #' @importFrom BiocGenerics end end<-
 #' @name end
+#' @rdname reexports
+NULL
+
+#' @export
+#' @importFrom BiocGenerics estimateDispersions
+#' @name estimateDispersions
 #' @rdname reexports
 NULL
 
@@ -387,6 +388,12 @@ NULL
 NULL
 
 #' @export
+#' @importFrom BiocGenerics mean
+#' @name mean
+#' @rdname reexports
+NULL
+
+#' @export
 #' @importFrom S4Vectors merge
 #' @name merge
 #' @rdname reexports
@@ -411,6 +418,12 @@ NULL
 #' @rdname reexports
 NULL
 
+#' @export
+#' @importFrom BiocGenerics ncol
+#' @name ncol
+#' @rdname reexports
+NULL
+
 #' Normalize an object
 #'
 #' @export
@@ -426,6 +439,12 @@ NULL
 #'
 #' @examples
 #' showMethods("normalize")
+NULL
+
+#' @export
+#' @importFrom BiocGenerics nrow
+#' @name nrow
+#' @rdname reexports
 NULL
 
 #' @export
@@ -541,6 +560,12 @@ NULL
 #' @rdname reexports
 NULL
 
+#' @export pos
+#' @importFrom BiocGenerics pos
+#' @name pos
+#' @rdname reexports
+NULL
+
 #' @export
 #' @importFrom IRanges ranges
 #' @name ranges
@@ -562,6 +587,12 @@ NULL
 #' @export
 #' @importFrom BiocGenerics relist
 #' @name relist
+#' @rdname reexports
+NULL
+
+#' @export
+#' @importFrom BiocGenerics rep.int
+#' @name rep.int
 #' @rdname reexports
 NULL
 
@@ -635,8 +666,9 @@ NULL
 #' @rdname reexports
 NULL
 
-#' @export
-#' @importFrom BiocGenerics start
+#' @aliases start<-
+#' @export start start<-
+#' @importFrom BiocGenerics start start<-
 #' @name start
 #' @rdname reexports
 NULL
@@ -644,6 +676,12 @@ NULL
 #' @export
 #' @importFrom IRanges sub
 #' @name sub
+#' @rdname reexports
+NULL
+
+#' @export
+#' @importFrom BiocGenerics subset
+#' @name subset
 #' @rdname reexports
 NULL
 
@@ -755,6 +793,12 @@ NULL
 NULL
 
 #' @export
+#' @importFrom BiocGenerics weights
+#' @name weights
+#' @rdname reexports
+NULL
+
+#' @export
 #' @importFrom BiocGenerics which
 #' @name which
 #' @rdname reexports
@@ -772,8 +816,9 @@ NULL
 #' @rdname reexports
 NULL
 
-#' @export
-#' @importFrom BiocGenerics width
+#' @aliases width<-
+#' @export width width<-
+#' @importFrom BiocGenerics width width<-
 #' @name width
 #' @rdname reexports
 NULL
