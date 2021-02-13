@@ -65,6 +65,7 @@
 \alias{ranges}
 \alias{rank}
 \alias{rbind}
+\alias{relist}
 \alias{rowMeans}
 \alias{rowSums}
 \alias{rownames}

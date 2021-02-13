@@ -1,6 +1,7 @@
-## NOTE Other generics we're intentionally not including:
-## - evalq (using eval only)
-## - sapply (use vapply instead)
+## NOTE Generics we're not including:
+## - annotation
+## - evalq: using eval only.
+## - sapply: use vapply instead.
 
 ## NOTE Add these:
 ## - anyNA
@@ -15,9 +16,6 @@
 ## - as.raw
 ## - as.table
 ## - as.vector
-## - duplicated
-## - expand
-## - relist
 
 
 
@@ -307,7 +305,7 @@ NULL
 #' @export
 #' @importMethodsFrom BiocGenerics duplicated
 #' @importMethodsFrom S4Vectors duplicated
-#' @exportMethod do.call
+#' @exportMethod duplicated
 NULL
 
 #' @rdname reexports
@@ -671,6 +669,14 @@ NULL
 #' @importMethodsFrom BiocGenerics rbind
 #' @importMethodsFrom S4Vectors rbind
 #' @exportMethod rbind
+NULL
+
+#' @rdname reexports
+#' @name relist
+#' @importFrom BiocGenerics relist
+#' @export
+#' @importMethodsFrom BiocGenerics relist
+#' @exportMethod relist
 NULL
 
 #' @rdname reexports
