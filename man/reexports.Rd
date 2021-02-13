@@ -43,6 +43,7 @@
 \alias{do.call}
 \alias{duplicated}
 \alias{end}
+\alias{end<-}
 \alias{eval}
 \alias{expand}
 \alias{expand.grid}
