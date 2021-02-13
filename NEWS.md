@@ -1,3 +1,7 @@
+## AcidGenerics 0.5.14 (2021-02-13)
+
+- Added more Bioconductor generic reexports.
+
 ## AcidGenerics 0.5.13 (2021-02-12)
 
 ### Major changes

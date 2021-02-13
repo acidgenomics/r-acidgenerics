@@ -2,6 +2,23 @@
 ## - evalq (using eval only)
 ## - sapply (use vapply instead)
 
+## NOTE Add these:
+## - anyNA
+## - as.character
+## - as.complex
+## - as.double
+## - as.factor
+## - as.integer
+## - as.logical
+## - as.matrix
+## - as.numeric
+## - as.raw
+## - as.table
+## - as.vector
+## - duplicated
+## - expand
+## - relist
+
 
 
 #' @rdname reexports
@@ -73,6 +90,48 @@ NULL
 #' @exportMethod anyDuplicated
 NULL
 
+#' Coerce object to a data frame
+#'
+#' @name as.data.frame
+#' @importFrom BiocGenerics as.data.frame
+#' @export
+#'
+#' @importMethodsFrom BiocGenerics as.data.frame
+#' @importMethodsFrom S4Vectors as.data.frame
+#' @exportMethod as.data.frame
+#'
+#' @usage as.data.frame(x, row.names = NULL, optional = FALSE, ...)
+#'
+#' @param x,row.names,optional,...
+#'   See [`as.data.frame()`][base::as.data.frame] for details.
+#'
+#' @return `data.frame`.
+#'
+#' @examples
+#' showMethods("as.data.frame")
+NULL
+
+#' Coerce object to a list
+#'
+#' @name as.list
+#' @importFrom BiocGenerics as.list
+#' @export
+#'
+#' @importMethodsFrom BiocGenerics as.list
+#' @importMethodsFrom S4Vectors as.list
+#' @exportMethod as.list
+#'
+#' @usage as.list(x, ...)
+#'
+#' @param x Object.
+#' @param ... Additional arguments.
+#'
+#' @return `list`.
+#'
+#' @examples
+#' showMethods("as.list")
+NULL
+
 #' @rdname reexports
 #' @name basename
 #' @importFrom BiocGenerics basename
@@ -88,6 +147,26 @@ NULL
 #' @importMethodsFrom BiocGenerics cbind
 #' @importMethodsFrom S4Vectors cbind
 #' @exportMethod cbind
+NULL
+
+#' Coerce an object to a class
+#'
+#' @name coerce
+#' @importFrom S4Vectors coerce
+#' @export
+#'
+#' @importMethodsFrom S4Vectors coerce
+#' @exportMethod coerce
+#'
+#' @usage coerce(from, to, strict = TRUE)
+#'
+#' @param from,to,strict
+#'   See [`coerce`][methods::coerce] for details.
+#'
+#' @return Modified object of new desired class.
+#'
+#' @examples
+#' showMethods("coerce")
 NULL
 
 #' @rdname reexports
@@ -107,6 +186,27 @@ NULL
 #' @exportMethod colnames
 NULL
 
+#' Combine multiple objects
+#'
+#' @name combine
+#' @importFrom BiocGenerics combine
+#' @export
+#'
+#' @importMethodsFrom BiocGenerics combine
+#' @exportMethod combine
+#'
+#' @usage combine(x, y, ...)
+#'
+#' @param x Primary object.
+#' @param y Secondary object.
+#' @param ... Additional arguments.
+#'
+#' @return Modified object.
+#'
+#' @examples
+#' showMethods("combine")
+NULL
+
 #' @rdname reexports
 #' @name complete.cases
 #' @importFrom S4Vectors complete.cases
@@ -121,6 +221,47 @@ NULL
 #' @export
 #' @importMethodsFrom S4Vectors cor
 #' @exportMethod cor
+NULL
+
+#' Counts
+#'
+#' @name counts
+#' @aliases counts<-
+#' @importFrom BiocGenerics counts counts<-
+#' @export counts counts<-
+#'
+#' @usage
+#' counts(object, ...)
+#' counts(object, ...) <- value
+#'
+#' @param object Object.
+#' @param value Value to assign.
+#' @param ... Additional arguments.
+#'
+#' @return `matrix`.
+#'
+#' @examples
+#' showMethods("counts")
+NULL
+
+#' Decode (run-length encoding)
+#'
+#' @name decode
+#' @importFrom S4Vectors decode
+#' @export
+#'
+#' @importMethodsFrom S4Vectors decode
+#' @exportMethod decode
+#'
+#' @usage decode(x, ...)
+#'
+#' @param x Object.
+#' @param ... Additional arguments.
+#'
+#' @return Modified object.
+#'
+#' @examples
+#' showMethods("decode")
 NULL
 
 #' @rdname reexports
@@ -140,6 +281,26 @@ NULL
 #' @exportMethod do.call
 NULL
 
+#' Drop levels
+#'
+#' @name droplevels
+#' @importFrom S4Vectors droplevels
+#' @export
+#'
+#' @importMethodsFrom S4Vectors droplevels
+#' @exportMethod droplevels
+#'
+#' @usage droplevels(x, ...)
+#'
+#' @param x Object.
+#' @param ... Additional arguments.
+#'
+#' @return Modified object.
+#'
+#' @examples
+#' showMethods("droplevels")
+NULL
+
 #' @rdname reexports
 #' @name duplicated
 #' @importFrom BiocGenerics duplicated
@@ -156,6 +317,23 @@ NULL
 #' @importMethodsFrom BiocGenerics end
 #' @importMethodsFrom S4Vectors end
 #' @exportMethod end
+NULL
+
+#' Estimate size factors
+#'
+#' @name estimateSizeFactors
+#' @importFrom BiocGenerics estimateSizeFactors
+#' @export
+#'
+#' @usage estimateSizeFactors(object, ...)
+#'
+#' @param object Object.
+#' @param ... Additional arguments.
+#'
+#' @return Modified object.
+#'
+#' @examples
+#' showMethods("estimateSizeFactors")
 NULL
 
 #' @rdname reexports
@@ -215,6 +393,26 @@ NULL
 #' @export
 #' @importMethodsFrom IRanges gsub
 #' @exportMethod gsub
+NULL
+
+#' Return the first part of an object
+#'
+#' @name head
+#' @importFrom S4Vectors head
+#' @export
+#'
+#' @importMethodsFrom S4Vectors head
+#' @exportMethod head
+#'
+#' @usage head(x, ...)
+#'
+#' @param x Object.
+#' @param ... Additional arguments.
+#'
+#' @return Console output.
+#'
+#' @examples
+#' showMethods("head")
 NULL
 
 #' @rdname reexports
@@ -303,6 +501,23 @@ NULL
 #' @exportMethod na.omit
 NULL
 
+#' Normalize an object
+#'
+#' @name normalize
+#' @importFrom BiocGenerics normalize
+#' @export
+#'
+#' @usage normalize(object, ...)
+#'
+#' @param object Object.
+#' @param ... Additional arguments.
+#'
+#' @return Modified object.
+#'
+#' @examples
+#' showMethods("normalize")
+NULL
+
 #' @rdname reexports
 #' @name order
 #' @importFrom BiocGenerics order
@@ -312,12 +527,92 @@ NULL
 #' @exportMethod order
 NULL
 
+#' Organism
+#'
+#' Get or set the organism (i.e. species) of an object.
+#'
+#' @name organism
+#' @aliases organism<-
+#' @importFrom BiocGenerics organism organism<-
+#' @export organism organism<-
+#'
+#' @usage
+#' organism(object)
+#' organism(object) <- value
+#'
+#' @param object Object.
+#' @param value Value to assign.
+#'
+#' @return `character(1)`.
+#'
+#' @examples
+#' showMethods("organism")
+NULL
+
 #' @rdname reexports
 #' @name paste
 #' @importFrom BiocGenerics paste
 #' @export
 #' @importMethodsFrom BiocGenerics paste
 #' @exportMethod paste
+NULL
+
+#' Plot dispersion estimates
+#'
+#' @name plotDispEsts
+#' @importFrom BiocGenerics plotDispEsts
+#' @export
+#'
+#' @usage plotDispEsts(object, ...)
+#'
+#' @param object Object.
+#' @param ... Additional arguments.
+#'
+#' @return `ggplot`.
+#'
+#' @examples
+#' showMethods("plotDispEsts")
+NULL
+
+#' MA plot
+#'
+#' The plot visualizes the differences between measurements taken in two
+#' samples, by transforming the data onto **M** (log ratio) and **A**
+#' (mean average) scales.
+#'
+#' @name plotMA
+#' @importFrom BiocGenerics plotMA
+#' @export
+#'
+#' @importMethodsFrom BiocGenerics plotMA
+#' @exportMethod plotMA
+#'
+#' @usage plotMA(object, ...)
+#'
+#' @param object Object.
+#' @param ... Additional arguments.
+#'
+#' @return `ggplot`.
+#'
+#' @examples
+#' showMethods("plotMA")
+NULL
+
+#' Principal component analysis plot
+#'
+#' @name plotPCA
+#' @importFrom BiocGenerics plotPCA
+#' @export
+#'
+#' @usage plotPCA(object, ...)
+#'
+#' @param object Object.
+#' @param ... Additional arguments.
+#'
+#' @return `ggplot`.
+#'
+#' @examples
+#' showMethods("plotPCA")
 NULL
 
 #' @rdname reexports
@@ -421,6 +716,33 @@ NULL
 #' @exportMethod setdiff
 NULL
 
+#' Size factors
+#'
+#' @name sizeFactors
+#' @aliases sizeFactors<-
+#' @importFrom BiocGenerics sizeFactors sizeFactors<-
+#' @export sizeFactors sizeFactors<-
+#'
+#' @usage
+#' sizeFactors(object, ...)
+#' sizeFactors(object, ...) <- value
+#'
+#' @param object Object.
+#' @param value Value to assign.
+#' @param ... Additional arguments.
+#'
+#' @return `numeric`.
+#'   Names correspond to object column names.
+#'
+#' @seealso
+#' - `DESeq2::sizeFactors()`.
+#' - `DESeq2::estimateSizeFactors()`.
+#' - `DESeq2::estimateSizeFactorsForMatrix()`.
+#'
+#' @examples
+#' showMethods("sizeFactors")
+NULL
+
 #' @rdname reexports
 #' @name sort
 #' @importFrom BiocGenerics sort
@@ -455,6 +777,26 @@ NULL
 #' @exportMethod sub
 NULL
 
+#' Summary
+#'
+#' @name summary
+#' @importFrom S4Vectors summary
+#' @export
+#'
+#' @importMethodsFrom S4Vectors summary
+#' @exportMethod summary
+#'
+#' @usage summary(object, ...)
+#'
+#' @param object Object.
+#' @param ... Additional arguments.
+#'
+#' @return Console output.
+#'
+#' @examples
+#' showMethods("summary")
+NULL
+
 #' @rdname reexports
 #' @name t
 #' @importFrom BiocGenerics t
@@ -470,6 +812,26 @@ NULL
 #' @export
 #' @importMethodsFrom BiocGenerics table
 #' @exportMethod table
+NULL
+
+#' Return the last part of an object
+#'
+#' @name tail
+#' @importFrom S4Vectors tail
+#' @export
+#'
+#' @importMethodsFrom S4Vectors tail
+#' @exportMethod tail
+#'
+#' @usage tail(x, ...)
+#'
+#' @param x Object.
+#' @param ... Additional arguments.
+#'
+#' @return Console output.
+#'
+#' @examples
+#' showMethods("tail")
 NULL
 
 #' @rdname reexports
@@ -520,6 +882,28 @@ NULL
 #' @export
 #' @importMethodsFrom BiocGenerics unsplit
 #' @exportMethod unsplit
+NULL
+
+#' Update object
+#'
+#' @name updateObject
+#' @importFrom BiocGenerics updateObject
+#' @export
+#'
+#' @importMethodsFrom S4Vectors updateObject
+#' @exportMethod updateObject
+#'
+#' @usage updateObject(object, ..., verbose = FALSE)
+#'
+#' @param object Object.
+#' @param ... Additional arguments.
+#' @param verbose `logical(1)`.
+#'   Verbose output.
+#'
+#' @return Modified object.
+#'
+#' @examples
+#' showMethods("updateObject")
 NULL
 
 #' @rdname reexports
