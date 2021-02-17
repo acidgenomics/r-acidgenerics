@@ -18,7 +18,7 @@ URL:
     https://r.acidgenomics.com/packages/acidgenerics/,
     https://github.com/acidgenomics/r-acidgenerics/
 BugReports: https://github.com/acidgenomics/r-acidgenerics/issues/
-License: GPL-3
+License: AGPL-3
 Encoding: UTF-8
 Depends: R (>= 4.0)
 Imports:
