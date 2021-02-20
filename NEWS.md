@@ -1,4 +1,17 @@
+## AcidGenerics 0.5.15 (2021-02-20)
+
+### New functions
+
+- Now exporting `mapToDataFrame` and `rbindToDataFrame`, which have methods
+  (i.e. for `list`) defined in AcidPlyr update.
+
+### Minor changes
+
+- Deprecating `unlistToDataFrame` in favor of `mapToDataFrame`.
+
 ## AcidGenerics 0.5.14 (2021-02-13)
+
+### Minor changes
 
 - Added more Bioconductor generic reexports.
 - Reorganized Bioconductor generics with roxygen documentation.

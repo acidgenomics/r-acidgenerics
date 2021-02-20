@@ -3,24 +3,16 @@
 
 
 
-#' @name defunct
-#' @inherit AcidRoxygen::defunct description examples return seealso title
+#' @name deprecated
+#' @inherit AcidRoxygen::deprecated description examples return seealso title
 #' @inheritParams AcidRoxygen::params
 #' @keywords internal
 NULL
 
 
 
-## #' @name deprecated
-## #' @inherit AcidRoxygen::deprecated description examples return seealso title
-## #' @inheritParams AcidRoxygen::params
-## #' @keywords internal
-## NULL
-
-
-
 ## v0.2.4 ======================================================================
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "plotGenesPerCell",
@@ -29,7 +21,7 @@ setGeneric(
     }
 )
 
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "plotGenesDetected",
@@ -38,7 +30,7 @@ setGeneric(
     }
 )
 
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "plotUMIsPerCell",
@@ -47,7 +39,7 @@ setGeneric(
     }
 )
 
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "plotUMIsVsGenes",
@@ -59,7 +51,7 @@ setGeneric(
 
 
 ## v0.2.7 ======================================================================
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "meltCounts",
@@ -71,7 +63,7 @@ setGeneric(
 
 
 ## v0.2.8 ======================================================================
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "clusterCellCountsPerSample",
@@ -83,7 +75,7 @@ setGeneric(
 
 
 ## v0.2.9 ======================================================================
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "flatFiles",
@@ -95,7 +87,7 @@ setGeneric(
 
 
 ## v0.2.12 =====================================================================
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "plotGSEATable",
@@ -107,7 +99,7 @@ setGeneric(
 
 
 ## v0.2.13 =====================================================================
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "plotDot",
@@ -119,7 +111,7 @@ setGeneric(
 
 
 ## 0.5.1 =======================================================================
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "matchRowNameColumn",
@@ -131,7 +123,7 @@ setGeneric(
 
 
 ## 0.5.3 =======================================================================
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "markdown",
@@ -142,7 +134,7 @@ setGeneric(
 
 
 
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "mcolnames",
@@ -151,12 +143,25 @@ setGeneric(
     }
 )
 
-#' @rdname defunct
+#' @rdname deprecated
 #' @export
 setGeneric(
     name = "mcolnames<-",
     def = function(x, ..., value) {
         .Defunct()
+    }
+)
+
+
+
+## 0.5.15 ======================================================================
+#' @rdname deprecated
+#' @export
+setGeneric(
+    name = "unlistToDataFrame",
+    def = function(x, ...) {
+        .Deprecated("mapToDataFrame")
+        standardGeneric("unlistToDataFrame")
     }
 )
 
