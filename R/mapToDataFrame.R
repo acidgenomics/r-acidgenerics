@@ -7,6 +7,7 @@
 #'
 #' @seealso
 #' - `purrr::map_dfr()`.
+#' - `data.table::rbindlist()`.
 #' - `rbindToDataFrame()`.
 #'
 #' @examples
