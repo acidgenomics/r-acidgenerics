@@ -50,6 +50,7 @@
 \alias{expand}
 \alias{expand.grid}
 \alias{get}
+\alias{getListElement}
 \alias{grep}
 \alias{grepl}
 \alias{gsub}

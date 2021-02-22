@@ -316,6 +316,12 @@ NULL
 NULL
 
 #' @export
+#' @importFrom S4Vectors getListElement
+#' @name getListElement
+#' @rdname reexports
+NULL
+
+#' @export
 #' @importFrom BiocGenerics grep
 #' @name grep
 #' @rdname reexports
