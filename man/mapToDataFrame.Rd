@@ -23,6 +23,7 @@ showMethods("mapToDataFrame")
 \seealso{
 \itemize{
 \item \code{purrr::map_dfr()}.
+\item \code{data.table::rbindlist()}.
 \item \code{rbindToDataFrame()}.
 }
 }

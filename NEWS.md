@@ -1,3 +1,9 @@
+## AcidGenerics 0.5.16 (2021-02-22)
+
+### New functions
+
+- Including `getListElement` from S4Vectors, which is used in bcbioRNASeq.
+
 ## AcidGenerics 0.5.15 (2021-02-20)
 
 ### New functions
