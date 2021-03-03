@@ -85,6 +85,7 @@
 \alias{rowSums}
 \alias{rownames}
 \alias{rownames<-}
+\alias{sapply}
 \alias{sd}
 \alias{setdiff}
 \alias{sort}

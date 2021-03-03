@@ -1,3 +1,9 @@
+## AcidGenerics 0.5.17 (2021-02-22)
+
+### New functions
+
+- Reexporting `sapply`, which is used in pointillism.
+
 ## AcidGenerics 0.5.16 (2021-02-22)
 
 ### New functions
