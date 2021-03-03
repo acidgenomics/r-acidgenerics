@@ -622,6 +622,12 @@ NULL
 NULL
 
 #' @export
+#' @importFrom BiocGenerics sapply
+#' @name sapply
+#' @rdname reexports
+NULL
+
+#' @export
 #' @importFrom BiocGenerics sd
 #' @name sd
 #' @rdname reexports
