@@ -1,3 +1,10 @@
+## AcidGenerics 0.5.18 (2021-06-20)
+
+### New functions
+
+- Reexporting `median` and `quantile`, which are defined in IRanges. These
+  generics are very useful when operating on `NumericList` objects.
+
 ## AcidGenerics 0.5.17 (2021-02-22)
 
 ### New functions

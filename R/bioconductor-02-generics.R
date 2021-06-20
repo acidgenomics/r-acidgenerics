@@ -394,6 +394,12 @@ NULL
 NULL
 
 #' @export
+#' @importFrom IRanges median
+#' @name median
+#' @rdname reexports
+NULL
+
+#' @export
 #' @importFrom BiocGenerics mean
 #' @name mean
 #' @rdname reexports
@@ -569,6 +575,12 @@ NULL
 #' @export pos
 #' @importFrom BiocGenerics pos
 #' @name pos
+#' @rdname reexports
+NULL
+
+#' @export
+#' @importFrom IRanges quantile
+#' @name quantile
 #' @rdname reexports
 NULL
 
