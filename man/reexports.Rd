@@ -61,6 +61,7 @@
 \alias{match}
 \alias{mcols}
 \alias{mcols<-}
+\alias{median}
 \alias{mean}
 \alias{merge}
 \alias{metadata}
@@ -76,6 +77,7 @@
 \alias{pmin}
 \alias{pmin.int}
 \alias{pos}
+\alias{quantile}
 \alias{ranges}
 \alias{rank}
 \alias{rbind}
