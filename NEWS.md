@@ -1,3 +1,9 @@
+## AcidGenerics 0.5.19 (2021-08-24)
+
+### Minor changes
+
+- Now requiring Bioconductor 3.13+ to be installed.
+
 ## AcidGenerics 0.5.18 (2021-06-20)
 
 ### New functions
