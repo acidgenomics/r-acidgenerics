@@ -6,7 +6,7 @@ S4 generic functions for Acid Genomics packages.
 
 ## Installation
 
-Requirements: [R][] >= 4.0, [Bioconductor][] >= 3.12.
+Requirements: [R][] >= 4.0, [Bioconductor][] >= 3.13.
 
 This is an [R][] package.
 
