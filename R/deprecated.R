@@ -154,18 +154,5 @@ setGeneric(
 
 
 
-## 0.5.15 ======================================================================
-#' @rdname deprecated
-#' @export
-setGeneric(
-    name = "unlistToDataFrame",
-    def = function(x, ...) {
-        .Deprecated("mapToDataFrame")
-        standardGeneric("unlistToDataFrame")
-    }
-)
-
-
-
 ## nolint end
 ## nocov end

@@ -15,7 +15,6 @@
 \alias{markdown}
 \alias{mcolnames}
 \alias{mcolnames<-}
-\alias{unlistToDataFrame}
 \title{Deprecated functions}
 \usage{
 plotGenesPerCell(object, ...)
@@ -43,8 +42,6 @@ markdown(object, ...)
 mcolnames(x, ...)
 
 mcolnames(x, ...) <- value
-
-unlistToDataFrame(x, ...)
 }
 \arguments{
 \item{object}{Object.}
