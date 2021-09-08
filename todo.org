@@ -1,4 +1,3 @@
 #+TITLE: Acid Genomics
 #+STARTUP: content
 * Development
-** TODO Need to resolve conflict with IRanges quantile?

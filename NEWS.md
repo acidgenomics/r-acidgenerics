@@ -1,3 +1,13 @@
+## AcidGenerics 0.5.20 (2021-09-08)
+
+### Minor changes
+
+- Removing deprecated functions from the NAMESPACE, to clean up and lighten
+  the package a bit: `clusterCellCountsPerSample`, `flatFiles`, `markdown`,
+  `matchRowNameColumn`, `mcolnames`, `meltCounts`, `plotDot`, `plotGSEATable`,
+  `plotGenesDetected`, `plotGenesPerCell`,`plotUMIsPerCell`, `plotUMIsVsGenes`,
+  and `unlistToDataFrame`.
+
 ## AcidGenerics 0.5.19 (2021-08-24)
 
 ### Minor changes
