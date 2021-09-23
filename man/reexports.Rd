@@ -46,6 +46,7 @@
 \alias{end}
 \alias{end<-}
 \alias{estimateDispersions}
+\alias{export}
 \alias{eval}
 \alias{expand}
 \alias{expand.grid}
@@ -54,6 +55,7 @@
 \alias{grep}
 \alias{grepl}
 \alias{gsub}
+\alias{import}
 \alias{intersect}
 \alias{is.unsorted}
 \alias{lapply}

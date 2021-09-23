@@ -1,3 +1,9 @@
+## AcidGenerics 0.5.21 (UNRELEASED)
+
+### Major changes
+
+- Reworked `export` and `import` generics to inherit from new BiocIO package.
+
 ## AcidGenerics 0.5.20 (2021-09-08)
 
 ### Minor changes

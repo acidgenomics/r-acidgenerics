@@ -292,6 +292,12 @@ NULL
 NULL
 
 #' @export
+#' @importFrom BiocIO export
+#' @name export
+#' @rdname reexports
+NULL
+
+#' @export
 #' @importFrom BiocGenerics eval
 #' @name eval
 #' @rdname reexports
@@ -354,6 +360,12 @@ NULL
 #'
 #' @examples
 #' showMethods("head")
+NULL
+
+#' @export
+#' @importFrom BiocIO import
+#' @name import
+#' @rdname reexports
 NULL
 
 #' @export

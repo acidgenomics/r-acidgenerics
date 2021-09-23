@@ -1,7 +1,7 @@
 Package: AcidGenerics
 Title: Acid Genomics Generics
 Description: S4 generic functions for Acid Genomics packages.
-Version: 0.5.20
+Version: 0.5.20.9000
 Date: 2021-09-08
 Authors@R: c(
     person(
@@ -24,6 +24,7 @@ Depends: R (>= 4.0)
 Imports:
     Biobase (>= 2.52.0),
     BiocGenerics (>= 0.38.0),
+    BiocIO (>= 1.2.0),
     IRanges (>= 2.26.0),
     S4Vectors (>= 0.30.0),
     methods
