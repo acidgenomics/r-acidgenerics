@@ -197,12 +197,6 @@ NULL
 #' showMethods("counts")
 NULL
 
-#' @export
-#' @importFrom BiocIO decompress
-#' @name decompress
-#' @rdname reexports
-NULL
-
 #' Decode (run-length encoding)
 #'
 #' @export
