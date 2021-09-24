@@ -38,6 +38,7 @@
 \alias{colnames<-}
 \alias{complete.cases}
 \alias{cor}
+\alias{decompress}
 \alias{design}
 \alias{dims}
 \alias{dirname}
