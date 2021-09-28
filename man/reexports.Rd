@@ -9,6 +9,8 @@
 \alias{DataFrameList}
 \alias{Factor}
 \alias{FactorList}
+\alias{GRanges}
+\alias{GRangesList}
 \alias{IRanges}
 \alias{IntegerList}
 \alias{LLint}
@@ -148,6 +150,8 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
+  \item{GenomicRanges}{\code{\link[GenomicRanges:GRanges-class]{GRanges}}, \code{\link[GenomicRanges:GRangesList-class]{GRangesList}}}
+
   \item{IRanges}{\code{\link[IRanges:AtomicList-class]{CharacterList}}, \code{\link[IRanges:DataFrameList-class]{DataFrameList}}, \code{\link[IRanges:AtomicList-class]{FactorList}}, \code{\link[IRanges:IRanges-constructor]{IRanges}}, \code{\link[IRanges:AtomicList-class]{IntegerList}}, \code{\link[IRanges:AtomicList-class]{LogicalList}}, \code{\link[IRanges:AtomicList-class]{NumericList}}, \code{\link[IRanges:AtomicList-class]{RleList}}, \code{\link[IRanges:DataFrameList-class]{SplitDataFrameList}}}
 
   \item{S4Vectors}{\code{\link[S4Vectors:DataFrame-class]{DataFrame}}, \code{\link[S4Vectors:Factor-class]{Factor}}, \code{\link[S4Vectors:LLint-class]{LLint}}, \code{\link[S4Vectors:List-class]{List}}, \code{\link[S4Vectors:Rle-class]{Rle}}, \code{\link[S4Vectors:SimpleList-class]{SimpleList}}}
