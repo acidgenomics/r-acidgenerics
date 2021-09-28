@@ -658,6 +658,12 @@ NULL
 NULL
 
 #' @export
+#' @importFrom GenomicRanges seqnames
+#' @name seqnames
+#' @rdname reexports
+NULL
+
+#' @export
 #' @importFrom BiocGenerics setdiff
 #' @name setdiff
 #' @rdname reexports

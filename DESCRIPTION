@@ -25,6 +25,7 @@ Imports:
     Biobase (>= 2.52.0),
     BiocGenerics (>= 0.38.0),
     BiocIO (>= 1.2.0),
+    GenomicRanges (>= 1.44.0),
     IRanges (>= 2.26.0),
     S4Vectors (>= 0.30.0),
     methods
