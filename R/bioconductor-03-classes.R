@@ -32,6 +32,12 @@ NULL
 #' @rdname reexports
 NULL
 
+#' @exportClass DFrame
+#' @importClassesFrom S4Vectors DFrame
+#' @name DFrame-class
+#' @rdname reexports
+NULL
+
 #' @exportClass DataFrame
 #' @importClassesFrom S4Vectors DataFrame
 #' @name DataFrame-class
@@ -89,6 +95,12 @@ NULL
 #' @exportClass NumericList
 #' @importClassesFrom IRanges NumericList
 #' @name NumericList-class
+#' @rdname reexports
+NULL
+
+#' @exportClass Ranges
+#' @importClassesFrom IRanges Ranges
+#' @name Ranges-class
 #' @rdname reexports
 NULL
 
