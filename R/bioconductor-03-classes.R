@@ -26,9 +26,21 @@ NULL
 #' @rdname reexports
 NULL
 
+#' @exportClass BiocFile
+#' @importClassesFrom BiocIO BiocFile
+#' @name BiocFile-class
+#' @rdname reexports
+NULL
+
 #' @exportClass CharacterList
 #' @importClassesFrom IRanges CharacterList
 #' @name CharacterList-class
+#' @rdname reexports
+NULL
+
+#' @exportClass CompressedGRangesList
+#' @importClassesFrom GenomicRanges CompressedGRangesList
+#' @name CompressedGRangesList-class
 #' @rdname reexports
 NULL
 
@@ -59,6 +71,18 @@ NULL
 #' @exportClass FactorList
 #' @importClassesFrom IRanges FactorList
 #' @name FactorList-class
+#' @rdname reexports
+NULL
+
+#' @exportClass GRanges
+#' @importClassesFrom GenomicRanges GRanges
+#' @name GRanges-class
+#' @rdname reexports
+NULL
+
+#' @exportClass GRangesList
+#' @importClassesFrom GenomicRanges GRangesList
+#' @name GRangesList-class
 #' @rdname reexports
 NULL
 

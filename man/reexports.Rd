@@ -91,6 +91,7 @@
 \alias{rownames<-}
 \alias{sapply}
 \alias{sd}
+\alias{seqnames}
 \alias{setdiff}
 \alias{sort}
 \alias{split}
@@ -116,12 +117,16 @@
 \alias{Annotated-class}
 \alias{AsIs-class}
 \alias{AtomicList-class}
+\alias{BiocFile-class}
 \alias{CharacterList-class}
+\alias{CompressedGRangesList-class}
 \alias{DFrame-class}
 \alias{DataFrame-class}
 \alias{DataFrameList-class}
 \alias{Factor-class}
 \alias{FactorList-class}
+\alias{GRanges-class}
+\alias{GRangesList-class}
 \alias{IRanges-class}
 \alias{IntegerList-class}
 \alias{LLint-class}
