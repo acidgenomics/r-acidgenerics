@@ -2,8 +2,11 @@
 % Please edit documentation in R/as.DataFrame.R
 \name{as.DataFrame}
 \alias{as.DataFrame}
+\alias{as.DFrame}
 \title{Coerce object to S4 DataFrame}
 \usage{
+as.DFrame(x, ...)
+
 as.DataFrame(x, ...)
 }
 \arguments{
