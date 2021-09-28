@@ -117,6 +117,7 @@
 \alias{AsIs-class}
 \alias{AtomicList-class}
 \alias{CharacterList-class}
+\alias{DFrame-class}
 \alias{DataFrame-class}
 \alias{DataFrameList-class}
 \alias{Factor-class}
@@ -127,6 +128,7 @@
 \alias{List-class}
 \alias{LogicalList-class}
 \alias{NumericList-class}
+\alias{Ranges-class}
 \alias{RectangularData-class}
 \alias{Rle-class}
 \alias{RleList-class}
