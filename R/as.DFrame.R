@@ -1,17 +1,17 @@
-#' Coerce object to S4 DataFrame
+#' Coerce object to S4 DFrame (DataFrame)
 #'
-#' @name as.DataFrame
+#' @name as.DFrame
 #' @inheritParams AcidRoxygen::params
 #'
-#' @return `DataFrame`.
+#' @return `DFrame`.
 #'
 #' @examples
-#' showMethods("as.DataFrame")
+#' showMethods("as.DFrame")
 NULL
 
 
 
-#' @rdname as.DataFrame
+#' @rdname as.DFrame
 #' @export
 setGeneric(
     name = "as.DFrame",
@@ -22,7 +22,7 @@ setGeneric(
 
 
 
-#' @rdname as.DataFrame
+#' @rdname as.DFrame
 #' @export
 setGeneric(
     name = "as.DataFrame",
