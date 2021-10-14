@@ -121,14 +121,12 @@
 \alias{AtomicList-class}
 \alias{BiocFile-class}
 \alias{CharacterList-class}
-\alias{CompressedGRangesList-class}
-\alias{DFrame-class}
 \alias{DataFrame-class}
 \alias{DataFrameList-class}
 \alias{Factor-class}
 \alias{FactorList-class}
-\alias{GRanges-class}
-\alias{GRangesList-class}
+\alias{GenomicRanges-class}
+\alias{GenomicRangesList-class}
 \alias{IRanges-class}
 \alias{IntegerList-class}
 \alias{LLint-class}
