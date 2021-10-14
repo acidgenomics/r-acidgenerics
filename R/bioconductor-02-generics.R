@@ -715,6 +715,13 @@ NULL
 #' @rdname reexports
 NULL
 
+#' @aliases strand<-
+#' @export strand strand<-
+#' @importFrom BiocGenerics strand strand<-
+#' @name strand
+#' @rdname reexports
+NULL
+
 #' @export
 #' @importFrom IRanges sub
 #' @name sub
