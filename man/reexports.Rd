@@ -99,6 +99,8 @@
 \alias{split}
 \alias{start}
 \alias{start<-}
+\alias{strand}
+\alias{strand<-}
 \alias{sub}
 \alias{subset}
 \alias{t}
