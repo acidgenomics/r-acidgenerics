@@ -1,3 +1,11 @@
+## FIXME Need to update all "CompressedGRangesList" methods in packages.
+## FIXME Need to update all "DFrame" methods in packages.
+## FIXME Need to update all "GRanges" methods in packages.
+## FIXME Need to update all "GRangesList" methods in packages.
+## FIXME Need to update all "IRanges" methods in packages.
+
+
+
 ## Organization of re-exported classes and functions:
 ##
 ## - GenomicRanges and Matrix are reexported in pipette.
@@ -38,18 +46,6 @@ NULL
 #' @rdname reexports
 NULL
 
-#' @exportClass CompressedGRangesList
-#' @importClassesFrom GenomicRanges CompressedGRangesList
-#' @name CompressedGRangesList-class
-#' @rdname reexports
-NULL
-
-#' @exportClass DFrame
-#' @importClassesFrom S4Vectors DFrame
-#' @name DFrame-class
-#' @rdname reexports
-NULL
-
 #' @exportClass DataFrame
 #' @importClassesFrom S4Vectors DataFrame
 #' @name DataFrame-class
@@ -74,20 +70,20 @@ NULL
 #' @rdname reexports
 NULL
 
-#' @exportClass GRanges
-#' @importClassesFrom GenomicRanges GRanges
-#' @name GRanges-class
+#' @exportClass GenomicRanges
+#' @importClassesFrom GenomicRanges GenomicRanges
+#' @name GenomicRanges-class
 #' @rdname reexports
 NULL
 
-#' @exportClass GRangesList
-#' @importClassesFrom GenomicRanges GRangesList
-#' @name GRangesList-class
+#' @exportClass GenomicRangesList
+#' @importClassesFrom GenomicRanges GenomicRangesList
+#' @name GenomicRangesList-class
 #' @rdname reexports
 NULL
 
-#' @exportClass IRanges
-#' @importClassesFrom IRanges IRanges
+#' @exportClass IntegerRanges
+#' @importClassesFrom IRanges IntegerRanges
 #' @name IRanges-class
 #' @rdname reexports
 NULL
