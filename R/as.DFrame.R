@@ -19,14 +19,3 @@ setGeneric(
         standardGeneric("as.DFrame")
     }
 )
-
-
-
-#' @rdname as.DFrame
-#' @export
-setGeneric(
-    name = "as.DataFrame",
-    def = function(x, ...) {
-        standardGeneric("as.DataFrame")
-    }
-)

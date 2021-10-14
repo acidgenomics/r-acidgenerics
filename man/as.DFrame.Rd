@@ -2,12 +2,9 @@
 % Please edit documentation in R/as.DFrame.R
 \name{as.DFrame}
 \alias{as.DFrame}
-\alias{as.DataFrame}
 \title{Coerce object to S4 DFrame (DataFrame)}
 \usage{
 as.DFrame(x, ...)
-
-as.DataFrame(x, ...)
 }
 \arguments{
 \item{x}{Object.}
