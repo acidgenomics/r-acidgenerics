@@ -1,11 +1,3 @@
-## FIXME Need to update all "CompressedGRangesList" methods in packages.
-## FIXME Need to update all "DFrame" methods in packages.
-## FIXME Need to update all "GRanges" methods in packages.
-## FIXME Need to update all "GRangesList" methods in packages.
-## FIXME Need to update all "IRanges" methods in packages.
-
-
-
 ## Organization of re-exported classes and functions:
 ##
 ## - GenomicRanges and Matrix are reexported in pipette.
