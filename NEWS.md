@@ -1,8 +1,18 @@
-## AcidGenerics 0.5.21 (UNRELEASED)
+## AcidGenerics 0.6.0 (UNRELEASED)
 
 ### Major changes
 
 - Reworked `export` and `import` generics to inherit from new BiocIO package.
+- Migrated generics from AcidGenomes: `Ensembl2Entrez`, `Entrez2Ensembl`,
+  `Gene2Symbol`, and `Tx2Gene`.
+- Migrated new generics defined in DESeqAnalysis package:
+  `plotContrastScatter` and `plotLFC`.
+
+### Minor changes
+
+- Reworked documentation for `as.DataFrame` generic.
+- Include `GRanges` and `GRangesList` generators from GenomicRanges package.
+- Also reexporting new `BiocFile` class from BiocIO package.
 
 ## AcidGenerics 0.5.20 (2021-09-08)
 
@@ -300,7 +310,7 @@
   submission of multiple Acid Genomics R packages.
 - Migrated S4 generics previously defined in now archived transformer package:
   `as.DataFrame`, `as.SummarizedExperiment`, `coerceToList`,
-  `matchRowNameColumn`, and `metadata2`. 
+  `matchRowNameColumn`, and `metadata2`.
 
 ## bioverbs 0.2.13 (2020-01-03)
 

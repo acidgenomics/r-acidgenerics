@@ -18,19 +18,13 @@ S4Vectors::Factor
 #' @export
 IRanges::FactorList
 
-## NOTE `GenomicRanges()` generator not currently exported.
-
 #' @importFrom GenomicRanges GRanges
 #' @export
 GenomicRanges::GRanges
 
-## NOTE `GenomicRangesList` generator not currently exported.
-
 #' @importFrom GenomicRanges GRangesList
 #' @export
 GenomicRanges::GRangesList
-
-## NOTE `IntegerRanges` generator not currently exported.
 
 #' @importFrom IRanges IRanges
 #' @export
