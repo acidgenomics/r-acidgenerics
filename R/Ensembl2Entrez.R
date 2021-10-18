@@ -1,5 +1,8 @@
 #' Ensembl-to-Entrez gene identifier mappings
 #'
+#' @export
+#' @inheritParams AcidRoxygen::params
+#'
 #' @return `Ensembl2Entrez`.
 #'
 #' @examples
