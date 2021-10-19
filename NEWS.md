@@ -7,6 +7,7 @@
   `Gene2Symbol`, and `Tx2Gene`.
 - Migrated new generics defined in DESeqAnalysis package:
   `plotContrastScatter` and `plotLFC`.
+- Migrated `KnownMarkers` generic from AcidSingleCell here.
 
 ### Minor changes
 
