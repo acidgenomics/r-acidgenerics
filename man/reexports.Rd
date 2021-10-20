@@ -19,8 +19,10 @@
 \alias{NumericList}
 \alias{Rle}
 \alias{RleList}
+\alias{Seqinfo}
 \alias{SimpleList}
 \alias{SplitDataFrameList}
+\alias{getChromInfoFromEnsembl}
 \alias{\%in\%}
 \alias{Filter}
 \alias{Find}
@@ -52,6 +54,8 @@
 \alias{eval}
 \alias{expand}
 \alias{expand.grid}
+\alias{genome}
+\alias{genome<-}
 \alias{get}
 \alias{getListElement}
 \alias{grep}
@@ -93,7 +97,12 @@
 \alias{rownames<-}
 \alias{sapply}
 \alias{sd}
+\alias{seqinfo}
+\alias{seqinfo<-}
+\alias{seqlevels}
+\alias{seqlevels<-}
 \alias{seqnames}
+\alias{seqnames<-}
 \alias{setdiff}
 \alias{sort}
 \alias{split}
@@ -150,6 +159,8 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
+  \item{GenomeInfoDb}{\code{\link[GenomeInfoDb:Seqinfo-class]{Seqinfo}}, \code{\link[GenomeInfoDb]{getChromInfoFromEnsembl}}}
+
   \item{GenomicRanges}{\code{\link[GenomicRanges:GRanges-class]{GRanges}}, \code{\link[GenomicRanges:GRangesList-class]{GRangesList}}}
 
   \item{IRanges}{\code{\link[IRanges:AtomicList-class]{CharacterList}}, \code{\link[IRanges:DataFrameList-class]{DataFrameList}}, \code{\link[IRanges:AtomicList-class]{FactorList}}, \code{\link[IRanges:IRanges-constructor]{IRanges}}, \code{\link[IRanges:AtomicList-class]{IntegerList}}, \code{\link[IRanges:AtomicList-class]{LogicalList}}, \code{\link[IRanges:AtomicList-class]{NumericList}}, \code{\link[IRanges:AtomicList-class]{RleList}}, \code{\link[IRanges:DataFrameList-class]{SplitDataFrameList}}}
