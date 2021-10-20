@@ -14,6 +14,9 @@
 - Reworked documentation for `as.DataFrame` generic.
 - Include `GRanges` and `GRangesList` generators from GenomicRanges package.
 - Also reexporting new `BiocFile` class from BiocIO package.
+- Now including additional reexports from GenomeInfoDb package: `Seqinfo`,
+  `genome`, `seqinfo`, `seqlevels`, and `seqnames`. This are used primarily
+  in the AcidGenomes and AcidGSEA packages.
 
 ## AcidGenerics 0.5.20 (2021-09-08)
 

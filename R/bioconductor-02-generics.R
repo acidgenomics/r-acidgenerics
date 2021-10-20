@@ -315,6 +315,13 @@ NULL
 #' @rdname reexports
 NULL
 
+#' @aliases genome<-
+#' @export genome genome<-
+#' @importFrom GenomeInfoDb genome genome<-
+#' @name genome
+#' @rdname reexports
+NULL
+
 #' @export
 #' @importFrom BiocGenerics get
 #' @name get
@@ -657,8 +664,23 @@ NULL
 #' @rdname reexports
 NULL
 
-#' @export
-#' @importFrom GenomicRanges seqnames
+#' @aliases seqinfo<-
+#' @export seqinfo seqinfo<-
+#' @importFrom GenomeInfoDb seqinfo seqinfo<-
+#' @name seqinfo
+#' @rdname reexports
+NULL
+
+#' @aliases seqlevels<-
+#' @export seqlevels seqlevels<-
+#' @importFrom GenomeInfoDb seqlevels seqlevels<-
+#' @name seqlevels
+#' @rdname reexports
+NULL
+
+#' @aliases seqnames<-
+#' @export seqnames seqnames<-
+#' @importFrom GenomeInfoDb seqnames seqnames<-
 #' @name seqnames
 #' @rdname reexports
 NULL

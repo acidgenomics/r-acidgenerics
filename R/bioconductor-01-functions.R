@@ -1,67 +1,77 @@
-#' @importFrom IRanges CharacterList
 #' @export
+#' @importFrom IRanges CharacterList
 IRanges::CharacterList
 
-#' @importFrom S4Vectors DataFrame
 #' @export
+#' @importFrom S4Vectors DataFrame
 S4Vectors::DataFrame
 
-#' @importFrom IRanges DataFrameList
 #' @export
+#' @importFrom IRanges DataFrameList
 IRanges::DataFrameList
 
-#' @importFrom S4Vectors Factor
 #' @export
+#' @importFrom S4Vectors Factor
 S4Vectors::Factor
 
-#' @importFrom IRanges FactorList
 #' @export
+#' @importFrom IRanges FactorList
 IRanges::FactorList
 
-#' @importFrom GenomicRanges GRanges
 #' @export
+#' @importFrom GenomicRanges GRanges
 GenomicRanges::GRanges
 
-#' @importFrom GenomicRanges GRangesList
 #' @export
+#' @importFrom GenomicRanges GRangesList
 GenomicRanges::GRangesList
 
-#' @importFrom IRanges IRanges
 #' @export
+#' @importFrom IRanges IRanges
 IRanges::IRanges
 
-#' @importFrom IRanges IntegerList
 #' @export
+#' @importFrom IRanges IntegerList
 IRanges::IntegerList
 
-#' @importFrom S4Vectors LLint
 #' @export
+#' @importFrom S4Vectors LLint
 S4Vectors::LLint
 
-#' @importFrom S4Vectors List
 #' @export
+#' @importFrom S4Vectors List
 S4Vectors::List
 
-#' @importFrom IRanges LogicalList
 #' @export
+#' @importFrom IRanges LogicalList
 IRanges::LogicalList
 
-#' @importFrom IRanges NumericList
 #' @export
+#' @importFrom IRanges NumericList
 IRanges::NumericList
 
-#' @importFrom S4Vectors Rle
 #' @export
+#' @importFrom S4Vectors Rle
 S4Vectors::Rle
 
-#' @importFrom IRanges RleList
 #' @export
+#' @importFrom IRanges RleList
 IRanges::RleList
 
-#' @importFrom S4Vectors SimpleList
+#' @importFrom GenomeInfoDb Seqinfo
 #' @export
+GenomeInfoDb::Seqinfo
+
+#' @export
+#' @importFrom S4Vectors SimpleList
 S4Vectors::SimpleList
 
-#' @importFrom IRanges SplitDataFrameList
 #' @export
+#' @importFrom IRanges SplitDataFrameList
 IRanges::SplitDataFrameList
+
+## NOTE This is OK to not reexport in basejump.
+
+#' @importFrom GenomeInfoDb getChromInfoFromEnsembl
+#' @export
+GenomeInfoDb::getChromInfoFromEnsembl
