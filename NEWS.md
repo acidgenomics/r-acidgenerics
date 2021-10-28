@@ -2,6 +2,7 @@
 
 ### Major changes
 
+- Package now requires R 4.1 and Bioconductor 3.14 release.
 - Reworked `export` and `import` generics to inherit from new BiocIO package.
 - Migrated generics from AcidGenomes: `Ensembl2Entrez`, `Entrez2Ensembl`,
   `Gene2Symbol`, and `Tx2Gene`.
