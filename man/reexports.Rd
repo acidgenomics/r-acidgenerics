@@ -138,8 +138,8 @@
 \alias{FactorList-class}
 \alias{GenomicRanges-class}
 \alias{GenomicRangesList-class}
-\alias{IRanges-class}
 \alias{IntegerList-class}
+\alias{IntegerRanges-class}
 \alias{LLint-class}
 \alias{List-class}
 \alias{LogicalList-class}

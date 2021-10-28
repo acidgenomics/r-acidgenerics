@@ -74,15 +74,15 @@ NULL
 #' @rdname reexports
 NULL
 
-#' @exportClass IntegerRanges
-#' @importClassesFrom IRanges IntegerRanges
-#' @name IRanges-class
-#' @rdname reexports
-NULL
-
 #' @exportClass IntegerList
 #' @importClassesFrom IRanges IntegerList
 #' @name IntegerList-class
+#' @rdname reexports
+NULL
+
+#' @exportClass IntegerRanges
+#' @importClassesFrom IRanges IntegerRanges
+#' @name IntegerRanges-class
 #' @rdname reexports
 NULL
 
