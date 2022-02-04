@@ -4,5 +4,5 @@
 #'
 #' @keywords internal
 #'
-#' @importFrom methods setClassUnion setGeneric
+#' @importFrom methods setGeneric
 "_PACKAGE"
