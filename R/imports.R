@@ -1,0 +1,2 @@
+#' @importFrom methods setGeneric
+NULL
