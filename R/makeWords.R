@@ -4,7 +4,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return `character`.
-#'   Words separated by spaces.
+#' Words separated by spaces.
 #'
 #' @examples
 #' showMethods("makeWords")

@@ -4,7 +4,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return `character(1)`.
-#'   Transformation method name.
+#' Transformation method name.
 #'
 #' @examples
 #' showMethods("transformType")

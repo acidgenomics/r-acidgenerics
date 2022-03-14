@@ -4,7 +4,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object, with character vectors collapsed to `character(1)`,
-#'   a character string.
+#' a character string.
 #'
 #' @examples
 #' showMethods("collapseToString")

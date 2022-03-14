@@ -4,7 +4,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return `character(1)` or `NULL`.
-#'   Name of adaptive shrinkage method applied (e.g. "apeglm" or "ashr").
+#' Name of adaptive shrinkage method applied (e.g. "apeglm" or "ashr").
 #'
 #' @examples
 #' showMethods("lfcShrinkType")

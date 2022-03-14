@@ -4,7 +4,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object of same class, with stable gene identifiers converted
-#'   to human-readable gene symbols.
+#' to human-readable gene symbols.
 #'
 #' @examples
 #' showMethods("convertGenesToSymbols")

@@ -6,7 +6,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return `character(1)`.
-#'   Lowercase string.
+#' Lowercase string.
 #'
 #' @seealso
 #' - [makeWords()].

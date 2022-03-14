@@ -6,7 +6,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return `character(1)`.
-#'   British style sentence case.
+#' British style sentence case.
 #'
 #' @seealso
 #' - [makeWords()].
