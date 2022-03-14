@@ -3,8 +3,10 @@
 #' @name join
 #'
 #' @inheritParams AcidRoxygen::params
+#'
 #' @param by `character`.
-#'   Column names to use for join operation.
+#' Column names to use for join operation.
+#'
 #' @param ... Additional arguments.
 #'
 #' @seealso

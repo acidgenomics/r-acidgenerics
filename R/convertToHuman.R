@@ -4,7 +4,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return Modified object.
-#'   Features (i.e. rownames) will be remapped to human genes.
+#' Features (i.e. rownames) will be remapped to human genes.
 #'
 #' @examples
 #' showMethods("convertToHuman")

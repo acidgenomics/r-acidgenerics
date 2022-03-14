@@ -12,15 +12,15 @@
 #'
 #' ```
 #' [mean expression of 5' (3')] /
-#'     [mean expression of whole transcript]
+#' [mean expression of whole transcript]
 #' ```
 #'
 #' For example:
 #'
 #' - Mean expression for 5' (3') is calculated as mean coverage of first (last)
-#'   100 bases.
+#' 100 bases.
 #' - Mean expression of transcript is the mean coverage of all bases in that
-#'   transcript.
+#' transcript.
 #' - Median is calculated for the representative set of 1000 transcripts.
 #'
 #' @export

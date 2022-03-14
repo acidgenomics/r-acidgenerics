@@ -4,7 +4,7 @@
 #' @inheritParams AcidRoxygen::params
 #'
 #' @return Named `numeric`.
-#'   Names correspond to the features (i.e. genes) analyzed.
+#' Names correspond to the features (i.e. genes) analyzed.
 #'
 #' @examples
 #' showMethods("resultsDiff")

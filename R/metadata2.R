@@ -18,15 +18,17 @@
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
+#'
 #' @param which `character(1)`.
-#'   A non-empty character string specifying which attribute is to be accessed.
-#'   Note that positional `numeric` arguments are currently not allowed.
+#' A non-empty character string specifying which attribute is to be accessed.
+#' Note that positional `numeric` arguments are currently not allowed.
+#'
 #' @param value `ANY`.
-#'   Metadata values to assign into slot, defined by `which`.
+#' Metadata values to assign into slot, defined by `which`.
 #'
 #' @return
 #' - `metadata2()`: `list`. Returns `NULL` on `which` match failure, similar
-#'   to [`attr()`][base::attr] and [`metadata()`][S4Vectors::metadata].
+#' to [`attr()`][base::attr] and [`metadata()`][S4Vectors::metadata].
 #' - `metadata2<-()`: Modified object.
 #'
 #' @examples

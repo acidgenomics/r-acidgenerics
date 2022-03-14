@@ -4,13 +4,17 @@
 #' @note Mutations are only allowed on `atomic` columns.
 #'
 #' @inheritParams AcidRoxygen::params
+#'
 #' @param predicate `function`.
-#'   A predicate function to be applied to the columns.
-#'   For example, `is.atomic()`.
+#' A predicate function to be applied to the columns.
+#' For example, `is.atomic()`.
+#'
 #' @param fun `function`.
-#'   Mutation function.
+#' Mutation function.
+#'
 #' @param vars `character`.
-#'   Column names.
+#' Column names.
+#'
 #' @param ... Passthrough arguments to function declared in `fun` argument.
 #'
 #' @return Modified object.

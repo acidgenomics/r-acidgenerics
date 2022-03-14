@@ -22,11 +22,11 @@
 #'
 #' @param ... Selection arguments:
 #'
-#'   - Key value pairs that must map to the column names of [sampleData()].
-#'   - `atomic` values are supported.
-#'   - Avoid using `logical` or `numeric` indices
-#'     (e.g. [`which()`][base::which] return), thereby making your code more
-#'     human readable, and easier to interpret.
+#' - Key value pairs that must map to the column names of [sampleData()].
+#' - `atomic` values are supported.
+#' - Avoid using `logical` or `numeric` indices
+#' (e.g. [`which()`][base::which] return), thereby making your code more
+#' human readable, and easier to interpret.
 #'
 #' @return Modified object.
 #' Subset (extraction) containing the desired samples.

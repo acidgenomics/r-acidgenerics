@@ -9,12 +9,14 @@
 #' gene names, since these change often and can mismatch easily.
 #'
 #' @inheritParams AcidRoxygen::params
+#'
 #' @param markers
-#'   Object containing cell markers from differential expression analysis.
-#'   (e.g. `SeuratMarkers`).
+#' Object containing cell markers from differential expression analysis.
+#' (e.g. `SeuratMarkers`).
+#'
 #' @param known
-#'   Object containing known cell-type-specific marker genes
-#'   (e.g. `CellTypeMarkers`).
+#' Object containing known cell-type-specific marker genes
+#' (e.g. `CellTypeMarkers`).
 #'
 #' @return `KnownMarkers`.
 #'
