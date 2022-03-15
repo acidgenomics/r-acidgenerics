@@ -6,21 +6,15 @@ S4 generic functions for Acid Genomics packages.
 
 ## Installation
 
-Requirements: [R][] >= 4.0, [Bioconductor][] >= 3.13.
-
-### [R][] method
+This is an [R][] package.
 
 ```r
-if (!requireNamespace("BiocManager", quietly = TRUE)) {
-    install.packages("BiocManager")
-}
 install.packages(
     pkgs = "AcidGenerics",
     repos = c(
         "https://r.acidgenomics.com",
-        BiocManager::repositories()
-    ),
-    dependencies = TRUE
+        getOption("repos")
+    )
 )
 ```
 
