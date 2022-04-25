@@ -25,7 +25,7 @@ bias is observed here, be sure to analyze the samples with a Bioanalyzer and
 check the RIN scores.
 
 5' (3') bias is generally calculated as the median of the following ratio:\preformatted{[mean expression of 5' (3')] /
-    [mean expression of whole transcript]
+[mean expression of whole transcript]
 }
 
 For example:
