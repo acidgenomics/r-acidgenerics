@@ -20,7 +20,7 @@ URL:
 BugReports: https://github.com/acidgenomics/r-acidgenerics/issues/
 License: AGPL-3
 Encoding: UTF-8
-Depends: R (>= 4.1)
+Depends: R (>= 4.2)
 Imports: methods
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
