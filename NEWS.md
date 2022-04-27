@@ -1,3 +1,10 @@
+# AcidGenerics 0.6.1 (2022-04-27)
+
+## Major changes
+
+- Now pinning against R 4.2 as minimum dependency, for Bioconductor 3.15
+  release.
+
 # AcidGenerics 0.6.0 (2022-03-10)
 
 ## Major changes
