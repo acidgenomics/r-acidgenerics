@@ -1,4 +1,4 @@
-# AcidGenerics 0.6.1 (2022-04-27)
+# AcidGenerics 0.6.1 (2022-04-29)
 
 ## Major changes
 
