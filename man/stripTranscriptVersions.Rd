@@ -20,7 +20,7 @@ Strip transcript identifier versions
 }
 \details{
 Intentionally does not strip gene versions, if defined in the object.
-To perform that action in parallel, use \code{stripVersions} instead.
+To perform that action in parallel, use \code{stripGeneVersions} instead.
 }
 \examples{
 showMethods("stripTranscriptVersions")
