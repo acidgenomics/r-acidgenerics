@@ -1,12 +1,12 @@
 #' Known cell markers
 #'
 #' @export
-#' @note Updated 2021-10-19.
+#' @note Updated 2022-05-11.
 #'
 #' @description
-#' Both the `markers` and `known` objects must contain Ensembl gene identifiers
-#' in the `geneId` column. We must avoid any matching operations based on the
-#' gene names, since these change often and can mismatch easily.
+#' Objects must contain Ensembl gene identifiers in the `geneId` column. We
+#' must avoid any matching operations based on the gene names, since these
+#' change often and can mismatch easily.
 #'
 #' @inheritParams AcidRoxygen::params
 #'
