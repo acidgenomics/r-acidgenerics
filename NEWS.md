@@ -1,3 +1,11 @@
+# AcidGenerics 0.6.2 (2022-05-11)
+
+## New functions
+
+- Added `as.Seurat` and `as.SingleCellExperiment` S4 generics, which are now in
+  use in our pointillism package. Don't reexport these in basejump, as these are
+  also defined as S3 generics in Seurat package.
+
 # AcidGenerics 0.6.1 (2022-04-29)
 
 ## Major changes
