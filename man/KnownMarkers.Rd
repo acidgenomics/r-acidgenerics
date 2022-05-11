@@ -19,12 +19,12 @@ KnownMarkers(markers, known, ...)
 \code{KnownMarkers}.
 }
 \description{
-Both the \code{markers} and \code{known} objects must contain Ensembl gene identifiers
-in the \code{geneId} column. We must avoid any matching operations based on the
-gene names, since these change often and can mismatch easily.
+Objects must contain Ensembl gene identifiers in the \code{geneId} column. We
+must avoid any matching operations based on the gene names, since these
+change often and can mismatch easily.
 }
 \note{
-Updated 2021-10-19.
+Updated 2022-05-11.
 }
 \examples{
 showMethods("KnownMarkers")
