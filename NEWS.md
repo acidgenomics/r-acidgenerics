@@ -1,11 +1,11 @@
-# AcidGenerics 0.6.3 (2022-05-24)
+# AcidGenerics 0.6.3 (2022-05-25)
 
 ## New functions
 
 - Reworking `markdownPlots` and `markdownTables` as S4 generics. Previously
   these used a basic `list` argument in AcidMarkdown package, but these generics
   are useful in other bioinformatics packages.
-- Made `topTables` generic defunct, in favor of `markdownTables` usage.
+- Soft deprecating `topTables` in favor of `markdownTables` usage.
 
 # AcidGenerics 0.6.2 (2022-05-11)
 

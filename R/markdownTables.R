@@ -17,11 +17,14 @@ setGeneric(
 
 
 
+## Keep this soft deprecated, since still in use in bcbioRNASeq F1000v2 paper.
+
 #' @rdname markdownTables
 #' @export
 setGeneric(
     name = "topTables",
     def = function(object, ...) {
-        .Defunct("markdownTables")
+        ## > .Deprecated("markdownTables")
+        standardGeneric("topTables")
     }
 )
