@@ -648,7 +648,7 @@ to [BiocGenerics][].
 
 [acid genomics]: https://acidgenomics.com/
 [appveyor ci]: https://www.appveyor.com/
-[basejump]: https://basejump.acidgenomics.com/
+[basejump]: https://r.acidgenomics.com/packages/basejump/
 [biocgenerics]: https://bioconductor.org/packages/BiocGenerics/
 [pkgdown]: https://pkgdown.r-lib.org/
-[travis ci]: https://travis-ci.com/
+[travis ci]: https://www.travis-ci.com/
