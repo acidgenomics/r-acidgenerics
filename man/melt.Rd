@@ -2,7 +2,7 @@
 % Please edit documentation in R/melt.R
 \name{melt}
 \alias{melt}
-\title{Melt columns into key-value pairs}
+\title{Melt data from wide to long format}
 \usage{
 melt(object, ...)
 }
@@ -22,8 +22,9 @@ showMethods("melt")
 }
 \seealso{
 \itemize{
-\item \code{tidyr::gather()}: Recommended instead for use with \code{tbl_df}.
-\item \code{reshape2::melt()}: Inspiration for name, but now deprecated..
+\item https://seananderson.ca/2013/10/19/reshape/
+\item \code{reshape2::melt} (deprecated).
+\item \code{tidyr::pivot_longer}.
 \item Python \code{pandas.melt}.
 }
 }
