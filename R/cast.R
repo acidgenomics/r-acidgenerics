@@ -9,8 +9,9 @@
 #' - https://seananderson.ca/2013/10/19/reshape/
 #' - `reshape2::dcast` (deprecated).
 #' - `tidyr::pivot_wider`.
-#' - Python `pandas.DataFrame.pivot`.
 #' - Python `pandas.pivot_table`.
+#' - Python `pandas.wide_to_long`.
+#' - Python `pandas.DataFrame.pivot`.
 #'
 #' @return `DataFrame`.
 #'
