@@ -25,7 +25,8 @@ showMethods("cast")
 \item https://seananderson.ca/2013/10/19/reshape/
 \item \code{reshape2::dcast} (deprecated).
 \item \code{tidyr::pivot_wider}.
-\item Python \code{pandas.DataFrame.pivot}.
 \item Python \code{pandas.pivot_table}.
+\item Python \code{pandas.wide_to_long}.
+\item Python \code{pandas.DataFrame.pivot}.
 }
 }
