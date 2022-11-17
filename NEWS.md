@@ -1,8 +1,14 @@
 # Release notes
 
+## AcidGenerics 0.6.5 (2022-11-17)
+
+New functions:
+
+- `euclidean` and `zscore`. For use in pending AcidBase package update.
+
 ## AcidGenerics 0.6.4 (2022-09-16)
 
-New functions
+New functions:
 
 - `cast`: the opposite of `melt`. Using the naming conventions defined in now
   deprecated reshape2 package.
