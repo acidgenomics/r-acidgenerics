@@ -4,10 +4,12 @@
 \alias{euclidean}
 \title{Calculate Euclidean distance}
 \usage{
-euclidean(object, ...)
+euclidean(x, y, ...)
 }
 \arguments{
-\item{object}{Object.}
+\item{x}{Object.}
+
+\item{y}{Object.}
 
 \item{...}{Additional arguments.}
 }
