@@ -6,7 +6,8 @@
 #' @return `DataFrame`.
 #'
 #' @seealso
-#' - `mapToDataFrame()`.
+#' - `data.table::rbindlist`.
+#' - `purrr::list_transpose`.
 #'
 #' @examples
 #' showMethods("rbindToDataFrame")
