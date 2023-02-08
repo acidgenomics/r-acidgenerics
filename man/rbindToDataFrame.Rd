@@ -22,6 +22,7 @@ showMethods("rbindToDataFrame")
 }
 \seealso{
 \itemize{
-\item \code{mapToDataFrame()}.
+\item \code{data.table::rbindlist}.
+\item \code{purrr::list_transpose}.
 }
 }
