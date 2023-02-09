@@ -1,5 +1,11 @@
 # Release notes
 
+## AcidGenerics 0.6.6 (2023-02-09)
+
+Minor changes:
+
+- Removed now unused `mapToDataFrame`, in favor of only `rbindToDataFrame`.
+
 ## AcidGenerics 0.6.5 (2022-11-17)
 
 New functions:
