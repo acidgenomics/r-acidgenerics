@@ -2,12 +2,9 @@
 % Please edit documentation in R/Ensembl2Ncbi.R
 \name{Ensembl2Ncbi}
 \alias{Ensembl2Ncbi}
-\alias{Ensembl2Entrez}
 \title{Ensembl-to-NCBI gene identifier mappings}
 \usage{
 Ensembl2Ncbi(object, ...)
-
-Ensembl2Entrez(object, ...)
 }
 \arguments{
 \item{object}{Object.}

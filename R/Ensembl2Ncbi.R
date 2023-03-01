@@ -13,15 +13,3 @@ setGeneric(
         standardGeneric("Ensembl2Ncbi")
     }
 )
-
-
-
-#' @rdname Ensembl2Ncbi
-#' @export
-setGeneric(
-    name = "Ensembl2Entrez",
-    def = function(object, ...) {
-        .Deprecated("Ensembl2Ncbi")
-        standardGeneric("Ensembl2Entrez")
-    }
-)
