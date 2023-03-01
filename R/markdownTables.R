@@ -24,7 +24,6 @@ setGeneric(
 setGeneric(
     name = "topTables",
     def = function(object, ...) {
-        ## > .Deprecated("markdownTables")
         standardGeneric("topTables")
     }
 )
