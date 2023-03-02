@@ -4,13 +4,15 @@
 \alias{matchNested}
 \title{Match inside nested elements}
 \usage{
-matchNested(x, table)
+matchNested(x, table, ...)
 }
 \arguments{
 \item{x}{The values to be matched.}
 
 \item{table}{The values to be matched against.
 Applies across rows for \code{DataFrame} method.}
+
+\item{...}{Additional arguments.}
 }
 \value{
 \code{integer}.

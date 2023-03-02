@@ -1,6 +1,7 @@
 #' Match inside nested elements
 #'
 #' @export
+#' @inheritParams AcidRoxygen::params
 #'
 #' @param x
 #' The values to be matched.
@@ -17,7 +18,7 @@
 #' showMethods("matchNested")
 setGeneric(
     name = "matchNested",
-    def = function(x, table) {
+    def = function(x, table, ...) {
         standardGeneric("matchNested")
     }
 )
