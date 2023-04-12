@@ -1,5 +1,13 @@
 # Release notes
 
+## AcidGenerics 0.6.7 (2023-04-12)
+
+Minor changes:
+
+- Deprecated `Ensembl2Entrez` and `Entrez2Ensembl` in favor of `Ensembl2Ncbi`
+  and `Ncbi2Ensembl` respectively. This generics will be updated in a
+  forthcoming package update to AcidGenerics.
+
 ## AcidGenerics 0.6.6 (2023-02-09)
 
 Minor changes:
