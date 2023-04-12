@@ -2,6 +2,10 @@
 
 ## AcidGenerics 0.6.7 (2023-04-12)
 
+New functions:
+
+- `Ensembl2Ncbi`, `Ncbi2Ensembl`, and `matchNested`.
+
 Minor changes:
 
 - Deprecated `Ensembl2Entrez` and `Entrez2Ensembl` in favor of `Ensembl2Ncbi`
