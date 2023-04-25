@@ -197,7 +197,7 @@ Minor changes:
 
 ## AcidGenerics 0.5.4 (2021-02-02)
 
-## Major changes
+Major changes:
 
 - Made `markdown` and `mcolnames` generics defunct.
 
@@ -492,7 +492,7 @@ Major changes:
 
 - Deprecated `clusterID` generic in favor of `clusters`.
 
-## Minor changes
+Minor changes:
 
 - `plotTopMarkers` now includes `markers` argument in the generic.
 
