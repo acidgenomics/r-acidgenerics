@@ -1,5 +1,7 @@
 # AcidGenerics
 
+![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-green.svg)
+
 S4 generic functions for [Acid Genomics][] packages.
 
 ## Installation
