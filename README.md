@@ -1,6 +1,6 @@
 # AcidGenerics
 
-![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-green.svg)
+[![Install with Bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg)](http://bioconda.github.io/recipes/r-acidgenerics/README.html) ![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)
 
 S4 generic functions for [Acid Genomics][] packages.
 
