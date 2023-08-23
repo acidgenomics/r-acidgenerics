@@ -1,5 +1,14 @@
 # Release notes
 
+## AcidGenerics 0.6.8 (UNRELEASED)
+
+New functions:
+
+Methods for these will be primarily defined in a pending AcidPlyr update.
+
+- `nest`: Our S4 generic variant of `tidyr::nest`.
+- `unnest`: Our S4 generic variant of `tidyr::unnest`.
+
 ## AcidGenerics 0.6.7 (2023-04-12)
 
 New functions:
