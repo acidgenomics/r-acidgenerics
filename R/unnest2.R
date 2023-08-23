@@ -10,10 +10,10 @@
 #' rows.
 #'
 #' @examples
-#' showMethods("unnest")
+#' showMethods("unnest2")
 setGeneric(
-    name = "unnest",
+    name = "unnest2",
     def = function(object, ...) {
-        standardGeneric("unnest")
+        standardGeneric("unnest2")
     }
 )
