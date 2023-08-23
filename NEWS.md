@@ -1,6 +1,6 @@
 # Release notes
 
-## AcidGenerics 0.6.8 (UNRELEASED)
+## AcidGenerics 0.6.8 (2023-08-23)
 
 New functions:
 
