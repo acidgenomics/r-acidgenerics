@@ -1,5 +1,12 @@
 # Release notes
 
+## AcidGenerics 0.6.9 (2023-09-08)
+
+New functions:
+
+- `keepOnlyAtomicCols`: New generic with methods that will be defined in
+  AcidBase for `DFrame` and `data.frame` classes.
+
 ## AcidGenerics 0.6.8 (2023-08-23)
 
 New functions:
