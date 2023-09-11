@@ -1,5 +1,11 @@
 # Release notes
 
+## AcidGenerics 0.6.10 (2023-09-11)
+
+Minor changes:
+
+- `euclidean`: Removed requirement of `y` in the generic.
+
 ## AcidGenerics 0.6.9 (2023-09-08)
 
 New functions:
