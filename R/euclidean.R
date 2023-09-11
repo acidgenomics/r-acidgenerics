@@ -9,7 +9,7 @@
 #' showMethods("euclidean")
 setGeneric(
     name = "euclidean",
-    def = function(x, y, ...) {
+    def = function(x, ...) {
         standardGeneric("euclidean")
     }
 )
