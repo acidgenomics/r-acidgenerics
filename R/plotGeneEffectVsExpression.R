@@ -3,6 +3,12 @@
 #' @export
 #' @inheritParams AcidRoxygen::params
 #'
+#' @param effect
+#' Object containing gene effect data.
+#'
+#' @param expression
+#' Object containing gene expression data.
+#'
 #' @return `ggplot`.
 #'
 #' @seealso
@@ -12,7 +18,7 @@
 #' showMethods("plotGeneEffectVsExpression")
 setGeneric(
     name = "plotGeneEffectVsExpression",
-    def = function(object, ...) {
+    def = function(effect, expression, ...) {
         standardGeneric("plotGeneEffectVsExpression")
     }
 )

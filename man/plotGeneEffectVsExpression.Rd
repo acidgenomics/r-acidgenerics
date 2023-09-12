@@ -4,10 +4,12 @@
 \alias{plotGeneEffectVsExpression}
 \title{Plot gene effect vs. expression}
 \usage{
-plotGeneEffectVsExpression(object, ...)
+plotGeneEffectVsExpression(effect, expression, ...)
 }
 \arguments{
-\item{object}{Object.}
+\item{effect}{Object containing gene effect data.}
+
+\item{expression}{Object containing gene expression data.}
 
 \item{...}{Additional arguments.}
 }
