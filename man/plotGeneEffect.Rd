@@ -20,3 +20,8 @@ Plot gene effect
 \examples{
 showMethods("plotGeneEffect")
 }
+\seealso{
+\itemize{
+\item DepMapAnalysis package.
+}
+}

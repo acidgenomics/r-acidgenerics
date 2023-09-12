@@ -5,6 +5,9 @@
 #'
 #' @return `ggplot`.
 #'
+#' @seealso
+#' - DepMapAnalysis package.
+#'
 #' @examples
 #' showMethods("plotGeneEffect")
 setGeneric(
