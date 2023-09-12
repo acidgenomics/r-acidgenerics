@@ -5,6 +5,9 @@
 #'
 #' @return Numeric vector.
 #'
+#' @seealso
+#' - AcidBase package.
+#'
 #' @examples
 #' showMethods("euclidean")
 setGeneric(
