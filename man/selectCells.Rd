@@ -22,7 +22,7 @@ showMethods("selectCells")
 }
 \seealso{
 \itemize{
-\item \code{Cellosaurus} package.
-\item \code{DepMapAnalysis} package.
+\item Cellosaurus package.
+\item DepMapAnalysis package.
 }
 }

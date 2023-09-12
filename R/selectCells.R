@@ -9,8 +9,8 @@
 #' @return Modified object.
 #'
 #' @seealso
-#' - `Cellosaurus` package.
-#' - `DepMapAnalysis` package.
+#' - Cellosaurus package.
+#' - DepMapAnalysis package.
 #'
 #' @examples
 #' showMethods("selectCells")
