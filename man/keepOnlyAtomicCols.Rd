@@ -20,3 +20,8 @@ Keep only atomic columns
 \examples{
 showMethods("keepOnlyAtomicCols")
 }
+\seealso{
+\itemize{
+\item AcidBase package.
+}
+}

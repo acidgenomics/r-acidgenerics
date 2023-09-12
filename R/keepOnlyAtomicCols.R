@@ -5,6 +5,9 @@
 #'
 #' @return Modified object, containing only atomic columns.
 #'
+#' @seealso
+#' - AcidBase package.
+#'
 #' @examples
 #' showMethods("keepOnlyAtomicCols")
 setGeneric(

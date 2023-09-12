@@ -20,3 +20,8 @@ Calculate Euclidean distance
 \examples{
 showMethods("euclidean")
 }
+\seealso{
+\itemize{
+\item AcidBase package.
+}
+}
