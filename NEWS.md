@@ -1,5 +1,9 @@
 # Release notes
 
+New functions:
+
+- Added `unfactorize`, the opposite of our `factorize` generic.
+
 ## AcidGenerics 0.6.10 (2023-09-11)
 
 Minor changes:
