@@ -1,8 +1,20 @@
 # Release notes
 
+## AcidGenerics 0.6.12 (2023-09-20)
+
 New functions:
 
 - Added `unfactorize`, the opposite of our `factorize` generic.
+- Added simpler variants of BiocIO `import` and `export`.
+
+## AcidGenerics 0.6.11 (2023-09-12)
+
+Major changes:
+
+- Migrated functions from DepMapAnalysis package: `excludeContaminatedCells`,
+  `excludeProblematicCells`, `plotGeneEffect`, `plotGeneEffectVsExpression`,
+  `plotTopGeneEffectPerCell`, `plotTopGeneEffectPerGroup`, `predictSensitivity`,
+  `selectCells`, `tnbc`.
 
 ## AcidGenerics 0.6.10 (2023-09-11)
 
