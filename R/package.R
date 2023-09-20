@@ -4,3 +4,8 @@
 #'
 #' @keywords internal
 "_PACKAGE"
+
+
+
+#' @importFrom methods setGeneric
+NULL
