@@ -3,12 +3,18 @@
 #' @export
 #' @inheritParams AcidRoxygen::params
 #'
-#' @param con File connection.
-#' Typically `character(1)` but can also be `textConnection`.
+#' @param con `character(1)` (recommended) or `connection` (edge case).
+#' Data connection. Most commonly, use `character(1)` to represent a file path
+#' or URL. Less commonly, can create a `textConnection` to a character vector
+#' of source code lines (text), which is useful for reformatting malformed files
+#' directly in R.
 #'
 #' @seealso
 #' - `BiocIO::import`.
 #' - `rio::import`.
+#' - `read.table`.
+#' - `readLines`.
+#' - `textConnection`.
 #'
 #' @return Object.
 #'

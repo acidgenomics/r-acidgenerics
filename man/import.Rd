@@ -7,8 +7,11 @@
 import(con, ...)
 }
 \arguments{
-\item{con}{File connection.
-Typically \code{character(1)} but can also be \code{textConnection}.}
+\item{con}{\code{character(1)} (recommended) or \code{connection} (edge case).
+Data connection. Most commonly, use \code{character(1)} to represent a file path
+or URL. Less commonly, can create a \code{textConnection} to a character vector
+of source code lines (text), which is useful for reformatting malformed files
+directly in R.}
 
 \item{...}{Additional arguments.}
 }
@@ -25,5 +28,8 @@ showMethods("import")
 \itemize{
 \item \code{BiocIO::import}.
 \item \code{rio::import}.
+\item \code{read.table}.
+\item \code{readLines}.
+\item \code{textConnection}.
 }
 }
