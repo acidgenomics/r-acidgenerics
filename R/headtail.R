@@ -3,13 +3,12 @@
 #' Applies to both rows and columns, enabling quick inspection during
 #' interactive use.
 #'
-#' Inspired by the [`print()`][base::print] method for `DataFrame` class
-#' objects.
+#' Inspired by the print method for `DataFrame` class.
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
 #'
-#' @return Invisible `NULL`.
+#' @return `character`.
 #'
 #' @seealso
 #' - `utils::head()`, `utils::tail()`.
