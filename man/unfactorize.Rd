@@ -22,5 +22,7 @@ Coerce all columns in the object from \code{factor}.
 showMethods("unfactorize")
 }
 \seealso{
-\code{\link[=decode]{decode()}} for run-length encoding (Rle) approach.
+\itemize{
+\item \code{decode} for run-length encoding (Rle) approach.
+}
 }

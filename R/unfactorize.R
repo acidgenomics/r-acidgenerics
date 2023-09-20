@@ -5,7 +5,8 @@
 #' @export
 #' @inheritParams AcidRoxygen::params
 #'
-#' @seealso [decode()] for run-length encoding (Rle) approach.
+#' @seealso
+#' - `decode` for run-length encoding (Rle) approach.
 #'
 #' @return Modified object.
 #' All `factor` columns will be coerced back to previous `atomic` class.
