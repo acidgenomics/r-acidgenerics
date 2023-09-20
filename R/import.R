@@ -3,7 +3,7 @@
 #' @export
 #' @inheritParams AcidRoxygen::params
 #'
-#' @param con `character(1)` (recommended) or `connection` (edge case).
+#' @param con `character(1)` or `connection`.
 #' Data connection. Most commonly, use `character(1)` to represent a file path
 #' or URL. Less commonly, can create a `textConnection` to a character vector
 #' of source code lines (text), which is useful for reformatting malformed files

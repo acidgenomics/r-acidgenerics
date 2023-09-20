@@ -7,7 +7,7 @@
 import(con, ...)
 }
 \arguments{
-\item{con}{\code{character(1)} (recommended) or \code{connection} (edge case).
+\item{con}{\code{character(1)} or \code{connection}.
 Data connection. Most commonly, use \code{character(1)} to represent a file path
 or URL. Less commonly, can create a \code{textConnection} to a character vector
 of source code lines (text), which is useful for reformatting malformed files
