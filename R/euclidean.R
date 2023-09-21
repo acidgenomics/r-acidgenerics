@@ -3,7 +3,7 @@
 #' @export
 #' @inheritParams AcidRoxygen::params
 #'
-#' @return Numeric vector.
+#' @return `numeric`.
 #'
 #' @seealso
 #' - AcidBase package.
