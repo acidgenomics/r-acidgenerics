@@ -1,19 +1,15 @@
-## FIXME Rename EnsemblToNcbi.
-
-
-
 #' Ensembl-to-NCBI gene identifier mappings
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
 #'
-#' @return `Ensembl2Ncbi`.
+#' @return `EnsemblToNcbi`.
 #'
 #' @examples
-#' showMethods("Ensembl2Ncbi")
+#' showMethods("EnsemblToNcbi")
 setGeneric(
-    name = "Ensembl2Ncbi",
+    name = "EnsemblToNcbi",
     def = function(object, ...) {
-        standardGeneric("Ensembl2Ncbi")
+        standardGeneric("EnsemblToNcbi")
     }
 )

@@ -1,7 +1,3 @@
-## FIXME Rename to cellToSample.
-
-
-
 #' Cell-to-sample mappings
 #'
 #' @export
@@ -10,10 +6,10 @@
 #' @return `factor`.
 #'
 #' @examples
-#' showMethods("cell2sample")
+#' showMethods("cellToSample")
 setGeneric(
-    name = "cell2sample",
+    name = "cellToSample",
     def = function(object, ...) {
-        standardGeneric("cell2sample")
+        standardGeneric("cellToSample")
     }
 )
