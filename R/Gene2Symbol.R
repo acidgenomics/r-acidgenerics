@@ -1,3 +1,7 @@
+## FIXME Rename to GeneToSymbol.
+
+
+
 #' Gene-to-symbol mappings
 #'
 #' @export

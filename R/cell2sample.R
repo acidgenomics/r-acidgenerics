@@ -1,3 +1,7 @@
+## FIXME Rename to cellToSample.
+
+
+
 #' Cell-to-sample mappings
 #'
 #' @export
