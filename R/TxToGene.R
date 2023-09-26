@@ -1,19 +1,15 @@
-## FIXME Rename to TxToGene.
-
-
-
 #' Transcript-to-gene mappings
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
 #'
-#' @return `Tx2Gene`.
+#' @return `TxToGene`.
 #'
 #' @examples
-#' showMethods("Tx2Gene")
+#' showMethods("TxToGene")
 setGeneric(
-    name = "Tx2Gene",
+    name = "TxToGene",
     def = function(object, ...) {
-        standardGeneric("Tx2Gene")
+        standardGeneric("TxToGene")
     }
 )
