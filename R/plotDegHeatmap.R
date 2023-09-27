@@ -15,10 +15,10 @@
 #' @return Plot.
 #'
 #' @examples
-#' showMethods("plotDEGHeatmap")
+#' showMethods("plotDegHeatmap")
 setGeneric(
-    name = "plotDEGHeatmap",
+    name = "plotDegHeatmap",
     def = function(object, ...) {
-        standardGeneric("plotDEGHeatmap")
+        standardGeneric("plotDegHeatmap")
     }
 )

@@ -6,10 +6,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' showMethods("plotPCACovariates")
+#' showMethods("plotPcaCovariates")
 setGeneric(
-    name = "plotPCACovariates",
+    name = "plotPcaCovariates",
     def = function(object, ...) {
-        standardGeneric("plotPCACovariates")
+        standardGeneric("plotPcaCovariates")
     }
 )
