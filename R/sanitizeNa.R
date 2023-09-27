@@ -11,10 +11,10 @@
 #' Sanitized to contain proper `NA` values.
 #'
 #' @examples
-#' showMethods("sanitizeNA")
+#' showMethods("sanitizeNa")
 setGeneric(
-    name = "sanitizeNA",
+    name = "sanitizeNa",
     def = function(object, ...) {
-        standardGeneric("sanitizeNA")
+        standardGeneric("sanitizeNa")
     }
 )
