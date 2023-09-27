@@ -1,4 +1,4 @@
-#' UMAP plot
+#' Quality control
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
@@ -6,10 +6,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' showMethods("plotUMAP")
+#' showMethods("plotQc")
 setGeneric(
-    name = "plotUMAP",
+    name = "plotQc",
     def = function(object, ...) {
-        standardGeneric("plotUMAP")
+        standardGeneric("plotQc")
     }
 )

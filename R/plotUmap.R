@@ -1,4 +1,4 @@
-#' Plot log2 fold change distributions
+#' UMAP plot
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
@@ -6,10 +6,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' showMethods("plotLFC")
+#' showMethods("plotUmap")
 setGeneric(
-    name = "plotLFC",
+    name = "plotUmap",
     def = function(object, ...) {
-        standardGeneric("plotLFC")
+        standardGeneric("plotUmap")
     }
 )

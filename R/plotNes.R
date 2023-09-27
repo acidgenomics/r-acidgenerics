@@ -1,4 +1,4 @@
-#' Plot row standard deviations vs. row means
+#' Plot normalized enrichment score
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
@@ -6,10 +6,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' showMethods("plotMeanSD")
+#' showMethods("plotNes")
 setGeneric(
-    name = "plotMeanSD",
+    name = "plotNes",
     def = function(object, ...) {
-        standardGeneric("plotMeanSD")
+        standardGeneric("plotNes")
     }
 )

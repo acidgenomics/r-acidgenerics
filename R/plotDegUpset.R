@@ -6,10 +6,10 @@
 #' @return Plot.
 #'
 #' @examples
-#' showMethods("plotDEGUpset")
+#' showMethods("plotDegUpset")
 setGeneric(
-    name = "plotDEGUpset",
+    name = "plotDegUpset",
     def = function(object, ...) {
-        standardGeneric("plotDEGUpset")
+        standardGeneric("plotDegUpset")
     }
 )

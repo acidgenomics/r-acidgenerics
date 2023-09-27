@@ -1,4 +1,4 @@
-#' Stacked bar plot of DEGs
+#' Plot row standard deviations vs. row means
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
@@ -6,10 +6,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' showMethods("plotDEGStackedBar")
+#' showMethods("plotMeanSd")
 setGeneric(
-    name = "plotDEGStackedBar",
+    name = "plotMeanSd",
     def = function(object, ...) {
-        standardGeneric("plotDEGStackedBar")
+        standardGeneric("plotMeanSd")
     }
 )

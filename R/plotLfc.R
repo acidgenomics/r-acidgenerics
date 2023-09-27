@@ -1,4 +1,4 @@
-#' t-SNE plot
+#' Plot log2 fold change distributions
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
@@ -6,10 +6,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' showMethods("plotTSNE")
+#' showMethods("plotLfc")
 setGeneric(
-    name = "plotTSNE",
+    name = "plotLfc",
     def = function(object, ...) {
-        standardGeneric("plotTSNE")
+        standardGeneric("plotLfc")
     }
 )

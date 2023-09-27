@@ -13,10 +13,10 @@
 #' @return Plot.
 #'
 #' @examples
-#' showMethods("plotDEGPCA")
+#' showMethods("plotDegPca")
 setGeneric(
-    name = "plotDEGPCA",
+    name = "plotDegPca",
     def = function(object, ...) {
-        standardGeneric("plotDEGPCA")
+        standardGeneric("plotDegPca")
     }
 )

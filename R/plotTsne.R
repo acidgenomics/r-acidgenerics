@@ -1,4 +1,4 @@
-#' Plot normalized enrichment score
+#' t-SNE plot
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
@@ -6,10 +6,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' showMethods("plotNES")
+#' showMethods("plotTsne")
 setGeneric(
-    name = "plotNES",
+    name = "plotTsne",
     def = function(object, ...) {
-        standardGeneric("plotNES")
+        standardGeneric("plotTsne")
     }
 )

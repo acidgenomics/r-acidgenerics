@@ -12,10 +12,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' showMethods("plotRRNAMappingRate")
+#' showMethods("plotRrnaMappingRate")
 setGeneric(
-    name = "plotRRNAMappingRate",
+    name = "plotRrnaMappingRate",
     def = function(object, ...) {
-        standardGeneric("plotRRNAMappingRate")
+        standardGeneric("plotRrnaMappingRate")
     }
 )

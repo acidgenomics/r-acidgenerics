@@ -1,4 +1,4 @@
-#' Quality control
+#' Stacked bar plot of DEGs
 #'
 #' @export
 #' @inheritParams AcidRoxygen::params
@@ -6,10 +6,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' showMethods("plotQC")
+#' showMethods("plotDegStackedBar")
 setGeneric(
-    name = "plotQC",
+    name = "plotDegStackedBar",
     def = function(object, ...) {
-        standardGeneric("plotQC")
+        standardGeneric("plotDegStackedBar")
     }
 )
