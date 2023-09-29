@@ -1,5 +1,38 @@
 # Release notes
 
+## AcidGenerics 0.7.0 (2023-09-29)
+
+Major changes:
+
+- New release series where we are enforcing strict camel case for all generics.
+- Also removed usage of `"2"` in generic names in favor of `"to"`.
+- Renamed `Ensembl2Ncbi` to `EnsemblToNcbi`.
+- Renamed `Gene2Symbol` to `GeneToSymbol`.
+- Renamed `Ncbi2Ensembl` to `NcbiToEnsembl`.
+- Renamed `Tx2Gene` to `TxToGene`.
+- Renamed `cell2sample` to `cellToSample`.
+- Renamed `plotDEGHeatmap` to `plotDegHeatmap`.
+- Renamed `plotDEGPCA` to `plotDegPca`. The word boundary is better here.
+- Renamed `plotDEGStackedBar` to `plotDegStackedBar`.
+- Renamed `plotDEGUpset` to `plotDegUpset`.
+- Renamed `plotLFC` to `plotLfc`.
+- Renamed `plotNES` to `plotNes`.
+- Renamed `plotPCACovariates` to `plotPcaCovariates`.
+- Renamed `plotPCElbow` to `plotPcElbow`.
+- Renamed `plotQC` to `plotQc`.
+- Renamed `plotRRNAMappingRate` to `plotRrnaMappingRate`. The word boundary
+  looks clearer to me here.
+- Renamed `plotTSNE` to `plotTsne`.
+- Renamed `plotUMAP` to `plotUmap`.
+- Renamed `removeNA` to `removeNa`.
+- Renamed `sanitizeNA` to `sanitizeNa`.
+- Now exporting `plotMa` and `plotPca` strict camel variants. BiocGenerics uses
+  `plotMA` and `plotPCA`, for reference.
+
+Minor changes:
+
+- Reworked documentation to indicate that `headtail` should return character.
+
 ## AcidGenerics 0.6.12 (2023-09-20)
 
 New functions:
@@ -719,4 +752,5 @@ to [BiocGenerics][].
 [basejump]: https://r.acidgenomics.com/packages/basejump/
 [biocgenerics]: https://bioconductor.org/packages/BiocGenerics/
 [pkgdown]: https://pkgdown.r-lib.org/
+[travis ci]: https://www.travis-ci.com/
 [travis ci]: https://www.travis-ci.com/
