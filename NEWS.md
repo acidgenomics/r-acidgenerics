@@ -1,5 +1,15 @@
 # Release notes
 
+## AcidGenerics 0.7.1 (2023-10-03)
+
+Major changes:
+
+- Fixed some additional generics that should be in strict camel case.
+- Renamed `convertSampleIDsToNames` to `convertSampleIdsToNames`.
+- Renamed `geneIDs` to `geneIds`.
+- Renamed `mapGenesToIDs` to `mapGenesToIds`.
+- Renamed `transcriptIDs` to `transcriptIds`.
+
 ## AcidGenerics 0.7.0 (2023-09-29)
 
 Major changes:

@@ -7,10 +7,10 @@
 #' human-readable sample names.
 #'
 #' @examples
-#' showMethods("convertSampleIDsToNames")
+#' showMethods("convertSampleIdsToNames")
 setGeneric(
-    name = "convertSampleIDsToNames",
+    name = "convertSampleIdsToNames",
     def = function(object, ...) {
-        standardGeneric("convertSampleIDsToNames")
+        standardGeneric("convertSampleIdsToNames")
     }
 )
