@@ -6,10 +6,10 @@
 #' @return `character`.
 #'
 #' @examples
-#' showMethods("mapGenesToIDs")
+#' showMethods("mapGenesToIds")
 setGeneric(
-    name = "mapGenesToIDs",
+    name = "mapGenesToIds",
     def = function(object, ...) {
-        standardGeneric("mapGenesToIDs")
+        standardGeneric("mapGenesToIds")
     }
 )

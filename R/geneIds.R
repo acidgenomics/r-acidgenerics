@@ -8,10 +8,10 @@
 #' @return `character`.
 #'
 #' @examples
-#' showMethods("geneIDs")
+#' showMethods("geneIds")
 setGeneric(
-    name = "geneIDs",
+    name = "geneIds",
     def = function(object, ...) {
-        standardGeneric("geneIDs")
+        standardGeneric("geneIds")
     }
 )
