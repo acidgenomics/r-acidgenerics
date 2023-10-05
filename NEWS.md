@@ -1,5 +1,11 @@
 # Release notes
 
+## AcidGenerics 0.7.2 (2023-10-05)
+
+- Renamed `plotGeneSaturation` to `plotFeatureSaturation`.
+- Removed `plotCountsPerGene` in favor of `plotCountsPerFeature`.
+- Removed `topTables` in favor of `markdownTables`.
+
 ## AcidGenerics 0.7.1 (2023-10-03)
 
 Major changes:
