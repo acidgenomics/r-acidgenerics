@@ -14,16 +14,3 @@ setGeneric(
         standardGeneric("markdownTables")
     }
 )
-
-
-
-## Keep this soft deprecated, since still in use in bcbioRNASeq F1000v2 paper.
-
-#' @rdname markdownTables
-#' @export
-setGeneric(
-    name = "topTables",
-    def = function(object, ...) {
-        standardGeneric("topTables")
-    }
-)

@@ -2,12 +2,9 @@
 % Please edit documentation in R/markdownTables.R
 \name{markdownTables}
 \alias{markdownTables}
-\alias{topTables}
 \title{Markdown tables}
 \usage{
 markdownTables(object, ...)
-
-topTables(object, ...)
 }
 \arguments{
 \item{object}{Object.}

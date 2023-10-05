@@ -1,9 +1,4 @@
-## Currently in use by bcbioRNASeq.
-## Don't rename to use "feature" instead of "gene" yet.
-
-
-
-#' Plot gene detection saturation
+#' Plot feature (gene) detection saturation
 #'
 #' We should observe a linear trend in the number of genes detected with the
 #' number of mapped reads, which indicates that the sample input was not
@@ -15,10 +10,10 @@
 #' @return `ggplot`.
 #'
 #' @examples
-#' showMethods("plotGeneSaturation")
+#' showMethods("plotFeatureSaturation")
 setGeneric(
-    name = "plotGeneSaturation",
+    name = "plotFeatureSaturation",
     def = function(object, ...) {
-        standardGeneric("plotGeneSaturation")
+        standardGeneric("plotFeatureSaturation")
     }
 )
