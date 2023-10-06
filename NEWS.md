@@ -1,6 +1,19 @@
 # Release notes
 
+## AcidGenerics 0.7.3 (2023-10-06)
+
+New functions:
+
+- `cellsPerGeneFusion`: Return the number of cells per gene fusion.
+- `cellsPerMutation`: Return the number of cells per mutation.
+- `excludeNonCancerCells`: Exclude non-cancer cells.
+- `excludeNonHumanCells`: Exclude non-human cells.
+- `geneFusions`: Gene fusions per cell.
+- `mutations`: (Driver gene) mutations per cell.
+
 ## AcidGenerics 0.7.2 (2023-10-05)
+
+Major changes:
 
 - Renamed `plotGeneSaturation` to `plotFeatureSaturation`.
 - Removed `plotCountsPerGene` in favor of `plotCountsPerFeature`.
