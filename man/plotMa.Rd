@@ -6,14 +6,16 @@
 \usage{
 plotMa(object, ...)
 }
+\arguments{
+\item{object}{Object.}
+
+\item{...}{Additional arguments.}
+}
 \value{
 Plot.
 }
 \description{
 MA plot
-}
-\note{
-Updated 2023-09-27.
 }
 \examples{
 showMethods("plotMa")

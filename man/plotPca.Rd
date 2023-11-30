@@ -6,14 +6,16 @@
 \usage{
 plotPca(object, ...)
 }
+\arguments{
+\item{object}{Object.}
+
+\item{...}{Additional arguments.}
+}
 \value{
 Plot.
 }
 \description{
 Principal component analysis plot
-}
-\note{
-Updated 2023-09-27.
 }
 \examples{
 showMethods("plotPca")
