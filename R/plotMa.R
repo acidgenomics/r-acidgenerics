@@ -1,7 +1,7 @@
 #' MA plot
 #'
 #' @export
-#' @note Updated 2023-09-27.
+#' @inheritParams AcidRoxygen::params
 #'
 #' @return Plot.
 #'
