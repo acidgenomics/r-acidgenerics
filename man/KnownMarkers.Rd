@@ -23,9 +23,6 @@ Objects must contain Ensembl gene identifiers in the \code{geneId} column. We
 must avoid any matching operations based on the gene names, since these
 change often and can mismatch easily.
 }
-\note{
-Updated 2022-05-11.
-}
 \examples{
 showMethods("KnownMarkers")
 }

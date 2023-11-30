@@ -1,7 +1,6 @@
 #' Known cell markers
 #'
 #' @export
-#' @note Updated 2022-05-11.
 #'
 #' @description
 #' Objects must contain Ensembl gene identifiers in the `geneId` column. We
