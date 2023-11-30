@@ -1,5 +1,11 @@
 # Release notes
 
+## AcidGenerics 0.7.4 (2023-11-30)
+
+New functions:
+
+- `unlist2`: Unlist a complex S4 object, such as `DFrameList` to `DFrame`.
+
 ## AcidGenerics 0.7.3 (2023-10-06)
 
 New functions:
