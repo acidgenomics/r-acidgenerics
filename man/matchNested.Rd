@@ -22,6 +22,10 @@ size as \code{x}.
 \description{
 Match inside nested elements
 }
+\details{
+Intentionally only performs exact matching. Refer to \code{filterNested} function
+for partial matching support with regular expressions.
+}
 \examples{
 showMethods("matchNested")
 }

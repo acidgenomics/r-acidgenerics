@@ -3,6 +3,10 @@
 #' @export
 #' @inheritParams AcidRoxygen::params
 #'
+#' @details
+#' Intentionally only performs exact matching. Refer to `filterNested` function
+#' for partial matching support with regular expressions.
+#'
 #' @param x
 #' The values to be matched.
 #'
