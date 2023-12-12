@@ -9,16 +9,13 @@
 #'
 #' @inheritParams AcidRoxygen::params
 #'
-#' @param ignoreCase `logical(1)`.
-#' Perform case insensitive pattern matching.
-#'
 #' @return Modified object, containing only matching rows.
 #'
 #' @examples
 #' showMethods("filterNested")
 setGeneric(
     name = "filterNested",
-    def = function(object, pattern, ignoreCase, ...) {
+    def = function(object, pattern, ...) {
         standardGeneric("filterNested")
     }
 )

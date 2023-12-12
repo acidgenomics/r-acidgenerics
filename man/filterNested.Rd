@@ -4,16 +4,13 @@
 \alias{filterNested}
 \title{Keep rows that match a nested condition}
 \usage{
-filterNested(object, pattern, ignoreCase, ...)
+filterNested(object, pattern, ...)
 }
 \arguments{
 \item{object}{Object.}
 
 \item{pattern}{\code{character(1)}.
 Pattern to use for matching.}
-
-\item{ignoreCase}{\code{logical(1)}.
-Perform case insensitive pattern matching.}
 
 \item{...}{Additional arguments.}
 }
