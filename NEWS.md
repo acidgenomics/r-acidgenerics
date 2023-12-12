@@ -1,5 +1,12 @@
 # Release notes
 
+## AcidGenerics 0.7.5 (2023-12-12)
+
+New functions:
+
+- `filterNested`: Keep rows that match a nested condition. Performs recursive
+  regular expression matching across all columns, including nested list columns.
+
 ## AcidGenerics 0.7.4 (2023-11-30)
 
 New functions:
