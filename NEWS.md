@@ -1,5 +1,12 @@
 # Release notes
 
+## AcidGenerics 0.7.6 (2023-12-15)
+
+New functions:
+
+- `matchAll`: New variant of `match` that returns all positional matches for
+  arguments defined in `x`, rather than only the first match.
+
 ## AcidGenerics 0.7.5 (2023-12-12)
 
 New functions:
