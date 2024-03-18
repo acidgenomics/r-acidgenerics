@@ -1,5 +1,12 @@
 # Release notes
 
+## AcidGenerics 0.7.7 (2024-03-18)
+
+New functions:
+
+- `stripExonVersions`: New generic similar to `stripGeneVersions` and
+  `stripTranscriptVersions`.
+
 ## AcidGenerics 0.7.6 (2023-12-15)
 
 New functions:
