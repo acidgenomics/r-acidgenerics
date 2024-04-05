@@ -1,5 +1,11 @@
 # Release notes
 
+## AcidGenerics 0.7.8 (2024-04-05)
+
+New functions:
+
+- `plotCleveland`: Cleveland dot plot generic.
+
 ## AcidGenerics 0.7.7 (2024-03-18)
 
 New functions:
