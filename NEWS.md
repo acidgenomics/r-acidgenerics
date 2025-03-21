@@ -1,5 +1,12 @@
 # Release notes
 
+## AcidGenerics 0.7.9 (2025-03-21)
+
+Minor changes:
+
+- Relaxed R dependency down to 4.0 for better backwards compatibility on legacy
+systems, such as Ubuntu 22 LTS.
+
 ## AcidGenerics 0.7.8 (2024-04-05)
 
 New functions:
