@@ -15,7 +15,6 @@ setGeneric(
 )
 
 
-
 #' @rdname collectionNames
 #' @export
 setGeneric(

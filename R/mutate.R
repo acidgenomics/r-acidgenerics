@@ -28,7 +28,6 @@
 NULL
 
 
-
 #' @rdname mutate
 #' @export
 setGeneric(
@@ -37,7 +36,6 @@ setGeneric(
         standardGeneric("mutateAll")
     }
 )
-
 
 
 #' @rdname mutate
@@ -50,7 +48,6 @@ setGeneric(
 )
 
 
-
 #' @rdname mutate
 #' @export
 setGeneric(
@@ -61,7 +58,6 @@ setGeneric(
 )
 
 
-
 #' @rdname mutate
 #' @export
 setGeneric(
@@ -70,7 +66,6 @@ setGeneric(
         standardGeneric("transmuteAt")
     }
 )
-
 
 
 #' @rdname mutate

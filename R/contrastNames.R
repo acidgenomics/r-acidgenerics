@@ -15,7 +15,6 @@ setGeneric(
 )
 
 
-
 #' @rdname contrastNames
 #' @export
 setGeneric(
