@@ -18,7 +18,6 @@ setGeneric(
 )
 
 
-
 #' @rdname resultsNames
 #' @export
 setGeneric(

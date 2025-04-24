@@ -1,4 +1,8 @@
-# Release notes
+## AcidGenerics 0.7.10 (2025-04-24)
+
+Minor changes:
+
+- Reformatted package styling with air conventions.
 
 ## AcidGenerics 0.7.9 (2025-03-21)
 

@@ -24,7 +24,6 @@
 NULL
 
 
-
 #' @rdname join
 #' @export
 setGeneric(
@@ -33,7 +32,6 @@ setGeneric(
         standardGeneric("innerJoin")
     }
 )
-
 
 
 #' @rdname join
@@ -46,7 +44,6 @@ setGeneric(
 )
 
 
-
 #' @rdname join
 #' @export
 setGeneric(
@@ -55,7 +52,6 @@ setGeneric(
         standardGeneric("rightJoin")
     }
 )
-
 
 
 #' @rdname join
@@ -68,7 +64,6 @@ setGeneric(
 )
 
 
-
 #' @rdname join
 #' @export
 setGeneric(
@@ -77,7 +72,6 @@ setGeneric(
         standardGeneric("semiJoin")
     }
 )
-
 
 
 #' @rdname join

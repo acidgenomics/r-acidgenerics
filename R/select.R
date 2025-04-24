@@ -16,7 +16,6 @@
 NULL
 
 
-
 #' @rdname select
 #' @export
 setGeneric(

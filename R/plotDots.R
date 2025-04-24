@@ -1,7 +1,5 @@
 ## Renamed from `plotDot` to `plotDots` to match convention in scater.
 
-
-
 #' Dot plot
 #'
 #' @export

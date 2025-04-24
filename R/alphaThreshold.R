@@ -1,7 +1,5 @@
 ## Don't export `alpha()`. This conflicts with scales package.
 
-
-
 #' Alpha threshold
 #'
 #' @export
@@ -18,7 +16,6 @@ setGeneric(
         standardGeneric("alphaThreshold")
     }
 )
-
 
 
 #' @rdname alphaThreshold

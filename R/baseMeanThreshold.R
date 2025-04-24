@@ -16,7 +16,6 @@ setGeneric(
 )
 
 
-
 #' @rdname baseMeanThreshold
 #' @export
 setGeneric(

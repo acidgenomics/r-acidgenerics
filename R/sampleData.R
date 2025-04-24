@@ -23,7 +23,6 @@ setGeneric(
 )
 
 
-
 #' @rdname sampleData
 #' @export
 setGeneric(

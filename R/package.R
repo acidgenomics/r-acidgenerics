@@ -6,6 +6,5 @@
 "_PACKAGE"
 
 
-
 #' @importFrom methods setGeneric
 NULL

@@ -15,7 +15,6 @@ setGeneric(
 )
 
 
-
 #' @rdname lfcShrink
 #' @export
 setGeneric(
