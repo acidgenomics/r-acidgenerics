@@ -1,6 +1,6 @@
 # AcidGenerics
 
-[![Install with Bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg)](http://bioconda.github.io/recipes/r-acidgenerics/README.html) ![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)
+[![Install with Bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg)](https://bioconda.github.io/recipes/r-acidgenerics/README.html) ![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)
 
 S4 generic functions for [Acid Genomics][] packages.
 
@@ -19,5 +19,23 @@ install.packages(
 )
 ```
 
+### [Conda][] method
+
+Configure [Conda][] to use the [Bioconda][] channels.
+
+```sh
+# Don't install recipe into base environment.
+name='r-acidgenerics'
+conda create --name="$name" "$name"
+conda activate "$name"
+R
+```
+
 [acid genomics]: https://acidgenomics.com/
+[bioconda]: https://bioconda.github.io/
+[conda]: https://docs.conda.io/
 [r]: https://www.r-project.org/
+
+## License
+
+Apache-2.0 — Copyright 2018 Acid Genomics LLC — see [LICENSE.md](LICENSE.md).
