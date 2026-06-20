@@ -1,3 +1,14 @@
+## AcidGenerics 0.7.11 (2026-06-19)
+
+License changes:
+
+- Relicensed from AGPL-3 to Apache 2.0.
+
+Minor changes:
+
+- Modernized tooling: refreshed `.lintr` to the current ruleset, migrated to
+  roxygen2 8.0 (`Config/roxygen2/version`).
+
 ## AcidGenerics 0.7.10 (2025-04-24)
 
 Minor changes:
