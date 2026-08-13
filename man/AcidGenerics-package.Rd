@@ -11,7 +11,7 @@ S4 generic functions for Acid Genomics packages.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://r.acidgenomics.com/packages/acidgenerics/}
+  \item \url{https://r.acidgenomics.com/acidgenerics/}
   \item \url{https://github.com/acidgenomics/r-acidgenerics/}
   \item Report bugs at \url{https://github.com/acidgenomics/r-acidgenerics/issues/}
 }
